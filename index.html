@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Element Oyunu</title>
-  <meta name="description" content="Elementlerin hangi özelliği sayesinde nerede kullanıldığını öğreten eğitsel oyun">
-  <meta name="theme-color" content="#0e6f80">
+  <title>Element Dosyaları: Atomun Peşinde</title>
+  <meta name="description" content="Kanıtlardan elementin kimliğini çıkaran bilimsel akıl yürütme oyunu">
+  <meta name="theme-color" content="#0a1316">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="img/ikon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/ikon-192.png">
@@ -13,12 +13,12 @@
 </head>
 <body>
   <main id="uygulama">
-    <p class="yukleniyor">Yükleniyor…</p>
+    <p class="yukleniyor">Dosyalar açılıyor…</p>
   </main>
   <div id="duyuru" class="gizli" aria-live="polite"></div>
   <noscript>Bu oyunun çalışması için tarayıcıda JavaScript açık olmalı.</noscript>
   <script>
-    // Dosyaya çift tıklayarak açılırsa oyun içerik dosyalarını okuyamaz; kullanıcıya bunu söyle.
+    // Dosyaya çift tıklayarak açılırsa oyun içerik tablolarını okuyamaz; kullanıcıya bunu söyle.
     if (location.protocol === 'file:') {
       document.getElementById('uygulama').innerHTML =
         '<section class="kart"><h2>Oyun bu şekilde açılamaz</h2>' +

@@ -1,0 +1,8 @@
+﻿dosya;tablo;h1;h2;h3;h4;h5;h6
+D01;T1;Metal;Yoğunluk (g/cm³);Elektrik iletkenliği (MS/m, 20 °C);Erime noktası (°C);Mıknatısa çekilir mi?
+D01;T1;Alüminyum;2,70;35,5;660;Hayır
+D01;T1;Demir;7,87;10,3;1538;Evet
+D01;T1;Kobalt;8,86;16,0;1495;Evet
+D01;T1;Nikel;8,90;14,3;1455;Evet
+D01;T1;Bakır;8,96;59,6;1085;Hayır
+D01;T1;Gümüş;10,5;63,0;962;Hayır

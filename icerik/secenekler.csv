@@ -1,0 +1,58 @@
+﻿dosya;gorev;metin;dogru;hata_turu;hata_kaniti;hata_aciklamasi
+D01;G1;Madde bir metaldir.;evet;;;
+D01;G1;Madde bakırdır, çünkü elektriği çok iyi iletiyor.;;kanitsiz;K2;Elektriği çok iyi ileten birçok metal var: gümüş, alüminyum, altın... Bu kanıt tek başına bakırı göstermez.
+D01;G1;Maddenin yoğunluğu yüksektir, çünkü ısıyı iyi iletiyor.;;iliski;K3;"Isı iletkenliği ile yoğunluk farklı özelliklerdir; birinden diğeri çıkarılamaz. Alüminyum ısıyı iyi iletir ama yoğunluğu düşüktür."
+D01;G1;Madde bir yarı metaldir, çünkü elektriği iletiyor.;;iliski;K2;Yarı metaller elektriği metaller kadar iyi iletmez. Telin direncinin çok düşük olması metalik iletkenliğe işaret eder.
+D01;G3;"Hayır; tablodaki kobalt, nikel ve bakırın yoğunlukları ölçümün belirsizlik aralığına giriyor.";evet;;;
+D01;G3;"Evet; 8,96 g/cm³ yalnızca bakıra aittir ve ölçüm 8,9'a çok yakındır.";;veri;K1;"Ölçüm 8,9 ± 0,1 g/cm³; yani 8,8 ile 9,0 arasındaki her değer olabilir. Tabloda bu aralığa giren birden fazla metal var."
+D01;G3;"Evet; yoğunluk bir maddeyi tek başına tanımlayan bir özelliktir.";;kanitsiz;K7;Yoğunluk ayırt edici bir özelliktir ama farklı maddelerin yoğunlukları birbirine çok yakın olabilir. Tablo bunun bir örneğini gösteriyor.
+D01;G3;"Hayır; çünkü yoğunluk g/cm³ ile değil kilogram ile ölçülür.";;birim;K1;"Yoğunluk kütlenin hacme oranıdır; birimi g/cm³ ya da kg/m³ olur. Kilogram yalnızca kütle birimidir."
+D01;G4;Mıknatıs testi;evet;;;
+D01;G4;Erime noktasını ölçmek;;veri;K7;Erime noktaları gerçekten farklı, ama bu ölçüm örneği eritmeyi gerektirir. Soru örneği bozmadan yapılabilecek testi soruyor.
+D01;G4;Yoğunluğu aynı yöntemle bir kez daha ölçmek;;birim;K1;Aynı yöntemle yapılan yeni ölçümün belirsizliği yine ±0,1 g/cm³ olur. Bu belirsizlik, yoğunlukları birbirine 0,1 g/cm³'ten daha yakın olan metalleri ayırmaya yetmez.
+D01;G4;Elektriği iletip iletmediğini denemek;;kanitsiz;K2;Üç aday da metaldir ve elektriği iletir. 'İletiyor mu?' sorusunun cevabı üçü için de 'evet' olacağından bu test adayları ayırmaz.
+D01;G5;Kobalt;evet;;;
+D01;G5;Nikel;evet;;;
+D01;G5;Bakır;;veri;K7;"Tabloya göre bakır mıknatısa çekilmez; yani örnekle aynı davranıyor. Mıknatıs testi bakırı elemez."
+D01;G5;"Hiçbirini; mıknatıs testi metalleri birbirinden ayırmaz.";;kanitsiz;K7;Tablodaki 'Mıknatısa çekilir mi?' sütunu metallerin bu testte farklı davrandığını gösteriyor.
+D01;G7;Elektriği çok iyi iletir ve kolayca ince tel hâline getirilebilir.;evet;;;
+D01;G7;Yoğunluğu yüksek olduğu için akımı daha hızlı taşır.;;iliski;K7;Yoğunluk iletkenliği belirlemez: tablodaki nikel bakırla neredeyse aynı yoğunlukta ama çok daha az iletir.
+D01;G7;Mıknatısa çekilmediği için elektriği iletir.;;kanitsiz;K8;Mıknatısa çekilmemek ile elektriği iletmek farklı özelliklerdir. Tablodaki demir mıknatısa çekildiği hâlde elektriği iletir.
+D01;G7;Erime noktası yüksek olduğu için içinden akım geçerken hiç ısınmaz.;;veri;K7;"Akım geçen her tel bir miktar ısınır. Erime noktası telin ne kadar ısıya dayanabileceğiyle ilgilidir; iletkenliğin nedeni değildir."
+D01;G8;Gümüş;1;;;
+D01;G8;Bakır;2;;;
+D01;G8;Alüminyum;3;;;
+D01;G8;Demir;4;;;
+D01;G9;"Gümüş çok daha az bulunur ve pahalıdır; bakır hem çok iyi iletir hem de daha bol ve ucuzdur.";evet;;;
+D01;G9;Gümüş tel hâline getirilemez.;;iliski;;Gümüş de kolayca işlenip tel hâline getirilebilen bir metaldir. Bu seçenek gerçeği yansıtmıyor.
+D01;G9;"Tablo yanlıştır; aslında bakır gümüşten daha iyi iletir.";;veri;K7;Tablodaki değerler güvenilir bir kaynaktan alınmıştır. Bir veriyi reddetmek için onunla çelişen başka bir kanıt gerekir.
+D01;G9;Gümüş mıknatısa çekildiği için kablolarda tehlikelidir.;;veri;K7;Tabloya göre gümüş mıknatısa çekilmez.
+D01;G10;"Geçersizdir; birlikte artmaları birinin diğerine neden olduğunu göstermez. Üstelik nikel bakırla neredeyse aynı yoğunlukta ama çok daha az iletiyor.";evet;;;
+D01;G10;"Geçerlidir; üç örnekte de aynı eğilim görülüyor.";;kanitsiz;K7;Seçilmiş üç örnek bir eğilimi kanıtlamaya yetmez. Tablonun tamamına bakınca bu eğilime uymayan metaller görülüyor.
+D01;G10;"Geçerlidir; yoğun metallerde daha çok atom olduğu için daha çok elektron akar.";;iliski;K7;Bu açıklama kulağa mantıklı geliyor ama verilerle çelişiyor: tablodaki demir, kobalt ve nikel yoğun oldukları hâlde iletkenlikleri düşük.
+D01;G10;"Geçersizdir; çünkü yoğunluk ile iletkenliğin birimleri farklı olduğu için karşılaştırılamazlar.";;birim;K7;Birimleri farklı iki nicelik arasında da ilişki aranabilir. Sorun birimler değil, bir ilişkiden neden-sonuç çıkarılmasıdır.
+D01;G11;Su tesisatı boruları;evet;;;
+D01;G11;Çatı kaplamaları;evet;;;
+D01;G11;Madeni paralar (bakır alaşımları);evet;;;
+D01;G11;Uçak gövdeleri;;iliski;K7;Uçak gövdelerinde hafif metaller (örneğin alüminyum alaşımları) tercih edilir. Bakırın yoğunluğu alüminyumun üç katından fazla.
+D01;G11;Termometrelerdeki parlak sıvı metal;;iliski;K7;Oda sıcaklığında sıvı olan metal cıvadır. Bakır ancak yaklaşık 1085 °C'de erir.
+D01;G12;"Alaşım saf bakırdan daha sert ve dayanıklıdır; sürekli kullanılan eşyalarda daha az aşınır.";evet;;;
+D01;G12;Alaşım elektriği saf bakırdan daha iyi iletir.;;iliski;;Alaşımlar genellikle elektriği saf metalden daha az iletir. Üstelik musluk ve kapı kolunda iletkenlik aranan bir özellik değildir.
+D01;G12;Çinko eklenince metal mıknatısa çekilir hâle gelir, böylece eşyalar kolay tutturulur.;;kanitsiz;;"Bu iddiayı destekleyen bir kanıt yok; pirinç mıknatısa çekilmez."
+D01;G12;Alaşımın erime noktası saf bakırınkinden çok daha yüksektir.;;veri;;Pirincin erime noktası saf bakırınkinden düşüktür. Ayrıca musluk ve kapı kolunun erime noktasıyla ilgili bir ihtiyacı yoktur.
+D01;G13;Sembol, metalin Latince adı 'cuprum'dan gelir.;evet;;;
+D01;G13;Sembol, İngilizce adı 'copper'ın ilk iki harfinden gelir.;;veri;K10;"'copper' kelimesinin ilk iki harfi 'Co' olurdu; bu da kobaltın sembolüdür. Arşiv notunu yeniden oku."
+D01;G13;'B' sembolü bora ait olduğu için rastgele başka harfler seçilmiştir.;;kanitsiz;K10;"Element sembolleri rastgele seçilmez; çoğu, elementin Latince ya da Yunanca adından gelir."
+D01;G13;Sembol, bu metali ilk bulan bilim insanının adından gelir.;;kanitsiz;K10;"Bakır tarih öncesi çağlardan beri kullanılıyor; onu ilk bulan bilinen bir bilim insanı yok."
+D01;G14;"Antik Çağ'da bu metalin önemli bir kaynağı Kıbrıs adasıydı; metal adını oradan aldı.";evet;;;
+D01;G14;"Latincede 'kırmızı metal' anlamına gelir; metal adını renginden alır.";;iliski;K10;Bakır kırmızımsı renkte olduğu için bu açıklama akla yatkın görünebilir, ama arşiv notunda renkten söz edilmiyor. K10'u yeniden oku.
+D01;G14;Onu ilk işleyen Romalı ustanın adından gelir.;;kanitsiz;K10;"Arşiv notunda bir kişi adından söz edilmiyor; bu iddiayı destekleyen kanıt yok."
+D01;G14;'Kablo' anlamına gelen bir kelimeden gelir, çünkü en çok kablolarda kullanılır.;;iliski;K10;Bakırın adı, elektrik kablolarının icadından binlerce yıl önce verilmişti.
+D01;G16;"4. periyodun d bloğunda yoğunluğu ölçümle uyumlu üç metal var (kobalt, nikel, bakır); bunlardan mıknatısa çekilmeyen tek metal bakır.";evet;;;
+D01;G16;Elektriği iyi ilettiği ve kablolarda kullanıldığı için kesinlikle bakırdır.;;kanitsiz;K6;Elektriği iyi ileten ve kablolarda kullanılan başka metaller de var (örneğin alüminyum). Bu kanıtlar ayırt edici değil.
+D01;G16;Yoğunluğu 8,96 g/cm³ olduğu için başka bir metal olamaz.;;birim;K1;Ölçülen yoğunluk 8,96 değil, 8,9 ± 0,1 g/cm³. Ölçümün belirsizliği içinde birden fazla metal var.
+D01;G16;Sembolü iki harfli olduğu için bakırdır.;;kanitsiz;K5;"Elementlerin çoğunun sembolü iki harflidir; bu kanıt neredeyse hiçbir adayı elemez."
+D01;G17;"Nikel: yoğunluğu ölçümle uyumlu (8,90 g/cm³), ama mıknatısa çekilir; örnek ise çekilmedi.";evet;;;
+D01;G17;Alüminyum: kablolarda kullanılır, ama yoğunluğu 2,70 g/cm³ olduğu için hemen elenir.;;veri;K7;Bu ifade doğru, ama alüminyum ölçülen yoğunluktan çok uzak olduğu için en ciddi alternatif değildi. Soru, elenmesi en zor adayı soruyor.
+D01;G17;Gümüş: elektriği bakırdan iyi iletir, bu yüzden tel gümüş olabilir.;;kanitsiz;K4;"Gümüş 5. periyottadır; kısmi analiz raporu onu baştan eler. Daha iyi iletken olması bu teli gümüş yapmaz."
+D01;G17;Kobalt: yoğunluğu ölçümle uyumludur ve mıknatısa çekilmez.;;veri;K7;Tabloya göre kobalt mıknatısa çekilir.

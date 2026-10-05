@@ -1,12 +1,15 @@
 // Çevrim dışı çalışma yardımcısı (service worker).
 // Her dosya önce internetten istenir; internet yoksa daha önce saklanan kopyası kullanılır.
-// Böylece içerik dosyaları değişince oyun hep en güncel hâli gösterir, sınıfta bağlantı
+// Böylece içerik tabloları değişince oyun hep en güncel hâli gösterir, sınıfta bağlantı
 // kopsa bile bir kez açılmış oyun oynanmaya devam eder.
 
-const ONBELLEK = 'element-oyunu-v1';
+const ONBELLEK = 'element-dosyalari-v2';
 
 self.addEventListener('install', () => self.skipWaiting());
-self.addEventListener('activate', olay => olay.waitUntil(self.clients.claim()));
+self.addEventListener('activate', olay => olay.waitUntil((async () => {
+  for (const ad of await caches.keys()) if (ad !== ONBELLEK) await caches.delete(ad);
+  await self.clients.claim();
+})()));
 
 self.addEventListener('fetch', olay => {
   const istek = olay.request;

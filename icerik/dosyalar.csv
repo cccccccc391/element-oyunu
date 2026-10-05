@@ -1,0 +1,21 @@
+﻿id;seviye;sira;baslik;giris;cevap;final;ornek;kaynakca
+D01;1;1;Gizemli Metal;Eski bir binanın elektrik tesisatından çıkarılan bir tel parçası birimimize getirildi. Telin etiketi silinmiş, yüzeyi kirli. Analiz cihazı arızalı olduğu için yalnızca kısmi bir rapor verebildi. Görevin: kanıtları inceleyerek telin hangi elementten yapıldığını bulmak ve bu sonuca nasıl ulaştığını kanıtlarla savunmak.;Cu;;evet;"Royal Society of Chemistry, Periyodik Tablo: Bakır — https://periodic-table.rsc.org/element/29/copper | Royal Society of Chemistry, Periyodik Tablo: Nikel — https://periodic-table.rsc.org/element/28/nickel | Royal Society of Chemistry, Periyodik Tablo: Kobalt — https://periodic-table.rsc.org/element/27/cobalt | Royal Society of Chemistry, Periyodik Tablo: Demir, Alüminyum, Gümüş — https://periodic-table.rsc.org | Elektrik iletkenliği değerleri (20 °C): Serway, R. A., Principles of Physics; aktaran: https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity"
+D02;1;2;;;;;;
+D03;1;3;;;;;;
+D04;1;4;;;;;;
+D05;1;5;;;;;;
+D06;2;1;;;;;;
+D07;2;2;;;;;;
+D08;2;3;;;;;;
+D09;2;4;;;;;;
+D10;2;5;;;;;;
+D11;3;1;;;;;;
+D12;3;2;;;;;;
+D13;3;3;;;;;;
+D14;3;4;;;;;;
+D15;3;5;;;;;;
+D16;4;1;;;;;;
+D17;4;2;;;;;;
+D18;4;3;;;;;;
+D19;4;4;;;;;;
+D20;4;5;;;;evet;;

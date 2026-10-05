@@ -1,0 +1,11 @@
+﻿dosya;id;tur;baslik;metin;goster;kaynak
+D01;K1;yogunluk;Yoğunluk ölçümü;"8,9 ± 0,1 g/cm³ (okul laboratuvarında ölçüldü; ölçümün belirsizliği ±0,1 g/cm³)";;
+D01;K2;iletkenlik;Elektrik iletkenliği;Telin iki ucu arasındaki direnç çok düşük ölçüldü: madde elektriği çok iyi iletiyor.;;
+D01;K3;iletkenlik;Isı iletkenliği;Telin bir ucu sıcak suya daldırılınca diğer ucu kısa sürede ısındı.;;
+D01;K4;konum;Analiz cihazının kısmi raporu;Element 4. periyotta ve d bloğunda yer alıyor. Cihaz daha fazla bilgi veremeden arızalandı.;;
+D01;K5;sembol;Envanter kaydı;Eski bir envanter defterinde bu metalin sembolünün iki harfli olduğu ve ikinci harfin küçük yazıldığı not edilmiş.;;
+D01;K6;kullanim;Günlük kullanım;Bu metal ev ve binaların elektrik kablolarında yaygın olarak kullanılıyor.;;
+D01;K7;tablo;Aday metallerin bilinen özellikleri;T1;;"Yoğunluk ve erime noktası: RSC Periyodik Tablo; iletkenlik: Serway, Principles of Physics"
+D01;K8;deney;Mıknatıs testi;Tel, güçlü bir mıknatısa yaklaştırıldığında çekilmedi.;G4;
+D01;K9;fiziksel;Temizlenen yüzey;Zımparalanan yüzey kırmızımsı-turuncu renkte ve metalik parlaklıkta.;G5;
+D01;K10;isim;Arşiv notu;Eski kayıtlara göre bu metalin Latince adı 'cuprum'. Romalılar ona 'Cyprium aes', yani 'Kıbrıs metali' derdi. İngilizce adı 'copper' da Eski İngilizce 'coper' kelimesi üzerinden bu Latince addan türemiştir.;G6;https://periodic-table.rsc.org/element/29/copper
