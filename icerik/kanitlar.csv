@@ -9,3 +9,129 @@ D01;K7;tablo;Aday metallerin bilinen özellikleri;T1;;"Yoğunluk ve erime noktas
 D01;K8;deney;Mıknatıs testi;Tel, güçlü bir mıknatısa yaklaştırıldığında çekilmedi.;G4;
 D01;K9;fiziksel;Temizlenen yüzey;Zımparalanan yüzey kırmızımsı-turuncu renkte ve metalik parlaklıkta.;G5;
 D01;K10;isim;Arşiv notu;Eski kayıtlara göre bu metalin Latince adı 'cuprum'. Romalılar ona 'Cyprium aes', yani 'Kıbrıs metali' derdi. İngilizce adı 'copper' da Eski İngilizce 'coper' kelimesi üzerinden bu Latince addan türemiştir.;G6;https://periodic-table.rsc.org/element/29/copper
+D02;K1;fiziksel;Balonun davranışı;Bırakılan balon tavana kadar yükseldi ve üç gündür orada duruyor.;;
+D02;K2;deney;Kıvılcım testi;Balondan alınan küçük bir gaz örneğine kıvılcım yaklaştırıldı: gaz yanmadı, patlama olmadı.;;
+D02;K3;fiziksel;Renk ve koku;Gaz renksiz ve kokusuz.;;
+D02;K4;tablo;Bazı gazların özellikleri;T1;;"RSC Periyodik Tablo; hava için yaklaşık değer"
+D02;K5;deney;Spektrum analizi;Gazdan elektrik geçirilince yayılan ışığın spektrumunda parlak sarı bir çizgi görüldü. Neonun spektrumuna rengini veren parlak kırmızı-turuncu çizgiler görülmedi.;G4;
+D02;K6;tarih;Arşiv kaydı: Hindenburg;1937'de hidrojenle doldurulmuş Hindenburg zeplini iniş sırasında alev alıp yandı. Bu kaza, hidrojenle dolu yolcu zeplinleri döneminin sonu oldu.;;
+D02;K7;isim;Arşiv notu;Bu gaz Dünya'da bulunmadan 27 yıl önce, 1868'deki bir Güneş tutulması sırasında Güneş'in ışığında fark edildi. Adını Yunanca 'Güneş' anlamındaki kelimeden aldı.;G5;https://periodic-table.rsc.org/element/2/helium
+D03;K1;yogunluk;Yoğunluk ölçümü;2,7 ± 0,1 g/cm³ (üç eşyadan alınan örneklerin ortalaması);;
+D03;K2;fiziksel;Görünüş ve işlenebilirlik;Gümüşi beyaz ve parlak. Folyo hâlinde kâğıttan ince yapraklara dönüştürülebiliyor, kolayca bükülüyor.;;
+D03;K3;deney;Mıknatıs testi;Üç eşya da mıknatısa çekilmiyor.;;
+D03;K4;iletkenlik;Isı iletkenliği;Folyoya sarılan sıcak bir yemek kabının dışı kısa sürede ısınıyor: metal ısıyı iyi iletiyor.;;
+D03;K5;kimyasal;Paslanma gözlemi;"Aylarca nemli bir ortamda kalan kutuda kırmızı pas oluşmadı; yüzey biraz matlaştı ama sağlam kaldı.";;
+D03;K6;tablo;Bazı metallerin özellikleri;T1;;RSC Periyodik Tablo
+D03;K7;isim;Arşiv notu;Bu metalin adı, Latincede 'acı tuz' anlamına gelen 'alumen' (şap) kelimesinden gelir. Metal ilk kez 1825'te Hans Christian Ørsted tarafından, saf olmayan bir hâlde elde edildi.;G3;https://periodic-table.rsc.org/element/13/aluminium
+D03;K8;tarih;RSC kaydı;Bu metal yer kabuğunda en bol bulunan metaldir (yaklaşık %8,1), ama doğada nadiren saf hâlde bulunur. 1700'lerin sonunda bilim insanları onu bileşiklerinden ayırmayı başaramıyordu.;G3;https://periodic-table.rsc.org/element/13/aluminium
+D04;K1;fiziksel;Görünüş;Siyah, hafif parlak ve çok yumuşak. Kâğıda sürtünce iz bırakıyor, parmakları kayganlaştırıyor.;;
+D04;K2;iletkenlik;Elektrik testi;Kalem ucu bir pil ve küçük bir lambayla devreye bağlanınca lamba yandı: uç elektriği iletiyor.;;
+D04;K3;yogunluk;Yoğunluk ölçümü;2,2 ± 0,2 g/cm³;;
+D04;K4;deney;Yanma deneyi;Uçtan alınan örnek oksijen içinde çok yüksek sıcaklıkta yakıldı. Açığa çıkan gaz kireç suyunu bulandırdı. Geriye yanmayan, açık renkli bir kalıntı kaldı.;;
+D04;K5;tablo;Kurşun ve grafitin özellikleri;T1;;RSC Periyodik Tablo
+D04;K6;isim;Arşiv notu;"Grafit 1500'lerde İngiltere'de bulunduğunda insanlar bu siyah, parlak ve yazı yazan maddeyi bir tür kurşun sandı; 'kurşun kalem' adı bu yanılgıdan kaldı. 'Grafit' adı Yunanca 'yazmak' anlamındaki 'graphein' kelimesinden, 'karbon' adı ise Latince 'odun kömürü' anlamındaki 'carbo' kelimesinden gelir.";G4;https://periodic-table.rsc.org/element/6/carbon
+D04;K7;tarih;Elmas deneyi;1796'da İngiliz kimyager Smithson Tennant bir elması yaktı ve yanınca yalnızca karbondioksit oluştuğunu göstererek elmasın da karbon olduğunu kanıtladı.;G4;https://periodic-table.rsc.org/element/6/carbon
+D05;K1;fiziksel;Görünüş;"Oda sıcaklığında (20 °C) sıvı; gümüş renkli, metalik parlak. Yüzeyde yuvarlak damlacıklar oluşturuyor.";;
+D05;K2;yogunluk;Yoğunluk ölçümü;13,5 ± 0,2 g/cm³;;
+D05;K3;tablo;Erime noktası düşük bazı metaller;T1;;RSC Periyodik Tablo
+D05;K4;iletkenlik;Elektrik testi;Damlacıklar elektriği iletiyor.;;
+D05;K5;isim;Arşiv notu;"Bu metalin sembolü Hg; Latince 'hydrargyrum' adından gelir. Bu ad Yunanca 'su' ve 'gümüş' kelimelerinden oluşur. Türkçe adı cıva, İngilizce adı ise (mercury) Merkür gezegeninden gelir.";G4;https://periodic-table.rsc.org/element/80/mercury
+D05;K6;kullanim;Güvenlik notu;Bu metal ve buharı zehirlidir. RSC'ye göre zehirliliği nedeniyle termometre gibi birçok kullanımı terk edildi ya da kısıtlandı.;G4;https://periodic-table.rsc.org/element/80/mercury
+D06;K1;konum;Laboratuvar raporu;Element periyodik tablonun 17. grubunda (halojenler) yer alıyor.;;
+D06;K2;fiziksel;Saf hâlinin görünüşü;Saf hâli oda sıcaklığında çok soluk sarı-yeşil bir gazdır.;;
+D06;K3;elektron_dizilimi;Elektron dizilimi;1s² 2s² 2p⁵;;
+D06;K4;reaktivite;Tepkime notu;Saf hâli bilinen en tepkimeye yatkın elementtir: bütün metallere hızla saldırır, çelik yünü bu gazla karşılaşınca alev alır.;;https://periodic-table.rsc.org/element/9/fluorine
+D06;K5;iyon;İyon notu;Bileşiklerinde bir elektron alarak −1 yüklü iyon oluşturur. Türkçede bu tür iyonlar elementin adına '-ür' eki getirilerek adlandırılır (örneğin klor → klorür).;;
+D06;K6;tablo;17. grup elementleri;T1;;RSC Periyodik Tablo
+D06;K7;isim;Arşiv notu;"Bu elementin adı Latincede 'akmak' anlamına gelen 'fluere' kelimesinden gelir. Elementi içeren florit minerali, metal eritmede erimeyi kolaylaştırmak için kullanılıyordu. Element 1886'da Henri Moissan tarafından elde edildi; ondan önce elde etmeye çalışan Humphry Davy denemeleri sırasında hastalandı.";G4;https://periodic-table.rsc.org/element/9/fluorine
+D07;K1;deney;Alev testi;Tuzdan bir tutam alevin üzerine serpilince alev parlak kızıl renge döndü.;;
+D07;K2;tablo;Alev testinde bazı metallerin renkleri;T1;;Standart alev testi renkleri
+D07;K3;konum;Elementel analiz;Metal, periyodik tablonun 2. grubunda (toprak alkali metaller) yer alıyor.;G2;
+D07;K4;yogunluk;Saf metalin yoğunluğu;Tuzdan elde edilen saf metalin yoğunluğu 2,6 ± 0,1 g/cm³.;G2;
+D07;K5;kimyasal;Saf metalin davranışı;Saf metal havada kolayca yanıyor ve suyla tepkimeye giriyor.;;
+D07;K6;isim;Arşiv notu;Bu element, 1787'de İskoçya'daki küçük Strontian kasabası yakınındaki bir kurşun madeninde bulunan bir mineralden adını aldı. 1791'de Thomas Charles Hope, bu mineralin bir mumun alevini kırmızı yaktığını not etti.;G4;https://periodic-table.rsc.org/element/38/strontium
+D07;K7;kullanim;RSC kaydı;Bu elementin bileşikleri karanlıkta parlayan boya ve plastiklerde de kullanılır: gün boyunca ışığı soğurur, saatlerce yavaşça geri verirler.;G4;https://periodic-table.rsc.org/element/38/strontium
+D08;K1;konum;Analiz raporu;Element periyodik tablonun 2. grubunda (toprak alkali metaller).;;
+D08;K2;kimyasal;Saf metalin davranışı;"Saf metal gümüşi beyaz ve yumuşak; havada hızla matlaşıyor, suya atılınca yavaşça gaz çıkararak tepkimeye giriyor.";;
+D08;K3;yogunluk;Yoğunluk ölçümü;Saf metalin yoğunluğu 1,5 ± 0,1 g/cm³.;;
+D08;K4;tablo;2. grup metalleri;T1;;RSC Periyodik Tablo
+D08;K5;deney;Kemik deneyi;Bir tavuk kemiği birkaç gün sirkede bekletilince lastik gibi bükülebilir hâle geldi. Sirkede çözünen mineral, aranan elementi içeriyor.;;
+D08;K6;kullanim;Yapı malzemeleri;Kireçtaşı, mermer ve alçı (kalsiyum sülfat) bu elementin bileşiklerini içerir. RSC'ye göre alçı, kırık kemikleri sabitlemek için de kullanılır.;G4;https://periodic-table.rsc.org/element/20/calcium
+D08;K7;isim;Arşiv notu;Bu elementin adı Latincede 'kireç' anlamına gelen 'calx' kelimesinden gelir. Element ilk kez 1808'de Humphry Davy tarafından elde edildi: Davy kireci cıva oksitle karıştırıp elektrik akımı verdi, oluşan alaşımdan cıvayı damıtarak ayırdı.;G4;https://periodic-table.rsc.org/element/20/calcium
+D09;K1;konum;Analiz raporu;"Element periyodik tablonun 1. grubunda; bir alkali metal.";;
+D09;K2;yogunluk;Yoğunluk ölçümü;Saf metalin yoğunluğu 0,53 ± 0,02 g/cm³.;;
+D09;K3;deney;Alev testi;Bileşikleri alevi kızıl renge boyuyor.;;
+D09;K4;tablo;1. grup (alkali) metalleri;T1;;"RSC Periyodik Tablo; standart alev testi renkleri"
+D09;K5;kimyasal;Suyla tepkime;Saf metal suyla tepkimeye girerek hidrojen gazı çıkarıyor, ama sodyum ve potasyuma göre daha sakin.;;
+D09;K6;kullanim;RSC kaydı;Bu metalin en önemli kullanımı telefon, dizüstü bilgisayar, fotoğraf makinesi ve elektrikli araçlardaki şarj edilebilir pillerdir. Bütün metaller içinde yoğunluğu en düşük olanıdır.;G5;https://periodic-table.rsc.org/element/3/lithium
+D09;K7;isim;Arşiv notu;Adı Yunanca 'taş' anlamına gelen 'lithos' kelimesinden gelir. Diğer yaygın alkali metaller bitki küllerinden bulunurken bu metal bir mineralden (petalit) bulundu. 1817'de Johan August Arfvedson tarafından keşfedildi.;G5;https://periodic-table.rsc.org/element/3/lithium
+D10;K1;deney;Mum testi;"Paketten alınan gazla doldurulan bir kaba yanan bir mum indirildi; mum hemen söndü.";;
+D10;K2;fiziksel;Renk ve koku;Gaz renksiz ve kokusuz.;;
+D10;K3;deney;Kireç suyu testi;"Gaz kireç suyundan geçirildi; kireç suyu bulanmadı.";;
+D10;K4;tablo;Renksiz ve kokusuz bazı gazlar;T1;;"RSC Periyodik Tablo; standart değerler"
+D10;K5;yogunluk;Yoğunluk ölçümü;Gazın yoğunluğu 0,00115 ± 0,00002 g/cm³ (oda sıcaklığında).;;
+D10;K6;isim;Arşiv notu;"Bu gazı 1772'de İskoç öğrenci Daniel Rutherford bir element olarak tanımladı. Daha önce Cavendish ve Priestley, havadan oksijeni ayırınca geriye kalan gazın mumu söndürdüğünü ve içinde bir farenin yaşayamadığını görmüştü. Fransız kimyager Lavoisier bu gaza 'cansız' anlamındaki 'azote' adını verdi; Türkçedeki 'azot' adı buradan gelir. Uluslararası sembolü N ise 'nitrogen' adından gelir: Yunanca 'nitron' (güherçile) ve 'genes' (oluşturan).";G4;https://periodic-table.rsc.org/element/7/nitrogen
+D10;K7;kullanim;RSC kaydı;"Bu gaz tepkimeye girmeyen bir ortam sağlamak için kullanılır; yiyecekleri korumak bunlardan biridir. Sıvı hâli (−196 °C) hücreleri dondurup saklamak ve yiyecekleri hızla dondurmak için kullanılır.";G4;https://periodic-table.rsc.org/element/7/nitrogen
+D11;K1;tablo;Birimin ölçümleri (0 °C, 1 atm);T1;;
+D11;K2;tarih;Cavendish'in notu (1785);"Henry Cavendish havadaki azotu en zorlu koşullarda bile tepkimeye sokmaya çalıştı; havanın yaklaşık %1'i hiçbir şekilde tepkimeye girmedi.";;https://periodic-table.rsc.org/element/18/argon
+D11;K3;deney;Ramsay'in deneyi;'Havadan elde edilen azot' sıcak magnezyumun üzerinden geçirildi. Azot magnezyumla tepkimeye girip katı magnezyum nitrür oluşturdu, ama geriye tepkimeye girmeyen bir gaz kaldı.;G3;https://periodic-table.rsc.org/element/18/argon
+D11;K4;deney;Kalan gazın spektrumu;Kalan gazın spektrumunda daha önce hiçbir elementte görülmemiş kırmızı ve yeşil çizgi grupları görüldü.;G4;https://periodic-table.rsc.org/element/18/argon
+D11;K5;yogunluk;Kalan gazın yoğunluğu;Kalan gazın yoğunluğu azotunkinin yaklaşık 1,4 katı.;G4;
+D11;K6;isim;Arşiv notu;Rayleigh ve Ramsay yeni elemente Yunanca 'tembel, işsiz' anlamına gelen 'argos' kelimesinden 'argon' adını verdiler, çünkü hiçbir maddeyle tepkimeye girmiyordu.;G6;https://periodic-table.rsc.org/element/18/argon
+D11;K7;kullanim;RSC kaydı;Bugün bu gaz eski tip akkor ampullerde, kaynak işlerinde ve çift camlı pencerelerin camları arasında kullanılır.;G6;https://periodic-table.rsc.org/element/18/argon
+D12;K1;tablo;Üç parçanın ölçümleri;T1;;
+D12;K2;tablo;Referans değerler;T2;;"RSC Periyodik Tablo; geology.com"
+D12;K3;kimyasal;Asit testi;"Kuyumcunun nitrik asit damlası A'yı ve C'yi etkiledi; B'nin yüzeyinde hiçbir değişiklik olmadı.";;
+D12;K4;tarih;Arşiv kaydı: Arşimet;Anlatılan hikâyeye göre Arşimet, kralın tacının saf altından yapılıp yapılmadığını anlamak için tacın yerinden ettiği suyun hacmini ölçerek tacın yoğunluğunu buldu.;;
+D12;K5;deney;Külçenin içi;Külçeye ince bir delik açıldı. İçten çıkan talaş da sarı renkte ve iğneyle kolayca eziliyor.;G3;
+D12;K6;isim;Arşiv notu;Altının sembolü Au, Latince 'aurum' kelimesinden gelir. RSC'ye göre ilk saf altın sikkeler, bugün Türkiye sınırları içinde kalan Lidya Krallığı'nda Kral Kroisos (Karun) döneminde (MÖ 561–547) basıldı.;G5;https://periodic-table.rsc.org/element/79/gold
+D13;K1;deney;Mıknatıs testi;Korkuluk metali mıknatısa güçlü biçimde çekiliyor.;;
+D13;K2;yogunluk;Yoğunluk ölçümü;7,9 ± 0,1 g/cm³;;
+D13;K3;tablo;Mıknatısa güçlü biçimde çekilen metaller;T1;;RSC Periyodik Tablo
+D13;K4;tablo;Paslanma deneyi: bir hafta sonra çiviler;T2;;
+D13;K5;kimyasal;Pas analizi;Kırmızı-kahverengi pasın, su içeren bir demir oksit olduğu bulundu.;;
+D13;K6;tarih;RSC kaydı;"Demiri cevherinden ilk eriterek elde edenler, MÖ 1500 civarında Anadolu'daki Hititlerdi; bu, Demir Çağı'nın başlangıcıydı. Mısır'da bulunan MÖ 3500'den kalma demir eşyalar ise yaklaşık %7,5 nikel içeriyor; bu da onların göktaşından geldiğini gösteriyor. Sembol Fe, Latince 'ferrum' adından gelir.";G3;https://periodic-table.rsc.org/element/26/iron
+D14;K1;konum;Analiz raporu;Dezenfektanın etken elementi 17. grupta ve 3. periyotta.;;
+D14;K2;fiziksel;Saf hâlinin görünüşü;Saf hâli sarı-yeşil, havadan yoğun ve boğucu kokulu bir gaz.;;
+D14;K3;tablo;Havuz suyu ölçümleri (bir hafta);T1;G1;
+D14;K4;kimyasal;CDC notu;Bu element sudaki ter, idrar ve kirle birleşerek 'kloramin' adı verilen bileşikler oluşturur. Kloraminler zayıf dezenfektanlardır, havaya karışarak gözleri ve solunum yollarını tahriş eder. CDC'ye göre havuzda 'klor kokusu' diye algılanan koku çoğunlukla kloraminlerden gelir.;G1;https://www.cdc.gov/healthy-swimming/prevention/preventing-eye-irritation-from-pool-chemicals.html
+D14;K5;kullanim;RSC kaydı;"Bu element bakterileri öldürür; içme suyunu ve havuz suyunu dezenfekte etmek için kullanılır. Üretilenin yaklaşık %20'si PVC plastiğinin yapımında kullanılır.";G1;https://periodic-table.rsc.org/element/17/chlorine
+D14;K6;isim;Arşiv notu;"Adı Yunanca 'sarımsı yeşil' anlamına gelen 'chloros' kelimesinden gelir. İlk kez 1774'te Carl Wilhelm Scheele elde etti; Humphry Davy 1810'da onun bir element olduğunu açıkladı.";G1;https://periodic-table.rsc.org/element/17/chlorine
+D15;K1;deney;Radyasyon ölçümü;Kaynak alfa parçacıkları yayıyor. Kaynağın önüne bir kâğıt konunca ölçülen alfa radyasyonu neredeyse sıfıra iniyor.;;
+D15;K2;konum;Element analizi;Element 7. periyotta ve f bloğunda (aktinitler).;;
+D15;K3;deney;Teknik belge;"Dedektör üreticisinin belgesine göre kaynak, yarı ömrü yaklaşık 432 yıl olan bir izotop. Doğada bulunmaz; nükleer reaktörlerde plütonyumun nötronlarla bombardımanıyla üretilir.";;https://periodic-table.rsc.org/element/95/americium
+D15;K4;tablo;Bazı aktinit izotoplarının yarı ömürleri;T1;;Standart değerler
+D15;K5;isim;Arşiv notu;Element 1944'te Chicago Üniversitesi'nde Glenn Seaborg ve ekibi tarafından üretildi ve ilk kez üretildiği kıtanın adını aldı. İlginç bir ayrıntı: periyodik tabloda kendisinden sonra gelen küriyumdan sonra keşfedildi.;G4;https://periodic-table.rsc.org/element/95/americium
+D15;K6;kullanim;EPA notu;"İyonlaşmalı duman dedektörlerinde bu elementin küçük bir kaynağı bulunur. Yaydığı alfa parçacıkları, dedektördeki iki levha arasındaki havayı iyonlaştırır ve küçük bir akım oluşur. Duman girince akım azalır ve alarm çalar. Kaynak metal folyo ve seramikle kaplıdır; doğru kullanıldığında radyasyon riski oluşturmaz.";G4;https://www.epa.gov/radtown/americium-ionization-smoke-detectors
+D16;K1;kullanim;Üretici belgesi;"Kaplama, '... kalay oksit' adlı saydam ve elektriği ileten bir maddeden yapılmış; ilk kelime silinmiş. Madde cama sıkıca yapışıyor.";;
+D16;K2;konum;Analiz raporu;Kaplamadaki metal 13. grupta ve 5. periyotta.;;
+D16;K3;erime_kaynama;Erime noktası ölçümü;Kaplamadan ayrılan saf metal 156,6 °C'de eriyor.;;
+D16;K4;fiziksel;Saf metalin görünüşü;"Yumuşak, gümüşi bir metal; havada ve suda kararlı.";;
+D16;K5;tarih;Keşif kaydı;"1863'te Ferdinand Reich, bir çinko mineralinde talyum ararken spektroskobunda tanımadığı çizgiler gördü. Reich renk körü olduğu için spektrumu Hieronymus Richter'e gösterdi; Richter parlak mor-çivit renkli bir çizgi gördü. Elementin adı bu çizginin renginden gelir.";;https://periodic-table.rsc.org/element/49/indium
+D16;K6;tablo;13. grup metallerinden bazıları;T1;;RSC Periyodik Tablo
+D17;K1;yogunluk;Yoğunluk ölçümü;4,5 ± 0,1 g/cm³;;
+D17;K2;fiziksel;Görünüş ve davranış;"Sert, parlak ve çok güçlü bir metal; mıknatısa çekilmiyor.";;
+D17;K3;kimyasal;Korozyon testi;"Örnek, deniz suyuna benzeyen tuzlu bir suda bir ay bekletildi; yüzeyinde hiçbir bozulma olmadı.";;
+D17;K4;tablo;Bazı yapı metalleri;T1;;RSC Periyodik Tablo
+D17;K5;kullanim;RSC kaydı;Bu metal çelik kadar güçlüdür ama çok daha az yoğundur. Deniz suyunda korozyona çok dayanıklıdır. Kemikle iyi kaynaştığı için kalça eklemlerinde ve diş implantlarında kullanılır.;G1;https://periodic-table.rsc.org/element/22/titanium
+D17;K6;isim;Arşiv notu;Element 1791'de William Gregor tarafından Cornwall'daki siyah bir kumda fark edildi. 1795'te Martin Heinrich Klaproth, Yunan mitolojisinde Toprak Ana'nın oğulları olan Titanlar'dan esinlenerek ona adını verdi.;G1;https://periodic-table.rsc.org/element/22/titanium
+D18;K1;konum;Analiz raporu;Kaşıktaki ana metal 11. grupta.;;
+D18;K2;yogunluk;Kaşığın yoğunluğu;10,4 ± 0,1 g/cm³;;
+D18;K3;kimyasal;Kararma analizi;"Kaşığın üzerindeki siyah tabaka bir sülfür bileşiği; havadaki kükürtlü bileşiklerle tepkimeden oluşmuş.";;
+D18;K4;tablo;11. grup metalleri;T1;;RSC Periyodik Tablo
+D18;K5;fiziksel;Aynanın arka yüzü;"Aynanın arkasındaki yansıtıcı tabaka da aynı metalden; bu metal bilinen en iyi görünür ışık yansıtıcısıdır.";;
+D18;K6;kullanim;RSC kaydı;"Çatal-kaşık yapımında kullanılan 'sterling' gümüş %92,5 gümüş içerir; geri kalanı bakır ya da başka bir metaldir. Gümüş bromür ve iyodür ışığa duyarlı oldukları için fotoğrafçılığın tarihinde çok önemliydi.";G1;https://periodic-table.rsc.org/element/47/silver
+D18;K7;isim;Arşiv notu;"Sembol Ag, Latince 'argentum' (gümüş) kelimesinden gelir; Arjantin'in adı da bu kelimeden türemiştir. RSC'ye göre gümüş madenciliği MÖ 3000 civarında bugünkü Türkiye ve Yunanistan topraklarında başladı.";G1;https://periodic-table.rsc.org/element/47/silver
+D19;K1;erime_kaynama;Erime noktası ölçümü;Tel ancak 3400 °C'nin üzerinde eriyor.;;
+D19;K2;yogunluk;Yoğunluk ölçümü;19,3 ± 0,1 g/cm³;;
+D19;K3;tablo;Erime noktası yüksek bazı metaller;T1;;RSC Periyodik Tablo
+D19;K4;fiziksel;Görünüş;Parlak, gümüşi beyaz bir metal.;;
+D19;K5;isim;Arşiv notu;"Elementin adı İsveççe 'ağır taş' anlamına gelen 'tung sten' sözünden gelir. Sembolü W ise elementin diğer adı olan 'wolfram'dan gelir; bu ad, elementin elde edildiği wolframit mineraliyle ilgilidir. Element 1783'te İspanya'da Elhuyar kardeşler tarafından metal hâlinde elde edildi.";G1;https://periodic-table.rsc.org/element/74/tungsten
+D19;K6;kullanim;RSC kaydı;"Bu metal eski tip akkor ampullerin telinde yaygın olarak kullanılıyordu; ama bu ampuller ışıktan çok ısı ürettikleri için birçok ülkede kullanımdan kaldırıldı. Bütün metaller içinde erime noktası en yüksek olanıdır; karbürü çok serttir ve kesici-delici aletlerde kullanılır.";G1;https://periodic-table.rsc.org/element/74/tungsten
+D20;K1;fiziksel;Defter notu: görünüş;Parçalar bıçakla kolayca kesiliyor. Kesilen yüzey parlak gümüşi, ama birkaç saniye içinde matlaşıyor.;;
+D20;K2;deney;Defter notu: suyla deney;Öğretmen, koruyucu ekranın arkasında bezelye büyüklüğünde bir parçayı suya attı. Parça su üzerinde yüzerek hızla döndü, cızırdadı ve gaz çıkardı. Deneyden sonra suya fenolftalein damlatılınca su pembeleşti.;;
+D20;K3;deney;Defter notu: alev testi;Parçanın bileşikleri alevi parlak sarı-turuncu renge boyuyor.;;
+D20;K4;yogunluk;Defter notu: yoğunluk;0,97 ± 0,02 g/cm³;;
+D20;K5;tablo;1. grup (alkali) metalleri;T1;;"RSC Periyodik Tablo; standart alev testi renkleri"
+D20;K6;isim;Arşiv notu;"Bu elementin İngilizce adı 'soda' kelimesinden gelir; sembolü Na ise Latince 'natrium' adından gelir. Bu ad, eski Mısır'da Natron Vadisi'nden çıkarılan sodaya (natron) dayanır. Element 1807'de Humphry Davy tarafından, sodyum hidroksitten elektrik akımı geçirilerek elde edildi.";G2;https://periodic-table.rsc.org/element/11/sodium
+D20;K7;kullanim;RSC kaydı;Elementin kendisinden çok bileşikleri kullanılır: sodyum klorür (sofra tuzu) yemeklerde ve kışın yollardaki buzu çözmekte, sodyum karbonat (çamaşır sodası) su yumuşatıcı olarak kullanılır.;G2;https://periodic-table.rsc.org/element/11/sodium

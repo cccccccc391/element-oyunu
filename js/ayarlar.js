@@ -20,8 +20,8 @@ export const HIKAYE = [
 
 export const HAKKINDA = [
   'Bu oyun bir TÜBİTAK 2204-A Lise Öğrencileri Araştırma Projesi kapsamında hazırlanmaktadır.',
-  'Dosyaların içeriği (kanıtlar, veri tabloları, görevler ve kaynaklar) proje öğrencileri tarafından araştırılıp yazılmaktadır. D01 numaralı dosya, oyunun görev türlerini göstermek için hazırlanmış bir örnektir.',
-  'Oyunun yazılım altyapısı, üretken yapay zekâ aracı Claude (Anthropic) desteğiyle geliştirilmiştir.',
+  'Oyunun yazılım altyapısı ve 20 dosyanın içeriği (kanıtlar, veri tabloları, görevler ve açıklamalar) üretken yapay zekâ aracı Claude (Anthropic) ile hazırlanmıştır. Oyunun tasarım ilkeleri, danışman öğretmenin üretken yapay zekâ yardımıyla hazırladığı bir tasarım metnine dayanır.',
+  'Sayısal veriler ve isim kökenleri başta Royal Society of Chemistry olmak üzere güvenilir kaynaklardan doğrulanmıştır. Kaynaklar "Bilimsel kaynakça" sayfasında, her dosya için ayrı ayrı listelenir. Vakaların hikâyeleri ve vakalardaki ölçüm sonuçları kurgudur; bilinen değerlerle uyumlu olacak biçimde hazırlanmıştır.',
   'Oyun kişisel bilgi toplamaz. Cevaplar ve puanlar yalnızca bu cihazda, öğretmenin verdiği bir katılımcı koduyla saklanır.',
 ];
 

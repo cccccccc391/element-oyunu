@@ -8,7 +8,7 @@ Oyun telefonda uygulama gibi çalışan bir web oyunudur. Android'de de iPhone'd
 
 ## Oyunun yapısı
 
-- **4 seviye, 20 dosya:** Gözlem (D01–D05), Çıkarım (D06–D10), Kanıt (D11–D15), Bilimsel Savunma (D16–D20). D20 final dosyasıdır: Bilimsel Jüri.
+- **4 seviye, 20 dosya:** Gözlem (D01–D05), Çıkarım (D06–D10), Kanıt (D11–D15), Bilimsel Savunma (D16–D20). D20 final dosyasıdır: Bilimsel Jüri. Her dosyanın elementi farklıdır.
 - **Dosya:** Bir giriş hikâyesi, kanıt kartları ve görevlerden oluşur. Bazı kanıtlar ancak doğru adım atılınca açılır. Görevler bilimsel yöntem zincirini izler: **gözlem → veri → hipotez → kanıt → çıkarım → sonuç**. Dosyanın sonunda **iddia → kanıt → gerekçe → karşı kanıt → sonuç** biçiminde bir bilimsel argüman kurulur.
 - **3 bilimsel hata hakkı:** Her yanlış cevap türüyle birlikte gösterilir: kanıta dayanmayan çıkarım, veriyi yanlış yorumlama, birim / ölçüm hatası, kimyasal özelliği yanlış ilişkilendirme. Doğru cevap söylenmez; yalnızca hatanın neden hata olduğu açıklanır.
 - **Dosya kilitlenir:** Üç hatada "Araştırma dosyası kilitlendi" yazar ve öğrenci sonraki dosyaya geçemez. Dosyayı yeniden açmak için **bilimsel hata analizi** yapar: her hatası için hangi kanıtı yanlış yorumladığını, hangi varsayımının hatalı olduğunu ve doğru yaklaşımın ne olduğunu bulur.
@@ -42,7 +42,7 @@ Son seviyede hazır seçenekleri azaltmak için `yaz`, `kanit` ve `savunma` tür
 | `js/kayit.js` | İlerleme ve araştırma kayıtları, CSV dışa aktarma |
 | `js/periyodik.js` | 118 elementin sembolü, Türkçe adı ve periyodik tablodaki yeri |
 | `js/csv.js` | CSV okuyucu (Excel ve Google E-Tablolar biçimleri) |
-| `icerik/*.csv` | Dosyaların içeriği: **öğrenciler dolduracak** |
+| `icerik/*.csv` | 20 dosyanın içeriği (dosyalar, kanıtlar, veri tabloları, görevler, seçenekler) |
 | `manifest.webmanifest`, `sw.js`, `img/` | Ana ekrana ekleme, çevrim dışı çalışma, ikonlar |
 
 ## Çalıştırma
@@ -55,9 +55,9 @@ Son seviyede hazır seçenekleri azaltmak için `yaz`, `kanit` ve `savunma` tür
 python -m http.server 8000
 ```
 
-## Dosya nasıl hazırlanır (öğrenciler için)
+## Dosya eklemek ya da değiştirmek
 
-Bir dosyanın içeriği beş tabloya dağılır. Tablolar birbirine `dosya` ve `id` sütunlarıyla bağlanır. `D01` satırları tam bir örnektir; yeni bir dosya hazırlarken onları örnek alın.
+Bir dosyanın içeriği beş tabloya dağılır. Tablolar birbirine `dosya` ve `id` sütunlarıyla bağlanır. Var olan 20 dosya düzenlenebilir ya da yenileri eklenebilir; yeni bir dosya hazırlarken var olanların satırlarını örnek alın. `D01` bütün görev türlerini gösteren tanıtım dosyasıdır.
 
 Tablolar Türkçe Excel'de çift tıklayınca doğru açılır. Kaydederken "CSV (noktalı virgülle ayrılmış)" ya da "CSV UTF-8" seçin, ikisi de çalışır. Google E-Tablolar'da **Dosya → İçe aktar** ile açıp **Dosya → İndir → .csv** ile indirebilirsiniz. **İlk satırdaki sütun adlarını değiştirmeyin.** Her kayıttan sonra **Öğretmen paneli**ni açın. Tablolardaki hatalar orada dosya adı ve satır numarasıyla listelenir. Hatalı bir görev atlanır, dosyanın geri kalanı çalışmaya devam eder.
 
@@ -71,7 +71,7 @@ Tablolar Türkçe Excel'de çift tıklayınca doğru açılır. Kaydederken "CSV
 | `giris` | Dosyanın hikâyesi: hangi nesne, nereden geldi, görev ne? |
 | `cevap` | Elementin sembolü (Cu) |
 | `final` | Final (bilimsel jüri) dosyasıysa `evet` |
-| `ornek` | Örnek dosyaysa `evet` |
+| `ornek` | Tanıtım dosyasıysa `evet` (panoda "Tanıtım" etiketi ve kısa bir not gösterilir) |
 | `kaynakca` | Kaynaklar; birden fazlaysa aralarına `\|` koyun |
 
 ### 2. `kanitlar.csv`: dosyadaki kanıt kartları
@@ -81,7 +81,7 @@ Tablolar Türkçe Excel'de çift tıklayınca doğru açılır. Kaydederken "CSV
 | `dosya`, `id` | Dosya kodu ve kanıt kodu (K1, K2…) |
 | `tur` | `atom_numarasi`, `sembol`, `konum`, `elektron_dizilimi`, `fiziksel`, `kimyasal`, `iyon`, `iletkenlik`, `yogunluk`, `erime_kaynama`, `yukseltgenme`, `reaktivite`, `alasim`, `kullanim`, `isim`, `tarih`, `deney`, `tablo` |
 | `baslik`, `metin` | Kartın başlığı ve içeriği. `tablo` türünde `metin` sütununa tablonun kodu (T1) yazılır. |
-| `goster` | Boşsa kanıt baştan görünür. Bir görev kodu yazılırsa (G4) kanıt o görev çözülünce açılır. |
+| `goster` | Boşsa kanıt baştan görünür. Bir görev kodu yazılırsa (G4) kanıt o görev çözülünce açılır. Bir görevde istenen ya da bir hata açıklamasında gösterilen kanıt o görevden önce açılmış olmalı; değilse öğretmen paneli uyarır. |
 | `kaynak` | Bilginin kaynağı |
 
 ### 3. `tablolar.csv`: veri tabloları
@@ -126,9 +126,22 @@ Her satır tablonun bir satırıdır (`h1`–`h6` en fazla altı sütun). Aynı 
 - **Her bilgi için kaynak yazın.** IUPAC, Royal Society of Chemistry (periodic-table.rsc.org), NIST, Encyclopaedia Britannica gibi güvenilir kaynaklar kullanın. Kaynaklar oyundaki "Bilimsel kaynakça" sayfasında listelenir.
 - Her dosyada çok görev olmak zorunda değil. Örnek dosyada 18 görev var, çünkü bütün görev türlerini gösteriyor. 8–12 görev çoğu dosya için yeterli.
 
-### Örnek dosya (D01 "Gizemli Metal")
+### Dosyalar
 
-D01 oyunun bütün görev türlerini göstermek için hazırlandı. Yoğunluk ve erime noktaları RSC periyodik tablosundan, elektrik iletkenlikleri Serway'in *Principles of Physics* kitabından (Wikipedia tablosu üzerinden) alındı. Öğrenciler bu bilgileri de kaynaklardan kontrol etmelidir. Dosya örnek olarak kalabilir ya da öğrencilerin kendi dosyasıyla değiştirilebilir.
+| Seviye | Dosyalar |
+|---|---|
+| 1 · Gözlem | D01 Gizemli Metal (tanıtım) · D02 Uçan Balon Vakası · D03 Kutu, Folyo ve Uçak · D04 Kurşun Kalem Vakası · D05 Kırık Termometre |
+| 2 · Çıkarım | D06 Yırtık Diş Macunu Etiketi · D07 Havai Fişek Gecesi · D08 Kemik ve Alçı · D09 Şişen Batarya · D10 Cips Paketinin Sırrı |
+| 3 · Kanıt | D11 Havadaki Gizli Gaz · D12 Sahte Altın · D13 Paslanan Köprü · D14 Havuzdaki Koku · D15 Tavandaki Küçük Kutu |
+| 4 · Bilimsel Savunma | D16 Dokunmatik Ekranın Görünmez Teli · D17 Kalça Protezi · D18 Kararan Kaşık · D19 Ampulün Kalbi · D20 Bilimsel Jüri: Yağdaki Metal |
+
+Bilgilerin kaynakları:
+
+- Yoğunluklar, erime ve kaynama noktaları, keşif tarihleri, isim kökenleri ve kullanım alanları Royal Society of Chemistry periyodik tablosundan (periodic-table.rsc.org) doğrulandı.
+- Elektrik iletkenlikleri Serway'in *Principles of Physics* kitabındaki değerlerdir (Wikipedia tablosu üzerinden).
+- Havuz kokusu ve kloraminler için ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), duman dedektörleri için ABD Çevre Koruma Ajansı (EPA), pirit için geology.com kullanıldı.
+- Vakaların hikâyeleri ve vakalardaki ölçüm sonuçları kurgudur ama bilinen değerlerle uyumludur. Örneğin D11'deki ölçüm tablosu Rayleigh'nin gerçek deneyinin sonucunu, azot ve argonun bilinen yoğunluklarından hesaplanan değerlerle canlandırır.
+- Her dosyanın kaynakları oyundaki "Bilimsel kaynakça" sayfasında listelenir. Öğretmenin ve öğrencilerin bilgileri kaynaklardan bir kez daha kontrol etmesi önerilir.
 
 ## Öğretmen paneli ve araştırma verileri
 
@@ -152,6 +165,6 @@ Araştırma için notlar:
 
 TÜBİTAK, üretken yapay zekânın kod üretmek gibi amaçlarla kullanılmasının başvuru sisteminde beyan edilmesini istiyor. Aşağıdaki metin, kullanımın gerçek hâline göre güncellenerek kullanılabilir:
 
-> Oyunun yazılım altyapısı (ekranlar, görev türleri, kanıt ve hata analizi akışı, puanlama, araştırma kayıtları, içerik tablolarının okunması ve denetimi) ile örnek dosya D01, teknik destek veren bir gönüllü tarafından üretken yapay zekâ aracı Claude (Anthropic, Claude Opus 5.5 modeli) kullanılarak hazırlanmıştır. Oyunun tasarım ilkeleri, danışman öğretmenin üretken yapay zekâ aracı ChatGPT yardımıyla hazırladığı bir tasarım metnine dayanmaktadır. D02–D20 dosyalarının içeriği (kanıtlar, veri tabloları, görevler, çeldiriciler, açıklamalar ve kaynaklar), ölçme araçları, uygulama, verilerin analizi ve rapor proje öğrencileri tarafından hazırlanmıştır.
+> Oyunun yazılım altyapısı (ekranlar, görev türleri, kanıt ve hata analizi akışı, puanlama, araştırma kayıtları, içerik tablolarının okunması ve denetimi) ile 20 dosyanın içeriği (vakalar, kanıtlar, veri tabloları, görevler, çeldiriciler, açıklamalar ve kaynaklar), teknik destek veren bir gönüllü tarafından üretken yapay zekâ aracı Claude (Anthropic, Claude Opus 5.5 modeli) kullanılarak hazırlanmıştır. Oyunun tasarım ilkeleri, danışman öğretmenin üretken yapay zekâ aracı ChatGPT yardımıyla hazırladığı bir tasarım metnine dayanmaktadır. Proje öğrencileri şunları yapmıştır: [buraya öğrencilerin gerçekten yaptıklarını yazın; örneğin içeriğin kaynaklardan kontrolü, araştırma sorusunun ve ölçme araçlarının hazırlanması, uygulama, verilerin analizi ve rapor].
 
-Öğrenciler yapay zekâyı başka işlerde de kullanırsa (örneğin içerik yazarken) bunu da beyana eklemelidir.
+Beyan gerçeği yansıtmalıdır: öğrenciler yapay zekâyı başka işlerde de kullanırsa bunu da eklemelidir. Oyunun hem yazılımı hem içeriği yapay zekâ ile hazırlandığı için projede öğrencilerin özgün katkısı, oyunun etkisini ölçen araştırmanın kendisi olmalıdır: araştırma sorusu, ölçme araçları, uygulama, analiz ve yorum.

@@ -85,6 +85,7 @@ export function icerikKur(veri) {
         k.goster = '';
       }
     }
+    gorunurlukKontrolu(dosya, uyar);
     dosya.hazir = Boolean(dosya.cevap) && dosya.gorevler.length > 0;
   });
 
@@ -96,6 +97,25 @@ export function icerikKur(veri) {
 
   dosyalar.sort((a, b) => a.seviye - b.seviye || a.sira - b.sira || a.id.localeCompare(b.id));
   return { dosyalar, uyarilar };
+}
+
+// Bir görevde istenen ya da hata açıklamasında gösterilen kanıt, o görev sorulduğunda açılmış olmalı
+function gorunurlukKontrolu(dosya, uyar) {
+  const acik = new Set(dosya.kanitlar.filter(k => !k.goster).map(k => k.id));
+  for (const gorev of dosya.gorevler) {
+    if (gorev.tur === 'kanit') {
+      const kapali = [...gorev.gerekli, ...gorev.serbest].filter(k => !acik.has(k));
+      if (kapali.length) {
+        uyar('gorevler', gorev.satir, `${dosya.id} ${gorev.id}: ${kapali.join(', ')} kanıtı bu görev sorulduğunda henüz açılmamış olacak`, dosya.id);
+      }
+    }
+    for (const s of gorev.secenekler) {
+      if (s.hataKaniti && !acik.has(s.hataKaniti)) {
+        uyar('secenekler', s.satir, `${dosya.id} ${gorev.id}: hata_kaniti ${s.hataKaniti} bu görev sorulduğunda henüz açılmamış olacak`, dosya.id);
+      }
+    }
+    dosya.kanitlar.filter(k => k.goster === gorev.id).forEach(k => acik.add(k.id));
+  }
 }
 
 function kanitlariKur(dosya, satirlar, tabloSatirlari, uyar) {

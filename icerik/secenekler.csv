@@ -56,3 +56,371 @@ D01;G17;"Nikel: yoğunluğu ölçümle uyumlu (8,90 g/cm³), ama mıknatısa çe
 D01;G17;Alüminyum: kablolarda kullanılır, ama yoğunluğu 2,70 g/cm³ olduğu için hemen elenir.;;veri;K7;Bu ifade doğru, ama alüminyum ölçülen yoğunluktan çok uzak olduğu için en ciddi alternatif değildi. Soru, elenmesi en zor adayı soruyor.
 D01;G17;Gümüş: elektriği bakırdan iyi iletir, bu yüzden tel gümüş olabilir.;;kanitsiz;K4;"Gümüş 5. periyottadır; kısmi analiz raporu onu baştan eler. Daha iyi iletken olması bu teli gümüş yapmaz."
 D01;G17;Kobalt: yoğunluğu ölçümle uyumludur ve mıknatısa çekilmez.;;veri;K7;Tabloya göre kobalt mıknatısa çekilir.
+D02;G1;Gaz, aynı hacimdeki havadan daha hafiftir.;evet;;;
+D02;G1;Gaz yanıcıdır.;;iliski;K1;"Yükselmek yoğunlukla ilgilidir; bir gazın yanıcı olup olmadığı hakkında bilgi vermez."
+D02;G1;Gaz kesinlikle helyumdur.;;kanitsiz;K4;"Havadan hafif tek gaz helyum değildir; tabloda başka gazlar da var."
+D02;G1;Gazın sıcaklığı havanınkinden yüksektir.;;veri;K1;"Sıcak hava balonları bu yüzden yükselir; ama bu balon üç gündür oda sıcaklığında havada duruyor. İçindeki gaz çoktan oda sıcaklığına inmiş olmalı."
+D02;G2;Hidrojen;evet;;;
+D02;G2;Helyum;evet;;;
+D02;G2;Neon;evet;;;
+D02;G2;Argon;;veri;K4;"Argonun yoğunluğu (0,001633) havanınkinden (0,0012) büyük; argonla dolu bir balon yere düşer."
+D02;G3;Hidrojeni: hidrojen yanıcıdır, ama örnek yanmadı.;evet;;;
+D02;G3;Neonu: neon yanıcıdır.;;veri;K4;Tabloya göre neon yanıcı değildir.
+D02;G3;Hiçbirini: üç gaz da yanmaz.;;veri;K4;"Tabloda hidrojenin yanıcı olduğu yazıyor; Hindenburg kaydı da bunu gösteriyor."
+D02;G3;Helyumu: yanmayan bir gaz balonda kullanılamaz.;;iliski;K2;"Yanmamak bir gazın balonda kullanılmasını engellemez; tam tersine onu güvenli yapar."
+D02;G4;Gazdan elektrik geçirip yaydığı ışığın spektrumuna bakmak;evet;;;
+D02;G4;Gazın kokusuna bakmak;;kanitsiz;K3;"İki gaz da kokusuzdur; koku testi onları ayırmaz."
+D02;G4;Kıvılcım testini yeniden yapmak;;veri;K2;"Bu test zaten yapıldı; iki aday da yanmaz. Testi yinelemek yeni bilgi vermez."
+D02;G4;Balonun rengine bakmak;;iliski;K1;"Balonun rengi lastikten gelir; içindeki gaz hakkında bilgi vermez."
+D02;G6;Dünya'da bulunmadan önce Güneş'in ışığındaki sarı bir çizgiden fark edildi.;evet;;;
+D02;G6;Güneş ışığında ısınınca balonları yükselttiği için.;;iliski;K1;Balonlar ısındıkları için değil, helyum havadan hafif olduğu için yükselir. Ad keşfin hikâyesinden gelir.
+D02;G6;Rengi Güneş gibi sarı olduğu için.;;veri;K3;"Helyum renksizdir; sarı olan, yaydığı ışığın spektrumundaki bir çizgidir."
+D02;G6;Onu bulan bilim insanının adı Helios olduğu için.;;kanitsiz;K7;Arşiv notunda böyle bir kişiden söz edilmiyor.
+D02;G7;"Helyum hidrojen kadar olmasa da havadan çok hafiftir ve hiç yanmaz; bu yüzden çok daha güvenlidir.";evet;;;
+D02;G7;Helyum hidrojenden daha hafiftir.;;veri;K4;Tabloya göre hidrojen (0,000082) helyumdan (0,000164) daha hafiftir.
+D02;G7;Helyum oksijenle birleşip balonu soğutur.;;kanitsiz;K2;"Helyum hiçbir maddeyle tepkimeye girmez; bu iddiayı destekleyen bir kanıt yok."
+D02;G7;Helyum renksiz olduğu için balonun rengini bozmaz.;;iliski;K3;"Hidrojen de renksizdir; renk bu seçimin nedeni olamaz."
+D03;G1;"Metal demir değildir; ama bu kanıt tek başına hangi metal olduğunu söylemez.";evet;;;
+D03;G1;Metal alüminyumdur, çünkü alüminyum mıknatısa çekilmez.;;kanitsiz;K6;Mıknatısa çekilmeyen başka metaller de var: bakır, magnezyum, titanyum. Bu kanıt tek başına yetmez.
+D03;G1;Metal elektriği iletmez.;;iliski;K6;"Mıknatısa çekilmek ile elektriği iletmek farklı özelliklerdir; bakır mıknatısa çekilmez ama elektriği çok iyi iletir."
+D03;G1;Metal çok hafiftir.;;iliski;K6;Mıknatısa çekilmemek ile yoğunluk arasında bir bağ yok: tablodaki bakır hem yoğun hem de mıknatısa çekilmiyor.
+D03;G2;Yalnızca alüminyum (2,70 g/cm³);evet;;;
+D03;G2;Magnezyum (1,74 g/cm³), çünkü o da hafif bir metal;;veri;K1;1,74 g/cm³, ölçümün belirsizlik aralığının (2,6–2,8) çok dışında.
+D03;G2;Titanyum (4,506 g/cm³), çünkü uçaklarda kullanılır;;iliski;K1;"Bir kullanım alanı kimlik kanıtı değildir; titanyumun yoğunluğu ölçümle uyuşmuyor."
+D03;G2;"Hiçbiri; yoğunluk g/cm³ ile değil kilogram ile ölçülmeliydi";;birim;K1;"Yoğunluğun birimi g/cm³ ya da kg/m³ olur; kilogram yalnızca kütle birimidir."
+D03;G4;İçecek kutuları;evet;;;
+D03;G4;Uçak gövdesi parçaları (alaşım olarak);evet;;;
+D03;G4;Elektrik iletim hatlarındaki teller;evet;;;
+D03;G4;Kalıcı mıknatıs yapımı;;iliski;K3;"Alüminyum mıknatısa çekilmez; mıknatıs yapımında kullanılamaz."
+D03;G4;Dalgıçların beline taktığı ağırlıklar;;iliski;K1;"Dalgıç ağırlıkları için çok yoğun bir metal gerekir; alüminyum çok hafiftir."
+D03;G5;"Alüminyum bakırdan daha az iletir ama çok daha hafif ve ucuzdur; aynı kütleyle neredeyse iki kat iletkenlik sağlar.";evet;;;
+D03;G5;Alüminyum elektriği bakırdan daha iyi iletir.;;veri;K6;Tabloya göre aynı koşullarda bakır (59,6) alüminyumdan (35,5) daha iyi iletir.
+D03;G5;Alüminyum mıknatısa çekilmediği için elektriği daha iyi iletir.;;kanitsiz;K3;Mıknatısa çekilmemek ile iletkenlik arasında bir neden-sonuç ilişkisi yok.
+D03;G5;Alüminyum paslanmadığı için içinden daha çok akım geçer.;;iliski;K5;Korozyona dayanıklılık telin uzun ömürlü olmasını sağlar ama iletkenliğin nedeni değildir.
+D03;G6;Latincede 'acı tuz' anlamına gelen 'alumen' (şap) kelimesinden;evet;;;
+D03;G6;Onu ilk elde eden bilim insanının adından;;kanitsiz;K7;Ørsted alüminyumu ilk elde eden kişidir ama ad onun adından gelmez.
+D03;G6;Mutfak folyosunun icadından;;iliski;K7;Ad, folyonun icadından çok önce verildi.
+D03;G6;Latincede 'hafif' anlamına gelen bir kelimeden;;iliski;K7;Alüminyum hafif olduğu için bu açıklama akla yatkın görünebilir, ama arşiv notunda böyle yazmıyor.
+D03;G7;"Ölçülen yoğunluk (2,7 ± 0,1 g/cm³) tablodaki metallerden yalnızca alüminyumla uyuşuyor; mıknatısa çekilmemesi ve gümüşi beyaz rengi de bununla uyumlu.";evet;;;
+D03;G7;Üç eşya da hafif olduğu için alüminyum olmalı.;;kanitsiz;K6;"Magnezyum da hafiftir; 'hafif' demek yetmez, ölçülen değer gerekir."
+D03;G7;Mıknatısa çekilmedikleri için alüminyumdurlar.;;kanitsiz;K3;"Mıknatısa çekilmeyen birçok metal var; bu kanıt tek başına yetmez."
+D03;G7;Tedarikçi 'aynı metal' dediği için üçü de alüminyumdur.;;kanitsiz;;"Tedarikçinin sözü bir kanıt değildir; iddia ölçümlerle sınanmalı."
+D04;G1;"Hayır; iz bırakan ve yumuşak olan başka maddeler de var. Bu gözlem tek başına yetmez.";evet;;;
+D04;G1;"Evet; adı 'kurşun kalem' olduğuna göre içinde kurşun vardır.";;kanitsiz;;Bir eşyanın adı, içeriği hakkında kanıt değildir. Adlar çoğu zaman tarihsel nedenlerle verilir.
+D04;G1;"Evet; kâğıtta yalnızca metaller iz bırakır.";;iliski;K1;Odun kömürü ve tebeşir gibi metal olmayan maddeler de iz bırakır.
+D04;G1;"Hayır; kurşun sert bir metaldir, iz bırakamaz.";;veri;K5;Kurşun aslında yumuşak bir metaldir. Doğru cevap 'hayır' ama gerekçe yanlış: asıl sorun bu kanıtın yetersiz olması.
+D04;G2;"Ölçülen değer grafitle uyumlu; kurşunun yoğunluğu bunun beş katından fazla.";evet;;;
+D04;G2;"Kurşunla uyumlu; ölçüm hatalı olmalı.";;veri;K3;Bir ölçümü beklenen sonucu vermediği için hatalı saymak bilimsel değildir. 2,2 ile 11,3 arasındaki fark ölçüm belirsizliğiyle açıklanamaz.
+D04;G2;"Karar verilemez; çünkü yoğunlukların birimleri farklı.";;birim;K5;Tablodaki ve ölçümdeki birimler aynı: g/cm³.
+D04;G2;Kurşun ve grafitin yoğunlukları neredeyse aynı.;;veri;K5;Tabloyu yeniden oku.
+D04;G3;Uçtaki siyah madde karbon içerir, çünkü yanınca karbondioksit oluştu.;evet;;;
+D04;G3;Kalem ucu saf bir madde değil, bir karışımdır, çünkü geriye yanmayan bir kalıntı kaldı.;evet;;;
+D04;G3;Kalıntı kurşundur.;;kanitsiz;K4;"Kalıntının kurşun olduğunu gösteren bir kanıt yok; kalıntı açık renkli. Kurşun mavimsi gri bir metaldir (K5)."
+D04;G3;Karbondioksit oluştuğuna göre uçta oksijen elementi vardır.;;iliski;K4;"Oksijen, yakmak için ortama verildi; karbondioksitteki oksijen buradan gelir."
+D04;G5;"Grafit bulunduğunda insanlar onu bir tür kurşun sandı; ad bu yanılgıdan kaldı.";evet;;;
+D04;G5;Kalem uçlarına bugün de az miktarda kurşun katılır.;;kanitsiz;K3;"Bu iddiayı destekleyen bir kanıt yok; ölçümler uçta grafit olduğunu gösteriyor."
+D04;G5;Grafit, kurşunun bir alaşımıdır.;;iliski;K5;Grafit bir metal alaşımı değil, karbon elementinin bir biçimidir.
+D04;G5;Kalemi icat eden kişinin soyadı 'Kurşun'du.;;kanitsiz;K6;Arşiv notunda böyle bir bilgi yok.
+D04;G6;"Karbon atomları üst üste dizilmiş katmanlar oluşturur; katmanlar birbirinin üzerinden kolayca kayar ve kâğıtta kalır.";evet;;;
+D04;G6;Grafit elektriği ilettiği için kâğıda yapışır.;;iliski;K2;"Elektrik iletkenliği iz bırakmanın nedeni değildir; ikisi de grafitin yapısından kaynaklanır."
+D04;G6;Grafit sıvı olduğu için kâğıda akar.;;veri;K1;"Grafit katıdır; oda sıcaklığında erimez."
+D04;G6;Grafit kurşundan daha ağır olduğu için iz bırakır.;;veri;K5;Grafit kurşundan çok daha hafiftir (2,2'ye karşı 11,3 g/cm³).
+D04;G7;Karbon atomlarının diziliş biçimi farklıdır: elmasta her atom komşularına sıkıca bağlıdır, grafitte ise kolayca kayan katmanlar vardır.;evet;;;
+D04;G7;"Elmas daha saf karbondur; grafite kurşun karışmıştır.";;kanitsiz;K4;Grafitte kurşun olduğunu gösteren bir kanıt yok.
+D04;G7;Elmas ile grafit aslında farklı elementlerdir.;;veri;K7;Tennant'ın deneyi elmasın yanınca yalnızca karbondioksit verdiğini, yani karbon olduğunu gösterdi.
+D04;G7;Elmas, grafitin donmuş hâlidir.;;iliski;K5;"Grafit zaten katıdır; donma sıvıdan katıya geçiştir."
+D05;G1;"Oda sıcaklığında sıvı olan bir metaldir; bu, çok nadir görülen bir durumdur.";evet;;;
+D05;G1;Su bazlı bir sıvıdır, çünkü elektriği iletiyor.;;iliski;K2;"Bu madde gümüş renkli, metalik parlak ve çok yoğun; suyla açıklanamaz."
+D05;G1;"Erimiş hâlde bir metaldir; termometre çok ısınmış olmalı.";;kanitsiz;K1;"Gözlem oda sıcaklığında (20 °C) yapıldı; madde erimek için ısıtılmadı."
+D05;G1;Bir gazdır, çünkü damlacıklar yuvarlak.;;iliski;K1;"Damlacık oluşturmak sıvıların özelliğidir; gaz damlacık oluşturmaz."
+D05;G2;Cıva;evet;;;
+D05;G2;Galyum;;veri;K3;"Galyumun erime noktası 29,8 °C; 20 °C'de katıdır. Elde tutulunca eriyebilir ama oda sıcaklığında katıdır."
+D05;G2;Sezyum;;veri;K3;"Sezyumun erime noktası 28,5 °C; 20 °C'de katıdır."
+D05;G2;Rubidyum;;veri;K3;"Rubidyumun erime noktası 39,3 °C; 20 °C'de katıdır."
+D05;G3;"Evet; 13,5 ± 0,2 g/cm³ cıvanın yoğunluğuyla (13,53) uyumlu, diğer metallerinkiyle uyumsuz.";evet;;;
+D05;G3;"Hayır; sıvılar katılardan her zaman daha hafiftir.";;iliski;K3;Bu genelleme yanlış: tablodaki sıvı cıva, katı galyumdan iki kattan daha yoğun.
+D05;G3;"Evet; ama galyum da bu yoğunlukla uyumlu.";;veri;K3;"Galyumun yoğunluğu 5,91 g/cm³; ölçümden çok farklı."
+D05;G3;"Karar verilemez; sıvıların yoğunluğu ölçülemez.";;birim;K2;"Sıvıların da yoğunluğu ölçülür; örneğin suyunki yaklaşık 1 g/cm³'tür."
+D05;G5;Sembol, Latince 'hydrargyrum' (su gümüşü) adından gelir.;evet;;;
+D05;G5;Sembol, cıvanın Almanca adından gelir.;;kanitsiz;K5;Arşiv notunda sembolün Latince addan geldiği yazıyor.
+D05;G5;"H hidrojenden, g gümüşten gelir; cıva bu ikisinin bileşiğidir.";;iliski;K5;"Cıva bir elementtir, bileşik değildir. 'Hydrargyrum' 'su' ve 'gümüş' anlamındaki kelimelerden oluşur; bu, cıvanın hidrojen ya da gümüş içerdiği anlamına gelmez."
+D05;G5;Sembol rastgele seçilmiştir.;;kanitsiz;K5;"Element sembolleri rastgele seçilmez; çoğu elementin Latince ya da Yunanca adından gelir."
+D05;G6;"Geniş bir sıcaklık aralığında sıvı kalır ve ısındıkça düzenli genleşir; parlak rengi ince tüpte kolay okunur.";evet;;;
+D05;G6;Elektriği iyi ilettiği için sıcaklığı elektrikle ölçer.;;iliski;K4;"Cıvalı termometre elektrikle çalışmaz; sıvının genleşmesiyle ölçer."
+D05;G6;Çok yoğun olduğu için tüpte yükselmez.;;veri;K2;"Termometrede cıva ısındıkça genleşip yükselir; yoğunluğu bunu engellemez."
+D05;G6;Zehirli olduğu için mikropları öldürür.;;iliski;K6;"Zehirlilik termometrenin çalışmasıyla ilgili değildir; tam tersine cıvalı termometrelerin terk edilme nedenidir."
+D05;G7;"Cıva ve buharı zehirlidir; damlacıklara dokunulmamalı, süpürülmemeli ve elektrikli süpürgeyle çekilmemeli. Ortam havalandırılmalı, temizliği eğitimli kişiler yapmalı.";evet;;;
+D05;G7;"Cıva sıvı olduğu için zararsızdır; süpürülebilir.";;iliski;K6;Bir maddenin sıvı olması zararsız olduğunu göstermez.
+D05;G7;Tek tehlike elektrik çarpmasıdır, çünkü cıva elektriği iletir.;;veri;K6;Güvenlik notu asıl tehlikenin zehirlilik olduğunu söylüyor.
+D05;G7;Damlacıklar suyla yıkanırsa kendiliğinden yok olur.;;kanitsiz;;"Bu iddiayı destekleyen bir kanıt yok; cıva suyla yok olmaz."
+D06;G2;Brom;evet;;;
+D06;G2;İyot;evet;;;
+D06;G2;Flor;;veri;K6;"Flor gazdır; gaz olma kanıtı onu elemez."
+D06;G2;Klor;;veri;K6;"Klor gazdır; gaz olma kanıtı onu elemez."
+D06;G3;"En dış elektronlar 2. katmanda (2s² 2p⁵); yani element 2. periyotta. 2. periyottaki halojen flordur.";evet;;;
+D06;G3;Dizilimdeki 7 elektron elementin 7. periyotta olduğunu gösterir.;;veri;K3;"Son katmandaki elektron sayısı grubu, katman numarası periyodu gösterir; buradaki son katman 2. katman."
+D06;G3;"Dizilim iki elementte de aynıdır; onları ayırmaz.";;veri;K3;"Klorun dizilimi 1s² 2s² 2p⁶ 3s² 3p⁵'tir; üçüncü katmanda biter."
+D06;G3;Toplam 9 elektron olduğu için element 9. gruptadır.;;iliski;K3;"Toplam elektron sayısı atom numarasını verir; grubu en dış katmandaki elektronlar belirler."
+D06;G5;"Saf flor bilinen en tepkimeye yatkın ve tehlikeli elementtir; bileşiklerindeki florür iyonu ise kararlıdır ve diş minesini güçlendirir.";evet;;;
+D06;G5;Saf flor gaz olduğu için tüpe sığmaz.;;iliski;K2;"Gazlar sıkıştırılarak kaplarda saklanabilir; asıl sorun florun aşırı tepkimeye yatkın olması."
+D06;G5;Florür iyonu flor atomundan daha tepkimeye yatkındır.;;veri;K5;"Florür iyonu elektron alarak kararlı hâle gelmiştir; saf flor çok daha tepkimeye yatkındır."
+D06;G5;Saf flor dişleri beyazlatır ama tadı kötüdür.;;kanitsiz;K4;"Bu iddiayı destekleyen bir kanıt yok; saf flor çok tehlikeli bir gazdır."
+D06;G6;Yapışmaz tava kaplaması;evet;;;
+D06;G6;Diş macunu;evet;;;
+D06;G6;Su geçirmez giysi kumaşları;evet;;;
+D06;G6;Süs balonlarını doldurmak;;iliski;K4;"Balonlarda helyum kullanılır; flor zehirli ve aşırı tepkimeye yatkın bir gazdır."
+D06;G6;Kurşun kalem ucu;;iliski;K2;Kalem ucunda grafit (karbon) vardır.
+D06;G7;"Latincede 'akmak' anlamına gelen 'fluere' kelimesinden; florit minerali metal eritmede kullanılıyordu.";evet;;;
+D06;G7;Işık saçan 'floresan' lambalardan;;iliski;K7;Tersine: 'floresan' kelimesi florit mineralinden türetilmiştir. Element adını lambalardan almadı.
+D06;G7;Onu elde eden Moissan'ın memleketinden;;kanitsiz;K7;Arşiv notunda böyle bir bilgi yok.
+D06;G7;Latincede 'sarı' anlamına gelen bir kelimeden;;iliski;K2;Flor soluk sarı-yeşil bir gaz olduğu için bu açıklama akla yatkın görünebilir, ama arşiv notunda böyle yazmıyor.
+D07;G1;Lityum;evet;;;
+D07;G1;Stronsiyum;evet;;;
+D07;G1;Kalsiyum;;veri;K2;Kalsiyumun alevi turuncu-kırmızıdır (tuğla kırmızısı), kızıl değildir.
+D07;G1;Baryum;;veri;K2;Baryum yeşil alev verir.
+D07;G1;Sodyum;;veri;K2;Sodyum sarı-turuncu alev verir.
+D07;G2;Metalin periyodik tablodaki grubunu gösteren bir elementel analiz;evet;;;
+D07;G2;Alev testini bir kez daha yapmak;;veri;K2;"İki aday da kızıl alev verir; testi yinelemek onları ayırmaz."
+D07;G2;Tuzun suda çözünüp çözünmediğine bakmak;;kanitsiz;;"Bu konuda bir kanıt yok; ayrıca birçok tuz suda çözünür."
+D07;G2;Fişeğin patlama sesinin şiddetini ölçmek;;iliski;K1;"Patlama sesi fişeğin barutuna bağlıdır; rengi veren metal hakkında bilgi vermez."
+D07;G3;"Metal 2. grupta olduğu için lityum elenir; yoğunluk da yalnızca stronsiyumla uyumlu.";evet;;;
+D07;G3;Yoğunluk baryumla da uyumlu.;;veri;K4;3,62, ölçüm aralığının (2,5–2,7) dışında.
+D07;G3;2. gruptaki bütün metallerin yoğunluğu aynıdır.;;veri;K4;Verilen değerler 1,54 ile 3,62 arasında değişiyor.
+D07;G3;"Karar verilemez; yoğunluk g/cm³ ile değil gram ile ölçülür.";;birim;K4;"Gram kütle birimidir; yoğunluğun birimi g/cm³'tür."
+D07;G5;"Her metal ısıtılınca kendine özgü renklerde ışık yayar; fişeklere farklı metallerin tuzları konarak farklı renkler elde edilir.";evet;;;
+D07;G5;"Fişeklere boya katılır; boyanın rengi alevde görünür.";;iliski;K2;"Renk boyadan değil, metal atomlarının yaydığı ışıktan gelir; tablo her metalin kendi rengini gösteriyor."
+D07;G5;Renk, fişeğin ne kadar yükseğe çıktığına bağlıdır.;;kanitsiz;;Bu iddiayı destekleyen bir kanıt yok.
+D07;G5;"Bütün metaller aynı rengi verir; renk farkı sıcaklıktan gelir.";;veri;K2;Tablo, farklı metallerin farklı renkler verdiğini gösteriyor.
+D07;G6;İskoçya'daki Strontian kasabası yakınındaki bir madende bulunan mineralden;evet;;;
+D07;G6;"İngilizce 'strong' (güçlü) kelimesinden; patlayıcı olduğu için";;iliski;K6;"Element adını bir yer adından alır; patlayıcılıkla ilgisi yok."
+D07;G6;Onu bulan kimyagerin adından;;kanitsiz;K6;Arşiv notunda bir yer adından söz ediliyor.
+D07;G6;Latincede 'kırmızı' anlamına gelen bir kelimeden;;iliski;K6;Kırmızı alev verdiği için akla yatkın görünebilir, ama arşiv notunda bir yer adından söz ediliyor.
+D07;G7;"Alev testi adayları kızıl alev veren lityum ve stronsiyuma indirdi; analiz metalin 2. grupta olduğunu gösterdi ve yoğunluk da stronsiyumla uyuşuyor.";evet;;;
+D07;G7;Havai fişeklerde hep stronsiyum kullanıldığı için.;;kanitsiz;;"Genel bir bilgi bu örneğin kanıtı olamaz; fişeklerde başka metaller de kullanılır."
+D07;G7;Kızıl alev verdiği için.;;kanitsiz;K1;"Lityum da kızıl alev verir; bu kanıt tek başına yetmez."
+D07;G7;2. grupta olduğu için.;;kanitsiz;K3;2. grupta altı element var.
+D07;G8;Lityum: o da kızıl alev verir, ama 1. gruptadır ve yoğunluğu (0,534 g/cm³) ölçümle uyuşmaz.;evet;;;
+D07;G8;Baryum: o da 2. gruptadır, ama alevi yeşildir.;;veri;K2;"Bu doğru bir ifade, ama baryum alev testiyle hemen elendi; en ciddi alternatif değildi."
+D07;G8;Kalsiyum: alevi stronsiyumunkiyle aynıdır.;;veri;K2;"Tabloya göre kalsiyumun alevi turuncu-kırmızıdır; kızıl değildir."
+D07;G8;Sodyum: en parlak alevi verir.;;iliski;K2;"Alevin parlaklığı değil rengi önemli; sodyumun alevi sarı-turuncudur."
+D08;G1;"Hayır; renk benzerliği ortak bir element içerdiklerini göstermez. Kimyasal analiz gerekir.";evet;;;
+D08;G1;"Evet; beyaz olan bütün maddeler aynı elementi içerir.";;iliski;;Tuz, şeker ve kâğıt da beyazdır ama farklı elementlerden oluşur.
+D08;G1;"Evet; röntgen her zaman hangi element olduğunu gösterir.";;kanitsiz;;"Röntgen yalnızca X ışınlarının ne kadar soğurulduğunu gösterir; elementin adını söylemez."
+D08;G1;"Hayır; kemikte hiçbir element yoktur.";;veri;K5;Kemik deneyi kemikte asitte çözünen bir mineral olduğunu gösteriyor.
+D08;G3;Yalnızca kalsiyum (1,54 g/cm³);evet;;;
+D08;G3;"Magnezyum (1,74 g/cm³); en yakın değer o";;veri;K3;"1,74, 1,4–1,6 aralığının dışında; aralıktaki tek değer kalsiyumunki (1,54)."
+D08;G3;Berilyum (1,85 g/cm³);;veri;K3;1,85, ölçüm aralığının dışında.
+D08;G3;"Hiçbiri; metallerin yoğunluğu 2 g/cm³'ten küçük olamaz.";;iliski;K4;"Tabloda yoğunluğu 2 g/cm³'ten küçük üç metal var; lityum gibi bazı metaller sudan bile hafiftir."
+D08;G5;"Kemiğin sertliği kalsiyum içeren bir mineralden gelir; asit bu minerali çözünce geriye esnek kısım kalır.";evet;;;
+D08;G5;Sirke kemiğe kalsiyum ekleyerek onu yumuşatır.;;iliski;K5;"Sirke kemiğe bir şey eklemedi; kemikteki minerali çözdü."
+D08;G5;Kemik sirkeyi emip şişer, bu yüzden bükülür.;;kanitsiz;K5;"Kemiğin şiştiğini gösteren bir kanıt yok; kanıt bir mineralin çözündüğünü söylüyor."
+D08;G5;"Kemikte hiç mineral yoktur; bükülmek kemiğin doğal hâlidir.";;veri;K5;"Deneyden önce kemik serttir; bükülebilir hâle gelmesi bir şeyin çözüldüğünü gösteriyor."
+D08;G6;Kireçtaşı ve mermer;evet;;;
+D08;G6;Çimento ve harç;evet;;;
+D08;G6;Kırık kemikler için alçı;evet;;;
+D08;G6;Uçan balonları doldurmak;;iliski;K2;"Kalsiyum katı bir metaldir; balonlarda helyum gibi havadan hafif gazlar kullanılır."
+D08;G6;Termometre sıvısı;;iliski;K4;"Kalsiyum 842 °C'de erir; oda sıcaklığında sıvı olan metal cıvadır."
+D08;G7;Latincede 'kireç' anlamına gelen 'calx' kelimesinden;evet;;;
+D08;G7;Onu elde eden Davy'nin memleketinden;;kanitsiz;K7;Arşiv notunda böyle bir bilgi yok.
+D08;G7;"'Kalori' kelimesinden; vücuda enerji verdiği için";;iliski;K7;"Kalsiyum besinlerde enerji kaynağı değildir; ad 'kireç' anlamındaki 'calx'tan gelir."
+D08;G7;Kemik anlamına gelen Yunanca bir kelimeden;;iliski;K7;Kalsiyum kemikte bulunduğu için akla yatkın görünebilir, ama notta böyle yazmıyor.
+D08;G8;"Fosfor 2. grupta değil 15. gruptadır; ayrıca alçı (kalsiyum sülfat) fosfor içermez.";evet;;;
+D08;G8;Fosfor kemikte hiç bulunmaz.;;veri;K5;"Kemik minerali kalsiyum fosfattır; fosfor içerir. Hipotezin reddedilme nedeni bu değil."
+D08;G8;Fosfor bir gazdır.;;veri;;Fosfor oda sıcaklığında katıdır.
+D08;G8;Fosfor kemikte bulunduğu için hipotez reddedilemez.;;kanitsiz;K1;"Bir elementin kemikte bulunması, alçıda da bulunduğunu göstermez; analiz de 2. grubu gösteriyor."
+D09;G2;Lityum (0,534 g/cm³);evet;;;
+D09;G2;Potasyum (0,89 g/cm³), çünkü listedeki en hafif metal o;;veri;K4;Tabloda lityumun yoğunluğu (0,534) potasyumunkinden (0,89) düşük.
+D09;G2;Sodyum (0,97 g/cm³);;veri;K2;0,97, ölçüm aralığının (0,51–0,55) dışında.
+D09;G2;"Sezyum; grupta aşağı inildikçe yoğunluk azalır";;veri;K4;Tabloya göre yoğunluk grupta aşağı inildikçe genel olarak artar.
+D09;G3;Potasyum: sodyumdan sonra geldiği hâlde yoğunluğu (0,89) sodyumunkinden (0,97) düşük.;evet;;;
+D09;G3;Lityum: en hafif metal olduğu için.;;veri;K4;"Lityum grubun en üstünde ve en hafifi; eğilime uyuyor."
+D09;G3;Sezyum: en yoğun olduğu için.;;veri;K4;"Sezyum grubun en altında ve en yoğunu; eğilime uyuyor."
+D09;G3;"Hiçbiri; eğilim kusursuz.";;veri;K4;Sodyum ile potasyumun yoğunluklarını karşılaştır.
+D09;G4;"Reddedilir; stronsiyum da kızıl alev verir ama 2. gruptadır ve yoğunluğu 2,64 g/cm³'tür.";evet;;;
+D09;G4;"Kabul edilir; kızıl alev yalnızca stronsiyumda görülür.";;veri;K4;Tabloya göre lityum da kızıl alev verir.
+D09;G4;"Kabul edilir; stronsiyum da bir alkali metaldir.";;veri;K1;"Stronsiyum toprak alkali metaldir (2. grup); analiz ise 1. grubu gösteriyor."
+D09;G4;"Karar verilemez; alev testi hiçbir şey göstermez.";;kanitsiz;K3;"Alev testi adayları daraltan değerli bir kanıttır; ama tek başına yetmez."
+D09;G6;"Bütün metaller içinde en hafifidir ve elektronunu kolayca verir; hafif bir pilde çok enerji depolanabilir.";evet;;;
+D09;G6;Suyla hiç tepkimeye girmediği için güvenlidir.;;veri;K5;Lityum suyla tepkimeye girer.
+D09;G6;Kızıl alev verdiği için pil şarj olurken ışık saçar.;;iliski;K3;Alev rengi pilin çalışmasıyla ilgili değildir.
+D09;G6;Erime noktası çok yüksek olduğu için hiç ısınmaz.;;veri;K4;"Lityumun erime noktası 180,5 °C; metaller arasında düşük sayılır."
+D09;G7;Diğer yaygın alkali metaller bitki küllerinden bulunurken lityum bir mineralden (taştan) bulundu.;evet;;;
+D09;G7;Taş kadar sert olduğu için.;;veri;K7;Lityum yumuşak bir metaldir.
+D09;G7;Pillerde taş gibi uzun ömürlü olduğu için.;;iliski;K7;Ad, pillerin icadından çok önce, 1817'de verildi.
+D09;G7;Onu bulan kişinin adı Lithos olduğu için.;;kanitsiz;K7;Arşiv notunda kâşifin adı Arfvedson.
+D09;G8;"Delinmemeli, ezilmemeli ve ısıtılmamalı; hasarlı pil alev alabilir. Atık pil toplama noktasına verilmeli.";evet;;;
+D09;G8;Suya batırılırsa güvenli hâle gelir.;;iliski;K5;Lityum suyla tepkimeye girer.
+D09;G8;"Şişmiş pil daha çok enerji depolar; kullanmaya devam edilebilir.";;kanitsiz;;"Bu iddiayı destekleyen bir kanıt yok; şişme bir hasar belirtisidir."
+D09;G8;Lityum radyoaktif olduğu için pil kurşun kutuda saklanmalı.;;veri;K1;Lityum radyoaktif değildir.
+D10;G1;"Gaz yanmayı desteklemiyor; ama bu özellik birçok gazda var, tek başına kimliği göstermez.";evet;;;
+D10;G1;Gaz zehirlidir.;;iliski;K1;"Mumun sönmesi yanmayı desteklememekle ilgilidir; zehirlilikle değil."
+D10;G1;Gaz karbondioksittir.;;kanitsiz;K4;Tabloya göre başka gazlar da mumu söndürür.
+D10;G1;Gaz oksijendir.;;veri;K4;Oksijen mumu söndürmez, daha parlak yakar.
+D10;G2;Azot;evet;;;
+D10;G2;Argon;evet;;;
+D10;G2;Helyum;evet;;;
+D10;G2;Karbondioksit;;veri;K3;"Karbondioksit kireç suyunu bulandırır; test sonucuyla uyuşmuyor."
+D10;G2;Oksijen;;veri;K1;"Oksijen mumu söndürmez; mumu daha parlak yakar."
+D10;G3;Azot (0,001145 g/cm³);evet;;;
+D10;G3;Argon (0,001633 g/cm³);;veri;K5;0,001633, ölçüm aralığının dışında.
+D10;G3;Helyum (0,000164 g/cm³);;veri;K5;0,000164, ölçüm aralığının çok dışında.
+D10;G3;"Hiçbiri; gazların yoğunluğu ölçülemez.";;birim;K5;Gazların da yoğunluğu vardır. Değerler çok küçük olduğu için çoğu zaman g/cm³ yerine g/L ya da kg/m³ kullanılır.
+D10;G5;"Azot tepkimeye pek girmez; oksijen gibi yağın bozulmasına yol açmaz. Gaz ayrıca cipslerin ezilmesini önler.";evet;;;
+D10;G5;Azot cipsleri soğutur.;;iliski;K7;"Paketteki azot oda sıcaklığındadır; cipsleri soğutmaz."
+D10;G5;Azot havadan çok daha ağır olduğu için paketi sabit tutar.;;veri;K4;Azot havadan biraz hafiftir.
+D10;G5;Azot mikropları öldüren zehirli bir gazdır.;;veri;K4;"Soluduğumuz havanın yaklaşık %78'i azottur; azot zehirli değildir."
+D10;G6;"Sembol uluslararası 'nitrogen' adından gelir; Türkçedeki 'azot' adı ise Fransızca 'azote'tan geçmiştir.";evet;;;
+D10;G6;N, 'nefes' kelimesinden gelir.;;kanitsiz;K6;Arşiv notunda böyle bir bilgi yok.
+D10;G6;A sembolü argona ayrıldığı için N seçilmiştir.;;kanitsiz;K6;"Argonun sembolü Ar'dır; semboller rastgele değil, adlardan gelir."
+D10;G6;N, azotun 'nötr' (tepkimeye girmeyen) olmasından gelir.;;iliski;K6;Arşiv notuna göre N, 'nitrogen' adından gelir.
+D10;G7;"Bu gazda mum sönüyor ve canlılar yaşayamıyordu; gaz yanmayı ve solunumu desteklemiyordu.";evet;;;
+D10;G7;Gaz zehirli olduğu için canlıları öldürüyordu.;;iliski;K4;"Azot zehirli değildir; havanın %78'ini oluşturur. Saf azotta canlılar oksijensiz kaldıkları için yaşayamaz."
+D10;G7;Gaz hiçbir zaman canlılar tarafından kullanılmaz.;;veri;K7;"Azot proteinlerin ve DNA'nın temel elementlerinden biridir; bitkiler azotlu bileşikleri gübre olarak kullanır."
+D10;G7;Gaz yalnızca uzayda bulunduğu için.;;kanitsiz;K4;Havanın yaklaşık %78'i azottur.
+D10;G8;Paketteki gaz hava değil azottur: mumu söndürüyor, kireç suyunu bulandırmıyor ve yoğunluğu azotla uyuşuyor. Azot cipslerin bozulmasını ve ezilmesini önlemek için konur.;evet;;;
+D10;G8;Paketteki gaz havadır, çünkü havanın çoğu azottur.;;veri;K1;"Havada %21 oksijen de var; paketteki gaz mumu söndürdüğüne göre oksijen içermiyor."
+D10;G8;Gaz helyumdur, çünkü paketi hafifletir.;;veri;K5;Gazın yoğunluğu helyumla uyuşmuyor.
+D10;G8;"Gazın ne olduğu önemli değil; paketteki boşluk her zaman haksızlıktır.";;kanitsiz;;"Bu bir görüş, bilimsel bir yanıt değil; soru gazın ne olduğu ve neden konduğu."
+D11;G1;Gerçek bir fark: her türün ölçümleri birbirine çok yakın, ama iki tür arasındaki fark bu saçılmadan çok daha büyük.;evet;;;
+D11;G1;Ölçüm hatası: fark binde 5 gibi çok küçük bir değer.;;birim;K1;"Bir farkın küçük olması önemsiz olduğunu göstermez; önemli olan farkın ölçümlerin kendi saçılmasıyla karşılaştırılmasıdır."
+D11;G1;Gerçek bir fark, çünkü amonyaktan elde edilen azot kirlidir.;;kanitsiz;K1;Ölçümler bir fark olduğunu gösteriyor, ama nedenini göstermiyor. Bu iddiayı destekleyen bir kanıt yok.
+D11;G1;"Karar verilemez; yoğunluk g/L ile değil g/cm³ ile ölçülmeliydi.";;birim;K1;"g/L de geçerli bir yoğunluk birimidir; gazlar için daha kullanışlıdır."
+D11;G2;Havadan elde edilen gaza azottan daha ağır, bilinmeyen bir gaz karışmış olabilir.;evet;;;
+D11;G2;Havadan elde edilen gazda oksijen ya da karbondioksit gibi bilinen bir gaz tam temizlenmemiş olabilir.;evet;;;
+D11;G2;Rayleigh şanssız bir günde ölçüm yapmıştır.;;kanitsiz;K1;"Ölçümler tekrarlandı ve her seferinde aynı sonuç çıktı; şans bir açıklama değildir."
+D11;G2;Havadan elde edilen gaz daha soğuk olduğu için daha ağırdır.;;birim;K1;Bütün ölçümler aynı koşullarda (0 °C, 1 atm) yapıldı.
+D11;G3;Havada azot gibi davranmayan, hiç tepkimeye girmeyen bilinmeyen bir gaz olduğunu.;evet;;;
+D11;G3;Bir temizleme hatası olduğunu.;;veri;K2;"Cavendish'in kalıntısı en zorlu koşullarda bile tepkimeye girmedi; bu bir temizleme hatasına benzemiyor."
+D11;G3;Havanın tamamen azottan oluştuğunu.;;veri;K2;Not, havanın yaklaşık %1'inin tepkimeye girmediğini söylüyor.
+D11;G3;Cavendish'in ölçümlerinin yanlış olduğunu.;;kanitsiz;K2;Bu iddiayı destekleyen bir kanıt yok.
+D11;G4;"Azotun tamamı ayrıldığı hâlde geriye bir gaz kaldı; demek ki havadan elde edilen azot saf değildi.";evet;;;
+D11;G4;Magnezyumun azotu ağırlaştırdığını gösterir.;;iliski;K3;"Magnezyum azotla katı bir bileşik oluşturup onu gazdan ayırdı; azotu ağırlaştırmadı."
+D11;G4;Kalan gazın oksijen olduğunu kanıtlar.;;kanitsiz;K3;"Oksijen de sıcak magnezyumla hemen tepkimeye girerdi; kalan gaz ise hiçbir şeyle tepkimeye girmiyor."
+D11;G4;"Deney gereksizdir; yoğunluk farkı zaten her şeyi açıklar.";;kanitsiz;K1;Yoğunluk farkı bir şey olduğunu gösterir, ama ne olduğunu göstermez.
+D11;G5;"Kalan gaz azottan ağır, yeni bir elementtir; bu da havadan elde edilen azotun neden daha ağır olduğunu açıklar.";evet;;;
+D11;G5;Kalan gaz bir azot bileşiğidir.;;kanitsiz;K3;"Ramsay azotu tamamen ayırmıştı; ayrıca bu gaz hiçbir şeyle tepkimeye girmiyor."
+D11;G5;Yeni çizgiler cihazın arızasından kaynaklanır.;;kanitsiz;K4;"Bu iddiayı destekleyen bir kanıt yok; çizgiler yalnızca bu gazda görüldü."
+D11;G5;Kalan gaz helyumdur.;;veri;K5;"Helyum azottan çok daha hafiftir; bu gaz ise azottan ağır."
+D11;G7;Hiçbir maddeyle tepkimeye girmediği için;evet;;;
+D11;G7;Havada yavaş hareket ettiği için;;iliski;K6;Ad gazın hızıyla değil, tepkimeye girmemesiyle ilgili.
+D11;G7;Keşfi çok uzun sürdüğü için;;iliski;K6;Keşfi gerçekten yüz yıldan fazla sürdü, ama ad gazın tepkimeye girmemesinden geliyor.
+D11;G7;Havada çok az bulunduğu için;;veri;K6;Ad gazın miktarıyla ilgili değil.
+D11;G8;"Argon tepkimeye girmez; akkor hâldeki telin oksijenle tepkimeye girip bozulmasını önler.";evet;;;
+D11;G8;Ampulün ışığı argondan gelir.;;iliski;K7;"Akkor ampulde ışığı kızgın tel verir; argon telin bozulmasını önler."
+D11;G8;Argon ampulü soğutur.;;kanitsiz;K7;Bu iddiayı destekleyen bir kanıt yok.
+D11;G8;Argon havadan hafif olduğu için ampulü hafifletir.;;veri;K5;Argon azottan, dolayısıyla havadan daha yoğundur.
+D11;G9;Ramsay, havadan elde edilen azottan azotu tamamen ayırınca geriye tepkimeye girmeyen bir gaz kaldı ve bu gazın spektrumu yeni çizgiler gösterdi.;evet;;;
+D11;G9;Rayleigh ünlü bir bilim insanıdır, hata yapmaz.;;kanitsiz;;Bir iddianın doğruluğu onu söyleyenin ününe değil, kanıtlara bağlıdır.
+D11;G9;Fark çok küçük olduğu için önemsizdir.;;birim;K1;"Bu, eleştirmeni destekleyen bir ifade; üstelik farkın küçük olması önemsiz olduğu anlamına gelmez."
+D11;G9;Cavendish de aynı yoğunluk ölçümünü yapmıştı.;;veri;K2;"Cavendish yoğunluk ölçmedi; tepkimeye girmeyen bir kalıntı buldu."
+D12;G1;"Hayır; pirit ve pirinç gibi başka maddeler de sarı ve parlaktır. Renk tek başına yetersiz bir kanıttır.";evet;;;
+D12;G1;"Evet; altının rengi taklit edilemez.";;kanitsiz;K2;Referans tablosunda altına benzeyen sarı maddeler var.
+D12;G1;"Evet; parlak olan her metal değerlidir.";;iliski;K2;"Parlaklık bir metalin değeri hakkında bilgi vermez; pirinç de parlaktır."
+D12;G1;"Hayır; altın aslında gümüş renklidir.";;veri;K2;Altın karakteristik sarı renktedir.
+D12;G2;A (taş parçası);evet;;;
+D12;G2;C (madalyon);evet;;;
+D12;G2;B (külçe);;veri;K1;"B'nin yoğunluğu ve çizgi rengi altınla uyumlu; bu kanıtlarla elenemez."
+D12;G3;"Hayır; tungstenin yoğunluğu da 19,3 g/cm³. B'nin içi tungsten, dışı altın olabilir; içini incelemek gerekir.";evet;;;
+D12;G3;"Evet; 19,3 g/cm³ yalnızca altına aittir.";;veri;K2;Referans tablosuna göre tungstenin yoğunluğu da 19,3.
+D12;G3;"Evet; yoğunluk en güçlü kanıttır, başka teste gerek yok.";;kanitsiz;K2;Yoğunluk güçlü bir kanıttır ama aynı yoğunlukta iki metal olduğunda yetmez.
+D12;G3;"Hayır; çünkü yoğunluk g/cm³ ile değil ayar (karat) ile ölçülür.";;birim;K1;"Ayar (karat) altının saflığını gösterir; yoğunluğun birimi g/cm³'tür."
+D12;G4;"İç kısım da sarı ve yumuşak; sert ve gümüşi beyaz tungsten bununla uyuşmuyor. Külçe altındır.";evet;;;
+D12;G4;Asitten etkilenmemesi tek başına külçenin altın olduğunu kanıtlar.;;kanitsiz;K3;"Tungsten de birçok asitten pek etkilenmez; asit testi altını tungstenden ayırmaz."
+D12;G4;İç kısmın yumuşak olması külçenin kurşun olduğunu gösterir.;;veri;K1;"Kurşunun yoğunluğu 11,3 g/cm³; külçeninki 19,3."
+D12;G4;"Delik açmak külçeyi bozar; bu yüzden kanıt geçersizdir.";;kanitsiz;K5;"Örneği biraz bozmak kanıtı geçersiz yapmaz; bazen tek kesin yol budur."
+D12;G6;"Elektriği iyi iletir ve korozyona uğramaz; bu yüzden temas noktası zamanla bozulmaz.";evet;;;
+D12;G6;En iyi elektrik iletkeni altındır.;;veri;;"En iyi elektrik iletkeni gümüştür; ardından bakır gelir. Altın paslanmadığı için seçilir."
+D12;G6;Altın ağır olduğu için bağlantıyı sabit tutar.;;iliski;K1;"Bağlantı uçlarındaki altın çok ince bir kaplamadır; ağırlığı bir işe yaramaz."
+D12;G6;Altın mıknatısa çekildiği için bağlantıyı tutar.;;veri;;Altın mıknatısa çekilmez.
+D12;G7;Latince adı 'aurum'dan gelir.;evet;;;
+D12;G7;'Altın' kelimesinin ilk ve son harflerinden gelir.;;kanitsiz;K6;Arşiv notuna göre sembol Latince bir kelimeden gelir.
+D12;G7;'A' başka bir elementin sembolü olduğu için.;;kanitsiz;K6;Tek harfli 'A' sembolü hiçbir elemente ait değildir.
+D12;G7;İngilizce 'gold' adından gelir.;;veri;K6;'gold' kelimesinde a ya da u harfi yok.
+D12;G8;"Karun (Kroisos), ilk saf altın sikkelerin basıldığı Lidya Krallığı'nın kralıydı; servetiyle ünlüydü.";evet;;;
+D12;G8;Altını ilk keşfeden kişi Karun'dur.;;veri;K6;RSC'ye göre altın tarih öncesi çağlardan beri bilinir.
+D12;G8;Karun, altının sembolünü bulan bir kimyagerdir.;;kanitsiz;K6;Arşiv notunda böyle bir bilgi yok.
+D12;G8;Deyim altının yoğunluğundan gelir.;;iliski;K6;Deyim bir kralın servetinden gelir.
+D12;G9;"A'nın yoğunluğu, çizgisi ve kırılganlığı piritle; C'nin yoğunluğu pirinçle uyuşuyor. B'nin yoğunluğu altınla uyuşuyor; içten alınan örneğin sarı ve yumuşak olması, aynı yoğunluktaki tungsten ihtimalini eledi.";evet;;;
+D12;G9;B en ağır parça olduğu için altındır.;;birim;K1;"Ağırlık parçanın büyüklüğüne de bağlıdır; karşılaştırılması gereken, yoğunluktur."
+D12;G9;B asitten etkilenmediği için altındır.;;kanitsiz;K3;"Tungsten de birçok asitten pek etkilenmez; bu kanıt tek başına yetmez."
+D12;G9;Satıcı güvenilir biri olduğu için B altındır.;;kanitsiz;;Bir kişinin güvenilirliği bilimsel bir kanıt değildir.
+D13;G1;Demir (7,87 g/cm³);evet;;;
+D13;G1;Kobalt (8,86 g/cm³);;veri;K2;8,86, ölçüm aralığının (7,8–8,0) dışında.
+D13;G1;Nikel (8,90 g/cm³);;veri;K2;8,90, ölçüm aralığının dışında.
+D13;G1;"Üçü de; yoğunlukları neredeyse aynı";;veri;K3;Kobalt ve nikel birbirine çok yakın, ama demir onlardan belirgin biçimde farklı.
+D13;G3;Suyun etkisini: iki tüpte de hava var, yalnızca birinde su var.;evet;;;
+D13;G3;Havanın etkisini;;veri;K4;"İki tüpte de hava var; hava değişmiyor."
+D13;G3;Tuzun etkisini;;veri;K4;Tuz yalnızca 4. tüpte var.
+D13;G3;Sıcaklığın etkisini;;kanitsiz;K4;"Sıcaklık bütün tüplerde aynı; deney onu değiştirmiyor."
+D13;G4;İddiayı çürütür: tüp 2'de su var ama hava yok ve çivi paslanmadı. Paslanma için su ve oksijen birlikte gerekir.;evet;;;
+D13;G4;İddiayı destekler: suyun olduğu her tüpte pas var.;;veri;K4;Tüp 2'de su var ama pas yok.
+D13;G4;"Hiçbir şey söylemez; tüp 2 yanlış kurulmuştur.";;kanitsiz;K4;Tüp 2'nin yanlış kurulduğunu gösteren bir kanıt yok.
+D13;G4;Paslanma için yalnızca oksijen gerekir.;;veri;K4;Tüp 1'de oksijen var ama su yok ve paslanma olmadı.
+D13;G5;"Tuz paslanmayı hızlandırır; deniz kıyısındaki ya da kışın yollarına tuz dökülen köprüler daha hızlı paslanır.";evet;;;
+D13;G5;Tuz demiri korur.;;veri;K4;Tuzlu sudaki çivi daha çok paslandı.
+D13;G5;"Tuz paslanmayı etkilemez; yalnızca suyu tuzlu yapar.";;veri;K4;"Tüp 3 ile 4'ün sonuçları farklı; tek fark tuz."
+D13;G5;"Deney yalnızca çiviler için geçerlidir; köprüler için bir şey söylenemez.";;kanitsiz;K4;"Köprü de aynı metalden yapılmış; kontrollü deneyler bu tür öngörüler için yapılır."
+D13;G6;"Bol ve ucuzdur; karbon ve başka metallerle çok güçlü çelikler yapılır. Boya, kaplama ya da paslanmaz çelik paslanmayı önler.";evet;;;
+D13;G6;"Demir aslında paslanmaz; pas yalnızca kirdir.";;veri;K5;Pas analizi pasın bir demir oksit olduğunu gösterdi.
+D13;G6;Demir en hafif metal olduğu için.;;veri;K3;"Demirin yoğunluğu 7,87 g/cm³; hafif bir metal değildir."
+D13;G6;Demir mıknatısa çekildiği için köprüleri sağlam tutar.;;iliski;K1;Mıknatısa çekilmek dayanıklılığın nedeni değildir.
+D13;G7;Demiri cevherinden ilk eritenler Anadolu'daki Hititlerdi (MÖ 1500 civarı).;evet;;;
+D13;G7;Demir ilk kez 1800'lerde laboratuvarda bulundu.;;veri;K6;Kayda göre demir binlerce yıldır kullanılıyor.
+D13;G7;Mısır'daki en eski demir eşyalar Hititlerden satın alındı.;;kanitsiz;K6;Kayıt bu eşyaların nikel içerdiğini, yani göktaşından geldiğini söylüyor.
+D13;G7;Demir Çağı, demirin paslanmasının keşfiyle başladı.;;iliski;K6;Demir Çağı, demirin cevherden eritilmeye başlanmasıyla başladı.
+D13;G8;"Tüp 1'de su yok. Paslanma için su ve oksijen birlikte gerekir; havanın tek başına yetmemesi önemsiz olduğunu göstermez.";evet;;;
+D13;G8;"Hata yok; hava gerçekten önemsizdir.";;veri;K4;Tüp 2'de hava yok ve çivi paslanmadı.
+D13;G8;Tüp 1'deki hava kirli olduğu için sonuç geçersizdir.;;kanitsiz;K4;Havanın kirli olduğunu gösteren bir kanıt yok.
+D13;G8;Tüp 1 ile tüp 4 karşılaştırılmalıydı.;;veri;K4;"Tüp 1 ile 4 arasında hem su hem tuz farkı var; iki değişken birden değiştiği için hangisinin etkili olduğu anlaşılmaz."
+D14;G2;Azaldı: 1,8 mg/L'den 0,9 mg/L'ye düştü.;evet;;;
+D14;G2;Arttı.;;veri;K3;Değerler 1,8'den 0,9'a iniyor.
+D14;G2;Değişmedi.;;veri;K3;Değerler 1,8'den 0,9'a iniyor.
+D14;G2;Karşılaştırılamaz, çünkü birim mg/L.;;birim;K3;"Bütün ölçümler aynı birimle yapılmış; karşılaştırılabilir."
+D14;G3;"Kloramin ve yüzücü sayısıyla birlikte artıyor; serbest dezenfektan ise azalıyor.";evet;;;
+D14;G3;Serbest dezenfektanla birlikte artıyor.;;veri;K3;Şikâyet en çokken (Pazar) serbest dezenfektan en azdı.
+D14;G3;Hiçbir değerle birlikte değişmiyor.;;veri;K3;Şikâyetler hafta boyunca belirgin biçimde arttı.
+D14;G3;"Yalnızca günün adıyla ilgili; hafta sonları gözler daha hassastır.";;kanitsiz;K3;Bu iddiayı destekleyen bir kanıt yok.
+D14;G4;"Hayır; şikâyetler arttıkça serbest dezenfektan azalıyor. Veriler kloramin hipoteziyle uyumlu.";evet;;;
+D14;G4;"Evet; koku varsa dezenfektan fazladır.";;kanitsiz;K4;CDC'ye göre 'klor kokusu' diye algılanan koku çoğunlukla kloraminlerden gelir.
+D14;G4;"Evet; çünkü bu element zehirli bir gazdır.";;iliski;K2;Saf element gerçekten zehirli bir gazdır, ama havuzda saf gaz değil, suda çözünmüş bileşikleri vardır. Veriler de fazla dezenfektanı göstermiyor.
+D14;G4;"Karar verilemez; yalnızca dört gün ölçülmüş.";;veri;K3;Dört gün sınırlı bir veri, ama hipotezle açıkça çelişiyor: şikâyet en çokken dezenfektan en azdı.
+D14;G5;"Doğrudan değil; yüzücülerin teri ve idrarı kloramin oluşumunu artırarak dolaylı bir etki yapıyor olabilir. Doğrulamak için kontrollü bir deney gerekir.";evet;;;
+D14;G5;"Evet; yüzücüler gözleri doğrudan yakar.";;kanitsiz;K4;Bu iddiayı destekleyen bir kanıt yok.
+D14;G5;"Hayır; yüzücü sayısının hiçbir etkisi olamaz.";;veri;K4;CDC notu, yüzücülerin terinin ve idrarının kloramin oluşumuna katkı yaptığını söylüyor.
+D14;G5;"Evet; korelasyon her zaman nedenselliği kanıtlar.";;kanitsiz;K3;İki niceliğin birlikte değişmesi, birinin diğerine neden olduğunu kanıtlamaz.
+D14;G6;Yüzücülerin girmeden önce duş almasını sağlamak, havalandırmayı artırmak ve dezenfektanı önerilen aralıkta tutmak.;evet;;;
+D14;G6;Dezenfektanı tamamen kesmek.;;iliski;K5;"Dezenfektan mikropları öldürür; kesilirse su hastalık yayabilir."
+D14;G6;Suya daha çok tuz atmak.;;kanitsiz;;Tuzun kloramini azalttığını gösteren bir kanıt yok.
+D14;G6;Koku kaybolana kadar havuza parfüm eklemek.;;kanitsiz;;Parfüm kokuyu örter ama kloraminleri ve göz yanmasını ortadan kaldırmaz.
+D14;G7;"Yunanca 'sarımsı yeşil' anlamındaki 'chloros' kelimesinden; saf gazın rengi nedeniyle";evet;;;
+D14;G7;Bitkilerdeki klorofilden;;iliski;K6;Klorofil de aynı Yunanca kökten (yeşil) adını alır, ama klorofil klor içermez.
+D14;G7;Kloramin bileşiklerinden;;veri;K6;Kloraminler adını elementten alır, tersi değil.
+D14;G7;Onu elde eden Scheele'nin memleketinden;;kanitsiz;K6;Arşiv notunda böyle bir bilgi yok.
+D14;G8;Şikâyetlerin arttığı günlerde serbest dezenfektan azalmış, kloramin artmış. CDC'ye göre 'klor kokusu' çoğunlukla kloraminlerden gelir. Sorun fazla dezenfektan değil, ter ve idrarla oluşan kloraminler.;evet;;;
+D14;G8;Koku keskin olduğu için dezenfektan azaltılmalı.;;kanitsiz;K4;Kokunun kaynağı dezenfektanın kendisi değil, kloraminlerdir.
+D14;G8;Pazar günü 350 kişi yüzdüğü için havuz kapatılmalı.;;kanitsiz;K3;"Bu bir öneri, gerekçe değil; ayrıca sorunun kaynağını açıklamıyor."
+D14;G8;Kloramin bir element olduğu için tehlikelidir.;;veri;K4;Kloraminler element değil, bileşiktir.
+D15;G1;"Yalnızca kaynağın radyoaktif olduğunu; hangi element olduğunu ya da ne kadar tehlikeli olduğunu söylemez.";evet;;;
+D15;G1;Kaynağın uranyum olduğunu;;kanitsiz;K2;"Radyoaktif elementlerin sayısı çok; etiket hangisi olduğunu söylemiyor."
+D15;G1;Evin tehlikeli derecede radyasyonlu olduğunu;;kanitsiz;K1;Etiket radyasyonun ne kadar olduğu hakkında bilgi vermez.
+D15;G1;Kaynağın patlayıcı olduğunu;;iliski;K1;Radyoaktif olmak patlayıcı olmak demek değildir.
+D15;G3;Amerikyum: amerikyum-241'in yarı ömrü 432 yıl.;evet;;;
+D15;G3;Uranyum: en bilinen radyoaktif element olduğu için;;kanitsiz;K4;"Bir elementin tanınmış olması kanıt değildir; uranyum-238'in yarı ömrü 4,5 milyar yıl."
+D15;G3;Plütonyum: belgede plütonyumun adı geçtiği için;;veri;K3;"Belgede plütonyumun hammadde olduğu yazıyor; ürün plütonyum değil."
+D15;G3;Küriyum: yarı ömrü kısa olduğu için daha güvenli;;veri;K4;"Küriyum-244'ün yarı ömrü yaklaşık 18 yıl; belgedeki 432 yılla uyuşmuyor."
+D15;G5;"Alfa parçacıkları kâğıt gibi ince bir engelle bile durur; kaynak kaplı olduğu için dedektör doğru kullanıldığında radyasyon riski oluşturmaz.";evet;;;
+D15;G5;Radyoaktif olan her şey her durumda tehlikelidir.;;kanitsiz;K6;Tehlike radyasyonun türüne, miktarına ve korunmaya bağlıdır.
+D15;G5;"Alfa parçacıkları duvarları geçer; dedektör evin her yerini etkiler.";;veri;K1;Kâğıt deneyi alfa parçacıklarının ince bir kâğıtla bile durduğunu gösteriyor.
+D15;G5;Dedektör radyasyonla dumanı yok eder.;;iliski;K6;"Dedektör dumanı yok etmez; dumanın akımı azaltmasını algılar."
+D15;G6;"Yaydığı alfa parçacıklarının havayı iyonlaştırıp küçük bir akım oluşturması; duman akımı azaltınca alarm çalar.";evet;;;
+D15;G6;Amerikyumun dumanı görüp ışık saçması;;iliski;K6;"Amerikyum dumanı 'görmez'; akımdaki değişim algılanır."
+D15;G6;Amerikyumun yangında eriyip devreyi kapatması;;veri;;"Amerikyumun erime noktası 1176 °C; dedektör bu şekilde çalışmaz."
+D15;G6;Amerikyumun mıknatısa çekilmesi;;kanitsiz;K6;Notta mıknatıstan söz edilmiyor.
+D15;G7;İlk kez üretildiği kıta olan Amerika'dan;evet;;;
+D15;G7;Onu üreten ekibin liderinin adından;;veri;K5;Ekibin lideri Glenn Seaborg'du ama ad bir kıtadan geliyor.
+D15;G7;Doğada en çok Amerika'da bulunduğu için;;veri;K3;"Amerikyum doğada bulunmaz; reaktörde üretilir."
+D15;G7;Amerika'daki bir madenden çıkarıldığı için;;veri;K3;"Amerikyum madenden çıkarılmaz; reaktörde üretilir."
+D15;G8;"Kaynak uranyum ya da plütonyum değil, amerikyum-241. Alfa parçacıkları çok kısa mesafede durur ve kaynak kaplıdır. Dedektör doğru kullanıldığında güvenlidir; bozulursa açılmamalı, kurallara uygun atılmalı.";evet;;;
+D15;G8;Dedektör radyoaktif olduğu için hemen sökülüp atılmalı.;;kanitsiz;K6;"Kanıtlar dedektörün doğru kullanıldığında risk oluşturmadığını gösteriyor; dedektör hayat kurtarır."
+D15;G8;Dedektördeki madde plütonyumdur.;;veri;K3;Belgedeki yarı ömür plütonyum-239'a değil, amerikyum-241'e ait.
+D15;G8;"Radyasyon tamamen zararsızdır; kaynağı elle tutmakta da sakınca yok.";;veri;K6;"Kaynak kaplı olduğu için güvenlidir; kaplama açılmamalı ve kaynağa dokunulmamalıdır."

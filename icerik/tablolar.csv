@@ -6,3 +6,118 @@ D01;T1;Kobalt;8,86;16,0;1495;Evet
 D01;T1;Nikel;8,90;14,3;1455;Evet
 D01;T1;Bakır;8,96;59,6;1085;Hayır
 D01;T1;Gümüş;10,5;63,0;962;Hayır
+D02;T1;Gaz;Yoğunluk (g/cm³, oda sıcaklığı);Yanıcı mı?
+D02;T1;Hava (karışım);0,0012;Hayır
+D02;T1;Hidrojen;0,000082;Evet
+D02;T1;Helyum;0,000164;Hayır
+D02;T1;Neon;0,000825;Hayır
+D02;T1;Argon;0,001633;Hayır
+D03;T1;Metal;Yoğunluk (g/cm³);Mıknatısa çekilir mi?;Elektrik iletkenliği (MS/m, 20 °C)
+D03;T1;Magnezyum;1,74;Hayır;—
+D03;T1;Alüminyum;2,70;Hayır;35,5
+D03;T1;Titanyum;4,506;Hayır;—
+D03;T1;Demir;7,87;Evet;10,3
+D03;T1;Bakır;8,96;Hayır;59,6
+D04;T1;Özellik;Kurşun;Grafit
+D04;T1;Yoğunluk (g/cm³);11,3;2,2
+D04;T1;Renk;Mavimsi gri metal;Siyah, parlak
+D04;T1;Yanınca karbondioksit verir mi?;Hayır;Evet
+D04;T1;Erime noktası (°C);327;"Erimez; yaklaşık 3825 °C'de süblimleşir"
+D05;T1;Metal;Erime noktası (°C);Yoğunluk (g/cm³)
+D05;T1;Cıva;−38,8;13,53
+D05;T1;Sezyum;28,5;1,87
+D05;T1;Galyum;29,8;5,91
+D05;T1;Rubidyum;39,3;1,53
+D05;T1;Sodyum;97,8;0,97
+D06;T1;Element;Periyot;Oda sıcaklığındaki hâli;Görünüşü
+D06;T1;Flor;2;Gaz;Çok soluk sarı-yeşil
+D06;T1;Klor;3;Gaz;Sarı-yeşil, boğucu kokulu
+D06;T1;Brom;4;Sıvı;Koyu kırmızı, yağımsı
+D06;T1;İyot;5;Katı;Siyah, parlak kristaller
+D07;T1;Metal;Grup;Periyot;Alev rengi
+D07;T1;Lityum;1;2;Kızıl
+D07;T1;Sodyum;1;3;Sarı-turuncu
+D07;T1;Potasyum;1;4;Leylak
+D07;T1;Kalsiyum;2;4;Turuncu-kırmızı (tuğla kırmızısı)
+D07;T1;Stronsiyum;2;5;Kızıl
+D07;T1;Baryum;2;6;Yeşil
+D07;T1;Bakır;11;4;Mavi-yeşil
+D08;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C)
+D08;T1;Berilyum;2;1,85;1287
+D08;T1;Magnezyum;3;1,74;650
+D08;T1;Kalsiyum;4;1,54;842
+D08;T1;Stronsiyum;5;2,64;777
+D08;T1;Baryum;6;3,62;727
+D08;T1;Radyum;7;5;696
+D09;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C);Alev rengi
+D09;T1;Lityum;2;0,534;180,5;Kızıl
+D09;T1;Sodyum;3;0,97;97,8;Sarı-turuncu
+D09;T1;Potasyum;4;0,89;63,5;Leylak
+D09;T1;Rubidyum;5;1,53;39,3;Kırmızımsı mor
+D09;T1;Sezyum;6;1,87;28,5;Mavi-mor
+D10;T1;Gaz;Mumu söndürür mü?;Kireç suyunu bulandırır mı?;Yoğunluk (g/cm³);Havadaki oranı (hacimce)
+D10;T1;Azot;Evet;Hayır;0,001145;Yaklaşık %78
+D10;T1;Oksijen;Hayır, mumu daha parlak yakar;Hayır;0,001308;Yaklaşık %21
+D10;T1;Argon;Evet;Hayır;0,001633;Yaklaşık %0,9
+D10;T1;Karbondioksit;Evet;Evet;0,00184;Yaklaşık %0,04
+D10;T1;Helyum;Evet;Hayır;0,000164;Çok az
+D11;T1;Ölçüm;Havadan elde edilen 'azot' (g/L);Amonyaktan elde edilen azot (g/L)
+D11;T1;1. ölçüm;1,2568;1,2504
+D11;T1;2. ölçüm;1,2572;1,2507
+D11;T1;3. ölçüm;1,2570;1,2506
+D11;T1;Ortalama;1,2570;1,2506
+D12;T1;Parça;Yoğunluk (g/cm³);Porselene sürtününce bıraktığı çizgi;İğneyle bastırınca
+D12;T1;A (taş);5,0;Yeşilimsi siyah;Kırılıyor
+D12;T1;B (külçe);19,3;Altın sarısı;Eziliyor, iz kalıyor
+D12;T1;C (madalyon);8,5;Denenmedi;Hafif iz kalıyor
+D12;T2;Madde;Yoğunluk (g/cm³);Not
+D12;T2;Altın (Au);19,3;"Çok yumuşak, dövülebilir; sarı çizgi bırakır"
+D12;T2;Tungsten (W);19,3;Sert, gümüşi beyaz metal
+D12;T2;Pirit (FeS₂, 'aptal altını');4,9–5,2;"Kırılgan; yeşilimsi siyah çizgi bırakır"
+D12;T2;Pirinç (bakır–çinko alaşımı);8,4–8,7;Sarı renkli alaşım
+D13;T1;Metal;Yoğunluk (g/cm³)
+D13;T1;Demir;7,87
+D13;T1;Kobalt;8,86
+D13;T1;Nikel;8,90
+D13;T2;Tüp;Koşullar;Bir hafta sonra
+D13;T2;1;Yalnızca kuru hava (tüpte nem çeken madde var);Paslanmadı
+D13;T2;2;Kaynatılıp üzeri yağla kapatılmış su (havasız su);Paslanmadı
+D13;T2;3;Su ve hava;Paslandı
+D13;T2;4;Tuzlu su ve hava;Çok paslandı
+D14;T1;Gün;Serbest dezenfektan (mg/L);Kloramin (mg/L);Yüzücü sayısı;Göz yanması şikâyeti
+D14;T1;Pazartesi;1,8;0,1;40;0
+D14;T1;Çarşamba;1,7;0,3;120;3
+D14;T1;Cumartesi;1,2;0,8;310;21
+D14;T1;Pazar;0,9;1,1;350;27
+D15;T1;İzotop;Yarı ömür
+D15;T1;Uranyum-238;Yaklaşık 4,5 milyar yıl
+D15;T1;Plütonyum-239;Yaklaşık 24 100 yıl
+D15;T1;Amerikyum-241;432 yıl
+D15;T1;Küriyum-244;Yaklaşık 18 yıl
+D16;T1;Metal;Periyot;Erime noktası (°C);Yoğunluk (g/cm³)
+D16;T1;Alüminyum;3;660,3;2,70
+D16;T1;Galyum;4;29,8;5,91
+D16;T1;İndiyum;5;156,6;7,31
+D16;T1;Talyum;6;304;11,8
+D17;T1;Metal;Yoğunluk (g/cm³);Erime noktası (°C);Mıknatısa çekilir mi?
+D17;T1;Alüminyum;2,70;660;Hayır
+D17;T1;Titanyum;4,506;1670;Hayır
+D17;T1;Demir;7,87;1538;Evet
+D17;T1;Nikel;8,90;1455;Evet
+D17;T1;Bakır;8,96;1085;Hayır
+D18;T1;Metal;Yoğunluk (g/cm³);Rengi;Havada kararır mı?
+D18;T1;Bakır;8,96;Kırmızımsı;Zamanla yeşil bir tabaka oluşturabilir
+D18;T1;Gümüş;10,5;Parlak beyaz;Kükürtlü bileşiklerle yavaşça siyahlaşır
+D18;T1;Altın;19,3;Sarı;Kararmaz
+D18;T1;Röntgenyum;—;—;Laboratuvarda yalnızca birkaç atom üretildi
+D19;T1;Metal;Erime noktası (°C);Yoğunluk (g/cm³)
+D19;T1;Tungsten;3414;19,3
+D19;T1;Renyum;3185;20,8
+D19;T1;Tantal;3017;16,4
+D19;T1;Molibden;2622;10,2
+D20;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C);Alev rengi
+D20;T1;Lityum;2;0,534;180,5;Kızıl
+D20;T1;Sodyum;3;0,97;97,8;Sarı-turuncu
+D20;T1;Potasyum;4;0,89;63,5;Leylak
+D20;T1;Rubidyum;5;1,53;39,3;Kırmızımsı mor
+D20;T1;Sezyum;6;1,87;28,5;Mavi-mor

@@ -147,7 +147,7 @@ function dosyaKarti(dosya) {
     h('div', { class: 'dosya-sekme' }, dosya.id),
     h('div', { class: 'dosya-govde' },
       h('div', { class: 'rozetler' },
-        dosya.ornek ? h('span', { class: 'rozet' }, 'Örnek') : null,
+        dosya.ornek ? h('span', { class: 'rozet' }, 'Tanıtım') : null,
         dosya.final ? h('span', { class: 'rozet final' }, 'Final · Bilimsel jüri') : null),
       h('h3', {}, dosya.baslik || 'Gizli dosya'),
       h('p', { class: 'dosya-durum' }, sinif === 'kapali' ? '🔒 ' : '', durum),
@@ -173,7 +173,7 @@ function dosyaGirisEkrani(dosya) {
       h('p', { class: 'dosya-kod' }, `${dosya.id} · Seviye ${dosya.seviye}: ${SEVIYELER[dosya.seviye].ad}`),
       dosya.final ? h('p', { class: 'juri-serit' }, 'Bilimsel jüri') : null,
       h('h2', {}, dosya.baslik),
-      dosya.ornek ? h('p', { class: 'not' }, 'Bu bir örnek dosyadır: oyunun bütün görev türlerini gösterir. Bilgileri öğrenciler kaynaklardan kontrol etmelidir.') : null,
+      dosya.ornek ? h('p', { class: 'not' }, 'Bu tanıtım dosyası oyunun bütün görev türlerini gösterir; bu yüzden diğer dosyalardan daha uzundur.') : null,
       h('p', {}, dosya.giris),
       h('ul', { class: 'dosya-bilgi' },
         h('li', {}, `${dosya.gorevler.length} görev, ${dosya.kanitlar.length} kanıt`),
@@ -655,7 +655,7 @@ function analizSorulari(hata) {
   const dosya = tur.dosya;
   const gorev = dosya.gorevler.find(g => g.id === hata.gorevId);
   const sorular = [];
-  if (hata.hataKaniti && dosya.kanitlar.some(k => k.id === hata.hataKaniti)) {
+  if (hata.hataKaniti && hata.gorunurKanitlar.includes(hata.hataKaniti)) {
     sorular.push({
       anahtar: 'kanit',
       soru: 'Bu hatada hangi kanıtı yanlış yorumladın ya da gözden kaçırdın?',
