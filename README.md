@@ -8,10 +8,18 @@ Oyun telefonda uygulama gibi çalışan bir web oyunudur. Android'de de iPhone'd
 
 ## Oyunun yapısı
 
-- **4 seviye, 20 dosya:** Gözlem (D01–D05), Çıkarım (D06–D10), Kanıt (D11–D15), Bilimsel Savunma (D16–D20). D20 final dosyasıdır: Bilimsel Jüri. Her dosyanın elementi farklıdır.
-- **Dosya:** Bir giriş hikâyesi, kanıt kartları ve görevlerden oluşur. Bazı kanıtlar ancak doğru adım atılınca açılır. Görevler bilimsel yöntem zincirini izler: **gözlem → veri → hipotez → kanıt → çıkarım → sonuç**. Dosyanın sonunda **iddia → kanıt → gerekçe → karşı kanıt → sonuç** biçiminde bir bilimsel argüman kurulur.
+- **200 vaka, 4 seviye, 100 element:** Her seviyede 50 vaka var: Gözlem (V001–V050), Çıkarım (V051–V100), Kanıt (V101–V150), Bilimsel Savunma (V151–V200). Vakalar doğada bulunan ve kullanılan 100 elementi kapsar: atom numarası 1–100. Bunlar doğada bulunan elementlerin hepsi ve kullanım alanı olan ilk yapay elementlerdir. Çok kullanılan elementlerin birden fazla vakası var (hidrojen, karbon ve demir gibi elementlerde 4–5 vaka), nadir elementlerin birer vakası. V001 bütün görev türlerini gösteren tanıtım dosyası, V200 final dosyasıdır (Bilimsel Jüri). Cevap anahtarı `VAKALAR.md` dosyasındadır.
+- **Pano:** Seviye sekmeleri, 10 tema (sağlık, teknoloji, enerji, ev ve günlük hayat, sanayi ve ulaşım, uzay, doğa ve çevre, bilim tarihi, sanat-kültür-spor, adli bilim ve güvenlik) ve "çözülmeyenler / çözülenler" süzgeci var. Seviye 1 baştan açıktır. Bir sonraki seviye, önceki seviyeden 5 dosya çözülünce açılır (`js/ayarlar.js` içindeki `seviyeAcmaEsigi`). Bir seviyedeki dosyalar istenen sırayla çözülebilir.
+- **Keşif tablosu:** Bir elementin en az bir vakası çözülünce o element periyodik tabloda yanar. Öğrenci bir elemente dokununca o elementin kaç vakası olduğunu ve çözdüğü vakaları görür.
+- **Raporum:** Çözülen dosya sayısı, puan ortalaması, keşfedilen element sayısı ve bilimsel beceri profili.
+- **Vaka:** Bir giriş hikâyesi, kanıt kartları ve görevlerden oluşur. Bazı kanıtlar ancak doğru adım atılınca açılır. Görevler bilimsel yöntem zincirini izler: **gözlem → veri → hipotez → kanıt → çıkarım → sonuç**. Kanıt seçimi ve savunma görevlerinde **iddia → kanıt → gerekçe → karşı kanıt → sonuç** zinciri gösterilir. Yeni vakalarda 4–5 görev var.
+- **Seviyeler neyi ölçer:**
+  - *Gözlem:* Element periyodik tablodaki yerinden ya da atom numarasından bulunur. Görevler gözlemi yorumlama, özellik–kullanım ilişkisi, isim kökeni ya da elementin sınıfıdır (metal, ametal, yarı metal, soy gaz).
+  - *Çıkarım:* Elementin yeri hesaplanarak bulunur: elektron diziliminden (ilk 36 element), izotopun kütle ve nötron sayısından ya da iyonun elektron sayısından. Sonuç bir laboratuvar ölçümüyle doğrulanır, ardından elementi gösteren kanıtlar seçilir.
+  - *Kanıt:* Önce gruptaki adaylar işaretlenir, sonra ölçüm ve veri tablosuyla aday seçilir. Ardından bir stajyerin yanlış iddiasını hangi kanıtın çürüttüğü bulunur.
+  - *Bilimsel Savunma:* Element seçenek olmadan yazılır. Kanıtlar seçilir ve jüriye yazılı bir savunma yapılır.
 - **3 bilimsel hata hakkı:** Her yanlış cevap türüyle birlikte gösterilir: kanıta dayanmayan çıkarım, veriyi yanlış yorumlama, birim / ölçüm hatası, kimyasal özelliği yanlış ilişkilendirme. Doğru cevap söylenmez; yalnızca hatanın neden hata olduğu açıklanır.
-- **Dosya kilitlenir:** Üç hatada "Araştırma dosyası kilitlendi" yazar ve öğrenci sonraki dosyaya geçemez. Dosyayı yeniden açmak için **bilimsel hata analizi** yapar: her hatası için hangi kanıtı yanlış yorumladığını, hangi varsayımının hatalı olduğunu ve doğru yaklaşımın ne olduğunu bulur.
+- **Dosya kilitlenir:** Üç hatada dosya kilitlenir. Dosyayı yeniden açmak için **bilimsel hata analizi** yapılır. Hatalar tek tek gösterilir: soru, öğrencinin cevabı, cevabın neden yanlış olduğu, ilgili kanıt kartı, ipucu ve hata türünün kısa açıklaması. Öğrenci her hata için tek bir soruyu cevaplar: "Bu hatayı bir dahaki sefere nasıl önlersin?" Üç kısa seçenek vardır; yanlış seçimin cezası yoktur, öğrenci açıklamayı yeniden okuyup tekrar dener. Bütün hatalar incelenince dosya yeniden açılır.
 - **İpucu:** Görevlerde ipucu alınabilir. İpucu alınan görevden puanın yarısı alınır.
 - **Puanlama (100 puan):** Doğru element 20, doğru sembol 10, isim kökeni 10, günlük kullanım 15, özellik–kullanım ilişkisi 15, kanıt kullanımı 15, alternatif hipotezler 5, bilimsel gerekçelendirme 10. Sonuç ekranında "bilgi puanı" ile "bilimsel akıl yürütme puanı" ayrı gösterilir. Bir görevin puanı ilk denemede doğru çözülürse alınır. Dosyada hangi kategoriden görev yoksa onun payı diğerlerine dağıtılır. Savunma metni otomatik puanlanmaz; öğretmen değerlendirir.
 
@@ -42,7 +50,10 @@ Son seviyede hazır seçenekleri azaltmak için `yaz`, `kanit` ve `savunma` tür
 | `js/kayit.js` | İlerleme ve araştırma kayıtları, CSV dışa aktarma |
 | `js/periyodik.js` | 118 elementin sembolü, Türkçe adı ve periyodik tablodaki yeri |
 | `js/csv.js` | CSV okuyucu (Excel ve Google E-Tablolar biçimleri) |
-| `icerik/*.csv` | 20 dosyanın içeriği (dosyalar, kanıtlar, veri tabloları, görevler, seçenekler) |
+| `icerik/*.csv` | 200 vakanın içeriği (dosyalar, kanıtlar, veri tabloları, görevler, seçenekler) |
+| `VAKALAR.md` | Öğretmen için vaka listesi ve cevap anahtarı |
+| `MAARIF_MODELI_UYUMU.md` | Oyunun Türkiye Yüzyılı Maarif Modeli 9. sınıf kimya programıyla ilişkisi |
+| `arac/` | İçerik tablolarını üreten program ve testler (oyunun çalışması için gerekmez) |
 | `manifest.webmanifest`, `sw.js`, `img/` | Ana ekrana ekleme, çevrim dışı çalışma, ikonlar |
 
 ## Çalıştırma
@@ -57,7 +68,9 @@ python -m http.server 8000
 
 ## Dosya eklemek ya da değiştirmek
 
-Bir dosyanın içeriği beş tabloya dağılır. Tablolar birbirine `dosya` ve `id` sütunlarıyla bağlanır. Var olan 20 dosya düzenlenebilir ya da yenileri eklenebilir; yeni bir dosya hazırlarken var olanların satırlarını örnek alın. `D01` bütün görev türlerini gösteren tanıtım dosyasıdır.
+Bir dosyanın içeriği beş tabloya dağılır. Tablolar birbirine `dosya` ve `id` sütunlarıyla bağlanır. Var olan 200 vaka düzenlenebilir ya da yenileri eklenebilir; yeni bir dosya hazırlarken var olanların satırlarını örnek alın. `V001` bütün görev türlerini gösteren tanıtım dosyasıdır.
+
+Tablolar `arac/vaka-uretici` klasöründeki programla üretildi (ayrıntılar `arac/README.md` dosyasında). Tabloları elle düzenlerseniz üreticiyi yeniden çalıştırmayın.
 
 Tablolar Türkçe Excel'de çift tıklayınca doğru açılır. Kaydederken "CSV (noktalı virgülle ayrılmış)" ya da "CSV UTF-8" seçin, ikisi de çalışır. Google E-Tablolar'da **Dosya → İçe aktar** ile açıp **Dosya → İndir → .csv** ile indirebilirsiniz. **İlk satırdaki sütun adlarını değiştirmeyin.** Her kayıttan sonra **Öğretmen paneli**ni açın. Tablolardaki hatalar orada dosya adı ve satır numarasıyla listelenir. Hatalı bir görev atlanır, dosyanın geri kalanı çalışmaya devam eder.
 
@@ -65,8 +78,9 @@ Tablolar Türkçe Excel'de çift tıklayınca doğru açılır. Kaydederken "CSV
 
 | Sütun | Ne yazılır |
 |---|---|
-| `id` | Dosya kodu (D01…D20). Değiştirmeyin. |
-| `seviye`, `sira` | Seviye (1–4) ve seviye içindeki sıra |
+| `id` | Dosya kodu (V001…V200). Değiştirmeyin; öğrencilerin ilerlemesi bu koda bağlıdır. |
+| `seviye`, `sira` | Seviye (1–4) ve panodaki sıra |
+| `tema` | Panodaki tema süzgeci için: `saglik`, `teknoloji`, `enerji`, `ev`, `sanayi`, `uzay`, `cevre`, `tarih`, `sanat`, `adli` |
 | `baslik` | Dosyanın adı ("Gizemli Metal"). **Boş bırakılan dosya "hazırlanıyor" görünür.** |
 | `giris` | Dosyanın hikâyesi: hangi nesne, nereden geldi, görev ne? |
 | `cevap` | Elementin sembolü (Cu) |
@@ -124,23 +138,19 @@ Her satır tablonun bir satırıdır (`h1`–`h6` en fazla altı sütun). Aynı 
 - **İsim ve sembolün hikâyesini dedektiflik ipucu yapın:** etimolojik köken, keşif tarihi ve koşulları, sembolün neden o harflerden oluştuğu (Fe: ferrum, Ag: argentum…).
 - **Bir veri tablosu ekleyin.** Sıralama, sınıflandırma, aykırı değer bulma ya da "ilişki neden-sonuç değildir" görevleri sorulabilir.
 - **Her bilgi için kaynak yazın.** IUPAC, Royal Society of Chemistry (periodic-table.rsc.org), NIST, Encyclopaedia Britannica gibi güvenilir kaynaklar kullanın. Kaynaklar oyundaki "Bilimsel kaynakça" sayfasında listelenir.
-- Her dosyada çok görev olmak zorunda değil. Örnek dosyada 18 görev var, çünkü bütün görev türlerini gösteriyor. 8–12 görev çoğu dosya için yeterli.
+- Her dosyada çok görev olmak zorunda değil. Tanıtım dosyasında 18 görev var, çünkü bütün görev türlerini gösteriyor. Yeni vakalarda 4–5 görev var; ilk 20 dosyada 7–9 görev.
+- **Elementin adı, öğrenci onu bulmadan önce görünmemeli:** hikâyede, ilk kanıtlarda ve ilk görevin açıklamasında elementin adını yazmayın.
 
-### Dosyalar
+### Vakalar
 
-| Seviye | Dosyalar |
-|---|---|
-| 1 · Gözlem | D01 Gizemli Metal (tanıtım) · D02 Uçan Balon Vakası · D03 Kutu, Folyo ve Uçak · D04 Kurşun Kalem Vakası · D05 Kırık Termometre |
-| 2 · Çıkarım | D06 Yırtık Diş Macunu Etiketi · D07 Havai Fişek Gecesi · D08 Kemik ve Alçı · D09 Şişen Batarya · D10 Cips Paketinin Sırrı |
-| 3 · Kanıt | D11 Havadaki Gizli Gaz · D12 Sahte Altın · D13 Paslanan Köprü · D14 Havuzdaki Koku · D15 Tavandaki Küçük Kutu |
-| 4 · Bilimsel Savunma | D16 Dokunmatik Ekranın Görünmez Teli · D17 Kalça Protezi · D18 Kararan Kaşık · D19 Ampulün Kalbi · D20 Bilimsel Jüri: Yağdaki Metal |
+Bütün vakaların listesi, temaları ve cevapları `VAKALAR.md` dosyasındadır. **Bu dosya cevap anahtarıdır; öğrencilerle paylaşmayın.** Temalara göre vaka sayıları: sağlık 34, bilim tarihi 29, ev ve günlük hayat 27, teknoloji 22, sanat-kültür-spor 19, enerji 17, sanayi ve ulaşım 17, doğa ve çevre 14, adli bilim ve güvenlik 11, uzay 10.
 
 Bilgilerin kaynakları:
 
-- Yoğunluklar, erime ve kaynama noktaları, keşif tarihleri, isim kökenleri ve kullanım alanları Royal Society of Chemistry periyodik tablosundan (periodic-table.rsc.org) doğrulandı.
-- Elektrik iletkenlikleri Serway'in *Principles of Physics* kitabındaki değerlerdir (Wikipedia tablosu üzerinden).
-- Havuz kokusu ve kloraminler için ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), duman dedektörleri için ABD Çevre Koruma Ajansı (EPA), pirit için geology.com kullanıldı.
-- Vakaların hikâyeleri ve vakalardaki ölçüm sonuçları kurgudur ama bilinen değerlerle uyumludur. Örneğin D11'deki ölçüm tablosu Rayleigh'nin gerçek deneyinin sonucunu, azot ve argonun bilinen yoğunluklarından hesaplanan değerlerle canlandırır.
+- Yoğunluklar, erime ve kaynama noktaları, elektron dizilimleri, izotoplar, keşif tarihleri, isim kökenleri ve kullanım alanları Royal Society of Chemistry periyodik tablosundan (periodic-table.rsc.org) alındı.
+- Gerçek olaylara dayanan vakaların (Apollo 13, Minamata, Goiânia, Alvarez'lerin iridyum tabakası, Radyum Kızları, kilogram prototipi gibi) kaynakları vakanın kaynakçasında ayrıca gösterildi. Bu kaynaklar 7 Ekim 2026'da açılıp ilgili bilginin sayfada geçtiği denetlendi.
+- Elektrik iletkenlikleri Serway'in *Principles of Physics* kitabındaki değerlerdir (Wikipedia tablosu üzerinden). Havuz kokusu için CDC, duman dedektörleri için EPA, pirit için geology.com kullanıldı.
+- Vakalardaki laboratuvar ölçümleri kurgudur ama bilinen değerlerle uyumludur: ölçülen değer elementin gerçek değeridir, ± payı da tablodaki öteki adayları dışarıda bırakacak biçimde seçilmiştir. Gerçek olaylara dayanmayan vakaların hikâyeleri de kurgudur.
 - Her dosyanın kaynakları oyundaki "Bilimsel kaynakça" sayfasında listelenir. Öğretmenin ve öğrencilerin bilgileri kaynaklardan bir kez daha kontrol etmesi önerilir.
 
 ## Öğretmen paneli ve araştırma verileri
@@ -148,9 +158,9 @@ Bilgilerin kaynakları:
 Panoda **Öğretmen paneli**ne girilir. Şifre `js/ayarlar.js` dosyasındaki `ogretmenSifresi` değeridir (başlangıçta `2204`). **Uygulamadan önce bu şifreyi değiştirin.**
 
 - **Katılımcı kodu:** Uygulamada her öğrenciye ad yerine bir kod verin (D07, K12 gibi) ve cihaza girin. Kod her kayda eklenir. Ad soyad kullanmayın.
-- **Öğretmen modu:** Bütün dosyalar sırayla beklemeden açılır. İçerik denerken işe yarar.
+- **Öğretmen modu:** Bütün seviyeler beklemeden açılır. İçerik denerken işe yarar.
 - **İçerik uyarıları:** Tablolardaki hatalar satır numarasıyla listelenir.
-- **Beceri tablosu:** Her becerideki görevleri ilk denemede doğru çözme oranı, seviyelere göre. Öğrencinin oyun içinde gelişimini gösterir.
+- **Beceri tablosu:** Her becerideki görevleri ilk denemede doğru çözme oranı, seviyelere göre. Öğrencinin oyun içinde gelişimini gösterir. Her becerinin altında Maarif Modeli'ndeki karşılığı yazar (örneğin kanıt kullanma: FBAB12).
 - **Verileri indir (CSV):** Bu cihazdaki bütün kayıtları Excel'de açılabilen bir dosya olarak indirir. Her satır bir olaydır (cevap, ipucu, kilit, hata analizi, savunma, dosya sonu). Satırlarda katılımcı kodu, dosya, görev, aşama, beceri, deneme sayısı, doğruluk, süre, hata türü, verilen cevap ve dosya puanı bulunur. Savunma metinleri ve öğrencinin kendi değerlendirmesi de bu dosyadadır; öğretmen bunları bir rubrikle puanlayabilir.
 
 Araştırma için notlar:
@@ -161,10 +171,14 @@ Araştırma için notlar:
 - Savunma metinlerini puanlamak için yayımlanmış bir iddia–kanıt–gerekçe rubriği uyarlanabilir (örneğin McNeill ve Krajcik'in "Claim, Evidence, and Reasoning" çerçevesi). Uyarlanan rubriğin kaynağı raporda belirtilmelidir.
 - Uygulamadan önce `icerik/` klasörünün bir kopyasını tarihle saklayın. Uygulama sırasında içerik değişmemeli.
 
+## Türkiye Yüzyılı Maarif Modeli ile ilişkisi
+
+Oyunun 9. sınıf kimya programındaki öğrenme çıktıları, beceriler ve öğretim yöntemleriyle ilişkisi `MAARIF_MODELI_UYUMU.md` dosyasında, programın resmî metnine dayanılarak anlatılmıştır.
+
 ## Yapay zekâ kullanım beyanı (taslak)
 
 TÜBİTAK, üretken yapay zekânın kod üretmek gibi amaçlarla kullanılmasının başvuru sisteminde beyan edilmesini istiyor. Aşağıdaki metin, kullanımın gerçek hâline göre güncellenerek kullanılabilir:
 
-> Oyunun yazılım altyapısı (ekranlar, görev türleri, kanıt ve hata analizi akışı, puanlama, araştırma kayıtları, içerik tablolarının okunması ve denetimi) ile 20 dosyanın içeriği (vakalar, kanıtlar, veri tabloları, görevler, çeldiriciler, açıklamalar ve kaynaklar), teknik destek veren bir gönüllü tarafından üretken yapay zekâ aracı Claude (Anthropic, Claude Opus 5.5 modeli) kullanılarak hazırlanmıştır. Oyunun tasarım ilkeleri, danışman öğretmenin üretken yapay zekâ aracı ChatGPT yardımıyla hazırladığı bir tasarım metnine dayanmaktadır. Proje öğrencileri şunları yapmıştır: [buraya öğrencilerin gerçekten yaptıklarını yazın; örneğin içeriğin kaynaklardan kontrolü, araştırma sorusunun ve ölçme araçlarının hazırlanması, uygulama, verilerin analizi ve rapor].
+> Oyunun yazılım altyapısı (ekranlar, görev türleri, kanıt ve hata analizi akışı, puanlama, araştırma kayıtları, içerik tablolarının okunması ve denetimi) ile 200 vakanın içeriği (hikâyeler, kanıtlar, veri tabloları, görevler, çeldiriciler, açıklamalar ve kaynaklar) ve bu içeriği üreten program, teknik destek veren bir gönüllü tarafından üretken yapay zekâ aracı Claude (Anthropic, Claude Opus 5.5 modeli) kullanılarak hazırlanmıştır. Oyunun tasarım ilkeleri, danışman öğretmenin üretken yapay zekâ aracı ChatGPT yardımıyla hazırladığı bir tasarım metnine dayanmaktadır. Proje öğrencileri şunları yapmıştır: [buraya öğrencilerin gerçekten yaptıklarını yazın; örneğin içeriğin kaynaklardan kontrolü, araştırma sorusunun ve ölçme araçlarının hazırlanması, uygulama, verilerin analizi ve rapor].
 
 Beyan gerçeği yansıtmalıdır: öğrenciler yapay zekâyı başka işlerde de kullanırsa bunu da eklemelidir. Oyunun hem yazılımı hem içeriği yapay zekâ ile hazırlandığı için projede öğrencilerin özgün katkısı, oyunun etkisini ölçen araştırmanın kendisi olmalıdır: araştırma sorusu, ölçme araçları, uygulama, analiz ve yorum.

@@ -2,13 +2,13 @@
 // Dosya panosu -> dosya girişi -> görevler (gözlem, veri, hipotez, kanıt, çıkarım, argüman) -> dosya sonucu.
 // Üç bilimsel hatada dosya kilitlenir; bilimsel hata analizi doğru yapılınca dosya yeniden açılır.
 
-import { ARGUMAN_ASAMALARI, ASAMALAR, AYARLAR, BECERILER, HAKKINDA, HATA_TURLERI, HIKAYE, KATEGORILER, SEVIYELER } from './ayarlar.js';
+import { ARGUMAN_ASAMALARI, ASAMALAR, AYARLAR, BECERI_TYMM, BECERILER, HAKKINDA, HATA_TURLERI, HIKAYE, KATEGORILER, SEVIYELER, TEMALAR } from './ayarlar.js';
 import { icerikYukle } from './icerik.js';
-import { elementBul, sadelestir } from './periyodik.js';
+import { ELEMENTLER, elementBul, sadelestir } from './periyodik.js';
 import { beceriOzeti, dosyaPuani, gorevKredisi, yuzde } from './puan.js';
 import * as kayit from './kayit.js';
 import {
-  asamaCubugu, baglantiliMetin, duyur, ekranGoster, genisEkran, h, kanitBaglantili, kanitPaneli, karistir, periyodikSecici,
+  asamaCubugu, baglantiliMetin, duyur, ekranGoster, genisEkran, h, kanitBaglantili, kanitKarti, kanitPaneli, karistir, periyodikSecici,
 } from './arayuz.js';
 
 let icerik = null;                  // icerik/*.csv tablolarından kurulan dosyalar
@@ -22,6 +22,11 @@ const HARFLER = 'ABCDEFGH';
 
 function geriButonu(hedef = panoEkrani, yazi = '← Dosya panosu') {
   return h('button', { class: 'baglanti geri', type: 'button', onclick: hedef }, yazi);
+}
+
+// replaceChildren gibi, ama boş (null/false) parçaları atlar
+function doldur(dugum, ...cocuklar) {
+  dugum.replaceChildren(...cocuklar.flat(Infinity).filter(c => c != null && c !== false));
 }
 
 function aciklama(baslik, metin) {
@@ -51,18 +56,25 @@ function kaydet(olay, gorev, ek = {}) {
 }
 
 const oynanabilirler = () => icerik.dosyalar.filter(d => d.hazir);
+const cozulduMu = dosya => Boolean(ilerleme.cozulen[dosya.id]);
 
-function dosyaAcikMi(dosya) {
-  if (!dosya.hazir) return false;
-  if (ilerleme.ogretmenModu) return true;
-  const liste = oynanabilirler();
-  const i = liste.indexOf(dosya);
-  return i <= 0 || Boolean(ilerleme.cozulen[liste[i - 1].id]);
+// Seviye 1 hep açıktır. Diğer seviyeler, önceki seviyeden AYARLAR.seviyeAcmaEsigi kadar dosya çözülünce açılır.
+function seviyeAcikMi(no) {
+  if (no <= 1 || ilerleme.ogretmenModu) return true;
+  const onceki = oynanabilirler().filter(d => d.seviye === no - 1);
+  const esik = Math.min(AYARLAR.seviyeAcmaEsigi, onceki.length);
+  return seviyeAcikMi(no - 1) && onceki.filter(cozulduMu).length >= esik;
 }
 
+function dosyaAcikMi(dosya) {
+  return dosya.hazir && seviyeAcikMi(dosya.seviye);
+}
+
+// Aynı seviyede bu dosyadan sonra gelen ilk çözülmemiş dosya (sona gelinirse seviyenin başından aranır)
 function sonrakiDosya(dosya) {
-  const i = icerik.dosyalar.indexOf(dosya);
-  return icerik.dosyalar[i + 1] ?? null;
+  const liste = oynanabilirler().filter(d => d.seviye === dosya.seviye);
+  const i = liste.indexOf(dosya);
+  return [...liste.slice(i + 1), ...liste.slice(0, i)].find(d => !cozulduMu(d) && !ilerleme.kilitli[d.id]) ?? null;
 }
 
 // ------------------------------------------------------------------ başlangıç
@@ -103,30 +115,102 @@ function hikayeEkrani() {
 
 // ------------------------------------------------------------------ dosya panosu
 
+// Pano seçimleri (seviye sekmesi, tema ve durum filtresi) cihazda hatırlanır
+function panoSecimi() {
+  ilerleme.pano = { seviye: 1, tema: '', durum: '', ...(ilerleme.pano ?? {}) };
+  return ilerleme.pano;
+}
+
+function kilitMesaji(no) {
+  const onceki = oynanabilirler().filter(d => d.seviye === no - 1);
+  const esik = Math.min(AYARLAR.seviyeAcmaEsigi, onceki.length);
+  const cozulen = onceki.filter(cozulduMu).length;
+  if (!seviyeAcikMi(no - 1)) return `Bu seviye kilitli. Önce Seviye ${no - 1}'i açmalısın.`;
+  return `Bu seviye, Seviye ${no - 1}'den ${esik} dosya çözünce açılır. Şu an: ${Math.min(cozulen, esik)} / ${esik}.`;
+}
+
+function cip(yazi, secili, tiklaninca) {
+  return h('button', { class: `cip${secili ? ' secili' : ''}`, type: 'button', 'aria-pressed': String(secili), onclick: tiklaninca }, yazi);
+}
+
 function panoEkrani() {
   tur = null;
-  const seviyeler = [1, 2, 3, 4].map(no => {
-    const dosyalar = icerik.dosyalar.filter(d => d.seviye === no);
-    if (!dosyalar.length) return null;
-    return h('section', { class: 'seviye', 'aria-labelledby': `seviye-${no}` },
-      h('div', { class: 'seviye-ust' },
-        h('h2', { id: `seviye-${no}` }, h('span', { class: 'seviye-no' }, `Seviye ${no}`), ' ', SEVIYELER[no].ad),
-        h('p', {}, SEVIYELER[no].aciklama)),
-      h('div', { class: 'dosya-izgarasi' }, dosyalar.map(dosyaKarti)));
-  });
+  const secim = panoSecimi();
+  const hazirlar = oynanabilirler();
+  const cozulenler = hazirlar.filter(cozulduMu);
+  const elementler = new Set(hazirlar.map(d => d.cevap.sembol));
+  const kesfedilen = new Set(cozulenler.map(d => d.cevap.sembol));
+
+  const sekmeAlani = h('div', { class: 'seviye-sekmeleri', role: 'group', 'aria-label': 'Seviyeler' });
+  const seviyeBilgisi = h('div', { class: 'seviye-bilgisi' });
+  const temaAlani = h('div', { class: 'cipler kaydir', role: 'group', 'aria-label': 'Temaya göre süz' });
+  const durumAlani = h('div', { class: 'cipler', role: 'group', 'aria-label': 'Duruma göre süz' });
+  const sayac = h('p', { class: 'liste-sayaci', role: 'status' });
+  const izgara = h('div', { class: 'dosya-izgarasi' });
+
+  const sec = (alan, deger) => { secim[alan] = deger; kayit.ilerlemeYaz(ilerleme); ciz(); };
+
+  function ciz() {
+    doldur(sekmeAlani, [1, 2, 3, 4].map(no => {
+      const dosyalar = hazirlar.filter(d => d.seviye === no);
+      if (!dosyalar.length) return null;
+      const acik = seviyeAcikMi(no);
+      return h('button', {
+        class: `sekme${secim.seviye === no ? ' secili' : ''}${acik ? '' : ' kilitli'}`, type: 'button',
+        'aria-pressed': String(secim.seviye === no), onclick: () => { secim.tema = ''; sec('seviye', no); },
+      },
+      h('span', { class: 'sekme-no' }, `${acik ? '' : '🔒 '}Seviye ${no}`),
+      h('span', { class: 'sekme-ad' }, SEVIYELER[no].ad),
+      h('span', { class: 'sekme-sayi' }, `${dosyalar.filter(cozulduMu).length}/${dosyalar.length}`));
+    }));
+
+    const seviyeDosyalari = hazirlar.filter(d => d.seviye === secim.seviye);
+    doldur(seviyeBilgisi,
+      h('h2', {}, h('span', { class: 'seviye-no' }, `Seviye ${secim.seviye}`), ' ', SEVIYELER[secim.seviye].ad),
+      h('p', {}, SEVIYELER[secim.seviye].aciklama),
+      seviyeAcikMi(secim.seviye) ? null : h('p', { class: 'serit' }, kilitMesaji(secim.seviye)));
+
+    const temalar = Object.keys(TEMALAR).filter(t => seviyeDosyalari.some(d => d.tema === t));
+    if (secim.tema && !temalar.includes(secim.tema)) secim.tema = '';
+    temaAlani.replaceChildren(
+      cip('Bütün temalar', !secim.tema, () => sec('tema', '')),
+      ...temalar.map(t => cip(`${TEMALAR[t].simge} ${TEMALAR[t].ad}`, secim.tema === t, () => sec('tema', t))));
+    durumAlani.replaceChildren(...[['', 'Hepsi'], ['acik', 'Çözülmeyenler'], ['cozuldu', 'Çözülenler']]
+      .map(([k, yazi]) => cip(yazi, secim.durum === k, () => sec('durum', k))));
+
+    const gorunen = seviyeDosyalari.filter(d => (!secim.tema || d.tema === secim.tema)
+      && (secim.durum !== 'acik' || !cozulduMu(d))
+      && (secim.durum !== 'cozuldu' || cozulduMu(d)));
+    izgara.replaceChildren(...gorunen.map(dosyaKarti));
+    sayac.textContent = gorunen.length ? `${gorunen.length} dosya` : 'Bu seçime uyan dosya yok.';
+  }
+
   ekranGoster(
     h('header', { class: 'pano-ust' },
       h('img', { class: 'logo', src: 'img/ikon.svg', alt: '', width: 48, height: 48 }),
       h('div', {}, h('h1', {}, AYARLAR.oyunAdi), h('p', { class: 'alt-baslik' }, AYARLAR.altBaslik)),
       ilerleme.katilimci ? h('span', { class: 'rozet katilimci', title: 'Katılımcı kodu' }, ilerleme.katilimci) : null),
-    ilerleme.ogretmenModu ? h('p', { class: 'serit' }, 'Öğretmen modu açık: bütün dosyalar açılabilir.') : null,
-    seviyeler,
+    ilerleme.ogretmenModu ? h('p', { class: 'serit' }, 'Öğretmen modu açık: bütün seviyeler açık.') : null,
+    h('section', { class: 'kart ozet-karti' },
+      h('div', { class: 'ozet-sayilar' },
+        h('p', {}, h('strong', {}, String(cozulenler.length)), ` / ${hazirlar.length} vaka çözüldü`),
+        h('p', {}, h('strong', {}, String(kesfedilen.size)), ` / ${elementler.size} element keşfedildi`)),
+      h('div', { class: 'ozet-dugmeleri' },
+        h('button', { class: 'buton kucuk', type: 'button', onclick: kesifEkrani }, 'Keşif tablosu'),
+        h('button', { class: 'buton kucuk ikincil', type: 'button', onclick: raporEkrani }, 'Raporum'))),
+    sekmeAlani,
+    seviyeBilgisi,
+    temaAlani,
+    durumAlani,
+    sayac,
+    izgara,
     h('nav', { class: 'alt-baglantilar', 'aria-label': 'Diğer sayfalar' },
       h('button', { class: 'baglanti', type: 'button', onclick: kurallarEkrani }, 'Nasıl oynanır?'),
       h('button', { class: 'baglanti', type: 'button', onclick: hikayeEkrani }, 'Hikâye'),
       h('button', { class: 'baglanti', type: 'button', onclick: kaynakcaEkrani }, 'Bilimsel kaynakça'),
       h('button', { class: 'baglanti', type: 'button', onclick: hakkindaEkrani }, 'Hakkında'),
       h('button', { class: 'baglanti', type: 'button', onclick: ogretmenGirisi }, 'Öğretmen paneli')));
+  ciz();
 }
 
 function hakkindaEkrani() {
@@ -135,23 +219,26 @@ function hakkindaEkrani() {
 
 function dosyaKarti(dosya) {
   const cozum = ilerleme.cozulen[dosya.id];
-  const kilitli = dosya.hazir && ilerleme.kilitli[dosya.id];
+  const kilitli = ilerleme.kilitli[dosya.id];
   const acik = dosyaAcikMi(dosya);
-  let durum, sinif, dugmeYazisi = null;
-  if (!dosya.hazir) { durum = 'Dosya hazırlanıyor'; sinif = 'hazirlaniyor'; }
-  else if (kilitli) { durum = 'Kilitli: hata analizi bekliyor'; sinif = 'kilitlendi'; dugmeYazisi = 'Hata analizine git'; }
-  else if (cozum) { durum = `Çözüldü · ${cozum.puan}/100`; sinif = 'cozuldu'; dugmeYazisi = 'Yeniden incele'; }
-  else if (acik) { durum = 'Soruşturmaya açık'; sinif = 'acik'; dugmeYazisi = 'Dosyayı aç'; }
-  else { durum = 'Önce önceki dosyayı çöz'; sinif = 'kapali'; }
-  return h('article', { class: `dosya-karti ${sinif}` },
-    h('div', { class: 'dosya-sekme' }, dosya.id),
-    h('div', { class: 'dosya-govde' },
-      h('div', { class: 'rozetler' },
-        dosya.ornek ? h('span', { class: 'rozet' }, 'Tanıtım') : null,
-        dosya.final ? h('span', { class: 'rozet final' }, 'Final · Bilimsel jüri') : null),
-      h('h3', {}, dosya.baslik || 'Gizli dosya'),
-      h('p', { class: 'dosya-durum' }, sinif === 'kapali' ? '🔒 ' : '', durum),
-      dugmeYazisi ? h('button', { class: 'buton kucuk', type: 'button', onclick: () => dosyaAc(dosya) }, dugmeYazisi) : null));
+  let durum, sinif;
+  if (kilitli) { durum = 'Kilitli: hata analizi bekliyor'; sinif = 'kilitlendi'; }
+  else if (cozum) { durum = `Çözüldü · ${dosya.cevap.sembol} · ${cozum.puan}/100`; sinif = 'cozuldu'; }
+  else if (acik) { durum = 'Soruşturmaya açık'; sinif = 'acik'; }
+  else { durum = 'Seviye kilitli'; sinif = 'kapali'; }
+  const tema = TEMALAR[dosya.tema];
+  const ic = [
+    h('span', { class: 'dosya-sekme' }, dosya.id),
+    h('span', { class: 'dosya-govde' },
+      tema ? h('span', { class: 'dosya-tema' }, `${tema.simge} ${tema.ad}`) : null,
+      dosya.ornek ? h('span', { class: 'rozet' }, 'Tanıtım: önce bunu oyna') : null,
+      dosya.final ? h('span', { class: 'rozet final' }, 'Final · Bilimsel jüri') : null,
+      h('span', { class: 'dosya-baslik' }, dosya.baslik),
+      h('span', { class: 'dosya-durum' }, sinif === 'kapali' ? '🔒 ' : '', durum)),
+  ];
+  return acik || kilitli
+    ? h('button', { class: `dosya-karti ${sinif}`, type: 'button', onclick: () => dosyaAc(dosya) }, ic)
+    : h('div', { class: `dosya-karti ${sinif}` }, ic);
 }
 
 function dosyaAc(dosya) {
@@ -167,10 +254,11 @@ function dosyaAc(dosya) {
 }
 
 function dosyaGirisEkrani(dosya) {
+  const tema = TEMALAR[dosya.tema];
   ekranGoster(
     geriButonu(),
     h('section', { class: `kart dosya-kapak${dosya.final ? ' final' : ''}` },
-      h('p', { class: 'dosya-kod' }, `${dosya.id} · Seviye ${dosya.seviye}: ${SEVIYELER[dosya.seviye].ad}`),
+      h('p', { class: 'dosya-kod' }, `${dosya.id} · Seviye ${dosya.seviye}: ${SEVIYELER[dosya.seviye].ad}${tema ? ` · ${tema.simge} ${tema.ad}` : ''}`),
       dosya.final ? h('p', { class: 'juri-serit' }, 'Bilimsel jüri') : null,
       h('h2', {}, dosya.baslik),
       dosya.ornek ? h('p', { class: 'not' }, 'Bu tanıtım dosyası oyunun bütün görev türlerini gösterir; bu yüzden diğer dosyalardan daha uzundur.') : null,
@@ -181,6 +269,60 @@ function dosyaGirisEkrani(dosya) {
         h('li', {}, 'Cevabı tahmin etme: kanıtla.'))),
     h('button', { class: 'buton genis', type: 'button', onclick: () => dosyaBaslat(dosya) },
       dosya.final ? 'Jürinin karşısına çık' : 'Soruşturmayı başlat'));
+}
+
+// Keşif tablosu: en az bir vakası çözülen elementler periyodik tabloda yanar
+function kesifEkrani() {
+  const hazirlar = oynanabilirler();
+  const vakalar = new Map();
+  for (const d of hazirlar) {
+    if (!vakalar.has(d.cevap.sembol)) vakalar.set(d.cevap.sembol, []);
+    vakalar.get(d.cevap.sembol).push(d);
+  }
+  const kesfedilen = new Set(hazirlar.filter(cozulduMu).map(d => d.cevap.sembol));
+  const bilgi = h('div', { class: 'kart kesif-bilgi', role: 'status' },
+    h('p', { class: 'soluk' }, 'Bir elemente dokun: kaç vakası olduğunu ve çözdüğün vakaları gör.'));
+
+  function goster(e) {
+    const liste = vakalar.get(e.sembol) ?? [];
+    const cozulen = liste.filter(cozulduMu);
+    if (!liste.length) {
+      bilgi.replaceChildren(h('h3', {}, `${e.ad} (${e.sembol}) · atom numarası ${e.z}`), h('p', { class: 'soluk' }, 'Bu element için vaka yok.'));
+      return;
+    }
+    doldur(bilgi,
+      h('h3', {}, `${e.ad} (${e.sembol}) · atom numarası ${e.z}`),
+      h('p', {}, `Bu elementin ${liste.length} vakası var. ${cozulen.length ? `${cozulen.length} tanesini çözdün.` : 'Henüz hiçbirini çözmedin.'}`),
+      cozulen.length
+        ? h('div', { class: 'butonlar' }, cozulen.map(d => h('button', { class: 'buton kucuk ikincil', type: 'button', onclick: () => dosyaGirisEkrani(d) }, `${d.id} · ${d.baslik}`)))
+        : null);
+  }
+
+  const izgara = h('div', { class: 'pt-izgara', role: 'group', 'aria-label': 'Keşif tablosu' });
+  for (let grup = 1; grup <= 18; grup++) izgara.append(h('span', { class: 'pt-etiket', style: `grid-row:1;grid-column:${grup + 1}`, 'aria-hidden': 'true' }, String(grup)));
+  for (let periyot = 1; periyot <= 7; periyot++) izgara.append(h('span', { class: 'pt-etiket', style: `grid-row:${periyot + 1};grid-column:1`, 'aria-hidden': 'true' }, String(periyot)));
+  izgara.append(h('span', { class: 'pt-yer', style: 'grid-row:7;grid-column:4', 'aria-hidden': 'true' }, '57–71'));
+  izgara.append(h('span', { class: 'pt-yer', style: 'grid-row:8;grid-column:4', 'aria-hidden': 'true' }, '89–103'));
+  for (const e of ELEMENTLER) {
+    const sayi = vakalar.get(e.sembol)?.length ?? 0;
+    const kesif = kesfedilen.has(e.sembol);
+    const durum = kesif ? 'keşfedildi' : sayi ? `${sayi} vaka, keşfedilmedi` : 'vaka yok';
+    izgara.append(h('button', {
+      type: 'button',
+      class: `pt-hucre blok-${e.blok}${kesif ? ' kesfedildi' : sayi ? '' : ' vakasiz'}`,
+      style: `grid-row:${e.satir + 1};grid-column:${e.sutun + 1}`,
+      'aria-label': `${e.ad}, ${e.sembol}, atom numarası ${e.z}: ${durum}`,
+      onclick: () => goster(e),
+    }, h('span', { class: 'pt-z' }, String(e.z)), h('span', { class: 'pt-sembol' }, e.sembol)));
+  }
+
+  ekranGoster(
+    geriButonu(),
+    h('h2', {}, 'Keşif tablosu'),
+    h('p', { class: 'soluk' }, `Bir elementin en az bir vakasını çözünce o element tabloda yanar. Keşfedilen element: ${kesfedilen.size} / ${vakalar.size}`),
+    h('div', { class: 'pt-kutusu' }, izgara),
+    h('p', { class: 'kesif-anahtar' }, h('span', { class: 'ornek-hucre kesfedildi' }), ' keşfedildi  ', h('span', { class: 'ornek-hucre' }), ' vakası var  ', h('span', { class: 'ornek-hucre vakasiz' }), ' vaka yok'),
+    bilgi);
 }
 
 // ------------------------------------------------------------------ dosya oturumu ve görevler
@@ -309,9 +451,11 @@ function gorevEkrani() {
     tur.can--;
     tur.hatalar.push({
       gorevId: gorev.id,
+      soru: gorev.soru,
       cevapMetni: etkilesim.metin(cevap),
       hataTuru: sonuc.hataTuru,
       hataKaniti: sonuc.hataKaniti ?? '',
+      aciklama: [sonuc.aciklama, sonuc.ek].filter(Boolean).join(' '),
       secenekNo: sonuc.secenekNo ?? null,
       gorunurKanitlar: [...tur.acikKanitlar],
     });
@@ -545,7 +689,7 @@ function savunmaEtkilesimi(gorev, bitince) {
       });
       bitince();
     });
-    alan.replaceChildren(
+    doldur(alan,
       gorev.aciklama ? h('section', { class: 'geri-bildirim notr' }, h('h3', {}, 'Jüri notu: örnek bir savunma'), h('p', {}, gorev.aciklama)) : null,
       h('fieldset', { class: 'oz-degerlendirme' },
         h('legend', {}, 'Kendini değerlendir: Savunmanda bunlar var mıydı?'),
@@ -641,134 +785,140 @@ function dosyayiKilitle() {
 function kilitEkrani() {
   ekranGoster(
     h('section', { class: 'kart kilit-karti' },
-      h('p', { class: 'damga kirmizi' }, 'Araştırma dosyası kilitlendi'),
+      h('p', { class: 'damga kirmizi' }, 'Dosya kilitlendi'),
       h('h2', {}, `${tur.dosya.id} · ${tur.dosya.baslik}`),
-      h('p', {}, `${tur.hatalar.length} bilimsel hata yaptın:`),
-      h('ul', { class: 'hata-listesi' }, tur.hatalar.map(x => h('li', {}, HATA_TURLERI[x.hataTuru]?.ad ?? 'Bilimsel hata'))),
-      h('p', {}, 'Yeni dosyaya geçmeden önce hatalarını bir bilim insanı gibi analiz etmelisin. Doğru cevaplar sana verilmeyecek; hatanın kaynağını sen bulacaksın.'),
-      h('button', { class: 'buton genis', type: 'button', onclick: hataAnaliziEkrani }, 'Bilimsel hata analizine başla')),
+      h('p', {}, `${tur.hatalar.length} bilimsel hata yaptın. Kilidi açmak için hatalarına birlikte bakacağız. Her hata için:`),
+      h('ol', { class: 'adimlar' },
+        h('li', {}, 'Cevabının neden yanlış olduğunu okuyacaksın.'),
+        h('li', {}, 'Bu hatayı nasıl önleyeceğini seçeceksin.')),
+      h('p', { class: 'soluk' }, 'Burada yanlış seçimin cezası yok: açıklamayı yeniden okuyup tekrar deneyebilirsin.'),
+      h('button', { class: 'buton genis', type: 'button', onclick: () => hataAnaliziEkrani(0) }, 'Hatalarımı incele')),
     geriButonu());
 }
 
-// Her hata için: hangi kanıt yanlış yorumlandı, hangi varsayım hatalıydı, doğru yaklaşım ne olmalıydı?
-function analizSorulari(hata) {
-  const dosya = tur.dosya;
-  const gorev = dosya.gorevler.find(g => g.id === hata.gorevId);
-  const sorular = [];
-  if (hata.hataKaniti && hata.gorunurKanitlar.includes(hata.hataKaniti)) {
-    sorular.push({
-      anahtar: 'kanit',
-      soru: 'Bu hatada hangi kanıtı yanlış yorumladın ya da gözden kaçırdın?',
-      secenekler: dosya.kanitlar.filter(k => hata.gorunurKanitlar.includes(k.id)).map(k => ({ deger: k.id, metin: `${k.id} · ${k.baslik}` })),
-      dogru: hata.hataKaniti,
-    });
-  }
-  const varsayimlar = gorev?.secenekler.filter(s => !s.dogru && s.hataAciklamasi) ?? [];
-  if (hata.secenekNo != null && varsayimlar.length >= 2 && varsayimlar.some(s => s.no === hata.secenekNo)) {
-    sorular.push({
-      anahtar: 'varsayim',
-      soru: 'Cevabındaki hatalı varsayımı en iyi hangisi açıklıyor?',
-      secenekler: karistir(varsayimlar).map(s => ({ deger: String(s.no), metin: s.hataAciklamasi })),
-      dogru: String(hata.secenekNo),
-    });
-  } else {
-    sorular.push({
-      anahtar: 'tur',
-      soru: 'Bu hata hangi türdendi?',
-      secenekler: Object.entries(HATA_TURLERI).map(([k, v]) => ({ deger: k, metin: `${v.ad}: ${v.aciklama}` })),
-      dogru: hata.hataTuru,
-    });
-  }
-  sorular.push({
-    anahtar: 'yaklasim',
-    soru: 'Bu görevi yeniden çözerken hangi bilimsel yaklaşımı izlemelisin?',
-    secenekler: karistir(Object.entries(HATA_TURLERI)).map(([k, v]) => ({ deger: k, metin: v.yaklasim })),
-    dogru: hata.hataTuru,
-  });
-  return { gorev, sorular };
+// Hatanın nedenini anlatan metin: önce cevap verildiği anda gösterilen açıklama,
+// o yoksa (eski kayıtlar) seçeneğin hata açıklaması, o da yoksa hata türünün açıklaması.
+function hataNedeni(hata, gorev) {
+  if (hata.aciklama) return hata.aciklama;
+  const secenek = gorev?.secenekler.find(s => s.no === hata.secenekNo);
+  return secenek?.hataAciklamasi || (HATA_TURLERI[hata.hataTuru] ?? HATA_TURLERI.veri).aciklama;
 }
 
-function hataAnaliziEkrani() {
-  const analizler = tur.hatalar.map(analizSorulari);
-  const secimler = analizler.map(() => ({}));
-  const mesaj = h('p', { class: 'uyari-mesaji', role: 'alert' });
+// Bilimsel hata analizi: hatalar tek tek gösterilir. Her hatada önce neden yanlış olduğu açıklanır,
+// sonra tek bir soru sorulur: "Bu hatayı nasıl önlersin?" Doğru seçilince sıradaki hataya geçilir.
+function hataAnaliziEkrani(sira) {
+  const dosya = tur.dosya;
+  const hata = tur.hatalar[sira];
+  const gorev = dosya.gorevler.find(g => g.id === hata.gorevId);
+  const hataTuru = HATA_TURLERI[hata.hataTuru] ? hata.hataTuru : 'veri';
+  const tanim = HATA_TURLERI[hataTuru];
+  const kanit = hata.hataKaniti && hata.gorunurKanitlar?.includes(hata.hataKaniti)
+    ? dosya.kanitlar.find(k => k.id === hata.hataKaniti) : null;
+  const sonHata = sira === tur.hatalar.length - 1;
+
+  const digerleri = karistir(Object.keys(HATA_TURLERI).filter(k => k !== hataTuru)).slice(0, 2);
+  const secenekler = karistir([hataTuru, ...digerleri]);
+  const geriBildirim = h('div', { class: 'geri-bildirim-alani' });
   let deneme = 0;
-
-  const bolumler = analizler.map((analiz, i) => {
-    const hata = tur.hatalar[i];
-    return h('section', { class: 'kart analiz' },
-      h('h3', {}, `Hata ${i + 1} / ${analizler.length}`),
-      analiz.gorev ? h('p', { class: 'soluk' }, analiz.gorev.soru) : null,
-      h('p', {}, 'Senin cevabın: ', h('strong', {}, hata.cevapMetni)),
-      analiz.sorular.map((soru, j) => h('fieldset', { class: 'analiz-sorusu', 'data-hata': i, 'data-soru': soru.anahtar },
-        h('legend', {}, `${j + 1}. ${soru.soru}`),
-        soru.secenekler.map((s, k) => {
-          const id = `analiz-${i}-${soru.anahtar}-${k}`;
-          const girdi = h('input', { type: 'radio', name: `analiz-${i}-${soru.anahtar}`, value: s.deger, id });
-          girdi.addEventListener('change', () => { secimler[i][soru.anahtar] = s.deger; });
-          return h('label', { class: 'radyo', for: id }, girdi, h('span', {}, s.metin));
-        }))));
-  });
-
-  const gonder = h('button', { class: 'buton genis', type: 'button' }, 'Analizi gönder');
-  gonder.addEventListener('click', () => {
-    let bos = 0, yanlis = 0;
-    document.querySelectorAll('.analiz-sorusu').forEach(alan => {
-      const i = Number(alan.dataset.hata), anahtar = alan.dataset.soru;
-      const soru = analizler[i].sorular.find(s => s.anahtar === anahtar);
-      const secim = secimler[i][anahtar];
-      const dogru = secim === soru.dogru;
-      if (secim == null) bos++; else if (!dogru) yanlis++;
-      alan.classList.toggle('yanlis', secim != null && !dogru);
+  const dugmeler = secenekler.map((k, i) => {
+    const dugme = secenekDugmesi(i, HATA_TURLERI[k].yaklasim);
+    dugme.addEventListener('click', () => {
+      deneme++;
+      const dogru = k === hataTuru;
+      kaydet('analiz', gorev, { deneme, dogru, hata_turu: hataTuru, cevap: k });
+      if (!dogru) {
+        dugme.classList.add('yanlis');
+        dugme.disabled = true;
+        geriBildirim.replaceChildren(h('section', { class: 'geri-bildirim kotu' },
+          h('p', {}, `Bu, "${HATA_TURLERI[k].ad}" hatasını önler. Senin hatan "${tanim.ad}" türündeydi. Yukarıdaki açıklamayı yeniden oku ve tekrar dene.`)));
+        duyur('Bu seçim senin hatana uymuyor. Tekrar dene.');
+        return;
+      }
+      dugme.classList.add('dogru');
+      dugmeler.forEach(d => { d.disabled = true; });
+      const ileri = h('button', { class: 'buton genis', type: 'button' }, sonHata ? 'Analizi bitir' : 'Sonraki hata');
+      ileri.addEventListener('click', () => (sonHata ? analizBitti() : hataAnaliziEkrani(sira + 1)));
+      geriBildirim.replaceChildren(
+        h('section', { class: 'geri-bildirim iyi' },
+          h('p', { class: 'sonuc-baslik' }, '✓ Doğru'),
+          h('p', {}, `Bir dahaki sefere: ${tanim.yaklasim.charAt(0).toLocaleLowerCase('tr-TR')}${tanim.yaklasim.slice(1)}`)),
+        ileri);
+      duyur('Doğru.');
+      ileri.focus({ preventScroll: true });
+      geriBildirim.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
-    if (bos) { mesaj.textContent = `Cevaplanmamış ${bos} soru var.`; return; }
-    deneme++;
-    kaydet('analiz', null, { deneme, dogru: yanlis === 0, cevap: `${yanlis} yanlış` });
-    if (yanlis) {
-      mesaj.textContent = `Analizinde ${yanlis} hatalı nokta var (kırmızı çerçeveli). Kanıtları ve cevabını yeniden düşün.`;
-      duyur(mesaj.textContent);
-      return;
-    }
-    delete ilerleme.kilitli[tur.dosya.id];
-    kayit.ilerlemeYaz(ilerleme);
-    const dosya = tur.dosya;
-    ekranGoster(h('section', { class: 'kart orta' },
-      h('p', { class: 'damga yesil' }, 'Dosya yeniden açıldı'),
-      h('h2', {}, 'Analizin doğru'),
-      h('p', {}, 'Hatalarının kaynağını buldun. Şimdi dosyayı baştan, kanıtlara dayanarak yeniden incele.'),
-      h('button', { class: 'buton genis', type: 'button', onclick: () => dosyaBaslat(dosya) }, 'Dosyayı yeniden incele')));
+    return dugme;
   });
 
   ekranGoster(
     geriButonu(),
     h('h2', {}, 'Bilimsel hata analizi'),
-    h('p', { class: 'soluk' }, 'Her hata için soruları cevapla. Analizin doğru olduğunda dosya yeniden açılır.'),
-    bolumler,
-    mesaj,
-    gonder);
+    h('div', { class: 'ilerleme', role: 'progressbar', 'aria-label': 'Analiz ilerlemesi', 'aria-valuemin': 0, 'aria-valuemax': tur.hatalar.length, 'aria-valuenow': sira },
+      h('span', { style: `width:${Math.round((100 * sira) / tur.hatalar.length)}%` })),
+    h('p', { class: 'sayac' }, `Hata ${sira + 1} / ${tur.hatalar.length}`),
+    h('section', { class: 'kart analiz' },
+      h('h3', {}, 'Soru'),
+      h('p', {}, gorev?.soru ?? hata.soru ?? ''),
+      h('h3', {}, 'Senin cevabın'),
+      h('p', { class: 'verilen-cevap' }, hata.cevapMetni),
+      h('h3', {}, 'Neden yanlış?'),
+      h('p', {}, hataNedeni(hata, gorev)),
+      kanit ? [h('p', { class: 'soluk' }, 'Bu kanıta yeniden bak:'), kanitKarti(kanit)] : null,
+      gorev?.ipucu ? h('div', { class: 'ipucu' }, h('h3', {}, 'İpucu'), h('p', {}, gorev.ipucu)) : null,
+      h('div', { class: 'hata-turu' },
+        h('h3', {}, `Hata türü: ${tanim.ad}`),
+        h('p', {}, tanim.aciklama))),
+    h('section', { class: 'kart' },
+      h('h3', {}, 'Bu hatayı bir dahaki sefere nasıl önlersin?'),
+      h('div', { class: 'secenekler', role: 'group', 'aria-label': 'Hatayı önleme yolları' }, dugmeler),
+      geriBildirim));
 }
 
-// ------------------------------------------------------------------ dosya sonucu ve oyun sonu
+function analizBitti() {
+  const dosya = tur.dosya;
+  delete ilerleme.kilitli[dosya.id];
+  kayit.ilerlemeYaz(ilerleme);
+  kaydet('analiz_bitti', null, { cevap: tur.hatalar.map(x => `${x.gorevId}:${x.hataTuru}`).join(' ') });
+  ekranGoster(h('section', { class: 'kart orta' },
+    h('p', { class: 'damga yesil' }, 'Dosya yeniden açıldı'),
+    h('h2', {}, 'Hata analizini tamamladın'),
+    h('p', {}, 'Hatalarının nedenini artık biliyorsun. Dosyayı baştan, kanıtlara dayanarak yeniden incele.'),
+    h('div', { class: 'butonlar orta' },
+      h('button', { class: 'buton', type: 'button', onclick: () => dosyaBaslat(dosya) }, 'Dosyayı yeniden incele'),
+      h('button', { class: 'buton ikincil', type: 'button', onclick: panoEkrani }, 'Dosya panosu'))));
+}
+
+// ------------------------------------------------------------------ dosya sonucu ve rapor
 
 function dosyaSonuEkrani() {
   const dosya = tur.dosya;
   const puan = dosyaPuani(dosya, tur.krediler);
+  const sonrakiSeviye = dosya.seviye + 1;
+  const seviyeOnceAcikti = sonrakiSeviye > 4 || seviyeAcikMi(sonrakiSeviye);
+  const elementOnceKesfedildi = oynanabilirler().some(d => d.cevap === dosya.cevap && cozulduMu(d));
   const onceki = ilerleme.cozulen[dosya.id];
   ilerleme.cozulen[dosya.id] = { puan: Math.max(onceki?.puan ?? 0, puan.toplam), son: puan.toplam, tarih: new Date().toISOString() };
   delete ilerleme.kilitli[dosya.id];
   kayit.ilerlemeYaz(ilerleme);
   kaydet('dosya_bitti', null, { puan: puan.toplam, sure_sn: Math.round((Date.now() - tur.baslangic) / 1000) });
 
+  const yeniSeviye = !seviyeOnceAcikti && seviyeAcikMi(sonrakiSeviye) && oynanabilirler().some(d => d.seviye === sonrakiSeviye);
   const sonraki = sonrakiDosya(dosya);
-  const hepsiCozuldu = icerik.dosyalar.every(d => d.hazir && ilerleme.cozulen[d.id]);
   const dugmeler = [];
-  if (hepsiCozuldu) dugmeler.push(h('button', { class: 'buton', type: 'button', onclick: oyunSonuEkrani }, 'Araştırmayı tamamla'));
-  else if (sonraki?.hazir && dosyaAcikMi(sonraki)) dugmeler.push(h('button', { class: 'buton', type: 'button', onclick: () => dosyaGirisEkrani(sonraki) }, 'Sonraki dosya'));
+  if (yeniSeviye) {
+    dugmeler.push(h('button', {
+      class: 'buton', type: 'button',
+      onclick: () => { panoSecimi().seviye = sonrakiSeviye; panoSecimi().tema = ''; kayit.ilerlemeYaz(ilerleme); panoEkrani(); },
+    }, `Seviye ${sonrakiSeviye}'ye geç`));
+  }
+  if (sonraki) dugmeler.push(h('button', { class: yeniSeviye ? 'buton ikincil' : 'buton', type: 'button', onclick: () => dosyaGirisEkrani(sonraki) }, `Sonraki dosya: ${sonraki.id}`));
   dugmeler.push(h('button', { class: 'buton ikincil', type: 'button', onclick: panoEkrani }, 'Dosya panosu'));
 
   ekranGoster(h('section', { class: 'kart sonuc-karti' },
     h('p', { class: 'damga yesil' }, 'Dosya çözüldü'),
     h('h2', {}, `${dosya.id} · ${dosya.baslik}`),
+    h('p', { class: 'kesif-rozeti' }, elementOnceKesfedildi ? 'Element: ' : 'Yeni element keşfedildi: ',
+      h('strong', {}, `${dosya.cevap.ad} (${dosya.cevap.sembol})`)),
     h('p', { class: 'buyuk-puan' }, h('span', {}, String(puan.toplam)), ' / 100'),
     h('div', { class: 'grup-puanlari' }, Object.values(puan.gruplar).map(g =>
       h('div', {}, h('span', {}, g.ad), h('strong', {}, `${Math.round(g.alinan)} / ${Math.round(g.en)}`)))),
@@ -777,55 +927,77 @@ function dosyaSonuEkrani() {
       h('span', { class: 'cubuk' }, h('span', { style: `width:${k.en ? (100 * k.alinan) / k.en : 0}%` })),
       h('span', { class: 'cubuk-deger' }, `${Math.round(k.alinan)}/${Math.round(k.en)}`)))),
     h('p', { class: 'soluk' }, `Kalan hata hakkı: ${tur.can} · Alınan ipucu: ${tur.ipucuSayisi}`),
-    sonraki && !sonraki.hazir ? h('p', { class: 'soluk' }, 'Sıradaki dosya henüz hazırlanıyor.') : null,
+    yeniSeviye ? h('p', { class: 'serit' }, `Tebrikler! Seviye ${sonrakiSeviye} (${SEVIYELER[sonrakiSeviye].ad}) açıldı.`) : null,
     h('div', { class: 'butonlar orta' }, dugmeler)));
 }
 
-function beceriTablosu(kayitlar) {
+function beceriTablosu(kayitlar, tymm = false) {
   const ozet = beceriOzeti(kayitlar);
   const hucre = o => (o?.sayi ? `%${yuzde(o)} (${o.sayi})` : '—');
   return h('div', { class: 'tablo-kutusu', tabindex: '0', role: 'region', 'aria-label': 'Beceri özeti' },
     h('table', { class: 'veri-tablosu' },
       h('thead', {}, h('tr', {}, h('th', { scope: 'col' }, 'Beceri'), [1, 2, 3, 4].map(s => h('th', { scope: 'col' }, `Seviye ${s}`)), h('th', { scope: 'col' }, 'Toplam'))),
       h('tbody', {}, Object.entries(BECERILER).map(([b, ad]) => h('tr', {},
-        h('th', { scope: 'row' }, ad),
+        h('th', { scope: 'row' }, ad, tymm ? h('span', { class: 'tymm-kodu' }, BECERI_TYMM[b]) : null),
         [1, 2, 3, 4].map(s => h('td', {}, hucre(ozet[b].seviyeler[s]))),
         h('td', {}, hucre(ozet[b].toplam)))))));
 }
 
-function oyunSonuEkrani() {
+// Öğrencinin kendi ilerlemesi: çözülen dosyalar, puan ortalaması, keşfedilen elementler ve beceri profili
+function raporEkrani() {
   const benim = kayit.kayitlariOku().filter(k => (k.katilimci || '') === (ilerleme.katilimci || ''));
-  const puanlar = Object.values(ilerleme.cozulen).map(c => c.puan);
+  const hazirlar = oynanabilirler();
+  const cozulenler = hazirlar.filter(cozulduMu);
+  const puanlar = cozulenler.map(d => ilerleme.cozulen[d.id].puan);
   const ortalama = puanlar.length ? Math.round(puanlar.reduce((a, b) => a + b, 0) / puanlar.length) : 0;
+  const elementler = new Set(hazirlar.map(d => d.cevap.sembol));
+  const kesfedilen = new Set(cozulenler.map(d => d.cevap.sembol));
+  const kutu = (ad, deger) => h('div', {}, h('span', {}, ad), h('strong', {}, deger));
   ekranGoster(
-    h('section', { class: 'kart orta' },
-      h('p', { class: 'damga yesil' }, 'Araştırma tamamlandı'),
-      h('h2', {}, 'Bütün dosyaları çözdün'),
-      h('p', {}, `Dosya puanlarının ortalaması: ${ortalama} / 100`),
-      h('p', { class: 'slogan' }, 'Bilim insanı cevabı tahmin etmez; kanıtlar.')),
+    geriButonu(),
+    h('h2', {}, 'Raporum'),
+    h('section', { class: 'kart' },
+      h('div', { class: 'grup-puanlari' },
+        kutu('Çözülen dosya', `${cozulenler.length} / ${hazirlar.length}`),
+        kutu('Puan ortalaması', puanlar.length ? `${ortalama} / 100` : '—'),
+        kutu('Keşfedilen element', `${kesfedilen.size} / ${elementler.size}`),
+        kutu('Kilitli dosya', String(Object.keys(ilerleme.kilitli).length))),
+      h('ul', { class: 'seviye-ozeti' }, [1, 2, 3, 4].map(no => {
+        const dosyalar = hazirlar.filter(d => d.seviye === no);
+        return dosyalar.length
+          ? h('li', {}, h('span', {}, `Seviye ${no} · ${SEVIYELER[no].ad}`), h('strong', {}, `${dosyalar.filter(cozulduMu).length} / ${dosyalar.length}`))
+          : null;
+      })),
+      cozulenler.length && cozulenler.length === hazirlar.length ? h('p', { class: 'slogan' }, 'Bütün dosyaları çözdün. Bilim insanı cevabı tahmin etmez; kanıtlar.') : null),
     h('section', { class: 'kart' },
       h('h3', {}, 'Bilimsel beceri profilin'),
       h('p', { class: 'soluk' }, 'Her becerideki görevleri ilk denemede doğru çözme oranın (parantez içinde görev sayısı).'),
       beceriTablosu(benim)),
     h('div', { class: 'butonlar orta' },
-      h('button', { class: 'buton', type: 'button', onclick: kaynakcaEkrani }, 'Bilimsel kaynakça'),
+      h('button', { class: 'buton', type: 'button', onclick: kesifEkrani }, 'Keşif tablosu'),
       h('button', { class: 'buton ikincil', type: 'button', onclick: panoEkrani }, 'Dosya panosu')));
 }
 
 // ------------------------------------------------------------------ bilgi sayfaları
 
 function kaynakcaEkrani() {
-  const bolumler = oynanabilirler().map(d => {
-    const kaynaklar = [...new Set([...d.kaynakca, ...d.kanitlar.map(k => k.kaynak).filter(Boolean)])];
-    return h('section', { class: 'kart' },
-      h('h3', {}, `${d.id} · ${d.baslik}`),
-      kaynaklar.length ? h('ol', { class: 'kaynak-listesi' }, kaynaklar.map(k => h('li', {}, baglantiliMetin(k)))) : h('p', { class: 'soluk' }, 'Kaynak yazılmamış.'));
+  const seviyeler = [1, 2, 3, 4].map(no => {
+    const dosyalar = oynanabilirler().filter(d => d.seviye === no);
+    if (!dosyalar.length) return null;
+    return h('details', { class: 'kart kaynak-seviyesi' },
+      h('summary', {}, `Seviye ${no} · ${SEVIYELER[no].ad} (${dosyalar.length} dosya)`),
+      dosyalar.map(d => {
+        const kaynaklar = [...new Set([...d.kaynakca, ...d.kanitlar.map(k => k.kaynak).filter(Boolean)])];
+        return h('section', { class: 'kaynak-dosyasi' },
+          h('h3', {}, `${d.id} · ${d.baslik}`),
+          kaynaklar.length ? h('ol', { class: 'kaynak-listesi' }, kaynaklar.map(k => h('li', {}, baglantiliMetin(k)))) : h('p', { class: 'soluk' }, 'Kaynak yazılmamış.'));
+      }));
   });
   ekranGoster(
     geriButonu(),
     h('h2', {}, 'Bilimsel kaynakça'),
-    h('p', { class: 'soluk' }, 'Oyundaki bilgilerin dayandığı kaynaklar, dosyalara göre.'),
-    bolumler);
+    h('p', { class: 'soluk' }, 'Oyundaki bilgilerin dayandığı kaynaklar, dosyalara göre. Bir seviyenin kaynaklarını görmek için başlığına dokun.'),
+    seviyeler);
 }
 
 function kurallarEkrani() {
@@ -840,7 +1012,7 @@ function kurallarEkrani() {
       h('h3', {}, `${AYARLAR.canSayisi} bilimsel hata hakkı`),
       h('p', {}, 'Her yanlış cevap bir bilimsel hata sayılır ve türü sana söylenir:'),
       h('ul', {}, Object.values(HATA_TURLERI).map(t => h('li', {}, h('strong', {}, t.ad), `: ${t.aciklama}`))),
-      h('p', {}, 'Hata hakların biterse dosya kilitlenir. Dosyayı yeniden açmak için bilimsel hata analizi yaparsın: hangi kanıtı yanlış yorumladığını, hangi varsayımının hatalı olduğunu ve doğru yaklaşımın ne olduğunu bulursun.')),
+      h('p', {}, 'Hata hakların biterse dosya kilitlenir. Dosyayı yeniden açmak için bilimsel hata analizi yaparsın: her hatanın neden yanlış olduğunu okur ve o hatayı nasıl önleyeceğini seçersin.')),
     h('section', { class: 'kart' },
       h('h3', {}, 'Puanlama'),
       h('p', {}, 'Her dosya 100 puan üzerinden değerlendirilir. Puan yalnızca doğru elementi bulmaya değil, bilimsel akıl yürütmene göre verilir:'),
@@ -848,7 +1020,11 @@ function kurallarEkrani() {
       h('p', {}, 'Bir görevi ilk denemede doğru çözersen puanın tamamını alırsın. İpucu alırsan yarısını, yanlış deneme yaparsan hiç alamazsın ama dosyaya devam edersin. Savunma metnini öğretmenin değerlendirir.')),
     h('section', { class: 'kart' },
       h('h3', {}, 'Seviyeler'),
-      h('ul', {}, Object.entries(SEVIYELER).map(([no, s]) => h('li', {}, h('strong', {}, `Seviye ${no}: ${s.ad}`), ` · ${s.aciklama}`)))));
+      h('ul', {}, Object.entries(SEVIYELER).map(([no, s]) => h('li', {}, h('strong', {}, `Seviye ${no}: ${s.ad}`), ` · ${s.aciklama}`))),
+      h('p', {}, `Seviye 1 baştan açıktır. Bir sonraki seviye, önceki seviyeden ${AYARLAR.seviyeAcmaEsigi} dosya çözünce açılır. Bir seviyedeki dosyaları istediğin sırayla çözebilirsin; panodaki tema düğmeleriyle ilgini çeken konuları seçebilirsin.`)),
+    h('section', { class: 'kart' },
+      h('h3', {}, 'Keşif tablosu'),
+      h('p', {}, 'Her dosyanın cevabı bir elementtir. Bir elementin en az bir dosyasını çözünce o element Keşif tablosunda yanar. Amacın, periyodik tablonun mümkün olduğu kadar çok elementini keşfetmek.')));
 }
 
 // ------------------------------------------------------------------ öğretmen paneli
@@ -906,7 +1082,7 @@ function ogretmenPaneli() {
     h('section', { class: 'kart' }, h('h3', {}, 'Katılımcı'), kodFormu),
     h('section', { class: 'kart' },
       h('h3', {}, 'Dosyalar'),
-      h('label', { class: 'anahtar', for: 'ogretmen-modu' }, mod, h('span', {}, 'Öğretmen modu: bütün dosyalar sırayla beklemeden açılabilsin')),
+      h('label', { class: 'anahtar', for: 'ogretmen-modu' }, mod, h('span', {}, 'Öğretmen modu: bütün seviyeler beklemeden açılsın')),
       h('div', { class: 'tablo-kutusu', tabindex: '0', role: 'region', 'aria-label': 'Dosyaların durumu' },
         h('table', { class: 'veri-tablosu' },
           h('thead', {}, h('tr', {}, ['Dosya', 'Seviye', 'Başlık', 'Durum'].map(b => h('th', { scope: 'col' }, b)))),
@@ -918,8 +1094,8 @@ function ogretmenPaneli() {
       h('div', { class: 'butonlar' }, h('button', { class: 'buton ikincil', type: 'button', onclick: icerigiYenile }, 'İçeriği yeniden yükle'))),
     h('section', { class: 'kart' },
       h('h3', {}, 'Araştırma verileri'),
-      h('p', { class: 'soluk' }, `Bu cihazda ${kayitlar.length} kayıt var (${katilimcilar.size} katılımcı kodu). Tablo, becerilere göre ilk denemede doğru çözme oranını gösterir.`),
-      beceriTablosu(kayitlar),
+      h('p', { class: 'soluk' }, `Bu cihazda ${kayitlar.length} kayıt var (${katilimcilar.size} katılımcı kodu). Tablo, becerilere göre ilk denemede doğru çözme oranını gösterir. Becerilerin altında, Türkiye Yüzyılı Maarif Modeli Kimya Dersi Öğretim Programı'ndaki karşılıkları yazar.`),
+      beceriTablosu(kayitlar, true),
       h('div', { class: 'butonlar' },
         h('button', {
           class: 'buton', type: 'button', disabled: !kayitlar.length,

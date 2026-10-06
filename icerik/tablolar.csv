@@ -1,123 +1,794 @@
 ﻿dosya;tablo;h1;h2;h3;h4;h5;h6
-D01;T1;Metal;Yoğunluk (g/cm³);Elektrik iletkenliği (MS/m, 20 °C);Erime noktası (°C);Mıknatısa çekilir mi?
-D01;T1;Alüminyum;2,70;35,5;660;Hayır
-D01;T1;Demir;7,87;10,3;1538;Evet
-D01;T1;Kobalt;8,86;16,0;1495;Evet
-D01;T1;Nikel;8,90;14,3;1455;Evet
-D01;T1;Bakır;8,96;59,6;1085;Hayır
-D01;T1;Gümüş;10,5;63,0;962;Hayır
-D02;T1;Gaz;Yoğunluk (g/cm³, oda sıcaklığı);Yanıcı mı?
-D02;T1;Hava (karışım);0,0012;Hayır
-D02;T1;Hidrojen;0,000082;Evet
-D02;T1;Helyum;0,000164;Hayır
-D02;T1;Neon;0,000825;Hayır
-D02;T1;Argon;0,001633;Hayır
-D03;T1;Metal;Yoğunluk (g/cm³);Mıknatısa çekilir mi?;Elektrik iletkenliği (MS/m, 20 °C)
-D03;T1;Magnezyum;1,74;Hayır;—
-D03;T1;Alüminyum;2,70;Hayır;35,5
-D03;T1;Titanyum;4,506;Hayır;—
-D03;T1;Demir;7,87;Evet;10,3
-D03;T1;Bakır;8,96;Hayır;59,6
-D04;T1;Özellik;Kurşun;Grafit
-D04;T1;Yoğunluk (g/cm³);11,3;2,2
-D04;T1;Renk;Mavimsi gri metal;Siyah, parlak
-D04;T1;Yanınca karbondioksit verir mi?;Hayır;Evet
-D04;T1;Erime noktası (°C);327;"Erimez; yaklaşık 3825 °C'de süblimleşir"
-D05;T1;Metal;Erime noktası (°C);Yoğunluk (g/cm³)
-D05;T1;Cıva;−38,8;13,53
-D05;T1;Sezyum;28,5;1,87
-D05;T1;Galyum;29,8;5,91
-D05;T1;Rubidyum;39,3;1,53
-D05;T1;Sodyum;97,8;0,97
-D06;T1;Element;Periyot;Oda sıcaklığındaki hâli;Görünüşü
-D06;T1;Flor;2;Gaz;Çok soluk sarı-yeşil
-D06;T1;Klor;3;Gaz;Sarı-yeşil, boğucu kokulu
-D06;T1;Brom;4;Sıvı;Koyu kırmızı, yağımsı
-D06;T1;İyot;5;Katı;Siyah, parlak kristaller
-D07;T1;Metal;Grup;Periyot;Alev rengi
-D07;T1;Lityum;1;2;Kızıl
-D07;T1;Sodyum;1;3;Sarı-turuncu
-D07;T1;Potasyum;1;4;Leylak
-D07;T1;Kalsiyum;2;4;Turuncu-kırmızı (tuğla kırmızısı)
-D07;T1;Stronsiyum;2;5;Kızıl
-D07;T1;Baryum;2;6;Yeşil
-D07;T1;Bakır;11;4;Mavi-yeşil
-D08;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C)
-D08;T1;Berilyum;2;1,85;1287
-D08;T1;Magnezyum;3;1,74;650
-D08;T1;Kalsiyum;4;1,54;842
-D08;T1;Stronsiyum;5;2,64;777
-D08;T1;Baryum;6;3,62;727
-D08;T1;Radyum;7;5;696
-D09;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C);Alev rengi
-D09;T1;Lityum;2;0,534;180,5;Kızıl
-D09;T1;Sodyum;3;0,97;97,8;Sarı-turuncu
-D09;T1;Potasyum;4;0,89;63,5;Leylak
-D09;T1;Rubidyum;5;1,53;39,3;Kırmızımsı mor
-D09;T1;Sezyum;6;1,87;28,5;Mavi-mor
-D10;T1;Gaz;Mumu söndürür mü?;Kireç suyunu bulandırır mı?;Yoğunluk (g/cm³);Havadaki oranı (hacimce)
-D10;T1;Azot;Evet;Hayır;0,001145;Yaklaşık %78
-D10;T1;Oksijen;Hayır, mumu daha parlak yakar;Hayır;0,001308;Yaklaşık %21
-D10;T1;Argon;Evet;Hayır;0,001633;Yaklaşık %0,9
-D10;T1;Karbondioksit;Evet;Evet;0,00184;Yaklaşık %0,04
-D10;T1;Helyum;Evet;Hayır;0,000164;Çok az
-D11;T1;Ölçüm;Havadan elde edilen 'azot' (g/L);Amonyaktan elde edilen azot (g/L)
-D11;T1;1. ölçüm;1,2568;1,2504
-D11;T1;2. ölçüm;1,2572;1,2507
-D11;T1;3. ölçüm;1,2570;1,2506
-D11;T1;Ortalama;1,2570;1,2506
-D12;T1;Parça;Yoğunluk (g/cm³);Porselene sürtününce bıraktığı çizgi;İğneyle bastırınca
-D12;T1;A (taş);5,0;Yeşilimsi siyah;Kırılıyor
-D12;T1;B (külçe);19,3;Altın sarısı;Eziliyor, iz kalıyor
-D12;T1;C (madalyon);8,5;Denenmedi;Hafif iz kalıyor
-D12;T2;Madde;Yoğunluk (g/cm³);Not
-D12;T2;Altın (Au);19,3;"Çok yumuşak, dövülebilir; sarı çizgi bırakır"
-D12;T2;Tungsten (W);19,3;Sert, gümüşi beyaz metal
-D12;T2;Pirit (FeS₂, 'aptal altını');4,9–5,2;"Kırılgan; yeşilimsi siyah çizgi bırakır"
-D12;T2;Pirinç (bakır–çinko alaşımı);8,4–8,7;Sarı renkli alaşım
-D13;T1;Metal;Yoğunluk (g/cm³)
-D13;T1;Demir;7,87
-D13;T1;Kobalt;8,86
-D13;T1;Nikel;8,90
-D13;T2;Tüp;Koşullar;Bir hafta sonra
-D13;T2;1;Yalnızca kuru hava (tüpte nem çeken madde var);Paslanmadı
-D13;T2;2;Kaynatılıp üzeri yağla kapatılmış su (havasız su);Paslanmadı
-D13;T2;3;Su ve hava;Paslandı
-D13;T2;4;Tuzlu su ve hava;Çok paslandı
-D14;T1;Gün;Serbest dezenfektan (mg/L);Kloramin (mg/L);Yüzücü sayısı;Göz yanması şikâyeti
-D14;T1;Pazartesi;1,8;0,1;40;0
-D14;T1;Çarşamba;1,7;0,3;120;3
-D14;T1;Cumartesi;1,2;0,8;310;21
-D14;T1;Pazar;0,9;1,1;350;27
-D15;T1;İzotop;Yarı ömür
-D15;T1;Uranyum-238;Yaklaşık 4,5 milyar yıl
-D15;T1;Plütonyum-239;Yaklaşık 24 100 yıl
-D15;T1;Amerikyum-241;432 yıl
-D15;T1;Küriyum-244;Yaklaşık 18 yıl
-D16;T1;Metal;Periyot;Erime noktası (°C);Yoğunluk (g/cm³)
-D16;T1;Alüminyum;3;660,3;2,70
-D16;T1;Galyum;4;29,8;5,91
-D16;T1;İndiyum;5;156,6;7,31
-D16;T1;Talyum;6;304;11,8
-D17;T1;Metal;Yoğunluk (g/cm³);Erime noktası (°C);Mıknatısa çekilir mi?
-D17;T1;Alüminyum;2,70;660;Hayır
-D17;T1;Titanyum;4,506;1670;Hayır
-D17;T1;Demir;7,87;1538;Evet
-D17;T1;Nikel;8,90;1455;Evet
-D17;T1;Bakır;8,96;1085;Hayır
-D18;T1;Metal;Yoğunluk (g/cm³);Rengi;Havada kararır mı?
-D18;T1;Bakır;8,96;Kırmızımsı;Zamanla yeşil bir tabaka oluşturabilir
-D18;T1;Gümüş;10,5;Parlak beyaz;Kükürtlü bileşiklerle yavaşça siyahlaşır
-D18;T1;Altın;19,3;Sarı;Kararmaz
-D18;T1;Röntgenyum;—;—;Laboratuvarda yalnızca birkaç atom üretildi
-D19;T1;Metal;Erime noktası (°C);Yoğunluk (g/cm³)
-D19;T1;Tungsten;3414;19,3
-D19;T1;Renyum;3185;20,8
-D19;T1;Tantal;3017;16,4
-D19;T1;Molibden;2622;10,2
-D20;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C);Alev rengi
-D20;T1;Lityum;2;0,534;180,5;Kızıl
-D20;T1;Sodyum;3;0,97;97,8;Sarı-turuncu
-D20;T1;Potasyum;4;0,89;63,5;Leylak
-D20;T1;Rubidyum;5;1,53;39,3;Kırmızımsı mor
-D20;T1;Sezyum;6;1,87;28,5;Mavi-mor
+V001;T1;Metal;Yoğunluk (g/cm³);Elektrik iletkenliği (MS/m, 20 °C);Erime noktası (°C);Mıknatısa çekilir mi?
+V001;T1;Alüminyum;2,70;35,5;660;Hayır
+V001;T1;Demir;7,87;10,3;1538;Evet
+V001;T1;Kobalt;8,86;16,0;1495;Evet
+V001;T1;Nikel;8,90;14,3;1455;Evet
+V001;T1;Bakır;8,96;59,6;1085;Hayır
+V001;T1;Gümüş;10,5;63,0;962;Hayır
+V002;T1;Gaz;Yoğunluk (g/cm³, oda sıcaklığı);Yanıcı mı?
+V002;T1;Hava (karışım);0,0012;Hayır
+V002;T1;Hidrojen;0,000082;Evet
+V002;T1;Helyum;0,000164;Hayır
+V002;T1;Neon;0,000825;Hayır
+V002;T1;Argon;0,001633;Hayır
+V003;T1;Metal;Yoğunluk (g/cm³);Mıknatısa çekilir mi?;Elektrik iletkenliği (MS/m, 20 °C)
+V003;T1;Magnezyum;1,74;Hayır;—
+V003;T1;Alüminyum;2,70;Hayır;35,5
+V003;T1;Titanyum;4,506;Hayır;—
+V003;T1;Demir;7,87;Evet;10,3
+V003;T1;Bakır;8,96;Hayır;59,6
+V004;T1;Özellik;Kurşun;Grafit
+V004;T1;Yoğunluk (g/cm³);11,3;2,2
+V004;T1;Renk;Mavimsi gri metal;Siyah, parlak
+V004;T1;Yanınca karbondioksit verir mi?;Hayır;Evet
+V004;T1;Erime noktası (°C);327;"Erimez; yaklaşık 3825 °C'de süblimleşir"
+V005;T1;Metal;Erime noktası (°C);Yoğunluk (g/cm³)
+V005;T1;Cıva;−38,8;13,53
+V005;T1;Sezyum;28,5;1,87
+V005;T1;Galyum;29,8;5,91
+V005;T1;Rubidyum;39,3;1,53
+V005;T1;Sodyum;97,8;0,97
+V051;T1;Element;Periyot;Oda sıcaklığındaki hâli;Görünüşü
+V051;T1;Flor;2;Gaz;Çok soluk sarı-yeşil
+V051;T1;Klor;3;Gaz;Sarı-yeşil, boğucu kokulu
+V051;T1;Brom;4;Sıvı;Koyu kırmızı, yağımsı
+V051;T1;İyot;5;Katı;Siyah, parlak kristaller
+V052;T1;Metal;Grup;Periyot;Alev rengi
+V052;T1;Lityum;1;2;Kızıl
+V052;T1;Sodyum;1;3;Sarı-turuncu
+V052;T1;Potasyum;1;4;Leylak
+V052;T1;Kalsiyum;2;4;Turuncu-kırmızı (tuğla kırmızısı)
+V052;T1;Stronsiyum;2;5;Kızıl
+V052;T1;Baryum;2;6;Yeşil
+V052;T1;Bakır;11;4;Mavi-yeşil
+V053;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C)
+V053;T1;Berilyum;2;1,85;1287
+V053;T1;Magnezyum;3;1,74;650
+V053;T1;Kalsiyum;4;1,54;842
+V053;T1;Stronsiyum;5;2,64;777
+V053;T1;Baryum;6;3,62;727
+V053;T1;Radyum;7;5;696
+V054;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C);Alev rengi
+V054;T1;Lityum;2;0,534;180,5;Kızıl
+V054;T1;Sodyum;3;0,97;97,8;Sarı-turuncu
+V054;T1;Potasyum;4;0,89;63,5;Leylak
+V054;T1;Rubidyum;5;1,53;39,3;Kırmızımsı mor
+V054;T1;Sezyum;6;1,87;28,5;Mavi-mor
+V055;T1;Gaz;Mumu söndürür mü?;Kireç suyunu bulandırır mı?;Yoğunluk (g/cm³);Havadaki oranı (hacimce)
+V055;T1;Azot;Evet;Hayır;0,001145;Yaklaşık %78
+V055;T1;Oksijen;Hayır, mumu daha parlak yakar;Hayır;0,001308;Yaklaşık %21
+V055;T1;Argon;Evet;Hayır;0,001633;Yaklaşık %0,9
+V055;T1;Karbondioksit;Evet;Evet;0,00184;Yaklaşık %0,04
+V055;T1;Helyum;Evet;Hayır;0,000164;Çok az
+V056;T1;Element;Kaynama noktası (°C)
+V056;T1;Hidrojen;−253
+V056;T1;Helyum;−269
+V056;T1;Azot;−196
+V056;T1;Neon;−246
+V057;T1;Element;Kaynama noktası (°C)
+V057;T1;Hidrojen;−253
+V057;T1;Helyum;−269
+V057;T1;Azot;−196
+V057;T1;Neon;−246
+V058;T1;Element;Kaynama noktası (°C)
+V058;T1;Hidrojen;−253
+V058;T1;Helyum;−269
+V058;T1;Azot;−196
+V058;T1;Neon;−246
+V059;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V059;T1;Lityum;0,53;180
+V059;T1;Berilyum;1,85;1287
+V059;T1;Bor;2,34;2077
+V059;T1;Magnezyum;1,74;650
+V060;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V060;T1;Berilyum;1287;2468
+V060;T1;Bor;2077;4000
+V060;T1;Alüminyum;660;2519
+V060;T1;Silisyum;1414;3265
+V062;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V062;T1;Azot;−196;−210
+V062;T1;Oksijen;−183;−219
+V062;T1;Flor;−188;−220
+V062;T1;Neon;−246;−249
+V063;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V063;T1;Azot;−196;−210
+V063;T1;Oksijen;−183;−219
+V063;T1;Flor;−188;−220
+V063;T1;Argon;−186;−189
+V064;T1;Element;Alev testi rengi
+V064;T1;Lityum;Koyu kırmızı
+V064;T1;Sodyum;Parlak turuncu-sarı
+V064;T1;Potasyum;Lila (açık mor)
+V064;T1;Kalsiyum;Turuncu-kırmızı
+V064;T1;Bakır;Mavi-yeşil
+V065;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V065;T1;Sodyum;0,97;97,8
+V065;T1;Magnezyum;1,74;650
+V065;T1;Alüminyum;2,70;660
+V065;T1;Kalsiyum;1,54;842
+V066;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V066;T1;Magnezyum;1,74;650
+V066;T1;Alüminyum;2,70;660
+V066;T1;Silisyum;2,33;1414
+V066;T1;Titanyum;4,51;1670
+V067;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V067;T1;Alüminyum;2,70;660
+V067;T1;Silisyum;2,33;1414
+V067;T1;Fosfor;1,82;44,1
+V067;T1;Germanyum;5,32;938
+V068;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V068;T1;Alüminyum;2,70;660
+V068;T1;Silisyum;2,33;1414
+V068;T1;Fosfor;1,82;44,1
+V068;T1;Kükürt;2,07;115
+V069;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V069;T1;Silisyum;1414;3265
+V069;T1;Fosfor;44,1;280
+V069;T1;Kükürt;115;445
+V069;T1;Klor;−102;−34,0
+V070;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V070;T1;Sodyum;0,97;97,8
+V070;T1;Potasyum;0,89;63,5
+V070;T1;Kalsiyum;1,54;842
+V070;T1;Rubidyum;1,53;39,3
+V071;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V071;T1;Alüminyum;2,70;660
+V071;T1;Kalsiyum;1,54;842
+V071;T1;Skandiyum;2,99;1541
+V071;T1;Titanyum;4,51;1670
+V072;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V072;T1;Skandiyum;2,99;1541
+V072;T1;Titanyum;4,51;1670
+V072;T1;Vanadyum;6,00;1910
+V072;T1;Krom;7,15;1907
+V073;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V073;T1;Vanadyum;6,00;1910
+V073;T1;Krom;7,15;1907
+V073;T1;Mangan;7,30;1246
+V073;T1;Demir;7,87;1538
+V074;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V074;T1;Krom;7,15;1907
+V074;T1;Mangan;7,30;1246
+V074;T1;Demir;7,87;1538
+V074;T1;Kobalt;8,86;1495
+V075;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V075;T1;Krom;7,15;1907
+V075;T1;Mangan;7,30;1246
+V075;T1;Demir;7,87;1538
+V075;T1;Kobalt;8,86;1495
+V076;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V076;T1;Demir;1538;2861
+V076;T1;Kobalt;1495;2927
+V076;T1;Nikel;1455;2913
+V076;T1;Bakır;1085;2560
+V077;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V077;T1;Demir;1538;2861
+V077;T1;Kobalt;1495;2927
+V077;T1;Nikel;1455;2913
+V077;T1;Bakır;1085;2560
+V078;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V078;T1;Nikel;1455;2913
+V078;T1;Bakır;1085;2560
+V078;T1;Çinko;420;907
+V078;T1;Gümüş;962;2162
+V079;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V079;T1;Nikel;8,90;1455
+V079;T1;Bakır;8,96;1085
+V079;T1;Çinko;7,13;420
+V079;T1;Galyum;5,91;29,8
+V080;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V080;T1;Alüminyum;660;2519
+V080;T1;Çinko;420;907
+V080;T1;Galyum;29,8;2229
+V080;T1;Germanyum;938;2833
+V081;T1;Element;Yoğunluk (g/cm³)
+V081;T1;Silisyum;2,33
+V081;T1;Galyum;5,91
+V081;T1;Germanyum;5,32
+V081;T1;Arsenik;5,75
+V082;T1;Element;Yoğunluk (g/cm³)
+V082;T1;Germanyum;5,32
+V082;T1;Arsenik;5,75
+V082;T1;Selenyum;4,81
+V082;T1;Brom;3,10
+V083;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V083;T1;Klor;−34,0;−102
+V083;T1;Selenyum;685;221
+V083;T1;Brom;58,8;−7,2
+V083;T1;Kripton;−153;−157
+V084;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V084;T1;Potasyum;0,89;63,5
+V084;T1;Rubidyum;1,53;39,3
+V084;T1;Stronsiyum;2,64;777
+V084;T1;Sezyum;1,87;28,5
+V085;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V085;T1;Titanyum;4,51;1670
+V085;T1;İtriyum;4,47;1522
+V085;T1;Zirkonyum;6,52;1854
+V085;T1;Niyobyum;8,57;2477
+V086;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V086;T1;İndiyum;157;2027
+V086;T1;Kalay;232;2586
+V086;T1;Antimon;631;1587
+V086;T1;Kurşun;327;1749
+V087;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V087;T1;Brom;−7,2;58,8
+V087;T1;Tellür;450;988
+V087;T1;İyot;114;184
+V087;T1;Ksenon;−112;−108
+V088;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V088;T1;Stronsiyum;2,64;777
+V088;T1;Sezyum;1,87;28,5
+V088;T1;Baryum;3,62;727
+V088;T1;Lantan;6,15;920
+V089;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V089;T1;Baryum;3,62;727
+V089;T1;Lantan;6,15;920
+V089;T1;Seryum;6,77;799
+V089;T1;Neodim;7,01;1016
+V090;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V090;T1;Seryum;799;3443
+V090;T1;Praseodim;931;3520
+V090;T1;Neodim;1016;3074
+V090;T1;Prometyum;1042;3000
+V091;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V091;T1;Neodim;7,01;1016
+V091;T1;Prometyum;7,26;1042
+V091;T1;Samaryum;7,52;1072
+V091;T1;Evropiyum;5,24;822
+V092;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V092;T1;Samaryum;7,52;1072
+V092;T1;Evropiyum;5,24;822
+V092;T1;Gadolinyum;7,90;1313
+V092;T1;Terbiyum;8,23;1359
+V093;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V093;T1;Terbiyum;8,23;1359
+V093;T1;Disprosiyum;8,55;1412
+V093;T1;Holmiyum;8,80;1472
+V093;T1;Erbiyum;9,07;1529
+V094;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V094;T1;Disprosiyum;8,55;1412
+V094;T1;Holmiyum;8,80;1472
+V094;T1;Erbiyum;9,07;1529
+V094;T1;Tulyum;9,32;1545
+V095;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V095;T1;Erbiyum;9,07;1529
+V095;T1;Tulyum;9,32;1545
+V095;T1;İterbiyum;6,90;824
+V095;T1;Lutesyum;9,84;1663
+V096;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V096;T1;Erbiyum;9,07;1529
+V096;T1;Tulyum;9,32;1545
+V096;T1;İterbiyum;6,90;824
+V096;T1;Lutesyum;9,84;1663
+V097;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V097;T1;Tulyum;9,32;1545
+V097;T1;İterbiyum;6,90;824
+V097;T1;Lutesyum;9,84;1663
+V097;T1;Hafniyum;13,30;2233
+V098;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V098;T1;Baryum;3,62;727
+V098;T1;Radyum;5,00;696
+V098;T1;Aktinyum;10,00;1050
+V098;T1;Toryum;11,70;1750
+V099;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V099;T1;Toryum;11,70;1750
+V099;T1;Protaktinyum;15,40;1572
+V099;T1;Uranyum;19,10;1135
+V099;T1;Neptünyum;20,20;644
+V100;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V100;T1;Protaktinyum;15,40;1572
+V100;T1;Uranyum;19,10;1135
+V100;T1;Neptünyum;20,20;644
+V100;T1;Plütonyum;19,70;640
+V101;T1;Ölçüm;Havadan elde edilen 'azot' (g/L);Amonyaktan elde edilen azot (g/L)
+V101;T1;1. ölçüm;1,2568;1,2504
+V101;T1;2. ölçüm;1,2572;1,2507
+V101;T1;3. ölçüm;1,2570;1,2506
+V101;T1;Ortalama;1,2570;1,2506
+V102;T1;Parça;Yoğunluk (g/cm³);Porselene sürtününce bıraktığı çizgi;İğneyle bastırınca
+V102;T1;A (taş);5,0;Yeşilimsi siyah;Kırılıyor
+V102;T1;B (külçe);19,3;Altın sarısı;Eziliyor, iz kalıyor
+V102;T1;C (madalyon);8,5;Denenmedi;Hafif iz kalıyor
+V102;T2;Madde;Yoğunluk (g/cm³);Not
+V102;T2;Altın (Au);19,3;"Çok yumuşak, dövülebilir; sarı çizgi bırakır"
+V102;T2;Tungsten (W);19,3;Sert, gümüşi beyaz metal
+V102;T2;Pirit (FeS₂, 'aptal altını');4,9–5,2;"Kırılgan; yeşilimsi siyah çizgi bırakır"
+V102;T2;Pirinç (bakır–çinko alaşımı);8,4–8,7;Sarı renkli alaşım
+V103;T1;Metal;Yoğunluk (g/cm³)
+V103;T1;Demir;7,87
+V103;T1;Kobalt;8,86
+V103;T1;Nikel;8,90
+V103;T2;Tüp;Koşullar;Bir hafta sonra
+V103;T2;1;Yalnızca kuru hava (tüpte nem çeken madde var);Paslanmadı
+V103;T2;2;Kaynatılıp üzeri yağla kapatılmış su (havasız su);Paslanmadı
+V103;T2;3;Su ve hava;Paslandı
+V103;T2;4;Tuzlu su ve hava;Çok paslandı
+V104;T1;Gün;Serbest dezenfektan (mg/L);Kloramin (mg/L);Yüzücü sayısı;Göz yanması şikâyeti
+V104;T1;Pazartesi;1,8;0,1;40;0
+V104;T1;Çarşamba;1,7;0,3;120;3
+V104;T1;Cumartesi;1,2;0,8;310;21
+V104;T1;Pazar;0,9;1,1;350;27
+V105;T1;İzotop;Yarı ömür
+V105;T1;Uranyum-238;Yaklaşık 4,5 milyar yıl
+V105;T1;Plütonyum-239;Yaklaşık 24 100 yıl
+V105;T1;Amerikyum-241;432 yıl
+V105;T1;Küriyum-244;Yaklaşık 18 yıl
+V106;T1;Element;En güçlü çizginin dalga boyu (nm);Rengi
+V106;T1;Hidrojen;656;Kırmızı
+V106;T1;Lityum;671;Kırmızı
+V106;T1;Sodyum;589;Turuncu-sarı
+V106;T1;Potasyum;767;Koyu kırmızı
+V106;T1;Rubidyum;780;Koyu kırmızı
+V106;T1;Sezyum;852;Kızılötesi (görünmez)
+V107;T1;Element;Kaynama noktası (°C)
+V107;T1;Helyum;−269
+V107;T1;Neon;−246
+V107;T1;Argon;−186
+V107;T1;Kripton;−153
+V107;T1;Ksenon;−108
+V108;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V108;T1;Hidrojen;0,000082;−259
+V108;T1;Lityum;0,53;180
+V108;T1;Sodyum;0,97;97,8
+V108;T1;Potasyum;0,89;63,5
+V108;T1;Rubidyum;1,53;39,3
+V108;T1;Sezyum;1,87;28,5
+V109;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V109;T1;Oksijen;−183;−219
+V109;T1;Kükürt;445;115
+V109;T1;Selenyum;685;221
+V109;T1;Tellür;988;450
+V110;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V110;T1;Flor;−188;−220
+V110;T1;Klor;−34,0;−102
+V110;T1;Brom;58,8;−7,2
+V110;T1;İyot;184;114
+V111;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V111;T1;Hidrojen;−259;−253
+V111;T1;Lityum;180;1342
+V111;T1;Sodyum;97,8;883
+V111;T1;Potasyum;63,5;759
+V111;T1;Rubidyum;39,3;688
+V111;T1;Sezyum;28,5;671
+V112;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V112;T1;Berilyum;1,85;1287
+V112;T1;Magnezyum;1,74;650
+V112;T1;Kalsiyum;1,54;842
+V112;T1;Stronsiyum;2,64;777
+V112;T1;Baryum;3,62;727
+V113;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V113;T1;Bor;2,34;2077
+V113;T1;Alüminyum;2,70;660
+V113;T1;Galyum;5,91;29,8
+V113;T1;İndiyum;7,31;157
+V113;T1;Talyum;11,80;304
+V114;T1;Element;Yoğunluk (g/cm³)
+V114;T1;Karbon;2,2 (grafit)
+V114;T1;Silisyum;2,33
+V114;T1;Germanyum;5,32
+V114;T1;Kalay;7,29
+V114;T1;Kurşun;11,30
+V115;T1;Element;Yoğunluk (g/cm³)
+V115;T1;Azot;0,001145
+V115;T1;Fosfor;1,82
+V115;T1;Arsenik;5,75
+V115;T1;Antimon;6,68
+V115;T1;Bizmut;9,79
+V116;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V116;T1;Oksijen;0,001308;−219
+V116;T1;Kükürt;2,07;115
+V116;T1;Selenyum;4,81;221
+V116;T1;Tellür;6,23;450
+V117;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V117;T1;Hidrojen;0,000082;−259
+V117;T1;Lityum;0,53;180
+V117;T1;Sodyum;0,97;97,8
+V117;T1;Potasyum;0,89;63,5
+V117;T1;Rubidyum;1,53;39,3
+V117;T1;Sezyum;1,87;28,5
+V118;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V118;T1;Berilyum;1,85;1287
+V118;T1;Magnezyum;1,74;650
+V118;T1;Kalsiyum;1,54;842
+V118;T1;Stronsiyum;2,64;777
+V118;T1;Baryum;3,62;727
+V119;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V119;T1;Titanyum;4,51;1670
+V119;T1;Zirkonyum;6,52;1854
+V119;T1;Hafniyum;13,30;2233
+V120;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V120;T1;Vanadyum;6,00;1910
+V120;T1;Niyobyum;8,57;2477
+V120;T1;Tantal;16,40;3017
+V121;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V121;T1;Krom;7,15;1907
+V121;T1;Molibden;10,20;2622
+V121;T1;Tungsten;19,30;3414
+V122;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V122;T1;Mangan;7,30;1246
+V122;T1;Renyum;20,80;3185
+V123;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V123;T1;Kobalt;8,86;1495
+V123;T1;Rodyum;12,40;1963
+V123;T1;İridyum;22,56;2446
+V124;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V124;T1;Nikel;8,90;1455
+V124;T1;Paladyum;12,00;1555
+V124;T1;Platin;21,50;1768
+V125;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V125;T1;Bakır;8,96;1085
+V125;T1;Gümüş;10,50;962
+V125;T1;Altın;19,30;1064
+V126;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V126;T1;Çinko;7,13;420
+V126;T1;Kadmiyum;8,69;321
+V126;T1;Cıva;13,53;−38,8
+V127;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V127;T1;Bor;2,34;2077
+V127;T1;Alüminyum;2,70;660
+V127;T1;Galyum;5,91;29,8
+V127;T1;İndiyum;7,31;157
+V127;T1;Talyum;11,80;304
+V128;T1;Element;Yoğunluk (g/cm³)
+V128;T1;Azot;0,001145
+V128;T1;Fosfor;1,82
+V128;T1;Arsenik;5,75
+V128;T1;Antimon;6,68
+V128;T1;Bizmut;9,79
+V129;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V129;T1;Oksijen;0,001308;−219
+V129;T1;Kükürt;2,07;115
+V129;T1;Selenyum;4,81;221
+V129;T1;Tellür;6,23;450
+V130;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V130;T1;Flor;0,001553;−220
+V130;T1;Klor;0,002898;−102
+V130;T1;Brom;3,10;−7,2
+V130;T1;İyot;4,93;114
+V131;T1;Element;Kaynama noktası (°C)
+V131;T1;Helyum;−269
+V131;T1;Neon;−246
+V131;T1;Argon;−186
+V131;T1;Kripton;−153
+V131;T1;Ksenon;−108
+V132;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V132;T1;Berilyum;1,85;1287
+V132;T1;Magnezyum;1,74;650
+V132;T1;Kalsiyum;1,54;842
+V132;T1;Stronsiyum;2,64;777
+V132;T1;Baryum;3,62;727
+V133;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V133;T1;Titanyum;4,51;1670
+V133;T1;Zirkonyum;6,52;1854
+V133;T1;Hafniyum;13,30;2233
+V134;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V134;T1;Vanadyum;6,00;1910
+V134;T1;Niyobyum;8,57;2477
+V134;T1;Tantal;16,40;3017
+V135;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V135;T1;Krom;7,15;1907
+V135;T1;Molibden;10,20;2622
+V135;T1;Tungsten;19,30;3414
+V136;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V136;T1;Kobalt;8,86;1495
+V136;T1;Rodyum;12,40;1963
+V136;T1;İridyum;22,56;2446
+V137;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V137;T1;Bakır;8,96;1085
+V137;T1;Gümüş;10,50;962
+V137;T1;Altın;19,30;1064
+V138;T1;Element;Yoğunluk (g/cm³)
+V138;T1;Karbon;2,2 (grafit)
+V138;T1;Silisyum;2,33
+V138;T1;Germanyum;5,32
+V138;T1;Kalay;7,29
+V138;T1;Kurşun;11,30
+V139;T1;Element;Yoğunluk (g/cm³)
+V139;T1;Azot;0,001145
+V139;T1;Fosfor;1,82
+V139;T1;Arsenik;5,75
+V139;T1;Antimon;6,68
+V139;T1;Bizmut;9,79
+V140;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V140;T1;Flor;0,001553;−220
+V140;T1;Klor;0,002898;−102
+V140;T1;Brom;3,10;−7,2
+V140;T1;İyot;4,93;114
+V141;T1;Element;Kaynama noktası (°C)
+V141;T1;Helyum;−269
+V141;T1;Neon;−246
+V141;T1;Argon;−186
+V141;T1;Kripton;−153
+V141;T1;Ksenon;−108
+V142;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V142;T1;Hidrojen;−259;−253
+V142;T1;Lityum;180;1342
+V142;T1;Sodyum;97,8;883
+V142;T1;Potasyum;63,5;759
+V142;T1;Rubidyum;39,3;688
+V142;T1;Sezyum;28,5;671
+V143;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V143;T1;Berilyum;1,85;1287
+V143;T1;Magnezyum;1,74;650
+V143;T1;Kalsiyum;1,54;842
+V143;T1;Stronsiyum;2,64;777
+V143;T1;Baryum;3,62;727
+V144;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V144;T1;Titanyum;4,51;1670
+V144;T1;Zirkonyum;6,52;1854
+V144;T1;Hafniyum;13,30;2233
+V145;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V145;T1;Krom;7,15;1907
+V145;T1;Molibden;10,20;2622
+V145;T1;Tungsten;19,30;3414
+V146;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V146;T1;Mangan;7,30;1246
+V146;T1;Renyum;20,80;3185
+V147;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V147;T1;Demir;7,87;1538
+V147;T1;Rutenyum;12,10;2333
+V147;T1;Osmiyum;22,59;3033
+V148;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V148;T1;Nikel;8,90;1455
+V148;T1;Paladyum;12,00;1555
+V148;T1;Platin;21,50;1768
+V149;T1;Element;Yoğunluk (g/cm³)
+V149;T1;Karbon;2,2 (grafit)
+V149;T1;Silisyum;2,33
+V149;T1;Germanyum;5,32
+V149;T1;Kalay;7,29
+V149;T1;Kurşun;11,30
+V150;T1;Element;Yoğunluk (g/cm³)
+V150;T1;Azot;0,001145
+V150;T1;Fosfor;1,82
+V150;T1;Arsenik;5,75
+V150;T1;Antimon;6,68
+V150;T1;Bizmut;9,79
+V151;T1;Metal;Periyot;Erime noktası (°C);Yoğunluk (g/cm³)
+V151;T1;Alüminyum;3;660,3;2,70
+V151;T1;Galyum;4;29,8;5,91
+V151;T1;İndiyum;5;156,6;7,31
+V151;T1;Talyum;6;304;11,8
+V152;T1;Metal;Yoğunluk (g/cm³);Erime noktası (°C);Mıknatısa çekilir mi?
+V152;T1;Alüminyum;2,70;660;Hayır
+V152;T1;Titanyum;4,506;1670;Hayır
+V152;T1;Demir;7,87;1538;Evet
+V152;T1;Nikel;8,90;1455;Evet
+V152;T1;Bakır;8,96;1085;Hayır
+V153;T1;Metal;Yoğunluk (g/cm³);Rengi;Havada kararır mı?
+V153;T1;Bakır;8,96;Kırmızımsı;Zamanla yeşil bir tabaka oluşturabilir
+V153;T1;Gümüş;10,5;Parlak beyaz;Kükürtlü bileşiklerle yavaşça siyahlaşır
+V153;T1;Altın;19,3;Sarı;Kararmaz
+V153;T1;Röntgenyum;—;—;Laboratuvarda yalnızca birkaç atom üretildi
+V154;T1;Metal;Erime noktası (°C);Yoğunluk (g/cm³)
+V154;T1;Tungsten;3414;19,3
+V154;T1;Renyum;3185;20,8
+V154;T1;Tantal;3017;16,4
+V154;T1;Molibden;2622;10,2
+V156;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V156;T1;Hidrojen;0,000082;−259
+V156;T1;Lityum;0,53;180
+V156;T1;Sodyum;0,97;97,8
+V156;T1;Potasyum;0,89;63,5
+V156;T1;Rubidyum;1,53;39,3
+V156;T1;Sezyum;1,87;28,5
+V157;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V157;T1;Bor;2,34;2077
+V157;T1;Alüminyum;2,70;660
+V157;T1;Galyum;5,91;29,8
+V157;T1;İndiyum;7,31;157
+V157;T1;Talyum;11,80;304
+V159;T1;Malzeme;Yoğunluk (g/cm³);Isı iletimi
+V159;T1;Elmas (karbon);3,51;Çok yüksek
+V159;T1;Moissanit (silisyum karbür);3,22;Yüksek
+V159;T1;Kübik zirkonya (zirkonyum oksit);5,6–6,0;Düşük
+V159;T1;Cam;2,4–2,8;Düşük
+V160;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V160;T1;Azot;−196;−210
+V160;T1;Oksijen;−183;−219
+V160;T1;Flor;−188;−220
+V160;T1;Neon;−246;−249
+V161;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V161;T1;Azot;−196;−210
+V161;T1;Oksijen;−183;−219
+V161;T1;Flor;−188;−220
+V161;T1;Argon;−186;−189
+V162;T1;Element;Kaynama noktası (°C)
+V162;T1;Hidrojen;−253
+V162;T1;Helyum;−269
+V162;T1;Neon;−246
+V162;T1;Argon;−186
+V163;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V163;T1;Berilyum;1,85;1287
+V163;T1;Magnezyum;1,74;650
+V163;T1;Kalsiyum;1,54;842
+V163;T1;Stronsiyum;2,64;777
+V163;T1;Baryum;3,62;727
+V164;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V164;T1;Bor;2,34;2077
+V164;T1;Alüminyum;2,70;660
+V164;T1;Galyum;5,91;29,8
+V164;T1;İndiyum;7,31;157
+V164;T1;Talyum;11,80;304
+V165;T1;Element;Yoğunluk (g/cm³)
+V165;T1;Karbon;2,2 (grafit)
+V165;T1;Silisyum;2,33
+V165;T1;Germanyum;5,32
+V165;T1;Kalay;7,29
+V165;T1;Kurşun;11,30
+V166;T1;Element;Yoğunluk (g/cm³)
+V166;T1;Azot;0,001145
+V166;T1;Fosfor;1,82
+V166;T1;Arsenik;5,75
+V166;T1;Antimon;6,68
+V166;T1;Bizmut;9,79
+V167;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V167;T1;Oksijen;0,001308;−219
+V167;T1;Kükürt;2,07;115
+V167;T1;Selenyum;4,81;221
+V167;T1;Tellür;6,23;450
+V168;T1;Element;Kaynama noktası (°C);Erime noktası (°C)
+V168;T1;Flor;−188;−220
+V168;T1;Klor;−34,0;−102
+V168;T1;Brom;58,8;−7,2
+V168;T1;İyot;184;114
+V169;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V169;T1;Hidrojen;0,000082;−259
+V169;T1;Lityum;0,53;180
+V169;T1;Sodyum;0,97;97,8
+V169;T1;Potasyum;0,89;63,5
+V169;T1;Rubidyum;1,53;39,3
+V169;T1;Sezyum;1,87;28,5
+V170;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V170;T1;Berilyum;1,85;1287
+V170;T1;Magnezyum;1,74;650
+V170;T1;Kalsiyum;1,54;842
+V170;T1;Stronsiyum;2,64;777
+V170;T1;Baryum;3,62;727
+V171;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V171;T1;Mangan;7,30;1246
+V171;T1;Renyum;20,80;3185
+V172;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V172;T1;Demir;7,87;1538
+V172;T1;Rutenyum;12,10;2333
+V172;T1;Osmiyum;22,59;3033
+V173;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V173;T1;Kobalt;8,86;1495
+V173;T1;Rodyum;12,40;1963
+V173;T1;İridyum;22,56;2446
+V174;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V174;T1;Nikel;8,90;1455
+V174;T1;Paladyum;12,00;1555
+V174;T1;Platin;21,50;1768
+V175;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V175;T1;Bakır;8,96;1085
+V175;T1;Gümüş;10,50;962
+V175;T1;Altın;19,30;1064
+V176;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V176;T1;Çinko;7,13;420
+V176;T1;Kadmiyum;8,69;321
+V176;T1;Cıva;13,53;−38,8
+V177;T1;Element;Yoğunluk (g/cm³)
+V177;T1;Karbon;2,2 (grafit)
+V177;T1;Silisyum;2,33
+V177;T1;Germanyum;5,32
+V177;T1;Kalay;7,29
+V177;T1;Kurşun;11,30
+V178;T1;Element;Yoğunluk (g/cm³)
+V178;T1;Azot;0,001145
+V178;T1;Fosfor;1,82
+V178;T1;Arsenik;5,75
+V178;T1;Antimon;6,68
+V178;T1;Bizmut;9,79
+V179;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V179;T1;Demir;7,87;1538
+V179;T1;Rutenyum;12,10;2333
+V179;T1;Osmiyum;22,59;3033
+V180;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V180;T1;Nikel;8,90;1455
+V180;T1;Paladyum;12,00;1555
+V180;T1;Platin;21,50;1768
+V181;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V181;T1;Çinko;7,13;420
+V181;T1;Kadmiyum;8,69;321
+V181;T1;Cıva;13,53;−38,8
+V182;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V182;T1;Oksijen;0,001308;−219
+V182;T1;Kükürt;2,07;115
+V182;T1;Selenyum;4,81;221
+V182;T1;Tellür;6,23;450
+V183;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V183;T1;Flor;0,001553;−220
+V183;T1;Klor;0,002898;−102
+V183;T1;Brom;3,10;−7,2
+V183;T1;İyot;4,93;114
+V184;T1;Element;Kaynama noktası (°C)
+V184;T1;Helyum;−269
+V184;T1;Neon;−246
+V184;T1;Argon;−186
+V184;T1;Kripton;−153
+V184;T1;Ksenon;−108
+V185;T1;Element;Erime noktası (°C);Kaynama noktası (°C)
+V185;T1;Hidrojen;−259;−253
+V185;T1;Lityum;180;1342
+V185;T1;Sodyum;97,8;883
+V185;T1;Potasyum;63,5;759
+V185;T1;Rubidyum;39,3;688
+V185;T1;Sezyum;28,5;671
+V186;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V186;T1;Praseodim;6,77;931
+V186;T1;Neodim;7,01;1016
+V186;T1;Prometyum;7,26;1042
+V186;T1;Samaryum;7,52;1072
+V187;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V187;T1;Vanadyum;6,00;1910
+V187;T1;Niyobyum;8,57;2477
+V187;T1;Tantal;16,40;3017
+V188;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V188;T1;Kobalt;8,86;1495
+V188;T1;Rodyum;12,40;1963
+V188;T1;İridyum;22,56;2446
+V189;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V189;T1;Nikel;8,90;1455
+V189;T1;Paladyum;12,00;1555
+V189;T1;Platin;21,50;1768
+V190;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V190;T1;Çinko;7,13;420
+V190;T1;Kadmiyum;8,69;321
+V190;T1;Cıva;13,53;−38,8
+V191;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V191;T1;Bor;2,34;2077
+V191;T1;Alüminyum;2,70;660
+V191;T1;Galyum;5,91;29,8
+V191;T1;İndiyum;7,31;157
+V191;T1;Talyum;11,80;304
+V192;T1;Element;Yoğunluk (g/cm³)
+V192;T1;Karbon;2,2 (grafit)
+V192;T1;Silisyum;2,33
+V192;T1;Germanyum;5,32
+V192;T1;Kalay;7,29
+V192;T1;Kurşun;11,30
+V193;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V193;T1;Cıva;13,53;−38,8
+V193;T1;Talyum;11,80;304
+V193;T1;Kurşun;11,30;327
+V193;T1;Bizmut;9,79;271
+V194;T1;Element;Yoğunluk (g/cm³)
+V194;T1;Azot;0,001145
+V194;T1;Fosfor;1,82
+V194;T1;Arsenik;5,75
+V194;T1;Antimon;6,68
+V194;T1;Bizmut;9,79
+V195;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V195;T1;Protaktinyum;15,40;1572
+V195;T1;Uranyum;19,10;1135
+V195;T1;Neptünyum;20,20;644
+V195;T1;Plütonyum;19,70;640
+V196;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V196;T1;Uranyum;19,10;1135
+V196;T1;Neptünyum;20,20;644
+V196;T1;Plütonyum;19,70;640
+V196;T1;Amerikyum;12,00;1176
+V197;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V197;T1;İridyum;22,56;2446
+V197;T1;Platin;21,50;1768
+V197;T1;Altın;19,30;1064
+V197;T1;Cıva;13,53;−38,8
+V198;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V198;T1;Gadolinyum;7,90;1313
+V198;T1;Terbiyum;8,23;1359
+V198;T1;Disprosiyum;8,55;1412
+V198;T1;Holmiyum;8,80;1472
+V199;T1;Element;Yoğunluk (g/cm³);Erime noktası (°C)
+V199;T1;Rubidyum;1,53;39,3
+V199;T1;Stronsiyum;2,64;777
+V199;T1;İtriyum;4,47;1522
+V199;T1;Zirkonyum;6,52;1854
+V200;T1;Metal;Periyot;Yoğunluk (g/cm³);Erime noktası (°C);Alev rengi
+V200;T1;Lityum;2;0,534;180,5;Kızıl
+V200;T1;Sodyum;3;0,97;97,8;Sarı-turuncu
+V200;T1;Potasyum;4;0,89;63,5;Leylak
+V200;T1;Rubidyum;5;1,53;39,3;Kırmızımsı mor
+V200;T1;Sezyum;6;1,87;28,5;Mavi-mor

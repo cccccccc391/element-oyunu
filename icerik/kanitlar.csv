@@ -1,137 +1,1121 @@
 ﻿dosya;id;tur;baslik;metin;goster;kaynak
-D01;K1;yogunluk;Yoğunluk ölçümü;"8,9 ± 0,1 g/cm³ (okul laboratuvarında ölçüldü; ölçümün belirsizliği ±0,1 g/cm³)";;
-D01;K2;iletkenlik;Elektrik iletkenliği;Telin iki ucu arasındaki direnç çok düşük ölçüldü: madde elektriği çok iyi iletiyor.;;
-D01;K3;iletkenlik;Isı iletkenliği;Telin bir ucu sıcak suya daldırılınca diğer ucu kısa sürede ısındı.;;
-D01;K4;konum;Analiz cihazının kısmi raporu;Element 4. periyotta ve d bloğunda yer alıyor. Cihaz daha fazla bilgi veremeden arızalandı.;;
-D01;K5;sembol;Envanter kaydı;Eski bir envanter defterinde bu metalin sembolünün iki harfli olduğu ve ikinci harfin küçük yazıldığı not edilmiş.;;
-D01;K6;kullanim;Günlük kullanım;Bu metal ev ve binaların elektrik kablolarında yaygın olarak kullanılıyor.;;
-D01;K7;tablo;Aday metallerin bilinen özellikleri;T1;;"Yoğunluk ve erime noktası: RSC Periyodik Tablo; iletkenlik: Serway, Principles of Physics"
-D01;K8;deney;Mıknatıs testi;Tel, güçlü bir mıknatısa yaklaştırıldığında çekilmedi.;G4;
-D01;K9;fiziksel;Temizlenen yüzey;Zımparalanan yüzey kırmızımsı-turuncu renkte ve metalik parlaklıkta.;G5;
-D01;K10;isim;Arşiv notu;Eski kayıtlara göre bu metalin Latince adı 'cuprum'. Romalılar ona 'Cyprium aes', yani 'Kıbrıs metali' derdi. İngilizce adı 'copper' da Eski İngilizce 'coper' kelimesi üzerinden bu Latince addan türemiştir.;G6;https://periodic-table.rsc.org/element/29/copper
-D02;K1;fiziksel;Balonun davranışı;Bırakılan balon tavana kadar yükseldi ve üç gündür orada duruyor.;;
-D02;K2;deney;Kıvılcım testi;Balondan alınan küçük bir gaz örneğine kıvılcım yaklaştırıldı: gaz yanmadı, patlama olmadı.;;
-D02;K3;fiziksel;Renk ve koku;Gaz renksiz ve kokusuz.;;
-D02;K4;tablo;Bazı gazların özellikleri;T1;;"RSC Periyodik Tablo; hava için yaklaşık değer"
-D02;K5;deney;Spektrum analizi;Gazdan elektrik geçirilince yayılan ışığın spektrumunda parlak sarı bir çizgi görüldü. Neonun spektrumuna rengini veren parlak kırmızı-turuncu çizgiler görülmedi.;G4;
-D02;K6;tarih;Arşiv kaydı: Hindenburg;1937'de hidrojenle doldurulmuş Hindenburg zeplini iniş sırasında alev alıp yandı. Bu kaza, hidrojenle dolu yolcu zeplinleri döneminin sonu oldu.;;
-D02;K7;isim;Arşiv notu;Bu gaz Dünya'da bulunmadan 27 yıl önce, 1868'deki bir Güneş tutulması sırasında Güneş'in ışığında fark edildi. Adını Yunanca 'Güneş' anlamındaki kelimeden aldı.;G5;https://periodic-table.rsc.org/element/2/helium
-D03;K1;yogunluk;Yoğunluk ölçümü;2,7 ± 0,1 g/cm³ (üç eşyadan alınan örneklerin ortalaması);;
-D03;K2;fiziksel;Görünüş ve işlenebilirlik;Gümüşi beyaz ve parlak. Folyo hâlinde kâğıttan ince yapraklara dönüştürülebiliyor, kolayca bükülüyor.;;
-D03;K3;deney;Mıknatıs testi;Üç eşya da mıknatısa çekilmiyor.;;
-D03;K4;iletkenlik;Isı iletkenliği;Folyoya sarılan sıcak bir yemek kabının dışı kısa sürede ısınıyor: metal ısıyı iyi iletiyor.;;
-D03;K5;kimyasal;Paslanma gözlemi;"Aylarca nemli bir ortamda kalan kutuda kırmızı pas oluşmadı; yüzey biraz matlaştı ama sağlam kaldı.";;
-D03;K6;tablo;Bazı metallerin özellikleri;T1;;RSC Periyodik Tablo
-D03;K7;isim;Arşiv notu;Bu metalin adı, Latincede 'acı tuz' anlamına gelen 'alumen' (şap) kelimesinden gelir. Metal ilk kez 1825'te Hans Christian Ørsted tarafından, saf olmayan bir hâlde elde edildi.;G3;https://periodic-table.rsc.org/element/13/aluminium
-D03;K8;tarih;RSC kaydı;Bu metal yer kabuğunda en bol bulunan metaldir (yaklaşık %8,1), ama doğada nadiren saf hâlde bulunur. 1700'lerin sonunda bilim insanları onu bileşiklerinden ayırmayı başaramıyordu.;G3;https://periodic-table.rsc.org/element/13/aluminium
-D04;K1;fiziksel;Görünüş;Siyah, hafif parlak ve çok yumuşak. Kâğıda sürtünce iz bırakıyor, parmakları kayganlaştırıyor.;;
-D04;K2;iletkenlik;Elektrik testi;Kalem ucu bir pil ve küçük bir lambayla devreye bağlanınca lamba yandı: uç elektriği iletiyor.;;
-D04;K3;yogunluk;Yoğunluk ölçümü;2,2 ± 0,2 g/cm³;;
-D04;K4;deney;Yanma deneyi;Uçtan alınan örnek oksijen içinde çok yüksek sıcaklıkta yakıldı. Açığa çıkan gaz kireç suyunu bulandırdı. Geriye yanmayan, açık renkli bir kalıntı kaldı.;;
-D04;K5;tablo;Kurşun ve grafitin özellikleri;T1;;RSC Periyodik Tablo
-D04;K6;isim;Arşiv notu;"Grafit 1500'lerde İngiltere'de bulunduğunda insanlar bu siyah, parlak ve yazı yazan maddeyi bir tür kurşun sandı; 'kurşun kalem' adı bu yanılgıdan kaldı. 'Grafit' adı Yunanca 'yazmak' anlamındaki 'graphein' kelimesinden, 'karbon' adı ise Latince 'odun kömürü' anlamındaki 'carbo' kelimesinden gelir.";G4;https://periodic-table.rsc.org/element/6/carbon
-D04;K7;tarih;Elmas deneyi;1796'da İngiliz kimyager Smithson Tennant bir elması yaktı ve yanınca yalnızca karbondioksit oluştuğunu göstererek elmasın da karbon olduğunu kanıtladı.;G4;https://periodic-table.rsc.org/element/6/carbon
-D05;K1;fiziksel;Görünüş;"Oda sıcaklığında (20 °C) sıvı; gümüş renkli, metalik parlak. Yüzeyde yuvarlak damlacıklar oluşturuyor.";;
-D05;K2;yogunluk;Yoğunluk ölçümü;13,5 ± 0,2 g/cm³;;
-D05;K3;tablo;Erime noktası düşük bazı metaller;T1;;RSC Periyodik Tablo
-D05;K4;iletkenlik;Elektrik testi;Damlacıklar elektriği iletiyor.;;
-D05;K5;isim;Arşiv notu;"Bu metalin sembolü Hg; Latince 'hydrargyrum' adından gelir. Bu ad Yunanca 'su' ve 'gümüş' kelimelerinden oluşur. Türkçe adı cıva, İngilizce adı ise (mercury) Merkür gezegeninden gelir.";G4;https://periodic-table.rsc.org/element/80/mercury
-D05;K6;kullanim;Güvenlik notu;Bu metal ve buharı zehirlidir. RSC'ye göre zehirliliği nedeniyle termometre gibi birçok kullanımı terk edildi ya da kısıtlandı.;G4;https://periodic-table.rsc.org/element/80/mercury
-D06;K1;konum;Laboratuvar raporu;Element periyodik tablonun 17. grubunda (halojenler) yer alıyor.;;
-D06;K2;fiziksel;Saf hâlinin görünüşü;Saf hâli oda sıcaklığında çok soluk sarı-yeşil bir gazdır.;;
-D06;K3;elektron_dizilimi;Elektron dizilimi;1s² 2s² 2p⁵;;
-D06;K4;reaktivite;Tepkime notu;Saf hâli bilinen en tepkimeye yatkın elementtir: bütün metallere hızla saldırır, çelik yünü bu gazla karşılaşınca alev alır.;;https://periodic-table.rsc.org/element/9/fluorine
-D06;K5;iyon;İyon notu;Bileşiklerinde bir elektron alarak −1 yüklü iyon oluşturur. Türkçede bu tür iyonlar elementin adına '-ür' eki getirilerek adlandırılır (örneğin klor → klorür).;;
-D06;K6;tablo;17. grup elementleri;T1;;RSC Periyodik Tablo
-D06;K7;isim;Arşiv notu;"Bu elementin adı Latincede 'akmak' anlamına gelen 'fluere' kelimesinden gelir. Elementi içeren florit minerali, metal eritmede erimeyi kolaylaştırmak için kullanılıyordu. Element 1886'da Henri Moissan tarafından elde edildi; ondan önce elde etmeye çalışan Humphry Davy denemeleri sırasında hastalandı.";G4;https://periodic-table.rsc.org/element/9/fluorine
-D07;K1;deney;Alev testi;Tuzdan bir tutam alevin üzerine serpilince alev parlak kızıl renge döndü.;;
-D07;K2;tablo;Alev testinde bazı metallerin renkleri;T1;;Standart alev testi renkleri
-D07;K3;konum;Elementel analiz;Metal, periyodik tablonun 2. grubunda (toprak alkali metaller) yer alıyor.;G2;
-D07;K4;yogunluk;Saf metalin yoğunluğu;Tuzdan elde edilen saf metalin yoğunluğu 2,6 ± 0,1 g/cm³.;G2;
-D07;K5;kimyasal;Saf metalin davranışı;Saf metal havada kolayca yanıyor ve suyla tepkimeye giriyor.;;
-D07;K6;isim;Arşiv notu;Bu element, 1787'de İskoçya'daki küçük Strontian kasabası yakınındaki bir kurşun madeninde bulunan bir mineralden adını aldı. 1791'de Thomas Charles Hope, bu mineralin bir mumun alevini kırmızı yaktığını not etti.;G4;https://periodic-table.rsc.org/element/38/strontium
-D07;K7;kullanim;RSC kaydı;Bu elementin bileşikleri karanlıkta parlayan boya ve plastiklerde de kullanılır: gün boyunca ışığı soğurur, saatlerce yavaşça geri verirler.;G4;https://periodic-table.rsc.org/element/38/strontium
-D08;K1;konum;Analiz raporu;Element periyodik tablonun 2. grubunda (toprak alkali metaller).;;
-D08;K2;kimyasal;Saf metalin davranışı;"Saf metal gümüşi beyaz ve yumuşak; havada hızla matlaşıyor, suya atılınca yavaşça gaz çıkararak tepkimeye giriyor.";;
-D08;K3;yogunluk;Yoğunluk ölçümü;Saf metalin yoğunluğu 1,5 ± 0,1 g/cm³.;;
-D08;K4;tablo;2. grup metalleri;T1;;RSC Periyodik Tablo
-D08;K5;deney;Kemik deneyi;Bir tavuk kemiği birkaç gün sirkede bekletilince lastik gibi bükülebilir hâle geldi. Sirkede çözünen mineral, aranan elementi içeriyor.;;
-D08;K6;kullanim;Yapı malzemeleri;Kireçtaşı, mermer ve alçı (kalsiyum sülfat) bu elementin bileşiklerini içerir. RSC'ye göre alçı, kırık kemikleri sabitlemek için de kullanılır.;G4;https://periodic-table.rsc.org/element/20/calcium
-D08;K7;isim;Arşiv notu;Bu elementin adı Latincede 'kireç' anlamına gelen 'calx' kelimesinden gelir. Element ilk kez 1808'de Humphry Davy tarafından elde edildi: Davy kireci cıva oksitle karıştırıp elektrik akımı verdi, oluşan alaşımdan cıvayı damıtarak ayırdı.;G4;https://periodic-table.rsc.org/element/20/calcium
-D09;K1;konum;Analiz raporu;"Element periyodik tablonun 1. grubunda; bir alkali metal.";;
-D09;K2;yogunluk;Yoğunluk ölçümü;Saf metalin yoğunluğu 0,53 ± 0,02 g/cm³.;;
-D09;K3;deney;Alev testi;Bileşikleri alevi kızıl renge boyuyor.;;
-D09;K4;tablo;1. grup (alkali) metalleri;T1;;"RSC Periyodik Tablo; standart alev testi renkleri"
-D09;K5;kimyasal;Suyla tepkime;Saf metal suyla tepkimeye girerek hidrojen gazı çıkarıyor, ama sodyum ve potasyuma göre daha sakin.;;
-D09;K6;kullanim;RSC kaydı;Bu metalin en önemli kullanımı telefon, dizüstü bilgisayar, fotoğraf makinesi ve elektrikli araçlardaki şarj edilebilir pillerdir. Bütün metaller içinde yoğunluğu en düşük olanıdır.;G5;https://periodic-table.rsc.org/element/3/lithium
-D09;K7;isim;Arşiv notu;Adı Yunanca 'taş' anlamına gelen 'lithos' kelimesinden gelir. Diğer yaygın alkali metaller bitki küllerinden bulunurken bu metal bir mineralden (petalit) bulundu. 1817'de Johan August Arfvedson tarafından keşfedildi.;G5;https://periodic-table.rsc.org/element/3/lithium
-D10;K1;deney;Mum testi;"Paketten alınan gazla doldurulan bir kaba yanan bir mum indirildi; mum hemen söndü.";;
-D10;K2;fiziksel;Renk ve koku;Gaz renksiz ve kokusuz.;;
-D10;K3;deney;Kireç suyu testi;"Gaz kireç suyundan geçirildi; kireç suyu bulanmadı.";;
-D10;K4;tablo;Renksiz ve kokusuz bazı gazlar;T1;;"RSC Periyodik Tablo; standart değerler"
-D10;K5;yogunluk;Yoğunluk ölçümü;Gazın yoğunluğu 0,00115 ± 0,00002 g/cm³ (oda sıcaklığında).;;
-D10;K6;isim;Arşiv notu;"Bu gazı 1772'de İskoç öğrenci Daniel Rutherford bir element olarak tanımladı. Daha önce Cavendish ve Priestley, havadan oksijeni ayırınca geriye kalan gazın mumu söndürdüğünü ve içinde bir farenin yaşayamadığını görmüştü. Fransız kimyager Lavoisier bu gaza 'cansız' anlamındaki 'azote' adını verdi; Türkçedeki 'azot' adı buradan gelir. Uluslararası sembolü N ise 'nitrogen' adından gelir: Yunanca 'nitron' (güherçile) ve 'genes' (oluşturan).";G4;https://periodic-table.rsc.org/element/7/nitrogen
-D10;K7;kullanim;RSC kaydı;"Bu gaz tepkimeye girmeyen bir ortam sağlamak için kullanılır; yiyecekleri korumak bunlardan biridir. Sıvı hâli (−196 °C) hücreleri dondurup saklamak ve yiyecekleri hızla dondurmak için kullanılır.";G4;https://periodic-table.rsc.org/element/7/nitrogen
-D11;K1;tablo;Birimin ölçümleri (0 °C, 1 atm);T1;;
-D11;K2;tarih;Cavendish'in notu (1785);"Henry Cavendish havadaki azotu en zorlu koşullarda bile tepkimeye sokmaya çalıştı; havanın yaklaşık %1'i hiçbir şekilde tepkimeye girmedi.";;https://periodic-table.rsc.org/element/18/argon
-D11;K3;deney;Ramsay'in deneyi;'Havadan elde edilen azot' sıcak magnezyumun üzerinden geçirildi. Azot magnezyumla tepkimeye girip katı magnezyum nitrür oluşturdu, ama geriye tepkimeye girmeyen bir gaz kaldı.;G3;https://periodic-table.rsc.org/element/18/argon
-D11;K4;deney;Kalan gazın spektrumu;Kalan gazın spektrumunda daha önce hiçbir elementte görülmemiş kırmızı ve yeşil çizgi grupları görüldü.;G4;https://periodic-table.rsc.org/element/18/argon
-D11;K5;yogunluk;Kalan gazın yoğunluğu;Kalan gazın yoğunluğu azotunkinin yaklaşık 1,4 katı.;G4;
-D11;K6;isim;Arşiv notu;Rayleigh ve Ramsay yeni elemente Yunanca 'tembel, işsiz' anlamına gelen 'argos' kelimesinden 'argon' adını verdiler, çünkü hiçbir maddeyle tepkimeye girmiyordu.;G6;https://periodic-table.rsc.org/element/18/argon
-D11;K7;kullanim;RSC kaydı;Bugün bu gaz eski tip akkor ampullerde, kaynak işlerinde ve çift camlı pencerelerin camları arasında kullanılır.;G6;https://periodic-table.rsc.org/element/18/argon
-D12;K1;tablo;Üç parçanın ölçümleri;T1;;
-D12;K2;tablo;Referans değerler;T2;;"RSC Periyodik Tablo; geology.com"
-D12;K3;kimyasal;Asit testi;"Kuyumcunun nitrik asit damlası A'yı ve C'yi etkiledi; B'nin yüzeyinde hiçbir değişiklik olmadı.";;
-D12;K4;tarih;Arşiv kaydı: Arşimet;Anlatılan hikâyeye göre Arşimet, kralın tacının saf altından yapılıp yapılmadığını anlamak için tacın yerinden ettiği suyun hacmini ölçerek tacın yoğunluğunu buldu.;;
-D12;K5;deney;Külçenin içi;Külçeye ince bir delik açıldı. İçten çıkan talaş da sarı renkte ve iğneyle kolayca eziliyor.;G3;
-D12;K6;isim;Arşiv notu;Altının sembolü Au, Latince 'aurum' kelimesinden gelir. RSC'ye göre ilk saf altın sikkeler, bugün Türkiye sınırları içinde kalan Lidya Krallığı'nda Kral Kroisos (Karun) döneminde (MÖ 561–547) basıldı.;G5;https://periodic-table.rsc.org/element/79/gold
-D13;K1;deney;Mıknatıs testi;Korkuluk metali mıknatısa güçlü biçimde çekiliyor.;;
-D13;K2;yogunluk;Yoğunluk ölçümü;7,9 ± 0,1 g/cm³;;
-D13;K3;tablo;Mıknatısa güçlü biçimde çekilen metaller;T1;;RSC Periyodik Tablo
-D13;K4;tablo;Paslanma deneyi: bir hafta sonra çiviler;T2;;
-D13;K5;kimyasal;Pas analizi;Kırmızı-kahverengi pasın, su içeren bir demir oksit olduğu bulundu.;;
-D13;K6;tarih;RSC kaydı;"Demiri cevherinden ilk eriterek elde edenler, MÖ 1500 civarında Anadolu'daki Hititlerdi; bu, Demir Çağı'nın başlangıcıydı. Mısır'da bulunan MÖ 3500'den kalma demir eşyalar ise yaklaşık %7,5 nikel içeriyor; bu da onların göktaşından geldiğini gösteriyor. Sembol Fe, Latince 'ferrum' adından gelir.";G3;https://periodic-table.rsc.org/element/26/iron
-D14;K1;konum;Analiz raporu;Dezenfektanın etken elementi 17. grupta ve 3. periyotta.;;
-D14;K2;fiziksel;Saf hâlinin görünüşü;Saf hâli sarı-yeşil, havadan yoğun ve boğucu kokulu bir gaz.;;
-D14;K3;tablo;Havuz suyu ölçümleri (bir hafta);T1;G1;
-D14;K4;kimyasal;CDC notu;Bu element sudaki ter, idrar ve kirle birleşerek 'kloramin' adı verilen bileşikler oluşturur. Kloraminler zayıf dezenfektanlardır, havaya karışarak gözleri ve solunum yollarını tahriş eder. CDC'ye göre havuzda 'klor kokusu' diye algılanan koku çoğunlukla kloraminlerden gelir.;G1;https://www.cdc.gov/healthy-swimming/prevention/preventing-eye-irritation-from-pool-chemicals.html
-D14;K5;kullanim;RSC kaydı;"Bu element bakterileri öldürür; içme suyunu ve havuz suyunu dezenfekte etmek için kullanılır. Üretilenin yaklaşık %20'si PVC plastiğinin yapımında kullanılır.";G1;https://periodic-table.rsc.org/element/17/chlorine
-D14;K6;isim;Arşiv notu;"Adı Yunanca 'sarımsı yeşil' anlamına gelen 'chloros' kelimesinden gelir. İlk kez 1774'te Carl Wilhelm Scheele elde etti; Humphry Davy 1810'da onun bir element olduğunu açıkladı.";G1;https://periodic-table.rsc.org/element/17/chlorine
-D15;K1;deney;Radyasyon ölçümü;Kaynak alfa parçacıkları yayıyor. Kaynağın önüne bir kâğıt konunca ölçülen alfa radyasyonu neredeyse sıfıra iniyor.;;
-D15;K2;konum;Element analizi;Element 7. periyotta ve f bloğunda (aktinitler).;;
-D15;K3;deney;Teknik belge;"Dedektör üreticisinin belgesine göre kaynak, yarı ömrü yaklaşık 432 yıl olan bir izotop. Doğada bulunmaz; nükleer reaktörlerde plütonyumun nötronlarla bombardımanıyla üretilir.";;https://periodic-table.rsc.org/element/95/americium
-D15;K4;tablo;Bazı aktinit izotoplarının yarı ömürleri;T1;;Standart değerler
-D15;K5;isim;Arşiv notu;Element 1944'te Chicago Üniversitesi'nde Glenn Seaborg ve ekibi tarafından üretildi ve ilk kez üretildiği kıtanın adını aldı. İlginç bir ayrıntı: periyodik tabloda kendisinden sonra gelen küriyumdan sonra keşfedildi.;G4;https://periodic-table.rsc.org/element/95/americium
-D15;K6;kullanim;EPA notu;"İyonlaşmalı duman dedektörlerinde bu elementin küçük bir kaynağı bulunur. Yaydığı alfa parçacıkları, dedektördeki iki levha arasındaki havayı iyonlaştırır ve küçük bir akım oluşur. Duman girince akım azalır ve alarm çalar. Kaynak metal folyo ve seramikle kaplıdır; doğru kullanıldığında radyasyon riski oluşturmaz.";G4;https://www.epa.gov/radtown/americium-ionization-smoke-detectors
-D16;K1;kullanim;Üretici belgesi;"Kaplama, '... kalay oksit' adlı saydam ve elektriği ileten bir maddeden yapılmış; ilk kelime silinmiş. Madde cama sıkıca yapışıyor.";;
-D16;K2;konum;Analiz raporu;Kaplamadaki metal 13. grupta ve 5. periyotta.;;
-D16;K3;erime_kaynama;Erime noktası ölçümü;Kaplamadan ayrılan saf metal 156,6 °C'de eriyor.;;
-D16;K4;fiziksel;Saf metalin görünüşü;"Yumuşak, gümüşi bir metal; havada ve suda kararlı.";;
-D16;K5;tarih;Keşif kaydı;"1863'te Ferdinand Reich, bir çinko mineralinde talyum ararken spektroskobunda tanımadığı çizgiler gördü. Reich renk körü olduğu için spektrumu Hieronymus Richter'e gösterdi; Richter parlak mor-çivit renkli bir çizgi gördü. Elementin adı bu çizginin renginden gelir.";;https://periodic-table.rsc.org/element/49/indium
-D16;K6;tablo;13. grup metallerinden bazıları;T1;;RSC Periyodik Tablo
-D17;K1;yogunluk;Yoğunluk ölçümü;4,5 ± 0,1 g/cm³;;
-D17;K2;fiziksel;Görünüş ve davranış;"Sert, parlak ve çok güçlü bir metal; mıknatısa çekilmiyor.";;
-D17;K3;kimyasal;Korozyon testi;"Örnek, deniz suyuna benzeyen tuzlu bir suda bir ay bekletildi; yüzeyinde hiçbir bozulma olmadı.";;
-D17;K4;tablo;Bazı yapı metalleri;T1;;RSC Periyodik Tablo
-D17;K5;kullanim;RSC kaydı;Bu metal çelik kadar güçlüdür ama çok daha az yoğundur. Deniz suyunda korozyona çok dayanıklıdır. Kemikle iyi kaynaştığı için kalça eklemlerinde ve diş implantlarında kullanılır.;G1;https://periodic-table.rsc.org/element/22/titanium
-D17;K6;isim;Arşiv notu;Element 1791'de William Gregor tarafından Cornwall'daki siyah bir kumda fark edildi. 1795'te Martin Heinrich Klaproth, Yunan mitolojisinde Toprak Ana'nın oğulları olan Titanlar'dan esinlenerek ona adını verdi.;G1;https://periodic-table.rsc.org/element/22/titanium
-D18;K1;konum;Analiz raporu;Kaşıktaki ana metal 11. grupta.;;
-D18;K2;yogunluk;Kaşığın yoğunluğu;10,4 ± 0,1 g/cm³;;
-D18;K3;kimyasal;Kararma analizi;"Kaşığın üzerindeki siyah tabaka bir sülfür bileşiği; havadaki kükürtlü bileşiklerle tepkimeden oluşmuş.";;
-D18;K4;tablo;11. grup metalleri;T1;;RSC Periyodik Tablo
-D18;K5;fiziksel;Aynanın arka yüzü;"Aynanın arkasındaki yansıtıcı tabaka da aynı metalden; bu metal bilinen en iyi görünür ışık yansıtıcısıdır.";;
-D18;K6;kullanim;RSC kaydı;"Çatal-kaşık yapımında kullanılan 'sterling' gümüş %92,5 gümüş içerir; geri kalanı bakır ya da başka bir metaldir. Gümüş bromür ve iyodür ışığa duyarlı oldukları için fotoğrafçılığın tarihinde çok önemliydi.";G1;https://periodic-table.rsc.org/element/47/silver
-D18;K7;isim;Arşiv notu;"Sembol Ag, Latince 'argentum' (gümüş) kelimesinden gelir; Arjantin'in adı da bu kelimeden türemiştir. RSC'ye göre gümüş madenciliği MÖ 3000 civarında bugünkü Türkiye ve Yunanistan topraklarında başladı.";G1;https://periodic-table.rsc.org/element/47/silver
-D19;K1;erime_kaynama;Erime noktası ölçümü;Tel ancak 3400 °C'nin üzerinde eriyor.;;
-D19;K2;yogunluk;Yoğunluk ölçümü;19,3 ± 0,1 g/cm³;;
-D19;K3;tablo;Erime noktası yüksek bazı metaller;T1;;RSC Periyodik Tablo
-D19;K4;fiziksel;Görünüş;Parlak, gümüşi beyaz bir metal.;;
-D19;K5;isim;Arşiv notu;"Elementin adı İsveççe 'ağır taş' anlamına gelen 'tung sten' sözünden gelir. Sembolü W ise elementin diğer adı olan 'wolfram'dan gelir; bu ad, elementin elde edildiği wolframit mineraliyle ilgilidir. Element 1783'te İspanya'da Elhuyar kardeşler tarafından metal hâlinde elde edildi.";G1;https://periodic-table.rsc.org/element/74/tungsten
-D19;K6;kullanim;RSC kaydı;"Bu metal eski tip akkor ampullerin telinde yaygın olarak kullanılıyordu; ama bu ampuller ışıktan çok ısı ürettikleri için birçok ülkede kullanımdan kaldırıldı. Bütün metaller içinde erime noktası en yüksek olanıdır; karbürü çok serttir ve kesici-delici aletlerde kullanılır.";G1;https://periodic-table.rsc.org/element/74/tungsten
-D20;K1;fiziksel;Defter notu: görünüş;Parçalar bıçakla kolayca kesiliyor. Kesilen yüzey parlak gümüşi, ama birkaç saniye içinde matlaşıyor.;;
-D20;K2;deney;Defter notu: suyla deney;Öğretmen, koruyucu ekranın arkasında bezelye büyüklüğünde bir parçayı suya attı. Parça su üzerinde yüzerek hızla döndü, cızırdadı ve gaz çıkardı. Deneyden sonra suya fenolftalein damlatılınca su pembeleşti.;;
-D20;K3;deney;Defter notu: alev testi;Parçanın bileşikleri alevi parlak sarı-turuncu renge boyuyor.;;
-D20;K4;yogunluk;Defter notu: yoğunluk;0,97 ± 0,02 g/cm³;;
-D20;K5;tablo;1. grup (alkali) metalleri;T1;;"RSC Periyodik Tablo; standart alev testi renkleri"
-D20;K6;isim;Arşiv notu;"Bu elementin İngilizce adı 'soda' kelimesinden gelir; sembolü Na ise Latince 'natrium' adından gelir. Bu ad, eski Mısır'da Natron Vadisi'nden çıkarılan sodaya (natron) dayanır. Element 1807'de Humphry Davy tarafından, sodyum hidroksitten elektrik akımı geçirilerek elde edildi.";G2;https://periodic-table.rsc.org/element/11/sodium
-D20;K7;kullanim;RSC kaydı;Elementin kendisinden çok bileşikleri kullanılır: sodyum klorür (sofra tuzu) yemeklerde ve kışın yollardaki buzu çözmekte, sodyum karbonat (çamaşır sodası) su yumuşatıcı olarak kullanılır.;G2;https://periodic-table.rsc.org/element/11/sodium
+V001;K1;yogunluk;Yoğunluk ölçümü;"8,9 ± 0,1 g/cm³ (okul laboratuvarında ölçüldü; ölçümün belirsizliği ±0,1 g/cm³)";;
+V001;K2;iletkenlik;Elektrik iletkenliği;Telin iki ucu arasındaki direnç çok düşük ölçüldü: madde elektriği çok iyi iletiyor.;;
+V001;K3;iletkenlik;Isı iletkenliği;Telin bir ucu sıcak suya daldırılınca diğer ucu kısa sürede ısındı.;;
+V001;K4;konum;Analiz cihazının kısmi raporu;Element 4. periyotta ve d bloğunda yer alıyor. Cihaz daha fazla bilgi veremeden arızalandı.;;
+V001;K5;sembol;Envanter kaydı;Eski bir envanter defterinde bu metalin sembolünün iki harfli olduğu ve ikinci harfin küçük yazıldığı not edilmiş.;;
+V001;K6;kullanim;Günlük kullanım;Bu metal ev ve binaların elektrik kablolarında yaygın olarak kullanılıyor.;;
+V001;K7;tablo;Aday metallerin bilinen özellikleri;T1;;"Yoğunluk ve erime noktası: RSC Periyodik Tablo; iletkenlik: Serway, Principles of Physics"
+V001;K8;deney;Mıknatıs testi;Tel, güçlü bir mıknatısa yaklaştırıldığında çekilmedi.;G4;
+V001;K9;fiziksel;Temizlenen yüzey;Zımparalanan yüzey kırmızımsı-turuncu renkte ve metalik parlaklıkta.;G5;
+V001;K10;isim;Arşiv notu;Eski kayıtlara göre bu metalin Latince adı 'cuprum'. Romalılar ona 'Cyprium aes', yani 'Kıbrıs metali' derdi. İngilizce adı 'copper' da Eski İngilizce 'coper' kelimesi üzerinden bu Latince addan türemiştir.;G6;https://periodic-table.rsc.org/element/29/copper
+V002;K1;fiziksel;Balonun davranışı;Bırakılan balon tavana kadar yükseldi ve üç gündür orada duruyor.;;
+V002;K2;deney;Kıvılcım testi;Balondan alınan küçük bir gaz örneğine kıvılcım yaklaştırıldı: gaz yanmadı, patlama olmadı.;;
+V002;K3;fiziksel;Renk ve koku;Gaz renksiz ve kokusuz.;;
+V002;K4;tablo;Bazı gazların özellikleri;T1;;"RSC Periyodik Tablo; hava için yaklaşık değer"
+V002;K5;deney;Spektrum analizi;Gazdan elektrik geçirilince yayılan ışığın spektrumunda parlak sarı bir çizgi görüldü. Neonun spektrumuna rengini veren parlak kırmızı-turuncu çizgiler görülmedi.;G4;
+V002;K6;tarih;Arşiv kaydı: Hindenburg;1937'de hidrojenle doldurulmuş Hindenburg zeplini iniş sırasında alev alıp yandı. Bu kaza, hidrojenle dolu yolcu zeplinleri döneminin sonu oldu.;;
+V002;K7;isim;Arşiv notu;Bu gaz Dünya'da bulunmadan 27 yıl önce, 1868'deki bir Güneş tutulması sırasında Güneş'in ışığında fark edildi. Adını Yunanca 'Güneş' anlamındaki kelimeden aldı.;G5;https://periodic-table.rsc.org/element/2/helium
+V003;K1;yogunluk;Yoğunluk ölçümü;2,7 ± 0,1 g/cm³ (üç eşyadan alınan örneklerin ortalaması);;
+V003;K2;fiziksel;Görünüş ve işlenebilirlik;Gümüşi beyaz ve parlak. Folyo hâlinde kâğıttan ince yapraklara dönüştürülebiliyor, kolayca bükülüyor.;;
+V003;K3;deney;Mıknatıs testi;Üç eşya da mıknatısa çekilmiyor.;;
+V003;K4;iletkenlik;Isı iletkenliği;Folyoya sarılan sıcak bir yemek kabının dışı kısa sürede ısınıyor: metal ısıyı iyi iletiyor.;;
+V003;K5;kimyasal;Paslanma gözlemi;"Aylarca nemli bir ortamda kalan kutuda kırmızı pas oluşmadı; yüzey biraz matlaştı ama sağlam kaldı.";;
+V003;K6;tablo;Bazı metallerin özellikleri;T1;;RSC Periyodik Tablo
+V003;K7;isim;Arşiv notu;Bu metalin adı, Latincede 'acı tuz' anlamına gelen 'alumen' (şap) kelimesinden gelir. Metal ilk kez 1825'te Hans Christian Ørsted tarafından, saf olmayan bir hâlde elde edildi.;G3;https://periodic-table.rsc.org/element/13/aluminium
+V003;K8;tarih;RSC kaydı;Bu metal yer kabuğunda en bol bulunan metaldir (yaklaşık %8,1), ama doğada nadiren saf hâlde bulunur. 1700'lerin sonunda bilim insanları onu bileşiklerinden ayırmayı başaramıyordu.;G3;https://periodic-table.rsc.org/element/13/aluminium
+V004;K1;fiziksel;Görünüş;Siyah, hafif parlak ve çok yumuşak. Kâğıda sürtünce iz bırakıyor, parmakları kayganlaştırıyor.;;
+V004;K2;iletkenlik;Elektrik testi;Kalem ucu bir pil ve küçük bir lambayla devreye bağlanınca lamba yandı: uç elektriği iletiyor.;;
+V004;K3;yogunluk;Yoğunluk ölçümü;2,2 ± 0,2 g/cm³;;
+V004;K4;deney;Yanma deneyi;Uçtan alınan örnek oksijen içinde çok yüksek sıcaklıkta yakıldı. Açığa çıkan gaz kireç suyunu bulandırdı. Geriye yanmayan, açık renkli bir kalıntı kaldı.;;
+V004;K5;tablo;Kurşun ve grafitin özellikleri;T1;;RSC Periyodik Tablo
+V004;K6;isim;Arşiv notu;"Grafit 1500'lerde İngiltere'de bulunduğunda insanlar bu siyah, parlak ve yazı yazan maddeyi bir tür kurşun sandı; 'kurşun kalem' adı bu yanılgıdan kaldı. 'Grafit' adı Yunanca 'yazmak' anlamındaki 'graphein' kelimesinden, 'karbon' adı ise Latince 'odun kömürü' anlamındaki 'carbo' kelimesinden gelir.";G4;https://periodic-table.rsc.org/element/6/carbon
+V004;K7;tarih;Elmas deneyi;1796'da İngiliz kimyager Smithson Tennant bir elması yaktı ve yanınca yalnızca karbondioksit oluştuğunu göstererek elmasın da karbon olduğunu kanıtladı.;G4;https://periodic-table.rsc.org/element/6/carbon
+V005;K1;fiziksel;Görünüş;"Oda sıcaklığında (20 °C) sıvı; gümüş renkli, metalik parlak. Yüzeyde yuvarlak damlacıklar oluşturuyor.";;
+V005;K2;yogunluk;Yoğunluk ölçümü;13,5 ± 0,2 g/cm³;;
+V005;K3;tablo;Erime noktası düşük bazı metaller;T1;;RSC Periyodik Tablo
+V005;K4;iletkenlik;Elektrik testi;Damlacıklar elektriği iletiyor.;;
+V005;K5;isim;Arşiv notu;"Bu metalin sembolü Hg; Latince 'hydrargyrum' adından gelir. Bu ad Yunanca 'su' ve 'gümüş' kelimelerinden oluşur. Türkçe adı cıva, İngilizce adı ise (mercury) Merkür gezegeninden gelir.";G4;https://periodic-table.rsc.org/element/80/mercury
+V005;K6;kullanim;Güvenlik notu;Bu metal ve buharı zehirlidir. RSC'ye göre zehirliliği nedeniyle termometre gibi birçok kullanımı terk edildi ya da kısıtlandı.;G4;https://periodic-table.rsc.org/element/80/mercury
+V006;K1;deney;Egzozdan çıkan madde;"Egzozun önüne tutulan soğuk bir cam buğulandı; camda yalnızca su damlacıkları toplandı. Duman ya da is yok.";;
+V006;K2;fiziksel;Depodaki gaz;Depodaki gaz renksiz ve kokusuz. Bilinen bütün gazların en hafifi.;;
+V006;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1. periyodunda ve 1A grubunda (IUPAC'a göre 1. grup) yer alır.;;
+V006;K4;isim;Arşiv notu;Adı Yunanca 'hydro' (su) ve 'genes' (oluşturan) sözcüklerinden gelir, çünkü yandığında su oluşur. 1766'da Henry Cavendish tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/1/hydrogen
+V007;K1;deney;Kor hâlindeki çubuk;Tüpten alınan gaza alevi sönmüş ama hâlâ kor hâlinde olan bir tahta çubuk sokuldu: çubuk yeniden alev aldı.;;
+V007;K2;fiziksel;Yüksekteki hava;8000 metrede hava basıncı deniz seviyesindekinin yaklaşık üçte biri. Her nefeste akciğerlere giren gaz miktarı çok azalır.;;
+V007;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2. periyodunda ve 6A grubunda (IUPAC'a göre 16. grup) yer alır.;;
+V007;K4;isim;Arşiv notu;Adı Yunanca 'asit oluşturan' anlamına gelen 'oxy genes' sözünden gelir. 1774'te Joseph Priestley ve ondan bağımsız olarak Carl Wilhelm Scheele tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/8/oxygen
+V008;K1;fiziksel;Sıvının davranışı;Sıvı, karışıma dökülünce hemen kaynayıp gaza dönüşüyor. Kaynama sıcaklığı −196 °C civarında.;;
+V008;K2;fiziksel;Gazın kimliği;"Kaynayan sıvıdan çıkan gaz renksiz ve kokusuz; soluduğumuz havanın yaklaşık %78'ini oluşturuyor.";;
+V008;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2. periyodunda ve 5A grubunda (IUPAC'a göre 15. grup) yer alır.;;
+V008;K4;isim;Arşiv notu;"Uluslararası adı 'nitrogen', Yunanca 'güherçile oluşturan' demektir; sembolü N buradan gelir. Türkçedeki 'azot' adı ise Lavoisier'nin verdiği ve 'cansız' anlamına gelen Fransızca 'azote' adından gelir. 1772'de Daniel Rutherford tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/7/nitrogen
+V009;K1;fiziksel;Mars'ın tozu;Mars yüzeyindeki toz kırmızımsı kahverengi. Ölçümler, tozun önemli bir bölümünün bir metalin oksijenle oluşturduğu bileşik olduğunu gösteriyor.;;
+V009;K2;kimyasal;Dünya'daki benzeri;Aynı metalden yapılmış bir çivi nemli havada bırakılınca birkaç gün içinde kırmızımsı kahverengi bir tabakayla kaplanıyor.;;
+V009;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4. periyodunda ve 8B grubunda (IUPAC'a göre 8. grup) yer alır.;;
+V009;K4;isim;Arşiv notu;"Demir eski bir Türkçe kelimedir; sembolü Fe ise Latince adı 'ferrum'dan gelir. Yaklaşık MÖ 3500'den beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/26/iron
+V010;K1;fiziksel;Lambanın ışığı;Lamba yalnızca tek bir renkte, turuncu-sarı ışık veriyor. Bu yüzden altındaki nesnelerin renkleri ayırt edilemiyor.;;
+V010;K2;deney;Mutfakta alev testi;Ocaktaki alevin üzerine bir tutam sofra tuzu serpilince alev de aynı turuncu-sarı renkte parladı.;;
+V010;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3. periyodunda ve 1A grubunda (IUPAC'a göre 1. grup) yer alır.;;
+V010;K4;isim;Arşiv notu;"Adı 'soda' kelimesinden gelir; sembolü Na ise Latince adı 'natrium'dan. 1807'de Humphry Davy tarafından elektrik akımıyla elde edildi.";G2;https://periodic-table.rsc.org/element/11/sodium
+V011;K1;deney;Sirke testi;"Basamaklardan düşen küçük bir taş parçasının üzerine sirke damlatıldı; taş köpürerek gaz çıkardı.";;
+V011;K2;fiziksel;Kaynak suyu;Kaynaktan çıkan su ılık ve içinde çözünmüş mineraller var. Su havayla temas edip soğudukça içindeki gazı kaybediyor ve taş çökeltiyor.;;
+V011;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4. periyodunda ve 2A grubunda (IUPAC'a göre 2. grup) yer alır.;;
+V011;K4;isim;Arşiv notu;Adı Latince 'kireç' anlamına gelen 'calx' kelimesinden gelir. 1808'de Humphry Davy tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/20/calcium
+V012;K1;fiziksel;Panelin hücreleri;Her hücre ince, koyu mavi-gri, parlak bir plakadan yapılmış. Güneş ışığı vurunca hücreden elektrik akımı alınıyor.;;
+V012;K2;kimyasal;Hammadde;Hücrelerin elementi, kumun ve kuvarsın ana bileşeninde oksijenle birlikte bulunuyor. Yer kabuğunda oksijenden sonra en bol element.;;
+V012;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3. periyodunda ve 4A grubunda (IUPAC'a göre 14. grup) yer alır.;;
+V012;K4;isim;Arşiv notu;Adı Latince 'çakmaktaşı' anlamına gelen 'silex' kelimesinden gelir. 1824'te Jöns Jacob Berzelius tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/14/silicon
+V013;K1;deney;Tozun yanması;"Az miktarda toz yakıldığında göz kamaştıran beyaz bir ışık çıktı; geriye beyaz bir toz kaldı.";;
+V013;K2;fiziksel;Paketteki şerit;"Paketteki metal şerit gümüşi ve parlak; elde tutulduğunda şaşırtıcı derecede hafif.";;
+V013;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3. periyodunda ve 2A grubunda (IUPAC'a göre 2. grup) yer alır.;;
+V013;K4;isim;Arşiv notu;Adı Yunanistan'ın Teselya bölgesindeki Magnesia'dan gelir. 1755'te Joseph Black tarafından element olarak tanındı.;G2;https://periodic-table.rsc.org/element/12/magnesium
+V014;K1;deney;Geiger sayacı;"Muz yığınının yanında sayaç biraz daha sık tıkırdıyor; ölçülen radyasyon çok düşük.";;
+V014;K2;kimyasal;Besin etiketi;Muz, kaslarımızın ve kalbimizin çalışması için gerekli olan bir mineral bakımından zengin. Bu elementin atomlarının yalnızca çok küçük bir bölümü (yaklaşık on binde biri) radyoaktif.;;
+V014;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4. periyodunda ve 1A grubunda (IUPAC'a göre 1. grup) yer alır.;;
+V014;K4;isim;Arşiv notu;"Adı bitki külünden elde edilen 'potas' (potash) kelimesinden gelir; sembolü K ise Latince adı 'kalium'dan. 1807'de Humphry Davy tarafından elektrik akımıyla elde edildi.";G2;https://periodic-table.rsc.org/element/19/potassium
+V015;K1;fiziksel;Sarı kristaller;Çatlakların çevresinde biriken madde parlak sarı, kırılgan bir katı. Saf hâlde bir element olarak doğada bulunuyor.;;
+V015;K2;deney;Yakma deneyi;Sarı katının küçük bir parçası yakıldığında mavi bir alevle yandı ve keskin, boğucu kokulu bir gaz çıktı.;;
+V015;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3. periyodunda ve 6A grubunda (IUPAC'a göre 16. grup) yer alır.;;
+V015;K4;isim;Arşiv notu;"Uluslararası adı Latince 'sulfur' kelimesinden gelir. Tarih öncesi çağlardan beri bilinir; yanardağların çevresinde saf hâlde bulunur.";G2;https://periodic-table.rsc.org/element/16/sulfur
+V016;K1;kimyasal;Arıtma tesisi raporu;Suya eklenen madde, mikropları öldüren güçlü bir dezenfektan. Saf hâli sarımsı yeşil, zehirli bir gaz.;;
+V016;K2;kimyasal;Mutfaktaki akrabası;Aynı element sofra tuzunun da yapısında, sodyumla birlikte bulunuyor.;;
+V016;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3. periyodunda ve 7A grubunda (IUPAC'a göre 17. grup) yer alır.;;
+V016;K4;isim;Arşiv notu;"Adı Yunanca 'sarımsı yeşil' anlamına gelen 'chloros' kelimesinden gelir; gazın rengini anlatır. 1774'te Carl Wilhelm Scheele tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/17/chlorine
+V017;K1;deney;Sürtünme deneyi;"Kibrit yalnızca kutunun yan yüzündeki şeride sürtülünce tutuşuyor; başka yüzeylerde tutuşmuyor.";;
+V017;K2;kimyasal;Şeridin içeriği;"Şeritte kırmızı renkli bir toz var. Bu elementin beyaz renkli başka bir hâli de vardır; o hâli havada kendiliğinden tutuşabilir ve karanlıkta parlar.";;
+V017;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3. periyodunda ve 5A grubunda (IUPAC'a göre 15. grup) yer alır.;;
+V017;K4;isim;Arşiv notu;Adı Yunanca 'ışık getiren' anlamına gelen 'phosphoros' kelimesinden gelir, çünkü beyaz fosfor karanlıkta parlar. 1669'da Hennig Brandt tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/15/phosphorus
+V018;K1;kimyasal;Canlıların ortak elementi;Bu element bütün canlıların yapısındaki moleküllerin (proteinler, yağlar, şekerler) iskeletini oluşturur.;;
+V018;K2;deney;Radyoaktif saat;Canlılar yaşarken bu elementin radyoaktif bir izotopunu çevrelerinden alır. Canlı ölünce bu izotopun miktarı yaklaşık 5700 yılda yarıya iner.;;
+V018;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2. periyodunda ve 4A grubunda (IUPAC'a göre 14. grup) yer alır.;;
+V018;K4;isim;Arşiv notu;Adı Latince 'odun kömürü' anlamına gelen 'carbo' kelimesinden gelir. Tarih öncesi çağlardan beri kömür ve is olarak bilinir.;G2;https://periodic-table.rsc.org/element/6/carbon
+V019;K1;fiziksel;Beyaz tabaka;Krem cilde sürülünce beyaz bir iz bırakıyor. İçindeki oksit, beyaz duvar boyalarında da kullanılan, çok parlak beyaz bir toz.;;
+V019;K2;kimyasal;Oksidin özellikleri;Bu oksit suda çözünmüyor, zehirsiz ve güneş ışığındaki morötesi (UV) ışınları soğurup saçıyor.;;
+V019;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4. periyodunda ve 4B grubunda (IUPAC'a göre 4. grup) yer alır.;;
+V019;K4;isim;Arşiv notu;Adı Yunan mitolojisinde Yeryüzü tanrıçasının oğulları olan Titanlardan gelir. 1791'de William Gregor tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/22/titanium
+V020;K1;alasim;Çatalın etiketi;'18/10', çeliğin içinde ağırlıkça %18 bir metal ve %10 nikel bulunduğunu gösteriyor. Geri kalanı demir.;;
+V020;K2;kimyasal;Görünmez kalkan;Bu metal, havadaki oksijenle çatalın yüzeyinde gözle görülmeyen çok ince bir oksit tabakası oluşturuyor. Tabaka çizilse bile kendini yeniliyor.;;
+V020;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4. periyodunda ve 6B grubunda (IUPAC'a göre 6. grup) yer alır.;;
+V020;K4;isim;Arşiv notu;Adı Yunanca 'renk' anlamına gelen 'chroma' kelimesinden gelir, çünkü bileşikleri çok renklidir. 1798'de Nicolas Louis Vauquelin tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/24/chromium
+V021;K1;fiziksel;Kaplamanın görünüşü;Telin yüzeyi mat gri ve üzerinde kristal desenler var. Kaplamanın altında çelik bulunuyor.;;
+V021;K2;kimyasal;Feda edilen metal;Kaplama metali demirden daha kolay tepkimeye giriyor. Çizik yerinde bile önce kaplama aşınıyor, demir korunuyor.;;
+V021;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4. periyodunda ve 2B grubunda (IUPAC'a göre 12. grup) yer alır.;;
+V021;K4;isim;Arşiv notu;"Adı Almanca 'zink' kelimesinden gelir; bu kelime belki de Farsça 'taş' anlamına gelen 'sing'den türemiştir. 1746'da Andreas Marggraf tarafından element olarak tanındı; eski Yunanlar ve Romalılar da onu biliyordu.";G2;https://periodic-table.rsc.org/element/30/zinc
+V022;K1;deney;Mıknatıs testi;Mıknatıs kutuya yapışıyor. Kutunun gövdesi çelikten.;;
+V022;K2;fiziksel;Kaplama metali;"Kaplama metali gümüşi ve parlak; zehirsiz; besinlerdeki asitlerle kolay kolay tepkimeye girmiyor. 232 °C gibi düşük bir sıcaklıkta eriyor; bu yüzden lehim telinde de kullanılıyor.";;
+V022;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5. periyodunda ve 4A grubunda (IUPAC'a göre 14. grup) yer alır.;;
+V022;K4;isim;Arşiv notu;"Sembolü Sn, Latince adı 'stannum'dan gelir. Yaklaşık MÖ 2100'den beri kullanılıyor; bakırla karıştırılarak tunç yapıldı.";G2;https://periodic-table.rsc.org/element/50/tin
+V023;K1;fiziksel;Önlüğün ağırlığı;İnce bir önlük olduğu hâlde birkaç kilogram geliyor. İçindeki metal çok yoğun.;;
+V023;K2;deney;Film testi;Önlüğün arkasına konan röntgen filmi, ışın verildiği hâlde hiç kararmadı. Önlüksüz film ise tamamen karardı.;;
+V023;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6. periyodunda ve 4A grubunda (IUPAC'a göre 14. grup) yer alır.;;
+V023;K4;isim;Arşiv notu;"Kurşun eski bir Türkçe kelimedir; sembolü Pb ise Latince adı 'plumbum'dan gelir. İngilizcedeki 'plumber' (tesisatçı) kelimesi de buradan gelir, çünkü Romalılar su borularını kurşundan yapardı.";G2;https://periodic-table.rsc.org/element/82/lead
+V024;K1;fiziksel;Madalyanın kesiti;"Dışta ince bir altın kaplama; içte parlak, beyazımsı gri bir metal.";;
+V024;K2;kimyasal;İç metalin davranışı;"İç metalden yapılmış bir kaşık, yumurtalı yemeklerle temas edince kararıyor; elektriği bütün metaller içinde en iyi ileten metal.";;
+V024;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5. periyodunda ve 1B grubunda (IUPAC'a göre 11. grup) yer alır.;;
+V024;K4;isim;Arşiv notu;"Gümüş eski bir Türkçe kelimedir; sembolü Ag ise Latince adı 'argentum'dan gelir. Yaklaşık MÖ 3000'den beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/47/silver
+V025;K1;fiziksel;Vizörün kaplaması;Kaplama sarı renkli ve ayna gibi parlak. O kadar ince ki astronot içinden dışarıyı görebiliyor.;;
+V025;K2;kimyasal;Kaplamanın dayanıklılığı;"Bu metal yıllar geçse de kararmıyor, paslanmıyor; güneş ışığındaki kızılötesi (ısı) ışınları çok iyi yansıtıyor.";;
+V025;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6. periyodunda ve 1B grubunda (IUPAC'a göre 11. grup) yer alır.;;
+V025;K4;isim;Arşiv notu;"Altın eski bir Türkçe kelimedir; sembolü Au ise Latince adı 'aurum'dan gelir. Yaklaşık MÖ 3000'den beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/79/gold
+V026;K1;deney;Isı şoku testi;"Isıya dayanıklı cam ani sıcaklık değişiminde çatlamadı; sıradan cam çatladı. Isıya dayanıklı cam ısınınca çok az genleşiyor.";;
+V026;K2;tarih;Maden kaydı;Bu elementin dünyadaki bilinen rezervlerinin büyük bölümü Türkiye'de, Eskişehir, Kütahya ve Balıkesir yöresindeki madenlerde bulunuyor. Ana minerali, temizlik ürünlerinde ve camlarda da kullanılan beyaz bir tuz.;;
+V026;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2. periyodunda ve 3A grubunda (IUPAC'a göre 13. grup) yer alır.;;
+V026;K4;isim;Arşiv notu;Adı, boraks mineralinin Arapça adı 'buraq'tan gelir. 1808'de Paris'te Gay-Lussac ile Thénard ve Londra'da Humphry Davy tarafından birbirlerinden bağımsız olarak elde edildi.;G2;https://periodic-table.rsc.org/element/5/boron
+V027;K1;fiziksel;Yağda yüzen metal;Saf metal o kadar hafif ki gazyağının bile üzerinde yüzüyor. Bilinen en hafif metal.;;
+V027;K2;deney;Alev testi;Metalin tuzlarından biri alevin üzerine serpilince alev koyu kırmızı (lal rengi) oldu.;;
+V027;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2. periyodunda ve 1A grubunda (IUPAC'a göre 1. grup) yer alır.;;
+V027;K4;isim;Arşiv notu;Adı Yunanca 'taş' anlamına gelen 'lithos' kelimesinden gelir, çünkü bir mineralin içinde bulundu. 1817'de Johan August Arfvedson tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/3/lithium
+V028;K1;deney;Elektrik verilince;"Tüpten yüksek gerilimli elektrik geçince gaz kızıl turuncu bir ışık yayıyor; elektrik kesilince ışık sönüyor.";;
+V028;K2;kimyasal;Gazın davranışı;"Gaz hiçbir maddeyle tepkimeye girmiyor; tüpün içinde yıllarca değişmeden kalıyor.";;
+V028;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2. periyodunda ve 8A grubunda (IUPAC'a göre 18. grup) yer alır.;;
+V028;K4;isim;Arşiv notu;Adı Yunanca 'yeni' anlamına gelen 'neos' kelimesinden gelir. 1898'de William Ramsay ve Morris Travers tarafından havadan ayrıldı.;G2;https://periodic-table.rsc.org/element/10/neon
+V029;K1;kimyasal;Gazın davranışı;"Gaz renksiz ve kokusuz; hiçbir maddeyle tepkimeye girmiyor.";;
+V029;K2;fiziksel;Havadaki payı;"Bu gaz soluduğumuz havanın yaklaşık %1'ini oluşturuyor; azot ve oksijenden sonra havada en bol bulunan gaz. Isıyı havadan daha az iletiyor.";;
+V029;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3. periyodunda ve 8A grubunda (IUPAC'a göre 18. grup) yer alır.;;
+V029;K4;isim;Arşiv notu;Adı Yunanca 'tembel, işsiz' anlamına gelen 'argos' kelimesinden gelir, çünkü neredeyse hiçbir maddeyle tepkimeye girmez. 1894'te Lord Rayleigh ve William Ramsay tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/18/argon
+V030;K1;fiziksel;Yakıt tableti;Tabletler bu elementin oksidinden yapılmış. Tek bir tablet, yaklaşık bir ton kömürün yanmasıyla elde edilen kadar enerji verebiliyor.;;
+V030;K2;deney;Çekirdek bölünmesi;"Bu elementin bazı atomlarının çekirdeği bir nötron çarpınca ikiye bölünüyor; bu sırada büyük bir enerji ve yeni nötronlar açığa çıkıyor.";;
+V030;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 92 proton bulunur.;;
+V030;K4;isim;Arşiv notu;Adı, birkaç yıl önce keşfedilen Uranüs gezegeninden gelir. 1789'da Martin Heinrich Klaproth tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/92/uranium
+V031;K1;fiziksel;Gazın özellikleri;"Gaz renksiz, kokusuz ve tatsız; bu yüzden ancak bir ölçüm cihazıyla fark edilebiliyor. Kayalardaki radyumun bozunmasıyla oluşuyor.";;
+V031;K2;deney;Havalandırma;Kapalı bodrumda ölçülen değer yüksekti. Havalandırma yapılınca değer belirgin biçimde düştü.;;
+V031;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6. periyodunda ve 8A grubunda (IUPAC'a göre 18. grup) yer alır.;;
+V031;K4;isim;Arşiv notu;Adı radyumdan gelir, çünkü ilk kez radyumun bozunurken çıkardığı gaz olarak fark edildi. 1900'de Friedrich Ernst Dorn tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/86/radon
+V032;K1;fiziksel;Kendi kendine parlayan boya;Boya hiç ışık almasa da sürekli hafifçe parlıyor. Boyada, sürekli ışın yayan bir elementin tuzu ve bu ışınlarla parlayan bir madde var.;;
+V032;K2;kimyasal;Kemiklerdeki iz;Hastalanan işçilerin kemiklerinde bu element birikmişti. Element, kemiklerin ana elementlerinden kalsiyumla aynı grupta.;;
+V032;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 7. periyodunda ve 2A grubunda (IUPAC'a göre 2. grup) yer alır.;;
+V032;K4;isim;Arşiv notu;Adı Latince 'ışın' anlamına gelen 'radius' kelimesinden gelir. 1898'de Marie ve Pierre Curie tarafından uranyum cevherinde keşfedildi.;G2;https://periodic-table.rsc.org/element/88/radium
+V033;K1;deney;UV lambası;Gerçek banknotta morötesi ışık altında kırmızı renkte parlayan lifler var. Sahte banknotta kırmızı parıltı yok.;;
+V033;K2;kimyasal;Mürekkebin elementi;Kırmızı parıltıyı veren element bir lantanit. Eski renkli televizyon ekranlarında da kırmızı rengi bu elementin bileşikleri veriyordu.;;
+V033;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 63 proton bulunur.;;
+V033;K4;isim;Arşiv notu;Adı Avrupa kıtasından gelir. 1901'de Eugène-Anatole Demarçay tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/63/europium
+V034;K1;fiziksel;Mıknatısın gücü;Mercimek büyüklüğündeki mıknatıs, kendi ağırlığının yüzlerce katı demiri taşıyabiliyor.;;
+V034;K2;alasim;Mıknatısın bileşimi;Mıknatıs üç elementten yapılmış bir alaşım: demir, bor ve bir lantanit. Bu tür mıknatıslar 1983'te bulundu.;;
+V034;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 60 proton bulunur.;;
+V034;K4;isim;Arşiv notu;"Adı Yunanca 'yeni ikiz' anlamına gelen 'neos didymos' sözünden gelir; praseodimle birlikte tek bir madde sanılan bir karışımdan ayrıldı. 1885'te Carl Auer von Welsbach tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/60/neodymium
+V035;K1;fiziksel;Zayıflayan ışık;Cam lifte ilerleyen ışık sinyali, kilometrelerce yol aldıktan sonra zayıflıyor ve güçlendirilmesi gerekiyor.;;
+V035;K2;kimyasal;Yükseltecin sırrı;Yükselteçteki cam lifin içine bir lantanit katılmış. Bu element, ayrıca bir lazerle uyarıldığında lifteki zayıf ışık sinyalini güçlendiriyor. Cama katıldığında cama pembe bir renk de veriyor.;;
+V035;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 68 proton bulunur.;;
+V035;K4;isim;Arşiv notu;Adı İsveç'teki Ytterby köyünden gelir. 1843'te Carl Gustav Mosander tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/68/erbium
+V036;K1;deney;Kıvılcım;Çubuk sert bir yüzeyle kazınınca kopan minik parçacıklar havada kendiliğinden tutuşup parlak kıvılcımlar oluşturuyor.;;
+V036;K2;alasim;Çubuğun bileşimi;Çubuk, ağırlıkça yaklaşık yarısı tek bir lantanitten oluşan ve içinde demir ile başka lantanitler de bulunan bir alaşım.;;
+V036;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 58 proton bulunur.;;
+V036;K4;isim;Arşiv notu;"Adı, birkaç yıl önce keşfedilen Ceres asteroidinden gelir; Ceres, Roma tarım tanrıçasının adıdır. 1803'te Jöns Jacob Berzelius ve Wilhelm Hisinger tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/58/cerium
+V037;K1;deney;Kısa ömürlü ışınım;Maddenin radyoaktifliği yaklaşık 6 saatte yarıya iniyor. Bir gün sonra başlangıçtakinin yaklaşık on altıda birine düşüyor.;;
+V037;K2;tarih;Yapay element;Bu element doğada kalıcı olarak bulunmuyor, çünkü bütün izotopları radyoaktif. Yapay yolla elde edilen ilk element. Mendeleyev boşluğunu önceden görmüş ve ona 'eka-mangan' demişti.;;
+V037;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5. periyodunda ve 7B grubunda (IUPAC'a göre 7. grup) yer alır.;;
+V037;K4;isim;Arşiv notu;"Adı Yunanca 'yapay' anlamına gelen 'tekhnetos' kelimesinden gelir; yapay yolla elde edilen ilk elementtir. 1937'de Carlo Perrier ve Emilio Segrè tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/43/technetium
+V038;K1;deney;Alfa ışınları;Kaynak alfa parçacıkları yayıyor. Alfa parçacıkları havada yalnızca birkaç santimetre gidebiliyor ve bir kâğıt yaprağıyla bile durduruluyor. Havadaki molekülleri iyonlaştırıyor.;;
+V038;K2;fiziksel;Kısa ömür;Kaynağın etkinliği yaklaşık 138 günde yarıya iniyor. Bu yüzden fırçanın yılda bir değiştirilmesi gerekiyor.;;
+V038;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6. periyodunda ve 6A grubunda (IUPAC'a göre 16. grup) yer alır.;;
+V038;K4;isim;Arşiv notu;Adı Marie Curie'nin vatanı Polonya'dan gelir. 1898'de Marie Curie ve eşi Pierre Curie tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/84/polonium
+V039;K1;deney;Geiger sayacı;Sayaç objektifin yanında belirgin biçimde, uzaklaşınca daha seyrek tıkırdıyor. Radyasyon zayıf.;;
+V039;K2;kimyasal;Camdaki oksit;"Cama katılan oksit, camın ışığı kırma gücünü artırıyor. Oksidin metali zayıf radyoaktif; en yaygın izotopunun yarılanma süresi yaklaşık 14 milyar yıl.";;
+V039;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 90 proton bulunur.;;
+V039;K4;isim;Arşiv notu;Adı İskandinav savaş ve gök gürültüsü tanrısı Thor'dan gelir. 1829'da Jöns Jacob Berzelius tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/90/thorium
+V040;K1;fiziksel;Uzaktaki Güneş;Plüton'un çevresinde güneş ışığı, Dünya'dakinden yaklaşık bin kat daha zayıf.;;
+V040;K2;deney;Sıcak tablet;Araçtaki madde, radyoaktif bozunma sırasında sürekli ısı üretiyor. Bu maddedeki izotopun yarılanma süresi yaklaşık 88 yıl.;;
+V040;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 94 proton bulunur.;;
+V040;K4;isim;Arşiv notu;"Adı, o dönemde gezegen sayılan Plüton'dan gelir; uranyum ve neptünyumdan sonra gelen bir gök cismi olarak. 1940'ta Glenn Seaborg ve ekibi tarafından üretildi.";G2;https://periodic-table.rsc.org/element/94/plutonium
+V041;K1;tarih;Gizli keşif;Element 1944'te üretildi ama savaş sürdüğü için keşif gizli tutuldu. Resmî duyuru radyo programından bir hafta sonra yapıldı.;;
+V041;K2;fiziksel;Elementin görünüşü;"Radyoaktif, gümüş renkli bir metal; havada hızla kararıyor. Uzay görevlerinde cihazlara güç sağlamak için kullanıldı.";;
+V041;K3;atom_numarasi;Çekirdek hesabı;"Element, plütonyum-239 atomlarına alfa parçacıkları çarptırılarak üretildi. Plütonyumun atom numarası 94; bir alfa parçacığı 2 proton ve 2 nötron taşır ve çekirdeğe eklendi.";;
+V041;K4;isim;Arşiv notu;Adı Marie ve Pierre Curie'nin onuruna verildi. 1944'te Glenn Seaborg ve ekibi tarafından üretildi.;G2;https://periodic-table.rsc.org/element/96/curium
+V042;K1;deney;Yavaş bozunma;Amerikyum-241'in yarılanma süresi yaklaşık 432 yıl. 40 yılda atomlarının yalnızca yaklaşık %6'sı bozunmuş.;;
+V042;K2;tarih;İlk uranyum ötesi element;"Bu yeni element, uranyumdan daha ağır olan ve yapay yolla üretilen ilk elementti; 1940'ta bulundu.";;
+V042;K3;atom_numarasi;Çekirdek hesabı;"Amerikyumun atom numarası 95. Amerikyum atomları alfa parçacığı yayarak bozunur; bir alfa parçacığı 2 proton ve 2 nötron taşır ve çekirdekten çıkar.";;
+V042;K4;isim;Arşiv notu;Adı Neptün gezegeninden gelir: periyodik tabloda uranyumdan sonra gelir, tıpkı Neptün'ün Güneş Sistemi'nde Uranüs'ten sonra gelmesi gibi. 1940'ta Edwin McMillan ve Philip Abelson tarafından üretildi.;G2;https://periodic-table.rsc.org/element/93/neptunium
+V043;K1;deney;Nötron yağmuru;Kaynaktaki çekirdekler kendiliğinden ikiye bölünüyor ve her bölünmede birkaç nötron saçılıyor. Bir mikrogram madde saniyede milyonlarca nötron yayıyor.;;
+V043;K2;tarih;Üretim;Element bir nükleer reaktörde plütonyumun nötronlarla bombardımanıyla, yalnızca miligram miktarlarında üretiliyor. Adını ilk üretildiği ABD eyaletinden alıyor.;;
+V043;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 98 proton bulunur.;;
+V043;K4;isim;Arşiv notu;Adı, ilk kez üretildiği Kaliforniya eyaletinden ve üniversitesinden gelir. 1950'de Stanley Thompson, Kenneth Street, Albert Ghiorso ve Glenn Seaborg tarafından üretildi.;G2;https://periodic-table.rsc.org/element/98/californium
+V044;K1;fiziksel;Acele edilen gönderi;Hedef olarak kullanılan izotopun yarılanma süresi yaklaşık 320 gün. Bu yüzden üretilir üretilmez kullanılması gerekiyordu.;;
+V044;K2;tarih;Elementin adı;Hedef element, ilk kez 1949'da Kaliforniya'daki bir üniversite kentinde üretilmişti ve adını o kentten aldı.;;
+V044;K3;atom_numarasi;Çekirdek hesabı;Kalsiyum-48 çekirdeği 20 proton taşıyor. Hedef elementin bir çekirdeğiyle birleşince 117 protonlu tennesin çekirdeği oluştu.;;
+V044;K4;isim;Arşiv notu;Adı, ilk kez üretildiği Kaliforniya'daki Berkeley şehrinden gelir. 1949'da Stanley Thompson, Albert Ghiorso ve Glenn Seaborg tarafından üretildi.;G2;https://periodic-table.rsc.org/element/97/berkelium
+V045;K1;fiziksel;Yarılanma süresi;Bulunan izotopun yarılanma süresi yaklaşık 20,5 gün.;;
+V045;K2;tarih;Gözle görülen ilk örnek;"Elementin gözle görülebilecek ve tartılabilecek kadarı ancak 1961'de biriktirilebildi; bu miktar gramın yalnızca yaklaşık on milyonda biriydi.";;
+V045;K3;atom_numarasi;Çekirdek hesabı;"Patlamada bazı uranyum çekirdekleri (atom numarası 92) çok sayıda nötron yakaladı. Ardından 7 beta bozunması oldu; her beta bozunmasında çekirdekteki bir nötron protona dönüşür.";;
+V045;K4;isim;Arşiv notu;Adı fizikçi Albert Einstein'ın onuruna verildi. 1952'de Albert Ghiorso ve ekibi tarafından, ilk hidrojen bombası denemesinin kalıntılarında bulundu.;G2;https://periodic-table.rsc.org/element/99/einsteinium
+V046;K1;deney;Zincirin sonu;"Bu elementin bir sonraki izotopu bir saniyenin binde biri kadar kısa bir sürede kendiliğinden bölünüyor; bu yüzden daha fazla nötron yakalayıp ağırlaşamıyor.";;
+V046;K2;tarih;Keşif;Element ilk kez 1952'deki termonükleer denemenin kalıntılarında bulundu. Adı, ilk nükleer reaktörü çalıştıran fizikçinin onuruna verildi.;;
+V046;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 100 proton bulunur.;;
+V046;K4;isim;Arşiv notu;Adı nükleer fizikçi Enrico Fermi'nin onuruna verildi. 1953'te Albert Ghiorso ve ekibi tarafından, ilk hidrojen bombası denemesinin kalıntılarında bulundu.;G2;https://periodic-table.rsc.org/element/100/fermium
+V047;K1;deney;Işıktan elektrik;"Pilin içindeki radyoaktif madde ışıldayan bir tozu sürekli parlatıyor; bu zayıf ışığa bakan küçük bir güneş hücresi elektrik üretiyor.";;
+V047;K2;tarih;Boş kutu;"Bu element, neodim ile samaryum arasında yer alan bir lantanit. Bütün izotopları radyoaktif ve en uzun ömürlüsünün yarılanma süresi yalnızca yaklaşık 18 yıl; bu yüzden Dünya'da doğal olarak bulunmuyor.";;
+V047;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 61 proton bulunur.;;
+V047;K4;isim;Arşiv notu;Adı, Yunan mitolojisinde tanrılardan ateşi çalıp insanlara veren Prometheus'tan gelir. 1945'te Jacob Marinsky, Lawrence Glendenin ve Charles Coryell tarafından nükleer reaktör ürünlerinde bulundu.;G2;https://periodic-table.rsc.org/element/61/promethium
+V048;K1;fiziksel;Kısa ömür;Elementin en kararlı izotoplarının yarılanma süresi yalnızca 8 saat kadar. Bu yüzden tartılabilecek miktarda hiç elde edilemedi.;;
+V048;K2;kimyasal;Kimyasal akrabası;Kütle spektrometresiyle yapılan ölçümler, bu elementin diğer halojenler gibi, özellikle de iyot gibi davrandığını gösterdi.;;
+V048;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6. periyodunda ve 7A grubunda (IUPAC'a göre 17. grup) yer alır.;;
+V048;K4;isim;Arşiv notu;Adı Yunanca 'kararsız' anlamına gelen 'astatos' kelimesinden gelir, çünkü bütün izotopları hızla bozunur. 1940'ta Dale Corson, Kenneth MacKenzie ve Emilio Segrè tarafından yapay olarak üretildi.;G2;https://periodic-table.rsc.org/element/85/astatine
+V049;K1;kimyasal;Kimyasal davranış;"Yeni element sezyum gibi davranıyor; alkali metaller grubunun en ağır üyesi.";;
+V049;K2;fiziksel;Kısa ömür;En kararlı izotopunun yarılanma süresi yalnızca 22 dakika. Yer kabuğunun tamamında herhangi bir anda yalnızca çok küçük bir miktarı bulunuyor.;;
+V049;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 7. periyodunda ve 1A grubunda (IUPAC'a göre 1. grup) yer alır.;;
+V049;K4;isim;Arşiv notu;"Adı Fransa'dan gelir. 1939'da Paris'teki Curie Enstitüsü'nde Marguerite Perey tarafından keşfedildi; doğada keşfedilen son element olarak bilinir.";G2;https://periodic-table.rsc.org/element/87/francium
+V050;K1;fiziksel;Mavi parıltı;Metal karanlıkta soluk mavi parlıyor. Işık, metalin çok güçlü radyoaktifliğinin çevresindeki havayı uyarmasından kaynaklanıyor.;;
+V050;K2;tarih;Cevherdeki miktar;Bir ton uranyum cevherinde (uranyum oksit) bu elementten yaklaşık 150 miligram var. Cevherden çıkan izotopun yarılanma süresi yaklaşık 22 yıl.;;
+V050;K3;atom_numarasi;Çekirdek analizi;Bu elementin her atomunun çekirdeğinde 89 proton bulunur.;;
+V050;K4;isim;Arşiv notu;Adı Yunanca 'ışın' anlamına gelen 'aktinos' kelimesinden gelir. 1899'da André Debierne tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/89/actinium
+V051;K1;konum;Laboratuvar raporu;Element periyodik tablonun 17. grubunda (halojenler) yer alıyor.;;
+V051;K2;fiziksel;Saf hâlinin görünüşü;Saf hâli oda sıcaklığında çok soluk sarı-yeşil bir gazdır.;;
+V051;K3;elektron_dizilimi;Elektron dizilimi;1s² 2s² 2p⁵;;
+V051;K4;reaktivite;Tepkime notu;Saf hâli bilinen en tepkimeye yatkın elementtir: bütün metallere hızla saldırır, çelik yünü bu gazla karşılaşınca alev alır.;;https://periodic-table.rsc.org/element/9/fluorine
+V051;K5;iyon;İyon notu;Bileşiklerinde bir elektron alarak −1 yüklü iyon oluşturur. Türkçede bu tür iyonlar elementin adına '-ür' eki getirilerek adlandırılır (örneğin klor → klorür).;;
+V051;K6;tablo;17. grup elementleri;T1;;RSC Periyodik Tablo
+V051;K7;isim;Arşiv notu;"Bu elementin adı Latincede 'akmak' anlamına gelen 'fluere' kelimesinden gelir. Elementi içeren florit minerali, metal eritmede erimeyi kolaylaştırmak için kullanılıyordu. Element 1886'da Henri Moissan tarafından elde edildi; ondan önce elde etmeye çalışan Humphry Davy denemeleri sırasında hastalandı.";G4;https://periodic-table.rsc.org/element/9/fluorine
+V052;K1;deney;Alev testi;Tuzdan bir tutam alevin üzerine serpilince alev parlak kızıl renge döndü.;;
+V052;K2;tablo;Alev testinde bazı metallerin renkleri;T1;;Standart alev testi renkleri
+V052;K3;konum;Elementel analiz;Metal, periyodik tablonun 2. grubunda (toprak alkali metaller) yer alıyor.;G2;
+V052;K4;yogunluk;Saf metalin yoğunluğu;Tuzdan elde edilen saf metalin yoğunluğu 2,6 ± 0,1 g/cm³.;G2;
+V052;K5;kimyasal;Saf metalin davranışı;Saf metal havada kolayca yanıyor ve suyla tepkimeye giriyor.;;
+V052;K6;isim;Arşiv notu;Bu element, 1787'de İskoçya'daki küçük Strontian kasabası yakınındaki bir kurşun madeninde bulunan bir mineralden adını aldı. 1791'de Thomas Charles Hope, bu mineralin bir mumun alevini kırmızı yaktığını not etti.;G4;https://periodic-table.rsc.org/element/38/strontium
+V052;K7;kullanim;RSC kaydı;Bu elementin bileşikleri karanlıkta parlayan boya ve plastiklerde de kullanılır: gün boyunca ışığı soğurur, saatlerce yavaşça geri verirler.;G4;https://periodic-table.rsc.org/element/38/strontium
+V053;K1;konum;Analiz raporu;Element periyodik tablonun 2. grubunda (toprak alkali metaller).;;
+V053;K2;kimyasal;Saf metalin davranışı;"Saf metal gümüşi beyaz ve yumuşak; havada hızla matlaşıyor, suya atılınca yavaşça gaz çıkararak tepkimeye giriyor.";;
+V053;K3;yogunluk;Yoğunluk ölçümü;Saf metalin yoğunluğu 1,5 ± 0,1 g/cm³.;;
+V053;K4;tablo;2. grup metalleri;T1;;RSC Periyodik Tablo
+V053;K5;deney;Kemik deneyi;Bir tavuk kemiği birkaç gün sirkede bekletilince lastik gibi bükülebilir hâle geldi. Sirkede çözünen mineral, aranan elementi içeriyor.;;
+V053;K6;kullanim;Yapı malzemeleri;Kireçtaşı, mermer ve alçı (kalsiyum sülfat) bu elementin bileşiklerini içerir. RSC'ye göre alçı, kırık kemikleri sabitlemek için de kullanılır.;G4;https://periodic-table.rsc.org/element/20/calcium
+V053;K7;isim;Arşiv notu;Bu elementin adı Latincede 'kireç' anlamına gelen 'calx' kelimesinden gelir. Element ilk kez 1808'de Humphry Davy tarafından elde edildi: Davy kireci cıva oksitle karıştırıp elektrik akımı verdi, oluşan alaşımdan cıvayı damıtarak ayırdı.;G4;https://periodic-table.rsc.org/element/20/calcium
+V054;K1;konum;Analiz raporu;"Element periyodik tablonun 1. grubunda; bir alkali metal.";;
+V054;K2;yogunluk;Yoğunluk ölçümü;Saf metalin yoğunluğu 0,53 ± 0,02 g/cm³.;;
+V054;K3;deney;Alev testi;Bileşikleri alevi kızıl renge boyuyor.;;
+V054;K4;tablo;1. grup (alkali) metalleri;T1;;"RSC Periyodik Tablo; standart alev testi renkleri"
+V054;K5;kimyasal;Suyla tepkime;Saf metal suyla tepkimeye girerek hidrojen gazı çıkarıyor, ama sodyum ve potasyuma göre daha sakin.;;
+V054;K6;kullanim;RSC kaydı;Bu metalin en önemli kullanımı telefon, dizüstü bilgisayar, fotoğraf makinesi ve elektrikli araçlardaki şarj edilebilir pillerdir. Bütün metaller içinde yoğunluğu en düşük olanıdır.;G5;https://periodic-table.rsc.org/element/3/lithium
+V054;K7;isim;Arşiv notu;Adı Yunanca 'taş' anlamına gelen 'lithos' kelimesinden gelir. Diğer yaygın alkali metaller bitki küllerinden bulunurken bu metal bir mineralden (petalit) bulundu. 1817'de Johan August Arfvedson tarafından keşfedildi.;G5;https://periodic-table.rsc.org/element/3/lithium
+V055;K1;deney;Mum testi;"Paketten alınan gazla doldurulan bir kaba yanan bir mum indirildi; mum hemen söndü.";;
+V055;K2;fiziksel;Renk ve koku;Gaz renksiz ve kokusuz.;;
+V055;K3;deney;Kireç suyu testi;"Gaz kireç suyundan geçirildi; kireç suyu bulanmadı.";;
+V055;K4;tablo;Renksiz ve kokusuz bazı gazlar;T1;;"RSC Periyodik Tablo; standart değerler"
+V055;K5;yogunluk;Yoğunluk ölçümü;Gazın yoğunluğu 0,00115 ± 0,00002 g/cm³ (oda sıcaklığında).;;
+V055;K6;isim;Arşiv notu;"Bu gazı 1772'de İskoç öğrenci Daniel Rutherford bir element olarak tanımladı. Daha önce Cavendish ve Priestley, havadan oksijeni ayırınca geriye kalan gazın mumu söndürdüğünü ve içinde bir farenin yaşayamadığını görmüştü. Fransız kimyager Lavoisier bu gaza 'cansız' anlamındaki 'azote' adını verdi; Türkçedeki 'azot' adı buradan gelir. Uluslararası sembolü N ise 'nitrogen' adından gelir: Yunanca 'nitron' (güherçile) ve 'genes' (oluşturan).";G4;https://periodic-table.rsc.org/element/7/nitrogen
+V055;K7;kullanim;RSC kaydı;"Bu gaz tepkimeye girmeyen bir ortam sağlamak için kullanılır; yiyecekleri korumak bunlardan biridir. Sıvı hâli (−196 °C) hücreleri dondurup saklamak ve yiyecekleri hızla dondurmak için kullanılır.";G4;https://periodic-table.rsc.org/element/7/nitrogen
+V056;K1;kimyasal;Motorun dumanı;Yakıt sıvı oksijenle birlikte yakılıyor. Motorlardan çıkan beyaz bulutun büyük bölümü su buharı.;;
+V056;K2;fiziksel;Kilogram başına enerji;Bu yakıtın bir kilogramı yandığında, bir kilogram benzinden yaklaşık üç kat fazla enerji veriyor.;;
+V056;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s¹;;
+V056;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V056;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −253 ± 2 °C sıcaklıkta kaynadı.;;
+V056;K6;isim;Arşiv notu;Adı Yunanca 'hydro' (su) ve 'genes' (oluşturan) sözcüklerinden gelir, çünkü yandığında su oluşur. 1766'da Henry Cavendish tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/1/hydrogen
+V057;K1;deney;Gazların hacmi;Eksi kutupta toplanan gazın hacmi, artı kutupta toplanan gazın hacminin iki katı.;;
+V057;K2;deney;Kibrit testi;Eksi kutuptaki gazla dolu tüpün ağzına yanan bir kibrit yaklaştırılınca gaz 'pıt' sesiyle küçük bir patlamayla yandı.;;
+V057;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 1; bu atomların çekirdeğinde 0 nötron var.";;
+V057;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V057;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −253 ± 2 °C sıcaklıkta kaynadı.;;
+V057;K6;isim;Arşiv notu;Adı Yunanca 'hydro' (su) ve 'genes' (oluşturan) sözcüklerinden gelir, çünkü yandığında su oluşur. 1766'da Henry Cavendish tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/1/hydrogen
+V058;K1;fiziksel;Süper iletken teller;Mıknatısın telleri ancak mutlak sıfırın (−273 °C) birkaç derece üzerine kadar soğutulunca elektriğe hiç direnç göstermiyor.;;
+V058;K2;kimyasal;Buharlaşan gaz;Soğutucudan buharlaşan gaz renksiz, kokusuz ve hiçbir maddeyle tepkimeye girmiyor.;;
+V058;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s²;;
+V058;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V058;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −269 ± 3 °C sıcaklıkta kaynadı.;;
+V058;K6;isim;Arşiv notu;Adı Yunanca 'Güneş' anlamına gelen 'helios' kelimesinden gelir, çünkü ilk kez Güneş'in ışığında fark edildi. Dünya'da 1895'te William Ramsay tarafından bulundu.;G2;https://periodic-table.rsc.org/element/2/helium
+V059;K1;fiziksel;Ayna parçaları;"Her parça hafif ama çok sert bir metalden yapılmış; ışığı yansıtan yüzey, metalin üzerindeki ince altın tabakası.";;
+V059;K2;fiziksel;Soğukta şekil;Teleskobun aynaları yaklaşık −220 °C'de çalışıyor. Aynanın metali bu soğukta bile şeklini neredeyse hiç değiştirmiyor.;;
+V059;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s²;;
+V059;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V059;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,85 ± 0,03 g/cm³ olarak ölçüldü.;;
+V059;K6;isim;Arşiv notu;Adı, içinde bulunduğu beril mineralinin Yunanca adı 'beryllo'dan gelir. 1797'de Nicolas Louis Vauquelin tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/4/beryllium
+V060;K1;kimyasal;Nötron yutan madde;Suya katılan madde bu elementin bir asidi. Elementin bir izotopu nötronları çok iyi yutuyor.;;
+V060;K2;kimyasal;Günlük hayattaki akrabaları;Aynı elementin bileşikleri göz damlalarında, hafif antiseptiklerde ve ısıya dayanıklı camlarda da bulunuyor.;;
+V060;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p¹;;
+V060;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V060;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 2077 ± 50 °C sıcaklıkta erimeye başladı.;;
+V060;K6;isim;Arşiv notu;Adı, boraks mineralinin Arapça adı 'buraq'tan gelir. 1808'de Paris'te Gay-Lussac ile Thénard ve Londra'da Humphry Davy tarafından birbirlerinden bağımsız olarak elde edildi.;G2;https://periodic-table.rsc.org/element/5/boron
+V061;K1;fiziksel;Dev iç yüzey;Tanelerin içi sünger gibi gözenekli. Bir gram tanenin iç yüzey alanı birkaç yüz metrekareyi buluyor.;;
+V061;K2;deney;Yakma deneyi;Taneler yakılınca geriye neredeyse hiç kül kalmadı. Çıkan gaz kireç suyunu bulandırdı.;;
+V061;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p²;;
+V061;K4;isim;Arşiv notu;Adı Latince 'odun kömürü' anlamına gelen 'carbo' kelimesinden gelir. Tarih öncesi çağlardan beri kömür ve is olarak bilinir.;G2;https://periodic-table.rsc.org/element/6/carbon
+V062;K1;tarih;Haber'in tepkimesi;Gaz, yüksek basınç ve sıcaklıkta, demir katalizör üzerinde hidrojenle birleşip amonyak oluşturuyor.;;
+V062;K2;kimyasal;Bitkilerin sorunu;"Bu gaz havanın yaklaşık %78'ini oluşturuyor; ama bitkilerin çoğu onu havadan doğrudan alamıyor.";;
+V062;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p³;;
+V062;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V062;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −196 ± 3 °C sıcaklıkta kaynadı.;;
+V062;K6;isim;Arşiv notu;"Uluslararası adı 'nitrogen', Yunanca 'güherçile oluşturan' demektir; sembolü N buradan gelir. Türkçedeki 'azot' adı ise Lavoisier'nin verdiği ve 'cansız' anlamına gelen Fransızca 'azote' adından gelir. 1772'de Daniel Rutherford tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/7/nitrogen
+V063;K1;kimyasal;Üç atomlu molekül;Tabakadaki moleküller aynı elementin üç atomundan oluşuyor. Soluduğumuz havadaki iki atomlu molekülleri de aynı element oluşturuyor.;;
+V063;K2;fiziksel;Tabakanın görevi;Bu moleküller Güneş'ten gelen zararlı morötesi ışınların çoğunu soğuruyor.;;
+V063;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁴;;
+V063;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V063;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −183 ± 1 °C sıcaklıkta kaynadı.;;
+V063;K6;isim;Arşiv notu;Adı Yunanca 'asit oluşturan' anlamına gelen 'oxy genes' sözünden gelir. 1774'te Joseph Priestley ve ondan bağımsız olarak Carl Wilhelm Scheele tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/8/oxygen
+V064;K1;deney;Sirke testi;Toz sirkeyle karışınca köpürerek gaz çıkardı. Kek hamurunda da fırında ısınınca aynı gazın kabarcıkları oluşuyor.;;
+V064;K2;kimyasal;Etiket;"Tozun kimyasal adı '... hidrojen karbonat'; ilk kelime, tozdaki metalin adı.";;
+V064;K3;iyon;İyon analizi;Bu elementin atomları 1 elektron vererek +1 yüklü iyon oluşturur. Bu iyonun elektron sayısı neon atomununkiyle aynıdır.;;
+V064;K4;tablo;Bazı elementlerin alev testi renkleri;T1;;
+V064;K5;deney;Alev testi;Kabartma tozu alevin üzerine serpilince alev parlak turuncu-sarı renkte yandı.;;
+V064;K6;isim;Arşiv notu;"Adı 'soda' kelimesinden gelir; sembolü Na ise Latince adı 'natrium'dan. 1807'de Humphry Davy tarafından elektrik akımıyla elde edildi.";G2;https://periodic-table.rsc.org/element/11/sodium
+V065;K1;deney;Bahçe deneyi;"Tuz eklenen fidelerin yeni yaprakları yeşil çıktı; tuz eklenmeyen fidelerde sararma devam etti.";;
+V065;K2;kimyasal;Klorofilin merkezi;Yaprağa yeşil rengini veren klorofil molekülünün tam ortasında bu elementin bir iyonu bulunuyor.;;
+V065;K3;iyon;İyon analizi;Bu elementin atomları 2 elektron vererek +2 yüklü iyon oluşturur. Bu iyonun elektron sayısı neon atomununkiyle aynıdır.;;
+V065;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V065;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,74 ± 0,05 g/cm³ olarak ölçüldü.;;
+V065;K6;isim;Arşiv notu;Adı Yunanistan'ın Teselya bölgesindeki Magnesia'dan gelir. 1755'te Joseph Black tarafından element olarak tanındı.;G2;https://periodic-table.rsc.org/element/12/magnesium
+V066;K1;deney;Yanma;"Karışım birkaç saniyede yandı; o kadar çok ısı açığa çıktı ki oluşan demir sıvı hâle geldi.";;
+V066;K2;kimyasal;Karışımın içeriği;Karışımda demir oksit ve gümüşi bir metalin tozu var. Bu metal, demir oksitteki oksijeni koparıp alıyor ve kendisi oksit oluyor.;;
+V066;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p¹;;
+V066;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V066;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,7 ± 0,1 g/cm³ olarak ölçüldü.;;
+V066;K6;isim;Arşiv notu;Adı Latince 'şap' anlamına gelen 'alumen' kelimesinden gelir. 1825'te Hans Christian Ørsted tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/13/aluminium
+V067;K1;kimyasal;Aşırı saflık;Disk %99,9999999 saflıkta. Yalnızca belirli bölgelerine çok az miktarda bor ya da fosfor katılıyor.;;
+V067;K2;iletkenlik;Ne iletken ne yalıtkan;Bu madde elektriği metaller kadar iyi iletmiyor ama yalıtkanlar kadar kötü de iletmiyor. İletkenliği katkı maddeleriyle ayarlanabiliyor.;;
+V067;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p²;;
+V067;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V067;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,3 ± 0,1 g/cm³ olarak ölçüldü.;;
+V067;K6;isim;Arşiv notu;Adı Latince 'çakmaktaşı' anlamına gelen 'silex' kelimesinden gelir. 1824'te Jöns Jacob Berzelius tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/14/silicon
+V068;K1;kimyasal;DNA'nın omurgası;DNA zincirinin omurgası, şeker molekülleri ile bu elementin dört oksijen atomuyla oluşturduğu grupların art arda dizilmesinden oluşuyor.;;
+V068;K2;kimyasal;Hücrenin enerji parası;Hücrelerin enerji taşıyıcı molekülü ATP'de bu elementin üç grubu art arda bağlı. Enerji, bu grupların arasındaki bağ koparken açığa çıkıyor.;;
+V068;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p³;;
+V068;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V068;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,82 ± 0,05 g/cm³ olarak ölçüldü.;;
+V068;K6;isim;Arşiv notu;Adı Yunanca 'ışık getiren' anlamına gelen 'phosphoros' kelimesinden gelir, çünkü beyaz fosfor karanlıkta parlar. 1669'da Hennig Brandt tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/15/phosphorus
+V069;K1;deney;Uçucu gaz;"Soğan kesilince hücrelerindeki maddeler karışıp hızla buharlaşan bir gaz oluşturuyor; gaz göze ulaşınca göz yaşarıyor.";;
+V069;K2;kimyasal;Gazın bileşimi;Gazın molekülünde karbon, hidrojen ve oksijenin yanında, sarımsağa ve çürük yumurtaya da kokusunu veren bir element bulunuyor.;;
+V069;K3;iyon;İyon analizi;Bu elementin atomları 2 elektron alarak −2 yüklü iyon oluşturur. Bu iyonun elektron sayısı argon atomununkiyle aynıdır.;;
+V069;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V069;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 115 ± 5 °C sıcaklıkta erimeye başladı.;;
+V069;K6;isim;Arşiv notu;"Uluslararası adı Latince 'sulfur' kelimesinden gelir. Tarih öncesi çağlardan beri bilinir; yanardağların çevresinde saf hâlde bulunur.";G2;https://periodic-table.rsc.org/element/16/sulfur
+V070;K1;deney;Alev testi;Gübreden bir tutam alevin üzerine serpilince alev açık mor (lila) renge büründü.;;
+V070;K2;kimyasal;Eksiklik belirtisi;"Bu elementin eksikliğinde bitkilerin yaprak kenarları kahverengileşip kuruyor; bitki suyu iyi kullanamıyor.";;
+V070;K3;iyon;İyon analizi;Bu elementin atomları 1 elektron vererek +1 yüklü iyon oluşturur. Bu iyonun elektron sayısı argon atomununkiyle aynıdır.;;
+V070;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V070;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 0,89 ± 0,03 g/cm³ olarak ölçüldü.;;
+V070;K6;isim;Arşiv notu;"Adı bitki külünden elde edilen 'potas' (potash) kelimesinden gelir; sembolü K ise Latince adı 'kalium'dan. 1807'de Humphry Davy tarafından elektrik akımıyla elde edildi.";G2;https://periodic-table.rsc.org/element/19/potassium
+V071;K1;fiziksel;Işığın rengi;"Lambaların ışığı gün ışığına çok benziyor; kameralar renkleri doğru gösterebiliyor.";;
+V071;K2;fiziksel;Hafif ama dayanıklı;Metal, alüminyuma yakın hafiflikte ama erime noktası çok daha yüksek. Alüminyumla alaşımı bazı bisiklet kadrolarında ve beyzbol sopalarında kullanılıyor.;;
+V071;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹;;
+V071;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V071;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 3,0 ± 0,1 g/cm³ olarak ölçüldü.;;
+V071;K6;isim;Arşiv notu;"Adı İskandinavya'nın Latince adı 'Scandia'dan gelir. 1879'da Lars Fredrik Nilson tarafından keşfedildi; Mendeleyev bu elementin varlığını önceden tahmin etmişti.";G2;https://periodic-table.rsc.org/element/21/scandium
+V072;K1;kimyasal;Ter testi;Çerçeve yıllarca terle temas etmiş eski bir çerçeveyle karşılaştırıldı: ikisinde de pas ya da kararma yok, cilde alerji yapmamışlar.;;
+V072;K2;fiziksel;Hafif ve sağlam;Çerçevenin metali çelik kadar sağlam ama yoğunluğu çeliğin yalnızca yaklaşık yarısı kadar.;;
+V072;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d²;;
+V072;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V072;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 4,5 ± 0,2 g/cm³ olarak ölçüldü.;;
+V072;K6;isim;Arşiv notu;Adı Yunan mitolojisinde Yeryüzü tanrıçasının oğulları olan Titanlardan gelir. 1791'de William Gregor tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/22/titanium
+V073;K1;fiziksel;Taşın rengi;Taş koyu kırmızı ve ışığı geçiriyor. Aynı mineralin saf hâli renksiz.;;
+V073;K2;kimyasal;Analiz raporu;Taşta, alüminyum ve oksijenin yanında yüzde birden az miktarda bir geçiş metali bulundu.;;
+V073;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d⁵;;
+V073;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V073;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,15 ± 0,05 g/cm³ olarak ölçüldü.;;
+V073;K6;isim;Arşiv notu;Adı Yunanca 'renk' anlamına gelen 'chroma' kelimesinden gelir, çünkü bileşikleri çok renklidir. 1798'de Nicolas Louis Vauquelin tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/24/chromium
+V074;K1;kimyasal;Siyah toz;Pilin içindeki siyah toz bir metalin dioksidi. Pil çalışırken bu toz kimyasal olarak değişiyor.;;
+V074;K2;alasim;Başka bir kullanım;Aynı metal, demiryolu makaslarında ve taş kırıcılarda kullanılan, darbe aldıkça sertleşen çeliklere de katılıyor.;;
+V074;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁵;;
+V074;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V074;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,30 ± 0,05 g/cm³ olarak ölçüldü.;;
+V074;K6;isim;Arşiv notu;Adı ya Latince 'mıknatıs' anlamına gelen 'magnes' kelimesinden ya da 'kara magnezya' denilen siyah bir mineralden gelir. 1774'te Johan Gottlieb Gahn tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/25/manganese
+V075;K1;kimyasal;Hemoglobinin merkezi;Kandaki hemoglobin molekülünün merkezinde bir metal iyonu bulunuyor. Oksijen bu iyona bağlanarak taşınıyor.;;
+V075;K2;fiziksel;Kanın rengi;Kanın kırmızı rengi, oksijenin hemoglobindeki bu metal iyonuna bağlanmasından geliyor.;;
+V075;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶;;
+V075;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V075;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,9 ± 0,2 g/cm³ olarak ölçüldü.;;
+V075;K6;isim;Arşiv notu;"Demir eski bir Türkçe kelimedir; sembolü Fe ise Latince adı 'ferrum'dan gelir. Yaklaşık MÖ 3500'den beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/26/iron
+V076;K1;fiziksel;Solmayan mavi;Desenlerin mavisi yüzyıllardır güneşe ve neme maruz kaldığı hâlde solmamış.;;
+V076;K2;kimyasal;Boyanın içeriği;Analiz, mavi boyada bir geçiş metalinin oksidini buldu. Bu oksit, cama karıştırılınca da koyu mavi renk veriyor.;;
+V076;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁷;;
+V076;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V076;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 1495 ± 10 °C sıcaklıkta erimeye başladı.;;
+V076;K6;isim;Arşiv notu;"Adı Almanca 'cin, kötü ruh' anlamına gelen 'kobald' kelimesinden gelir; madenciler bu cevherin başlarına iş açtığını düşünürdü. 1739'da Georg Brandt tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/27/cobalt
+V077;K1;kimyasal;Alerjinin nedeni;Ter, tokanın yüzeyinden çok az miktarda metal iyonu çözüyor. Bu iyonlar cilde geçince bazı kişilerde alerjik tepki oluşturuyor.;;
+V077;K2;deney;Mıknatıs ve paralar;Tokanın metali mıknatısa çekiliyor. Aynı metal birçok ülkenin madeni paralarında ve paslanmaz çelikte de kullanılıyor.;;
+V077;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁸;;
+V077;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V077;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 1455 ± 10 °C sıcaklıkta erimeye başladı.;;
+V077;K6;isim;Arşiv notu;"Adı Almanca 'kupfernickel' (şeytanın bakırı) sözünün kısaltmasıdır; madenciler bakıra benzeyen ama bakır vermeyen bu cevheri böyle adlandırdı. 1751'de Axel Fredrik Cronstedt tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/28/nickel
+V078;K1;fiziksel;Renk değişimi;Heykelin dış yüzeyi yıllar içinde kızıl kahverengiden yeşile döndü. Yeşil tabaka metalin üzerinde ince bir katman oluşturuyor.;;
+V078;K2;iletkenlik;Başka bir kullanım;Heykelin dış yüzeyindeki metal, evlerdeki elektrik tellerinde en çok kullanılan metal.;;
+V078;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d¹⁰;;
+V078;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V078;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 1085 ± 30 °C sıcaklıkta erimeye başladı.;;
+V078;K6;isim;Arşiv notu;"Bakır eski bir Türkçe kelimedir. Sembolü Cu Latince 'cuprum'dan gelir; o da 'Kıbrıs metali' anlamına gelen 'Cyprium aes' sözünden türemiştir. Tarih öncesi çağlardan beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/29/copper
+V079;K1;fiziksel;Beyaz tabaka;Krem ciltte opak beyaz bir tabaka bırakıyor ve güneş ışığındaki morötesi ışınları geçirmiyor.;;
+V079;K2;kimyasal;Metalin başka bir görevi;Aynı metal, çeliği paslanmaya karşı korumak için onu kaplamakta da kullanılıyor.;;
+V079;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰;;
+V079;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V079;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,1 ± 0,3 g/cm³ olarak ölçüldü.;;
+V079;K6;isim;Arşiv notu;"Adı Almanca 'zink' kelimesinden gelir; bu kelime belki de Farsça 'taş' anlamına gelen 'sing'den türemiştir. 1746'da Andreas Marggraf tarafından element olarak tanındı; eski Yunanlar ve Romalılar da onu biliyordu.";G2;https://periodic-table.rsc.org/element/30/zinc
+V080;K1;fiziksel;Avuçta eriyen metal;"Metal avuçta birkaç dakika tutulunca eriyor; vücut sıcaklığı (yaklaşık 37 °C) onu eritmeye yetiyor.";;
+V080;K2;kimyasal;Işık saçan bileşik;Bu metalin azotla oluşturduğu bileşik, mavi LED'lerde ve telefonların hızlı şarj cihazlarında kullanılıyor.;;
+V080;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p¹;;
+V080;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V080;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 30 ± 1 °C sıcaklıkta erimeye başladı.;;
+V080;K6;isim;Arşiv notu;"Adı Fransa'nın Latince adı 'Gallia'dan gelir. 1875'te Paul-Émile Lecoq de Boisbaudran tarafından keşfedildi; Mendeleyev bu elementi önceden tahmin etmişti.";G2;https://periodic-table.rsc.org/element/31/gallium
+V081;K1;tarih;Mendeleyev'in tahmini;Mendeleyev boş kutudaki elementin yoğunluğunun yaklaşık 5,5 g/cm³, bağıl atom kütlesinin yaklaşık 72 olacağını tahmin etti.;;
+V081;K2;tarih;Winkler'in ölçümü;1886'da Clemens Winkler elementi buldu ve ölçtü: bağıl atom kütlesi 72,6. Ölçümleri tahmine çok yakındı.;;
+V081;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p²;;
+V081;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V081;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 5,3 ± 0,1 g/cm³ olarak ölçüldü.;;
+V081;K6;isim;Arşiv notu;"Adı Almanya'nın Latince adı 'Germania'dan gelir. 1886'da Clemens Winkler tarafından keşfedildi; Mendeleyev onu 'eka-silisyum' adıyla önceden tahmin etmişti.";G2;https://periodic-table.rsc.org/element/32/germanium
+V082;K1;iletkenlik;Işığa duyarlılık;"Tamburu kaplayan madde karanlıkta elektriği iletmiyor; ışık vurunca iletken hâle geliyor.";;
+V082;K2;kimyasal;Başka kullanımlar;Aynı element kepeğe yol açan mantarlara karşı şampuanlarda ve camlara kırmızı renk vermekte de kullanılıyor.;;
+V082;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁴;;
+V082;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V082;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 4,8 ± 0,2 g/cm³ olarak ölçüldü.;;
+V082;K6;isim;Arşiv notu;"Adı Yunanca 'Ay' anlamına gelen 'selene' kelimesinden gelir. 1817'de Jöns Jacob Berzelius tarafından keşfedildi; adı 'Dünya'dan gelen tellüre benzediği için ona Ay'ın adı verildi.";G2;https://periodic-table.rsc.org/element/34/selenium
+V083;K1;tarih;Pahalı renk;Yalnızca bir gram boya elde etmek için binlerce salyangoz gerekiyordu.;;
+V083;K2;kimyasal;Molekülün yapısı;Boya molekülünde karbon, hidrojen, azot ve oksijenin yanında, oda sıcaklığında sıvı hâlde bulunan tek ametal var.;;
+V083;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁵;;
+V083;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V083;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek 59 ± 2 °C sıcaklıkta kaynadı.;;
+V083;K6;isim;Arşiv notu;Adı Yunanca 'pis koku' anlamına gelen 'bromos' kelimesinden gelir. 1826'da Antoine-Jérôme Balard ve ondan bağımsız olarak Carl Löwig tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/35/bromine
+V084;K1;fiziksel;Işık hızında zaman;Uydu sinyalleri ışık hızıyla yol alır: saniyenin milyonda biri kadar bir saat hatası, konumda yaklaşık 300 metrelik bir hataya yol açar.;;
+V084;K2;kimyasal;Saatin elementi;Saatlerden birinde kullanılan element yumuşak bir alkali metal. Atomları her zaman aynı, çok kararlı bir frekansta ışıma yapıyor.;;
+V084;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 85; bu atomların çekirdeğinde 48 nötron var.";;
+V084;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V084;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,53 ± 0,05 g/cm³ olarak ölçüldü.;;
+V084;K6;isim;Arşiv notu;"Adı Latince 'en koyu kırmızı' anlamına gelen 'rubidius' kelimesinden gelir; spektrumundaki kırmızı çizgiler nedeniyle. 1861'de Gustav Kirchhoff ve Robert Bunsen tarafından spektroskopla keşfedildi.";G2;https://periodic-table.rsc.org/element/37/rubidium
+V085;K1;fiziksel;Sert ama kırılgan;"Bıçak çok sert; aylarca keskin kalıyor ve paslanmıyor. Ama darbeye dayanıksız: yere düşünce kırılabiliyor.";;
+V085;K2;kimyasal;Metalin başka bir görevi;Aynı metal, nötronları çok az yuttuğu için nükleer reaktörlerde yakıt çubuklarının kılıfında kullanılıyor.;;
+V085;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 90; bu atomların çekirdeğinde 50 nötron var.";;
+V085;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V085;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 6,5 ± 0,3 g/cm³ olarak ölçüldü.;;
+V085;K6;isim;Arşiv notu;Adı Farsça 'altın renkli' anlamına gelen 'zargun' kelimesinden (zirkon taşı) gelir. 1789'da Martin Heinrich Klaproth tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/40/zirconium
+V086;K1;fiziksel;Hızlı erime;Lehim teli havyanın ucuyla birkaç saniyede eriyor ve soğuyunca hemen katılaşarak parçaları birbirine bağlıyor.;;
+V086;K2;alasim;Eski bir dost;Lehimin ana metali, bakırla karıştırılarak tunç yapımında da kullanılıyor ve konserve kutularının içini kaplıyor.;;
+V086;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 120; bu atomların çekirdeğinde 70 nötron var.";;
+V086;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V086;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 232 ± 10 °C sıcaklıkta erimeye başladı.;;
+V086;K6;isim;Arşiv notu;"Sembolü Sn, Latince adı 'stannum'dan gelir. Yaklaşık MÖ 2100'den beri kullanılıyor; bakırla karıştırılarak tunç yapıldı.";G2;https://periodic-table.rsc.org/element/50/tin
+V087;K1;tarih;Önce ve sonra;"Bir bölgede sofra tuzuna bu element eklenmeden önce guatr çok yaygındı; eklenmeye başlandıktan birkaç yıl sonra yeni guatr vakaları belirgin biçimde azaldı.";;
+V087;K2;kimyasal;Vücuttaki görevi;Bu element boyundaki tiroit bezinin ürettiği hormonların yapısında bulunuyor. Deniz ürünlerinde ve deniz yosunlarında bol.;;
+V087;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 127; bu atomların çekirdeğinde 74 nötron var.";;
+V087;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V087;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 114 ± 5 °C sıcaklıkta erimeye başladı.;;
+V087;K6;isim;Arşiv notu;"Adı Yunanca 'mor' anlamına gelen 'iodes' kelimesinden gelir; ısıtılınca mor bir buhar çıkarır. 1811'de Bernard Courtois tarafından deniz yosunu külünden elde edildi.";G2;https://periodic-table.rsc.org/element/53/iodine
+V088;K1;deney;Röntgen görüntüsü;"Sıvı içildikten sonra çekilen röntgende sindirim kanalı beyaz göründü; çünkü sıvı röntgen ışınlarını geçirmiyor.";;
+V088;K2;kimyasal;Güvenli bileşik;"Sıvıdaki bileşik bu elementin sülfatı. Elementin bileşiklerinin çoğu zehirli; ama bu sülfat suda hiç çözünmediği için vücuda geçmiyor.";;
+V088;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 138; bu atomların çekirdeğinde 82 nötron var.";;
+V088;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V088;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 3,6 ± 0,1 g/cm³ olarak ölçüldü.;;
+V088;K6;isim;Arşiv notu;"Adı Yunanca 'ağır' anlamına gelen 'barys' kelimesinden gelir; cevheri barit çok ağırdır. 1808'de Humphry Davy tarafından elde edildi.";G2;https://periodic-table.rsc.org/element/56/barium
+V089;K1;fiziksel;Güçlü kırılma;"Objektif camı sıradan camdan daha ince ama ışığı daha güçlü kırıyor; görüntünün kenarlarında renk saçılması daha az.";;
+V089;K2;kimyasal;Elementin başka işleri;Aynı element hibrit arabaların nikel-metal hidrür bataryalarında ve çakmak taşlarında da bulunuyor.;;
+V089;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 139; bu atomların çekirdeğinde 82 nötron var.";;
+V089;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V089;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 6,2 ± 0,2 g/cm³ olarak ölçüldü.;;
+V089;K6;isim;Arşiv notu;"Adı Yunanca 'gizli kalmak' anlamına gelen 'lanthanein' kelimesinden gelir; seryum mineralinin içinde gizlenmişti. 1839'da Carl Gustav Mosander tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/57/lanthanum
+V090;K1;fiziksel;Kaybolan sarı;"Gözlük, alevden gelen parlak sarı ışığı süzüyor; diğer renkleri büyük ölçüde geçiriyor. Gözlük camı hafif mor-yeşil renkli.";;
+V090;K2;kimyasal;Camdaki ikiz elementler;Gözlük camına iki lantanit katılmış. Aranan element, tuzlarına yeşil, cama ise sarı-yeşil bir renk veriyor.;;
+V090;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 141; bu atomların çekirdeğinde 82 nötron var.";;
+V090;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V090;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 931 ± 30 °C sıcaklıkta erimeye başladı.;;
+V090;K6;isim;Arşiv notu;"Adı Yunanca 'yeşil ikiz' anlamına gelen 'prasios didymos' sözünden gelir; tuzları yeşildir ve neodimle birlikte tek bir madde sanılan bir karışımdan ayrıldı. 1885'te Carl Auer von Welsbach tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/59/praseodymium
+V091;K1;fiziksel;Isıya dayanıklılık;Mıknatıs 250 °C'de bile manyetikliğini koruyor. Aynı sıcaklıkta sıradan bir demir mıknatıs belirgin biçimde zayıflıyor.;;
+V091;K2;alasim;Mıknatısın bileşimi;Mıknatıs, bir lantanit ile kobaltın alaşımından yapılmış. Bu tür mıknatıslar bir zamanlar ilk taşınabilir müzik çalarlardaki küçük kulaklıkları mümkün kılmıştı.;;
+V091;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 152; bu atomların çekirdeğinde 90 nötron var.";;
+V091;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V091;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,5 ± 0,1 g/cm³ olarak ölçüldü.;;
+V091;K6;isim;Arşiv notu;"Adı, ilk kez elde edildiği samarskit mineralinden gelir; mineral de adını Rus maden yetkilisi Samarsky-Bykhovets'ten almıştı. 1879'da Paul-Émile Lecoq de Boisbaudran tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/62/samarium
+V092;K1;deney;Önce ve sonra;"İlaç verilmeden önceki MR görüntüsünde tümör zor seçiliyordu; ilaçtan sonra çevresinden belirgin biçimde ayrıldı.";;
+V092;K2;fiziksel;Mıknatıs gibi iyon;İlaçtaki lantanit iyonunun eşleşmemiş yedi elektronu var. Bu yüzden MR cihazının güçlü manyetik alanından çok etkileniyor.;;
+V092;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 158; bu atomların çekirdeğinde 94 nötron var.";;
+V092;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V092;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,9 ± 0,1 g/cm³ olarak ölçüldü.;;
+V092;K6;isim;Arşiv notu;Adı Fin kimyacı Johan Gadolin'in onuruna verildi. 1880'de Jean Charles Galissard de Marignac tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/64/gadolinium
+V093;K1;fiziksel;Isınan mıknatıs;Jeneratör çalışırken mıknatıslar ısınıyor. Katkı maddesi olmayan neodim mıknatıslar yüksek sıcaklıkta manyetikliklerinin bir kısmını kaybediyor.;;
+V093;K2;kimyasal;Katkı elementi;Katkı elementi havada ve suda kolayca tepkimeye girdiği için saf hâlde pek kullanılmıyor. Elektrikli araç motorlarının mıknatıslarına da aynı amaçla katılıyor.;;
+V093;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 164; bu atomların çekirdeğinde 98 nötron var.";;
+V093;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V093;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,6 ± 0,1 g/cm³ olarak ölçüldü.;;
+V093;K6;isim;Arşiv notu;"Adı Yunanca 'elde edilmesi zor' anlamına gelen 'dysprositos' kelimesinden gelir; ayrılması çok uğraş gerektirdi. 1886'da Paul-Émile Lecoq de Boisbaudran tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/66/dysprosium
+V094;K1;fiziksel;İnce lifle gelen ışık;Lazer ışığı saç teli inceliğinde esnek bir lifle taşa kadar taşınıyor ve enerjisini yalnızca dokunduğu küçük noktaya veriyor.;;
+V094;K2;kimyasal;Kristaldeki element;"Lazer kristaline katılan lantanit, nötronları iyi yuttuğu için nükleer reaktörlerde de kullanılıyor; alaşımları bazı güçlü mıknatıslarda bulunuyor.";;
+V094;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 165; bu atomların çekirdeğinde 98 nötron var.";;
+V094;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V094;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,8 ± 0,1 g/cm³ olarak ölçüldü.;;
+V094;K6;isim;Arşiv notu;Adı Stockholm'ün Latince adı 'Holmia'dan gelir. 1878'de Per Teodor Cleve ve ondan bağımsız olarak Marc Delafontaine ile Louis Soret tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/67/holmium
+V095;K1;fiziksel;Elektriksiz röntgen;"Cihaz prize takılmadan çalışıyor; röntgen ışınlarını içindeki küçük radyoaktif kaynak üretiyor.";;
+V095;K2;kimyasal;Kaynağın üretimi;Kaynak, bir lantanitin nükleer reaktörde nötronlarla ışınlanmasıyla elde ediliyor. Aynı lantanit bazı cerrahi lazerlerde de kullanılıyor.;;
+V095;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 169; bu atomların çekirdeğinde 100 nötron var.";;
+V095;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V095;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 9,3 ± 0,1 g/cm³ olarak ölçüldü.;;
+V095;K6;isim;Arşiv notu;Adı İskandinavya'nın eski adı 'Thule'den gelir. 1879'da Per Teodor Cleve tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/69/thulium
+V096;K1;fiziksel;Atomların titreşimi;Tuzaktaki atomlar, bir lazerin ışığını yalnızca tam belirli ve hiç değişmeyen bir frekansta soğuruyor. Saat bu frekansı sayarak zamanı ölçüyor.;;
+V096;K2;kimyasal;Elementin başka bir işi;Aynı element, çevreye zararlı bulunan bazı sanayi katalizörlerinin yerine de kullanılmaya başlandı.;;
+V096;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 174; bu atomların çekirdeğinde 104 nötron var.";;
+V096;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V096;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 6,9 ± 0,3 g/cm³ olarak ölçüldü.;;
+V096;K6;isim;Arşiv notu;Adı İsveç'teki Ytterby köyünden gelir. 1878'de Jean Charles Galissard de Marignac tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/70/ytterbium
+V097;K1;deney;Işık parlamaları;Gama ışını bir kristale çarpınca kristal çok kısa süren parlak bir ışık yayıyor. Bu ışık bir algılayıcıyla ölçülüyor.;;
+V097;K2;fiziksel;Yoğun kristal;"Kristaller bir lantanitin silikatından yapılmış ve çok yoğun; gama ışınlarını iyi durduruyor.";;
+V097;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 175; bu atomların çekirdeğinde 104 nötron var.";;
+V097;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V097;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 9,8 ± 0,2 g/cm³ olarak ölçüldü.;;
+V097;K6;isim;Arşiv notu;Adı Paris'in Roma dönemindeki adı 'Lutetia'dan gelir. 1907'de Georges Urbain ve ondan bağımsız olarak Charles James tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/71/lutetium
+V098;K1;deney;Fazla ışınım;Cevher, içerdiği uranyum miktarının açıklayabileceğinden çok daha güçlü ışınım yapıyordu.;;
+V098;K2;kimyasal;Yeni elementin davranışı;Yeni elementin tuzları karanlıkta parlıyordu. Element kimyasal olarak baryuma ve kalsiyuma benziyordu.;;
+V098;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların kütle numarası 226; her birinin çekirdeğinde 138 nötron var. Bu atomlar radyoaktif.";;
+V098;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V098;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 5,0 ± 0,2 g/cm³ olarak ölçüldü.;;
+V098;K6;isim;Arşiv notu;Adı Latince 'ışın' anlamına gelen 'radius' kelimesinden gelir. 1898'de Marie ve Pierre Curie tarafından uranyum cevherinde keşfedildi.;G2;https://periodic-table.rsc.org/element/88/radium
+V099;K1;fiziksel;İlk izotop;"1913'te bulunan izotopun yarılanma süresi yalnızca 1 dakika kadardı; bu yüzden elemente önce 'kısa' anlamına gelen bir ad verildi.";;
+V099;K2;fiziksel;İkinci izotop;1918'de bulunan başka bir izotopunun yarılanma süresi ise yaklaşık 33 bin yıl. Bu izotop bozunarak başka bir radyoaktif elemente dönüşüyor.;;
+V099;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların kütle numarası 231; her birinin çekirdeğinde 140 nötron var. Bu atomlar radyoaktif.";;
+V099;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V099;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 15,4 ± 0,5 g/cm³ olarak ölçüldü.;;
+V099;K6;isim;Arşiv notu;Adı Yunanca 'ilk' anlamına gelen 'protos' ile 'aktinyum'un birleşiminden gelir, çünkü bozunarak aktinyuma dönüşür. 1913'te Kasimir Fajans ve Otto Göhring tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/91/protactinium
+V100;K1;deney;Morötesi lamba;"Vazo morötesi ışık altında parlak yeşil renkte parlıyor; lamba kapanınca parlama hemen duruyor.";;
+V100;K2;kimyasal;Camdaki oksit;Cama renk veren madde zayıf radyoaktif bir metalin oksidi. Aynı metal bugün nükleer santrallerde yakıt olarak kullanılıyor.;;
+V100;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların kütle numarası 238; her birinin çekirdeğinde 146 nötron var. Bu atomlar radyoaktif.";;
+V100;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V100;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 19,1 ± 0,2 g/cm³ olarak ölçüldü.;;
+V100;K6;isim;Arşiv notu;Adı, birkaç yıl önce keşfedilen Uranüs gezegeninden gelir. 1789'da Martin Heinrich Klaproth tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/92/uranium
+V101;K1;tablo;Birimin ölçümleri (0 °C, 1 atm);T1;;
+V101;K2;tarih;Cavendish'in notu (1785);"Henry Cavendish havadaki azotu en zorlu koşullarda bile tepkimeye sokmaya çalıştı; havanın yaklaşık %1'i hiçbir şekilde tepkimeye girmedi.";;https://periodic-table.rsc.org/element/18/argon
+V101;K3;deney;Ramsay'in deneyi;'Havadan elde edilen azot' sıcak magnezyumun üzerinden geçirildi. Azot magnezyumla tepkimeye girip katı magnezyum nitrür oluşturdu, ama geriye tepkimeye girmeyen bir gaz kaldı.;G3;https://periodic-table.rsc.org/element/18/argon
+V101;K4;deney;Kalan gazın spektrumu;Kalan gazın spektrumunda daha önce hiçbir elementte görülmemiş kırmızı ve yeşil çizgi grupları görüldü.;G4;https://periodic-table.rsc.org/element/18/argon
+V101;K5;yogunluk;Kalan gazın yoğunluğu;Kalan gazın yoğunluğu azotunkinin yaklaşık 1,4 katı.;G4;
+V101;K6;isim;Arşiv notu;Rayleigh ve Ramsay yeni elemente Yunanca 'tembel, işsiz' anlamına gelen 'argos' kelimesinden 'argon' adını verdiler, çünkü hiçbir maddeyle tepkimeye girmiyordu.;G6;https://periodic-table.rsc.org/element/18/argon
+V101;K7;kullanim;RSC kaydı;Bugün bu gaz eski tip akkor ampullerde, kaynak işlerinde ve çift camlı pencerelerin camları arasında kullanılır.;G6;https://periodic-table.rsc.org/element/18/argon
+V102;K1;tablo;Üç parçanın ölçümleri;T1;;
+V102;K2;tablo;Referans değerler;T2;;"RSC Periyodik Tablo; geology.com"
+V102;K3;kimyasal;Asit testi;"Kuyumcunun nitrik asit damlası A'yı ve C'yi etkiledi; B'nin yüzeyinde hiçbir değişiklik olmadı.";;
+V102;K4;tarih;Arşiv kaydı: Arşimet;Anlatılan hikâyeye göre Arşimet, kralın tacının saf altından yapılıp yapılmadığını anlamak için tacın yerinden ettiği suyun hacmini ölçerek tacın yoğunluğunu buldu.;;
+V102;K5;deney;Külçenin içi;Külçeye ince bir delik açıldı. İçten çıkan talaş da sarı renkte ve iğneyle kolayca eziliyor.;G3;
+V102;K6;isim;Arşiv notu;Altının sembolü Au, Latince 'aurum' kelimesinden gelir. RSC'ye göre ilk saf altın sikkeler, bugün Türkiye sınırları içinde kalan Lidya Krallığı'nda Kral Kroisos (Karun) döneminde (MÖ 561–547) basıldı.;G5;https://periodic-table.rsc.org/element/79/gold
+V103;K1;deney;Mıknatıs testi;Korkuluk metali mıknatısa güçlü biçimde çekiliyor.;;
+V103;K2;yogunluk;Yoğunluk ölçümü;7,9 ± 0,1 g/cm³;;
+V103;K3;tablo;Mıknatısa güçlü biçimde çekilen metaller;T1;;RSC Periyodik Tablo
+V103;K4;tablo;Paslanma deneyi: bir hafta sonra çiviler;T2;;
+V103;K5;kimyasal;Pas analizi;Kırmızı-kahverengi pasın, su içeren bir demir oksit olduğu bulundu.;;
+V103;K6;tarih;RSC kaydı;"Demiri cevherinden ilk eriterek elde edenler, MÖ 1500 civarında Anadolu'daki Hititlerdi; bu, Demir Çağı'nın başlangıcıydı. Mısır'da bulunan MÖ 3500'den kalma demir eşyalar ise yaklaşık %7,5 nikel içeriyor; bu da onların göktaşından geldiğini gösteriyor. Sembol Fe, Latince 'ferrum' adından gelir.";G3;https://periodic-table.rsc.org/element/26/iron
+V104;K1;konum;Analiz raporu;Dezenfektanın etken elementi 17. grupta ve 3. periyotta.;;
+V104;K2;fiziksel;Saf hâlinin görünüşü;Saf hâli sarı-yeşil, havadan yoğun ve boğucu kokulu bir gaz.;;
+V104;K3;tablo;Havuz suyu ölçümleri (bir hafta);T1;G1;
+V104;K4;kimyasal;CDC notu;Bu element sudaki ter, idrar ve kirle birleşerek 'kloramin' adı verilen bileşikler oluşturur. Kloraminler zayıf dezenfektanlardır, havaya karışarak gözleri ve solunum yollarını tahriş eder. CDC'ye göre havuzda 'klor kokusu' diye algılanan koku çoğunlukla kloraminlerden gelir.;G1;https://www.cdc.gov/healthy-swimming/prevention/preventing-eye-irritation-from-pool-chemicals.html
+V104;K5;kullanim;RSC kaydı;"Bu element bakterileri öldürür; içme suyunu ve havuz suyunu dezenfekte etmek için kullanılır. Üretilenin yaklaşık %20'si PVC plastiğinin yapımında kullanılır.";G1;https://periodic-table.rsc.org/element/17/chlorine
+V104;K6;isim;Arşiv notu;"Adı Yunanca 'sarımsı yeşil' anlamına gelen 'chloros' kelimesinden gelir. İlk kez 1774'te Carl Wilhelm Scheele elde etti; Humphry Davy 1810'da onun bir element olduğunu açıkladı.";G1;https://periodic-table.rsc.org/element/17/chlorine
+V105;K1;deney;Radyasyon ölçümü;Kaynak alfa parçacıkları yayıyor. Kaynağın önüne bir kâğıt konunca ölçülen alfa radyasyonu neredeyse sıfıra iniyor.;;
+V105;K2;konum;Element analizi;Element 7. periyotta ve f bloğunda (aktinitler).;;
+V105;K3;deney;Teknik belge;"Dedektör üreticisinin belgesine göre kaynak, yarı ömrü yaklaşık 432 yıl olan bir izotop. Doğada bulunmaz; nükleer reaktörlerde plütonyumun nötronlarla bombardımanıyla üretilir.";;https://periodic-table.rsc.org/element/95/americium
+V105;K4;tablo;Bazı aktinit izotoplarının yarı ömürleri;T1;;Standart değerler
+V105;K5;isim;Arşiv notu;Element 1944'te Chicago Üniversitesi'nde Glenn Seaborg ve ekibi tarafından üretildi ve ilk kez üretildiği kıtanın adını aldı. İlginç bir ayrıntı: periyodik tabloda kendisinden sonra gelen küriyumdan sonra keşfedildi.;G4;https://periodic-table.rsc.org/element/95/americium
+V105;K6;kullanim;EPA notu;"İyonlaşmalı duman dedektörlerinde bu elementin küçük bir kaynağı bulunur. Yaydığı alfa parçacıkları, dedektördeki iki levha arasındaki havayı iyonlaştırır ve küçük bir akım oluşur. Duman girince akım azalır ve alarm çalar. Kaynak metal folyo ve seramikle kaplıdır; doğru kullanıldığında radyasyon riski oluşturmaz.";G4;https://www.epa.gov/radtown/americium-ionization-smoke-detectors
+V106;K1;deney;Spektrumdaki koyu çizgiler;Güneş ışığının spektrumunda yüzlerce koyu çizgi var. Her element kendine özgü yerlerde çizgiler oluşturuyor.;;
+V106;K2;tarih;Güneş'in yakıtı;"Güneş'in çekirdeğinde bu elementin çekirdekleri birleşerek helyum oluşturuyor; Güneş'in enerjisi buradan geliyor.";;
+V106;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V106;K4;tablo;1A grubu elementlerinin en güçlü spektrum çizgileri;T1;;
+V106;K5;deney;Laboratuvar ölçümü: çizginin yeri;İncelenen koyu çizginin dalga boyu 656,3 ± 0,5 nm olarak ölçüldü.;;
+V106;K6;isim;Arşiv notu;Adı Yunanca 'hydro' (su) ve 'genes' (oluşturan) sözcüklerinden gelir, çünkü yandığında su oluşur. 1766'da Henry Cavendish tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/1/hydrogen
+V107;K1;kimyasal;Gazın davranışı;Gaz renksiz, kokusuz ve hiçbir maddeyle kolay kolay tepkimeye girmiyor.;;
+V107;K2;fiziksel;İncelen ses;"Bu gazı soluyan dalgıçların sesi incelip çizgi film karakterlerine benziyor; çünkü ses bu hafif gazın içinde havadakinden daha hızlı ilerliyor.";;
+V107;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8A grubunda (IUPAC'a göre 18. grup) ve ilk 5 periyottan birinde yer alır.;;
+V107;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V107;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −269 ± 3 °C sıcaklıkta kaynadı.;;
+V107;K6;isim;Arşiv notu;Adı Yunanca 'Güneş' anlamına gelen 'helios' kelimesinden gelir, çünkü ilk kez Güneş'in ışığında fark edildi. Dünya'da 1895'te William Ramsay tarafından bulundu.;G2;https://periodic-table.rsc.org/element/2/helium
+V108;K1;fiziksel;Saf metalin özellikleri;"Saf hâli yumuşak, gümüşi bir metal; bıçakla kesilebiliyor ve suyla tepkimeye giriyor.";;
+V108;K2;alasim;Alaşımın üstünlüğü;Alaşıma katılan metal alüminyumu hem hafifletiyor hem de sağlamlaştırıyor. Aynı metal telefon pillerinde de kullanılıyor.;;
+V108;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V108;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V108;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 0,53 ± 0,02 g/cm³ olarak ölçüldü.;;
+V108;K6;isim;Arşiv notu;Adı Yunanca 'taş' anlamına gelen 'lithos' kelimesinden gelir, çünkü bir mineralin içinde bulundu. 1817'de Johan August Arfvedson tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/3/lithium
+V109;K1;kimyasal;Elementin türü;"Element bir ametal; metallerle bileşik oluşturuyor.";;
+V109;K2;tarih;Kritik ihtiyaç;Astronotlar bu elementi hem nefes almak için soluyor hem de aracın yakıt hücrelerinde hidrojenle birleştirerek elektrik ve su üretiyordu.;;
+V109;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6A grubunda (IUPAC'a göre 16. grup) ve ilk 5 periyottan birinde yer alır.;;
+V109;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V109;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −183 ± 5 °C sıcaklıkta kaynadı.;;
+V109;K6;isim;Arşiv notu;Adı Yunanca 'asit oluşturan' anlamına gelen 'oxy genes' sözünden gelir. 1774'te Joseph Priestley ve ondan bağımsız olarak Carl Wilhelm Scheele tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/8/oxygen
+V110;K1;kimyasal;Elementin türü;"Element çok etkin bir ametal; metallerle tuz oluşturuyor.";;
+V110;K2;kimyasal;Güçlü bağ;Kaplamanın molekülü karbon zincirine bağlı bu elementin atomlarından oluşuyor. Karbonla bu element arasındaki bağ, kimyadaki en güçlü tekli bağlardan biri.;;
+V110;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 7A grubunda (IUPAC'a göre 17. grup) ve ilk 5 periyottan birinde yer alır.;;
+V110;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V110;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −188 ± 5 °C sıcaklıkta kaynadı.;;
+V110;K6;isim;Arşiv notu;"Adı Latince 'akmak' anlamına gelen 'fluere' kelimesinden gelir; flüorit minerali metal eritilirken akışkanlaştırıcı olarak kullanılırdı. Element 1886'da Henri Moissan tarafından elde edildi.";G2;https://periodic-table.rsc.org/element/9/fluorine
+V111;K1;fiziksel;Metalin davranışı;"Metal yumuşak ve gümüşi; havada hızla kararıyor ve suyla şiddetli tepkimeye giriyor.";;
+V111;K2;fiziksel;Sıvı hâlde ısı taşıma;Sıvı metal ısıyı sudan çok daha iyi iletiyor ve yaklaşık 880 °C'ye kadar kaynamıyor.;;
+V111;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V111;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V111;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 98 ± 3 °C sıcaklıkta erimeye başladı.;;
+V111;K6;isim;Arşiv notu;"Adı 'soda' kelimesinden gelir; sembolü Na ise Latince adı 'natrium'dan. 1807'de Humphry Davy tarafından elektrik akımıyla elde edildi.";G2;https://periodic-table.rsc.org/element/11/sodium
+V112;K1;fiziksel;Kasanın görünüşü;Kasa gümüşi gri, metal parlaklığında ve ısıyı iyi iletiyor.;;
+V112;K2;deney;Mıknatıs testi;Kasa parçası mıknatısa çekilmedi.;;
+V112;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2A grubunda (IUPAC'a göre 2. grup) ve ilk 6 periyottan birinde yer alır.;;
+V112;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V112;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,74 ± 0,03 g/cm³ olarak ölçüldü.;;
+V112;K6;isim;Arşiv notu;Adı Yunanistan'ın Teselya bölgesindeki Magnesia'dan gelir. 1755'te Joseph Black tarafından element olarak tanındı.;G2;https://periodic-table.rsc.org/element/12/magnesium
+V113;K1;kimyasal;Doğadaki hâli;"Element yer kabuğunda bileşikleri hâlinde bulunuyor; saf hâlde doğada neredeyse hiç görülmüyor.";;
+V113;K2;tarih;Enerji karşılaştırması;Kutuları eritip yeniden kullanmak, aynı metali cevherinden elde etmeye göre enerjinin yaklaşık %95'ini tasarruf ettiriyor.;;
+V113;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3A grubunda (IUPAC'a göre 13. grup) ve ilk 6 periyottan birinde yer alır.;;
+V113;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V113;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,7 ± 0,1 g/cm³ olarak ölçüldü.;;
+V113;K6;isim;Arşiv notu;Adı Latince 'şap' anlamına gelen 'alumen' kelimesinden gelir. 1825'te Hans Christian Ørsted tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/13/aluminium
+V114;K1;kimyasal;Dev ağ yapısı;Elementin atomları dört bağ yaparak birbirine bağlanıyor ve dev ağ yapıları oluşturabiliyor.;;
+V114;K2;kimyasal;Kumun bileşeni;Kumun ana bileşeni bu elementin oksidi. Erimiş kum soğuyunca kristal oluşturmadan saydam, sert bir katıya dönüşüyor.;;
+V114;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4A grubunda (IUPAC'a göre 14. grup) ve ilk 6 periyottan birinde yer alır.;;
+V114;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V114;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,33 ± 0,05 g/cm³ olarak ölçüldü.;;
+V114;K6;isim;Arşiv notu;Adı Latince 'çakmaktaşı' anlamına gelen 'silex' kelimesinden gelir. 1824'te Jöns Jacob Berzelius tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/14/silicon
+V115;K1;kimyasal;Elementin türü;"Element bir ametal; canlıların yapısında bulunuyor.";;
+V115;K2;deney;Karanlıkta ışık;Elde edilen beyaz madde karanlıkta yeşilimsi bir ışıkla parlıyor ve havada kendiliğinden tutuşabiliyor.;;
+V115;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5A grubunda (IUPAC'a göre 15. grup) ve ilk 6 periyottan birinde yer alır.;;
+V115;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V115;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,82 ± 0,05 g/cm³ olarak ölçüldü.;;
+V115;K6;isim;Arşiv notu;Adı Yunanca 'ışık getiren' anlamına gelen 'phosphoros' kelimesinden gelir, çünkü beyaz fosfor karanlıkta parlar. 1669'da Hennig Brandt tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/15/phosphorus
+V116;K1;kimyasal;Elementin türü;"Element bir ametal; metallerle bileşik oluşturuyor.";;
+V116;K2;deney;Isıtılan kauçuk;Kauçuk bu elementin tozuyla ısıtılınca, sıcakta yapışkanlaşmayan ve soğukta çatlamayan esnek bir malzemeye dönüşüyor.;;
+V116;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6A grubunda (IUPAC'a göre 16. grup) ve ilk 5 periyottan birinde yer alır.;;
+V116;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V116;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,1 ± 0,1 g/cm³ olarak ölçüldü.;;
+V116;K6;isim;Arşiv notu;"Uluslararası adı Latince 'sulfur' kelimesinden gelir. Tarih öncesi çağlardan beri bilinir; yanardağların çevresinde saf hâlde bulunur.";G2;https://periodic-table.rsc.org/element/16/sulfur
+V117;K1;fiziksel;Metalin görünüşü;"Metal yumuşak; bıçakla kesilebiliyor ve kesik yüzeyi havada hızla kararıyor.";;
+V117;K2;deney;Sudaki tepkime;Suya atılan parça suyun üzerinde yüzüp dönerek lila renkli bir alevle yandı.;;
+V117;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V117;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V117;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 0,89 ± 0,03 g/cm³ olarak ölçüldü.;;
+V117;K6;isim;Arşiv notu;"Adı bitki külünden elde edilen 'potas' (potash) kelimesinden gelir; sembolü K ise Latince adı 'kalium'dan. 1807'de Humphry Davy tarafından elektrik akımıyla elde edildi.";G2;https://periodic-table.rsc.org/element/19/potassium
+V118;K1;kimyasal;Elementin türü;"Element bir metal; bileşiklerinde +2 yüklü iyon oluşturuyor.";;
+V118;K2;kimyasal;Sertleşen harç;Harcın bağlayıcısı bu elementin hidroksiti (sönmüş kireç). Harç yıllar içinde havadaki karbondioksiti emerek yeniden kireç taşına dönüşüyor ve sertleşiyor.;;
+V118;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2A grubunda (IUPAC'a göre 2. grup) ve ilk 6 periyottan birinde yer alır.;;
+V118;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V118;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,54 ± 0,05 g/cm³ olarak ölçüldü.;;
+V118;K6;isim;Arşiv notu;Adı Latince 'kireç' anlamına gelen 'calx' kelimesinden gelir. 1808'de Humphry Davy tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/20/calcium
+V119;K1;fiziksel;Metalin görünüşü;Metal parlak, gümüşi ve elektriği iletiyor.;;
+V119;K2;fiziksel;Kâğıt inceliğinde levhalar;Levhalar yalnızca yaklaşık 0,4 mm kalınlığında. Bu kadar ince oldukları hâlde rüzgâra dayanıyor ve paslanmıyor.;;
+V119;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4B grubunda (IUPAC'a göre 4. grup) ve ilk 6 periyottan birinde yer alır.;;
+V119;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V119;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 4,5 ± 0,2 g/cm³ olarak ölçüldü.;;
+V119;K6;isim;Arşiv notu;Adı Yunan mitolojisinde Yeryüzü tanrıçasının oğulları olan Titanlardan gelir. 1791'de William Gregor tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/22/titanium
+V120;K1;fiziksel;Metalin görünüşü;Metal sert, gümüşi gri ve elektriği iletiyor.;;
+V120;K2;alasim;Az ama etkili;Çeliğe yüzde birden az miktarda bu metal katılınca çelik darbelere ve titreşime karşı çok dayanıklı hâle geliyor.;;
+V120;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5B grubunda (IUPAC'a göre 5. grup) ve ilk 6 periyottan birinde yer alır.;;
+V120;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V120;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 6,0 ± 0,3 g/cm³ olarak ölçüldü.;;
+V120;K6;isim;Arşiv notu;"Adı İskandinav güzellik tanrıçası Freyja'nın eski adı 'Vanadis'ten gelir; bileşiklerinin renkleri çok güzeldir. 1801'de Andrés Manuel del Río tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/23/vanadium
+V121;K1;fiziksel;Metalin özellikleri;"Metal çok sert ve parlak; elektriği iletiyor.";;
+V121;K2;deney;Elektrikle kaplama;"Parçalar metal tuzunun çözeltisine daldırılıp elektrik verilince yüzeyleri ince bir metal tabakasıyla kaplanıyor; tabaka çizilmeye ve paslanmaya dayanıklı.";;
+V121;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6B grubunda (IUPAC'a göre 6. grup) ve ilk 6 periyottan birinde yer alır.;;
+V121;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V121;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,2 ± 0,3 g/cm³ olarak ölçüldü.;;
+V121;K6;isim;Arşiv notu;Adı Yunanca 'renk' anlamına gelen 'chroma' kelimesinden gelir, çünkü bileşikleri çok renklidir. 1798'de Nicolas Louis Vauquelin tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/24/chromium
+V122;K1;fiziksel;Metalin görünüşü;Metal sert ve gümüşi gri.;;
+V122;K2;alasim;Darbeyle sertleşme;Çelik yaklaşık %13 oranında bu metali içeriyor. Trenler geçtikçe yüzeyi darbelerle daha da sertleşiyor ve aşınmaya dayanıyor.;;
+V122;K3;konum;Periyodik tablo kaydı;"Element periyodik tablonun 7B grubunda (IUPAC'a göre 7. grup) yer alır. Bu grubun 5. periyottaki üyesi (teknesyum) radyoaktiftir; örnek ise radyoaktif değil.";;
+V122;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V122;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,3 ± 0,3 g/cm³ olarak ölçüldü.;;
+V122;K6;isim;Arşiv notu;Adı ya Latince 'mıknatıs' anlamına gelen 'magnes' kelimesinden ya da 'kara magnezya' denilen siyah bir mineralden gelir. 1774'te Johan Gottlieb Gahn tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/25/manganese
+V123;K1;kimyasal;Elementin türü;"Element bir geçiş metali; bileşikleri renkli.";;
+V123;K2;kimyasal;Vitaminin merkezi;"B12 vitamininin büyük molekülünün tam merkezinde bu metalin bir atomu bulunuyor; vitamin koyu kırmızı renkli.";;
+V123;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 9. grup) ve ilk 6 periyottan birinde yer alır.;;
+V123;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V123;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,9 ± 0,3 g/cm³ olarak ölçüldü.;;
+V123;K6;isim;Arşiv notu;"Adı Almanca 'cin, kötü ruh' anlamına gelen 'kobald' kelimesinden gelir; madenciler bu cevherin başlarına iş açtığını düşünürdü. 1739'da Georg Brandt tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/27/cobalt
+V124;K1;fiziksel;Metalin görünüşü;Metal parlak, gümüşi ve paslanmaya dayanıklı.;;
+V124;K2;deney;Mıknatıs testi;"Bu metal mıknatısa çekiliyor; otomat paranın mıknatıs özelliğini ölçerek sahteleri ayırabiliyor.";;
+V124;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 10. grup) ve ilk 6 periyottan birinde yer alır.;;
+V124;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V124;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,9 ± 0,3 g/cm³ olarak ölçüldü.;;
+V124;K6;isim;Arşiv notu;"Adı Almanca 'kupfernickel' (şeytanın bakırı) sözünün kısaltmasıdır; madenciler bakıra benzeyen ama bakır vermeyen bu cevheri böyle adlandırdı. 1751'de Axel Fredrik Cronstedt tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/28/nickel
+V125;K1;iletkenlik;İletkenlik;Metal elektriği ve ısıyı çok iyi iletiyor.;;
+V125;K2;deney;Bakteri sayımı;Bu metalden yapılan kapı kollarında, paslanmaz çelik kollara göre çok daha az bakteri bulundu. Metal kızıl kahverengi renkte.;;
+V125;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1B grubunda (IUPAC'a göre 11. grup) ve ilk 6 periyottan birinde yer alır.;;
+V125;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V125;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 9,0 ± 0,3 g/cm³ olarak ölçüldü.;;
+V125;K6;isim;Arşiv notu;"Bakır eski bir Türkçe kelimedir. Sembolü Cu Latince 'cuprum'dan gelir; o da 'Kıbrıs metali' anlamına gelen 'Cyprium aes' sözünden türemiştir. Tarih öncesi çağlardan beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/29/copper
+V126;K1;fiziksel;Metalin görünüşü;Metal mavimsi beyaz ve parlak.;;
+V126;K2;alasim;Sarı alaşım;Bakır bu metalle karıştırılınca altına benzeyen sarı bir alaşım (pirinç) oluşuyor. Pirinç bakırdan daha sert ve işlenmesi kolay.;;
+V126;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2B grubunda (IUPAC'a göre 12. grup) ve ilk 6 periyottan birinde yer alır.;;
+V126;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V126;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,1 ± 0,3 g/cm³ olarak ölçüldü.;;
+V126;K6;isim;Arşiv notu;"Adı Almanca 'zink' kelimesinden gelir; bu kelime belki de Farsça 'taş' anlamına gelen 'sing'den türemiştir. 1746'da Andreas Marggraf tarafından element olarak tanındı; eski Yunanlar ve Romalılar da onu biliyordu.";G2;https://periodic-table.rsc.org/element/30/zinc
+V127;K1;fiziksel;Metalin görünüşü;Element yumuşak, gümüşi bir metal.;;
+V127;K2;kimyasal;Işık saçan bileşik;"Bu metalin azotla oluşturduğu bileşik bir yarı iletken; içinden akım geçince mavi ışık yayıyor.";;
+V127;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3A grubunda (IUPAC'a göre 13. grup) ve ilk 6 periyottan birinde yer alır.;;
+V127;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V127;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 5,9 ± 0,2 g/cm³ olarak ölçüldü.;;
+V127;K6;isim;Arşiv notu;"Adı Fransa'nın Latince adı 'Gallia'dan gelir. 1875'te Paul-Émile Lecoq de Boisbaudran tarafından keşfedildi; Mendeleyev bu elementi önceden tahmin etmişti.";G2;https://periodic-table.rsc.org/element/31/gallium
+V128;K1;kimyasal;Elementin türü;"Element bir yarı metal; bileşiklerinin çoğu zehirli.";;
+V128;K2;kimyasal;Yeşil boya;1800'lerde çok sevilen parlak yeşil boya, bakır ile bu elementin bir bileşiğiydi. Nemli ortamda boyadan zehirli maddeler yayılabildiği düşünülüyor.;;
+V128;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5A grubunda (IUPAC'a göre 15. grup) ve ilk 6 periyottan birinde yer alır.;;
+V128;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V128;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 5,8 ± 0,2 g/cm³ olarak ölçüldü.;;
+V128;K6;isim;Arşiv notu;Adı sarı bir boya olan orpiment mineralinin Yunanca adı 'arsenikon'dan gelir. Yaklaşık 1250'de Albertus Magnus tarafından elde edildiği düşünülür.;G2;https://periodic-table.rsc.org/element/33/arsenic
+V129;K1;iletkenlik;Elementin türü;"Element bir metal değil; elektriği metaller kadar iyi iletmiyor.";;
+V129;K2;kimyasal;Şampuanın etkisi;"Etken madde, saç derisinde kepeğe yol açan mantarlar için zehirli; mantarların çoğalmasını yavaşlatıyor.";;
+V129;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6A grubunda (IUPAC'a göre 16. grup) ve ilk 5 periyottan birinde yer alır.;;
+V129;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V129;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 4,8 ± 0,2 g/cm³ olarak ölçüldü.;;
+V129;K6;isim;Arşiv notu;"Adı Yunanca 'Ay' anlamına gelen 'selene' kelimesinden gelir. 1817'de Jöns Jacob Berzelius tarafından keşfedildi; adı 'Dünya'dan gelen tellüre benzediği için ona Ay'ın adı verildi.";G2;https://periodic-table.rsc.org/element/34/selenium
+V130;K1;kimyasal;Elementin türü;"Element çok etkin bir ametal; metallerle tuz oluşturuyor.";;
+V130;K2;fiziksel;Saf hâli;"Bu element oda sıcaklığında koyu kırmızı-kahverengi bir sıvı; keskin ve rahatsız edici kokulu buharlar çıkarıyor.";;
+V130;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 7A grubunda (IUPAC'a göre 17. grup) ve ilk 5 periyottan birinde yer alır.;;
+V130;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V130;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 3,1 ± 0,1 g/cm³ olarak ölçüldü.;;
+V130;K6;isim;Arşiv notu;Adı Yunanca 'pis koku' anlamına gelen 'bromos' kelimesinden gelir. 1826'da Antoine-Jérôme Balard ve ondan bağımsız olarak Carl Löwig tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/35/bromine
+V131;K1;kimyasal;Gazın davranışı;Gaz renksiz, kokusuz ve neredeyse hiç tepkimeye girmiyor.;;
+V131;K2;tarih;Yeni tanım;1960–1983 arasında 1 metre, bu gazın bir izotopunun yaydığı turuncu-kırmızı ışığın dalga boyunun 1 650 763,73 katı olarak tanımlandı.;;
+V131;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8A grubunda (IUPAC'a göre 18. grup) ve ilk 5 periyottan birinde yer alır.;;
+V131;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V131;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −153 ± 5 °C sıcaklıkta kaynadı.;;
+V131;K6;isim;Arşiv notu;Adı Yunanca 'gizli' anlamına gelen 'kryptos' kelimesinden gelir. 1898'de William Ramsay ve Morris Travers tarafından sıvı havadan ayrıldı.;G2;https://periodic-table.rsc.org/element/36/krypton
+V132;K1;kimyasal;Elementin türü;"Element bir metal; bileşiklerinde +2 yüklü iyon oluşturuyor.";;
+V132;K2;deney;Uzun süren parıltı;Parlayan madde bu metalin alüminatı. Gün ışığında birkaç dakika kalınca karanlıkta saatlerce parlıyor.;;
+V132;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2A grubunda (IUPAC'a göre 2. grup) ve ilk 6 periyottan birinde yer alır.;;
+V132;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V132;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,6 ± 0,1 g/cm³ olarak ölçüldü.;;
+V132;K6;isim;Arşiv notu;"Adı İskoçya'daki küçük Strontian kasabasından gelir; element oradan çıkan bir mineralde fark edildi. 1790'da Adair Crawford tarafından tanındı.";G2;https://periodic-table.rsc.org/element/38/strontium
+V133;K1;fiziksel;Metalin görünüşü;Metal gümüşi, sert ve korozyona dayanıklı.;;
+V133;K2;kimyasal;Nötronlara saydam;"Bu metal nötronları çok az yutuyor; ayrıca reaktördeki sıcak suya ve basınca dayanıyor.";;
+V133;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4B grubunda (IUPAC'a göre 4. grup) ve ilk 6 periyottan birinde yer alır.;;
+V133;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V133;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 6,5 ± 0,3 g/cm³ olarak ölçüldü.;;
+V133;K6;isim;Arşiv notu;Adı Farsça 'altın renkli' anlamına gelen 'zargun' kelimesinden (zirkon taşı) gelir. 1789'da Martin Heinrich Klaproth tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/40/zirconium
+V134;K1;fiziksel;Metalin görünüşü;Metal gri, sert ve elektriği iletiyor.;;
+V134;K2;iletkenlik;Dirençsiz tel;Bu metalin titanyumla alaşımı, aşırı soğutulunca süper iletken oluyor: elektrik akımı hiç enerji kaybetmeden dolaşıyor.;;
+V134;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5B grubunda (IUPAC'a göre 5. grup) ve ilk 6 periyottan birinde yer alır.;;
+V134;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V134;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,6 ± 0,3 g/cm³ olarak ölçüldü.;;
+V134;K6;isim;Arşiv notu;Adı Yunan mitolojisinde Kral Tantalos'un kızı Niobe'den gelir, çünkü kimyasal olarak tantala çok benzer. 1801'de Charles Hatchett tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/41/niobium
+V135;K1;fiziksel;Metalin özellikleri;Metal sert, gümüşi gri ve erime noktası yüksek.;;
+V135;K2;alasim;Güçlü çelik;"Çeliğe bu metalden az miktarda katılınca çeliğin sağlamlığı ve aşınmaya dayanıklılığı artıyor; ince ama güçlü borular yapılabiliyor.";;
+V135;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6B grubunda (IUPAC'a göre 6. grup) ve ilk 6 periyottan birinde yer alır.;;
+V135;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V135;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 10,2 ± 0,5 g/cm³ olarak ölçüldü.;;
+V135;K6;isim;Arşiv notu;"Adı Yunanca 'kurşun' anlamına gelen 'molybdos' kelimesinden gelir; cevheri uzun süre kurşun cevheriyle ve grafitle karıştırıldı. 1781'de Peter Jacob Hjelm tarafından elde edildi.";G2;https://periodic-table.rsc.org/element/42/molybdenum
+V136;K1;fiziksel;Metalin görünüşü;Metal parlak ve gümüşi beyaz.;;
+V136;K2;kimyasal;Kararmayan kaplama;"Kaplama metali havayla ve terle neredeyse hiç tepkimeye girmiyor; çok sert ve çizilmeye dayanıklı. Arabaların egzozundaki katalitik konvertörlerde de kullanılıyor.";;
+V136;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 9. grup) ve ilk 6 periyottan birinde yer alır.;;
+V136;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V136;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 12,4 ± 0,5 g/cm³ olarak ölçüldü.;;
+V136;K6;isim;Arşiv notu;"Adı Yunanca 'gül' anlamına gelen 'rhodon' kelimesinden gelir; tuzlarının çözeltileri gül rengindedir. 1803'te William Hyde Wollaston tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/45/rhodium
+V137;K1;iletkenlik;İletkenlik;Metal elektriği ve ısıyı çok iyi iletiyor.;;
+V137;K2;kimyasal;Işığa duyarlı tuz;Filmdeki tuz bu metalin bromürü. Işık alan tuz tanecikleri banyo sırasında minik siyah metal taneciklerine dönüşüyor.;;
+V137;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1B grubunda (IUPAC'a göre 11. grup) ve ilk 6 periyottan birinde yer alır.;;
+V137;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V137;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 10,5 ± 0,5 g/cm³ olarak ölçüldü.;;
+V137;K6;isim;Arşiv notu;"Gümüş eski bir Türkçe kelimedir; sembolü Ag ise Latince adı 'argentum'dan gelir. Yaklaşık MÖ 3000'den beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/47/silver
+V138;K1;fiziksel;Metalin görünüşü;Element gümüşi grimsi ve parlak bir katı.;;
+V138;K2;fiziksel;Soğukta değişen yapı;Bu metal 13 °C'nin altında uzun süre kalınca yapısı değişebiliyor: parlak hâlinden kırılgan, gri bir toza dönüşüyor.;;
+V138;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4A grubunda (IUPAC'a göre 14. grup) ve ilk 6 periyottan birinde yer alır.;;
+V138;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V138;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,3 ± 0,3 g/cm³ olarak ölçüldü.;;
+V138;K6;isim;Arşiv notu;"Sembolü Sn, Latince adı 'stannum'dan gelir. Yaklaşık MÖ 2100'den beri kullanılıyor; bakırla karıştırılarak tunç yapıldı.";G2;https://periodic-table.rsc.org/element/50/tin
+V139;K1;fiziksel;Elementin görünüşü;"Element bir yarı metal; kırılgan ve gümüşi gri.";;
+V139;K2;kimyasal;Siyah mineral;Toz, bu elementin siyah sülfür minerali (stibnit). Mineral ince toz hâline getirilip yağla karıştırılınca göz çevresine sürülebiliyor.;;
+V139;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5A grubunda (IUPAC'a göre 15. grup) ve ilk 6 periyottan birinde yer alır.;;
+V139;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V139;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 6,7 ± 0,3 g/cm³ olarak ölçüldü.;;
+V139;K6;isim;Arşiv notu;"Adının Yunanca 'yalnız değil' anlamına gelen 'anti-monos' sözünden geldiği düşünülür; sembolü Sb ise Latince 'stibium'dan gelir. Yaklaşık MÖ 1600'den beri bilinir.";G2;https://periodic-table.rsc.org/element/51/antimony
+V140;K1;kimyasal;Elementin türü;"Element çok etkin bir ametal; metallerle tuz oluşturuyor.";;
+V140;K2;fiziksel;Mor buhar;"Elementin katı hâli koyu gri parlak kristallerden oluşuyor; ısıtılınca sıvılaşmadan doğrudan mor bir buhara dönüşüyor.";;
+V140;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 7A grubunda (IUPAC'a göre 17. grup) ve ilk 5 periyottan birinde yer alır.;;
+V140;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V140;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 4,9 ± 0,2 g/cm³ olarak ölçüldü.;;
+V140;K6;isim;Arşiv notu;"Adı Yunanca 'mor' anlamına gelen 'iodes' kelimesinden gelir; ısıtılınca mor bir buhar çıkarır. 1811'de Bernard Courtois tarafından deniz yosunu külünden elde edildi.";G2;https://periodic-table.rsc.org/element/53/iodine
+V141;K1;kimyasal;Gazın davranışı;Gaz renksiz, kokusuz ve neredeyse hiç tepkimeye girmiyor.;;
+V141;K2;fiziksel;İyon motoru;"Motorun itmesi bir kâğıt yaprağının ağırlığı kadar küçük; ama aylarca kesintisiz çalışarak aracı çok yüksek hızlara çıkarıyor. Motor bu gazın ağır atomlarını kullanıyor.";;
+V141;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8A grubunda (IUPAC'a göre 18. grup) ve ilk 5 periyottan birinde yer alır.;;
+V141;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V141;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −108 ± 5 °C sıcaklıkta kaynadı.;;
+V141;K6;isim;Arşiv notu;Adı Yunanca 'yabancı' anlamına gelen 'xenos' kelimesinden gelir. 1898'de William Ramsay ve Morris Travers tarafından sıvı havadan ayrıldı.;G2;https://periodic-table.rsc.org/element/54/xenon
+V142;K1;fiziksel;Metalin özellikleri;Metal çok yumuşak ve suyla şiddetli tepkimeye giriyor.;;
+V142;K2;tarih;Saniyenin tanımı;1967'den beri bir saniye, bu metalin atomlarının belirli bir ışımasının 9 192 631 770 titreşimi olarak tanımlanıyor.;;
+V142;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V142;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V142;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 28 ± 1 °C sıcaklıkta erimeye başladı.;;
+V142;K6;isim;Arşiv notu;"Adı Latince 'gök mavisi' anlamına gelen 'caesius' kelimesinden gelir; spektrumundaki mavi çizgiler nedeniyle. 1860'ta Robert Bunsen ve Gustav Kirchhoff tarafından maden suyunda spektroskopla keşfedildi.";G2;https://periodic-table.rsc.org/element/55/caesium
+V143;K1;kimyasal;Elementin türü;"Element bir metal; bileşiklerinde +2 yüklü iyon oluşturuyor.";;
+V143;K2;deney;Alev testi;Fişekteki tuz bu metalin nitratı. Alev testinde tuz alevi açık yeşile boyuyor.;;
+V143;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2A grubunda (IUPAC'a göre 2. grup) ve ilk 6 periyottan birinde yer alır.;;
+V143;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V143;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 3,6 ± 0,1 g/cm³ olarak ölçüldü.;;
+V143;K6;isim;Arşiv notu;"Adı Yunanca 'ağır' anlamına gelen 'barys' kelimesinden gelir; cevheri barit çok ağırdır. 1808'de Humphry Davy tarafından elde edildi.";G2;https://periodic-table.rsc.org/element/56/barium
+V144;K1;fiziksel;Metalin görünüşü;Metal gümüşi, sert ve korozyona dayanıklı.;;
+V144;K2;kimyasal;Nötron yutan çubuk;"Bu metal nötronları çok iyi yutuyor. Erime noktası da çok yüksek; plazma kaynak makinelerinin uçlarında kullanılıyor.";;
+V144;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4B grubunda (IUPAC'a göre 4. grup) ve ilk 6 periyottan birinde yer alır.;;
+V144;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V144;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 13,3 ± 0,5 g/cm³ olarak ölçüldü.;;
+V144;K6;isim;Arşiv notu;Adı Kopenhag'ın Latince adı 'Hafnia'dan gelir. 1923'te George de Hevesy ve Dirk Coster tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/72/hafnium
+V145;K1;fiziksel;Metalin özellikleri;Metal sert, gri ve erime noktası çok yüksek.;;
+V145;K2;alasim;Okun gövdesi;"Profesyonel dart oklarının gövdesi %80–97 oranında bu metalden yapılıyor; ok ince olduğu hâlde ağır.";;
+V145;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6B grubunda (IUPAC'a göre 6. grup) ve ilk 6 periyottan birinde yer alır.;;
+V145;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V145;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 19,3 ± 0,5 g/cm³ olarak ölçüldü.;;
+V145;K6;isim;Arşiv notu;"Adı İsveççe 'ağır taş' anlamına gelen 'tung sten' sözünden gelir; sembolü W ise 'wolfram' adından. 1783'te Juan José ve Fausto Elhuyar kardeşler tarafından elde edildi.";G2;https://periodic-table.rsc.org/element/74/tungsten
+V146;K1;fiziksel;Metalin görünüşü;Metal sert ve gümüşi gri.;;
+V146;K2;alasim;Sıcağa dayanıklı kanat;Bu metal katılan tek kristal türbin kanatları aşırı sıcakta bile şekil değiştirmiyor. Metalin erime noktası 3000 °C'nin üzerinde.;;
+V146;K3;konum;Periyodik tablo kaydı;"Element periyodik tablonun 7B grubunda (IUPAC'a göre 7. grup) yer alır. Bu grubun 5. periyottaki üyesi (teknesyum) radyoaktiftir; örnek ise radyoaktif değil.";;
+V146;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V146;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 21 ± 1 g/cm³ olarak ölçüldü.;;
+V146;K6;isim;Arşiv notu;"Adı Ren Nehri'nin Latince adı 'Rhenus'tan gelir. 1925'te Walter Noddack, Ida Tacke ve Otto Berg tarafından keşfedildi; kararlı izotopu olan elementler arasında en son keşfedilenidir.";G2;https://periodic-table.rsc.org/element/75/rhenium
+V147;K1;fiziksel;Metalin özellikleri;Metal çok sert ve parlak.;;
+V147;K2;alasim;Kalem ucu;"Kalem ucundaki minik top bu metalin iridyumla alaşımından yapılmış; uç yıllarca kâğıda sürtündüğü hâlde aşınmıyor.";;
+V147;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 8. grup) ve ilk 6 periyottan birinde yer alır.;;
+V147;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V147;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 23 ± 1 g/cm³ olarak ölçüldü.;;
+V147;K6;isim;Arşiv notu;"Adı Yunanca 'koku' anlamına gelen 'osme' kelimesinden gelir; oksidi keskin kokuludur. 1803'te Smithson Tennant tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/76/osmium
+V148;K1;fiziksel;Metalin görünüşü;Metal gümüşi beyaz, parlak ve paslanmıyor.;;
+V148;K2;kimyasal;Zararsızlaşan gazlar;"Egzoz gazları bu metalle kaplı yüzeyden geçerken karbon monoksit gibi zehirli gazlar daha zararsız gazlara dönüşüyor; metalin kendisi tükenmiyor.";;
+V148;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 10. grup) ve ilk 6 periyottan birinde yer alır.;;
+V148;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V148;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 22 ± 1 g/cm³ olarak ölçüldü.;;
+V148;K6;isim;Arşiv notu;"Adı İspanyolca 'küçük gümüş' anlamına gelen 'platina' kelimesinden gelir. Güney Amerika yerlileri onu Kolomb'dan önce biliyordu; Avrupa'ya 1750 dolaylarında getirildi.";G2;https://periodic-table.rsc.org/element/78/platinum
+V149;K1;fiziksel;Metalin özellikleri;Metal yumuşak, gri ve kolayca şekil veriliyor.;;
+V149;K2;tarih;Bir kelimenin hikâyesi;İngilizcedeki 'plumber' (tesisatçı) kelimesi, bu metalin Latince adından geliyor.;;
+V149;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4A grubunda (IUPAC'a göre 14. grup) ve ilk 6 periyottan birinde yer alır.;;
+V149;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V149;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 11,3 ± 0,5 g/cm³ olarak ölçüldü.;;
+V149;K6;isim;Arşiv notu;"Kurşun eski bir Türkçe kelimedir; sembolü Pb ise Latince adı 'plumbum'dan gelir. İngilizcedeki 'plumber' (tesisatçı) kelimesi de buradan gelir, çünkü Romalılar su borularını kurşundan yapardı.";G2;https://periodic-table.rsc.org/element/82/lead
+V150;K1;fiziksel;Elementin görünüşü;Element kırılgan, gümüşi bir katı.;;
+V150;K2;kimyasal;Siyah renk;Şuruptaki bileşiğin metali, ağızdaki kükürtlü maddelerle birleşince siyah renkli bir sülfür oluşturuyor.;;
+V150;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5A grubunda (IUPAC'a göre 15. grup) ve ilk 6 periyottan birinde yer alır.;;
+V150;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V150;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 9,8 ± 0,3 g/cm³ olarak ölçüldü.;;
+V150;K6;isim;Arşiv notu;Adı, Almanca 'beyaz kütle' anlamına gelen 'weisse Masse' sözünün bozulmasıyla oluşan 'bisemutum'dan gelir. 1500'ler dolaylarında biliniyordu.;G2;https://periodic-table.rsc.org/element/83/bismuth
+V151;K1;kullanim;Üretici belgesi;"Kaplama, '... kalay oksit' adlı saydam ve elektriği ileten bir maddeden yapılmış; ilk kelime silinmiş. Madde cama sıkıca yapışıyor.";;
+V151;K2;konum;Analiz raporu;Kaplamadaki metal 13. grupta ve 5. periyotta.;;
+V151;K3;erime_kaynama;Erime noktası ölçümü;Kaplamadan ayrılan saf metal 156,6 °C'de eriyor.;;
+V151;K4;fiziksel;Saf metalin görünüşü;"Yumuşak, gümüşi bir metal; havada ve suda kararlı.";;
+V151;K5;tarih;Keşif kaydı;"1863'te Ferdinand Reich, bir çinko mineralinde talyum ararken spektroskobunda tanımadığı çizgiler gördü. Reich renk körü olduğu için spektrumu Hieronymus Richter'e gösterdi; Richter parlak mor-çivit renkli bir çizgi gördü. Elementin adı bu çizginin renginden gelir.";;https://periodic-table.rsc.org/element/49/indium
+V151;K6;tablo;13. grup metallerinden bazıları;T1;;RSC Periyodik Tablo
+V152;K1;yogunluk;Yoğunluk ölçümü;4,5 ± 0,1 g/cm³;;
+V152;K2;fiziksel;Görünüş ve davranış;"Sert, parlak ve çok güçlü bir metal; mıknatısa çekilmiyor.";;
+V152;K3;kimyasal;Korozyon testi;"Örnek, deniz suyuna benzeyen tuzlu bir suda bir ay bekletildi; yüzeyinde hiçbir bozulma olmadı.";;
+V152;K4;tablo;Bazı yapı metalleri;T1;;RSC Periyodik Tablo
+V152;K5;kullanim;RSC kaydı;Bu metal çelik kadar güçlüdür ama çok daha az yoğundur. Deniz suyunda korozyona çok dayanıklıdır. Kemikle iyi kaynaştığı için kalça eklemlerinde ve diş implantlarında kullanılır.;G1;https://periodic-table.rsc.org/element/22/titanium
+V152;K6;isim;Arşiv notu;Element 1791'de William Gregor tarafından Cornwall'daki siyah bir kumda fark edildi. 1795'te Martin Heinrich Klaproth, Yunan mitolojisinde Toprak Ana'nın oğulları olan Titanlar'dan esinlenerek ona adını verdi.;G1;https://periodic-table.rsc.org/element/22/titanium
+V153;K1;konum;Analiz raporu;Kaşıktaki ana metal 11. grupta.;;
+V153;K2;yogunluk;Kaşığın yoğunluğu;10,4 ± 0,1 g/cm³;;
+V153;K3;kimyasal;Kararma analizi;"Kaşığın üzerindeki siyah tabaka bir sülfür bileşiği; havadaki kükürtlü bileşiklerle tepkimeden oluşmuş.";;
+V153;K4;tablo;11. grup metalleri;T1;;RSC Periyodik Tablo
+V153;K5;fiziksel;Aynanın arka yüzü;"Aynanın arkasındaki yansıtıcı tabaka da aynı metalden; bu metal bilinen en iyi görünür ışık yansıtıcısıdır.";;
+V153;K6;kullanim;RSC kaydı;"Çatal-kaşık yapımında kullanılan 'sterling' gümüş %92,5 gümüş içerir; geri kalanı bakır ya da başka bir metaldir. Gümüş bromür ve iyodür ışığa duyarlı oldukları için fotoğrafçılığın tarihinde çok önemliydi.";G1;https://periodic-table.rsc.org/element/47/silver
+V153;K7;isim;Arşiv notu;"Sembol Ag, Latince 'argentum' (gümüş) kelimesinden gelir; Arjantin'in adı da bu kelimeden türemiştir. RSC'ye göre gümüş madenciliği MÖ 3000 civarında bugünkü Türkiye ve Yunanistan topraklarında başladı.";G1;https://periodic-table.rsc.org/element/47/silver
+V154;K1;erime_kaynama;Erime noktası ölçümü;Tel ancak 3400 °C'nin üzerinde eriyor.;;
+V154;K2;yogunluk;Yoğunluk ölçümü;19,3 ± 0,1 g/cm³;;
+V154;K3;tablo;Erime noktası yüksek bazı metaller;T1;;RSC Periyodik Tablo
+V154;K4;fiziksel;Görünüş;Parlak, gümüşi beyaz bir metal.;;
+V154;K5;isim;Arşiv notu;"Elementin adı İsveççe 'ağır taş' anlamına gelen 'tung sten' sözünden gelir. Sembolü W ise elementin diğer adı olan 'wolfram'dan gelir; bu ad, elementin elde edildiği wolframit mineraliyle ilgilidir. Element 1783'te İspanya'da Elhuyar kardeşler tarafından metal hâlinde elde edildi.";G1;https://periodic-table.rsc.org/element/74/tungsten
+V154;K6;kullanim;RSC kaydı;"Bu metal eski tip akkor ampullerin telinde yaygın olarak kullanılıyordu; ama bu ampuller ışıktan çok ısı ürettikleri için birçok ülkede kullanımdan kaldırıldı. Bütün metaller içinde erime noktası en yüksek olanıdır; karbürü çok serttir ve kesici-delici aletlerde kullanılır.";G1;https://periodic-table.rsc.org/element/74/tungsten
+V155;K1;deney;Dibe batan buz;Ağır sudan yapılmış buz küpü, sıradan suya atılınca yüzmek yerine dibe battı.;;
+V155;K2;fiziksel;Ağır su;"Ağır su sıradan sudan yaklaşık %11 daha yoğun. Molekülündeki oksijen aynı; fark diğer elementin atomlarında.";;
+V155;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 2; bu atomların çekirdeğinde 1 nötron var.";;
+V155;K4;isim;Arşiv notu;Adı Yunanca 'hydro' (su) ve 'genes' (oluşturan) sözcüklerinden gelir, çünkü yandığında su oluşur. 1766'da Henry Cavendish tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/1/hydrogen
+V156;K1;tarih;Uzun ömür;"Kalp pilinin bataryası değiştirilmeden yaklaşık on yıl çalışıyor; böylece hasta daha az ameliyat oluyor.";;
+V156;K2;fiziksel;En hafif metal;"Pildeki metal bilinen en hafif metal; iyotla birlikte tepkimeye girerek akım üretiyor.";;
+V156;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V156;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V156;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 0,53 ± 0,02 g/cm³ olarak ölçüldü.;;
+V156;K6;isim;Arşiv notu;Adı Yunanca 'taş' anlamına gelen 'lithos' kelimesinden gelir, çünkü bir mineralin içinde bulundu. 1817'de Johan August Arfvedson tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/3/lithium
+V157;K1;fiziksel;Aşırı sertlik;"Plakalardaki seramik, elmas kadar olmasa da bilinen en sert malzemelerden biri; mermiyi parçalayarak durduruyor.";;
+V157;K2;kimyasal;Seramiğin elementi;"Seramikteki element bir yarı metal; dünyadaki rezervlerinin büyük bölümü Türkiye'de bulunuyor.";;
+V157;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3A grubunda (IUPAC'a göre 13. grup) ve ilk 6 periyottan birinde yer alır.;;
+V157;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V157;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,3 ± 0,1 g/cm³ olarak ölçüldü.;;
+V157;K6;isim;Arşiv notu;Adı, boraks mineralinin Arapça adı 'buraq'tan gelir. 1808'de Paris'te Gay-Lussac ile Thénard ve Londra'da Humphry Davy tarafından birbirlerinden bağımsız olarak elde edildi.;G2;https://periodic-table.rsc.org/element/5/boron
+V158;K1;deney;Yükselen eğri;Gazın havadaki miktarı 1958'de milyonda yaklaşık 315 iken 2023'te 420'yi aştı. Eğri her yıl yükseliyor.;;
+V158;K2;kimyasal;Fosil yakıtlar;Kömür, petrol ve doğal gaz milyonlarca yıl önce yaşamış canlıların kalıntılarından oluştu. Yakılınca içlerindeki bu element havadaki oksijenle birleşip o gazı oluşturuyor.;;
+V158;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p²;;
+V158;K4;isim;Arşiv notu;Adı Latince 'odun kömürü' anlamına gelen 'carbo' kelimesinden gelir. Tarih öncesi çağlardan beri kömür ve is olarak bilinir.;G2;https://periodic-table.rsc.org/element/6/carbon
+V159;K1;deney;Isı testi;Elmas test kalemiyle yapılan ölçümde taş ısıyı çok hızlı iletti.;;
+V159;K2;deney;Çizme testi;"Taş bir cam parçasını kolayca çizdi; kendisinde hiç çizik oluşmadı.";;
+V159;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p²;;
+V159;K4;tablo;Elmas ve benzerlerinin özellikleri;T1;;
+V159;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Taşın yoğunluğu 3,52 ± 0,03 g/cm³ olarak ölçüldü.;;
+V159;K6;isim;Arşiv notu;Adı Latince 'odun kömürü' anlamına gelen 'carbo' kelimesinden gelir. Tarih öncesi çağlardan beri kömür ve is olarak bilinir.;G2;https://periodic-table.rsc.org/element/6/carbon
+V160;K1;deney;Gazın davranışı;"Yastıktan alınan gaz renksiz ve kokusuz; yanan bir kibriti söndürüyor.";;
+V160;K2;fiziksel;Havayla karşılaştırma;Bu gaz, soluduğumuz havanın da en büyük bölümünü oluşturuyor.;;
+V160;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p³;;
+V160;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V160;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −196 ± 3 °C sıcaklıkta kaynadı.;;
+V160;K6;isim;Arşiv notu;"Uluslararası adı 'nitrogen', Yunanca 'güherçile oluşturan' demektir; sembolü N buradan gelir. Türkçedeki 'azot' adı ise Lavoisier'nin verdiği ve 'cansız' anlamına gelen Fransızca 'azote' adından gelir. 1772'de Daniel Rutherford tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/7/nitrogen
+V161;K1;deney;Yüzeydeki balıklar;"Balıklar suyun yüzeyine çıkıp ağızlarını hızla açıp kapatıyor; sanki havadan bir şey almaya çalışıyorlar.";;
+V161;K2;fiziksel;Isınan su;"Bu gaz suda çözünüyor; ama su ısındıkça suda çözünebilen miktarı azalıyor. Durgun su da havadan bu gazı yavaş alıyor.";;
+V161;K3;iyon;İyon analizi;Bu elementin atomları 2 elektron alarak −2 yüklü iyon oluşturur. Bu iyonun elektron sayısı neon atomununkiyle aynıdır.;;
+V161;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V161;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −183 ± 1 °C sıcaklıkta kaynadı.;;
+V161;K6;isim;Arşiv notu;Adı Yunanca 'asit oluşturan' anlamına gelen 'oxy genes' sözünden gelir. 1774'te Joseph Priestley ve ondan bağımsız olarak Carl Wilhelm Scheele tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/8/oxygen
+V162;K1;fiziksel;Lazer ışığı;Lazer ışını ince ve tek renkli: dalga boyu 633 nanometre, yani kırmızı.;;
+V162;K2;kimyasal;Tüpteki gaz;"Lazer tüpünde iki soy gaz var. Helyum, enerjisini diğer gaza aktarıyor; ışığı o gazın atomları yayıyor.";;
+V162;K3;elektron_dizilimi;Elektron dizilimi;Elementin nötr atomunun elektron dizilimi: 1s² 2s² 2p⁶;;
+V162;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V162;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −246 ± 2 °C sıcaklıkta kaynadı.;;
+V162;K6;isim;Arşiv notu;Adı Yunanca 'yeni' anlamına gelen 'neos' kelimesinden gelir. 1898'de William Ramsay ve Morris Travers tarafından havadan ayrıldı.;G2;https://periodic-table.rsc.org/element/10/neon
+V163;K1;kimyasal;Denizdeki hazine;Deniz suyunun her litresinde yaklaşık 1,3 gram bu metalin iyonu çözünmüş hâlde bulunuyor.;;
+V163;K2;deney;Üretim yöntemi;Deniz suyuna kireç eklenince bu metalin hidroksiti çöküyor. Çökelti işlenip erimiş tuzu elektrikle ayrıştırılınca metal elde ediliyor.;;
+V163;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2A grubunda (IUPAC'a göre 2. grup) ve ilk 6 periyottan birinde yer alır.;;
+V163;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V163;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,74 ± 0,03 g/cm³ olarak ölçüldü.;;
+V163;K6;isim;Arşiv notu;Adı Yunanistan'ın Teselya bölgesindeki Magnesia'dan gelir. 1755'te Joseph Black tarafından element olarak tanındı.;G2;https://periodic-table.rsc.org/element/12/magnesium
+V164;K1;fiziksel;Kablonun yapısı;Kablonun ortasında sağlamlık için çelik, dışında elektriği taşıyan gümüşi bir metal var.;;
+V164;K2;iletkenlik;Ağırlığa göre iletkenlik;"Bu metal elektriği bakırdan biraz daha az iletiyor; ama aynı ağırlıktaki bir tel bakırdan yaklaşık iki kat fazla akım taşıyabiliyor.";;
+V164;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3A grubunda (IUPAC'a göre 13. grup) ve ilk 6 periyottan birinde yer alır.;;
+V164;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V164;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,7 ± 0,1 g/cm³ olarak ölçüldü.;;
+V164;K6;isim;Arşiv notu;Adı Latince 'şap' anlamına gelen 'alumen' kelimesinden gelir. 1825'te Hans Christian Ørsted tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/13/aluminium
+V165;K1;fiziksel;Isıya dayanıklılık;Silikon eldiven 250 °C'lik tepsiyi tuttuğunda erimedi, yanmadı ve esnek kaldı.;;
+V165;K2;kimyasal;Silikonun zinciri;Silikonun uzun zincirleri, oksijen atomlarıyla bir elementin atomlarının art arda dizilmesinden oluşuyor. Aynı element kumun ve bilgisayar çiplerinin de temel elementi.;;
+V165;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4A grubunda (IUPAC'a göre 14. grup) ve ilk 6 periyottan birinde yer alır.;;
+V165;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V165;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,33 ± 0,05 g/cm³ olarak ölçüldü.;;
+V165;K6;isim;Arşiv notu;Adı Latince 'çakmaktaşı' anlamına gelen 'silex' kelimesinden gelir. 1824'te Jöns Jacob Berzelius tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/14/silicon
+V166;K1;deney;Yeşil göl;"Gölün yüzeyi yeşil bir yosun tabakasıyla kaplandı; birkaç hafta sonra balıklar ölmeye başladı.";;
+V166;K2;kimyasal;Yosunların besini;"Gübrelerden ve bazı deterjanlardan suya karışan bu elementin oksijenli bileşikleri yosunlar için besin; bu bileşikler göle karıştıkça yosunlar hızla çoğalıyor.";;
+V166;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5A grubunda (IUPAC'a göre 15. grup) ve ilk 6 periyottan birinde yer alır.;;
+V166;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V166;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,82 ± 0,05 g/cm³ olarak ölçüldü.;;
+V166;K6;isim;Arşiv notu;Adı Yunanca 'ışık getiren' anlamına gelen 'phosphoros' kelimesinden gelir, çünkü beyaz fosfor karanlıkta parlar. 1669'da Hennig Brandt tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/15/phosphorus
+V167;K1;deney;Hasar belirtileri;"Ormandaki ağaçların yaprakları sararmış; mermer heykellerin yüzeyleri aşınmış. Yağmur suyu normalden çok daha asitli.";;
+V167;K2;kimyasal;Kömürdeki element;Kömürün içindeki bu element yakılınca keskin kokulu bir oksit gazı oluşturuyor. Bu gaz havadaki su ve oksijenle birleşip asit oluşturuyor.;;
+V167;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6A grubunda (IUPAC'a göre 16. grup) ve ilk 5 periyottan birinde yer alır.;;
+V167;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V167;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 2,1 ± 0,1 g/cm³ olarak ölçüldü.;;
+V167;K6;isim;Arşiv notu;"Uluslararası adı Latince 'sulfur' kelimesinden gelir. Tarih öncesi çağlardan beri bilinir; yanardağların çevresinde saf hâlde bulunur.";G2;https://periodic-table.rsc.org/element/16/sulfur
+V168;K1;kimyasal;PVC'nin bileşimi;"PVC plastiğinin kütlesinin yarıdan fazlası tek bir elementten geliyor; geri kalanı karbon ve hidrojen.";;
+V168;K2;kimyasal;Elementin bilinen hâlleri;"Bu element sofra tuzunda sodyumla birlikte bulunuyor; saf hâli sarımsı yeşil, zehirli bir gaz.";;
+V168;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 7A grubunda (IUPAC'a göre 17. grup) ve ilk 5 periyottan birinde yer alır.;;
+V168;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V168;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −34 ± 1 °C sıcaklıkta kaynadı.;;
+V168;K6;isim;Arşiv notu;"Adı Yunanca 'sarımsı yeşil' anlamına gelen 'chloros' kelimesinden gelir; gazın rengini anlatır. 1774'te Carl Wilhelm Scheele tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/17/chlorine
+V169;K1;kimyasal;Tuzun tadı;Tuz sofra tuzuna benzer biçimde tuzlu ama biraz acımsı bir tadı var.;;
+V169;K2;kimyasal;Yerine geçen metal;Kullanılan metal sodyumla aynı grupta. Muz ve patates bu metal bakımından zengin.;;
+V169;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V169;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V169;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 0,89 ± 0,03 g/cm³ olarak ölçüldü.;;
+V169;K6;isim;Arşiv notu;"Adı bitki külünden elde edilen 'potas' (potash) kelimesinden gelir; sembolü K ise Latince adı 'kalium'dan. 1807'de Humphry Davy tarafından elektrik akımıyla elde edildi.";G2;https://periodic-table.rsc.org/element/19/potassium
+V170;K1;deney;Kaybolan kabuk;"Sirkedeki yumurtanın kabuğundan kabarcıklar çıktı; iki gün sonra kabuk tamamen kayboldu, yumurta esnek bir zarla kaldı.";;
+V170;K2;kimyasal;Kabuğun yapısı;Yumurta kabuğunun yaklaşık %95'i bu metalin karbonatı. Aynı karbonat kireç taşında ve mermerde de bulunuyor.;;
+V170;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2A grubunda (IUPAC'a göre 2. grup) ve ilk 6 periyottan birinde yer alır.;;
+V170;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V170;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 1,54 ± 0,05 g/cm³ olarak ölçüldü.;;
+V170;K6;isim;Arşiv notu;Adı Latince 'kireç' anlamına gelen 'calx' kelimesinden gelir. 1808'de Humphry Davy tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/20/calcium
+V171;K1;tarih;Binlerce yıllık resim;"Resimler on binlerce yıldır mağara duvarında duruyor; siyah çizgiler hâlâ seçilebiliyor.";;
+V171;K2;kimyasal;Siyah oksit;Siyah boyanın bir kısmı bir geçiş metalinin oksidi. Bu oksit bugün alkalin pillerin içinde de kullanılıyor.;;
+V171;K3;konum;Periyodik tablo kaydı;"Element periyodik tablonun 7B grubunda (IUPAC'a göre 7. grup) yer alır. Bu grubun 5. periyottaki üyesi (teknesyum) radyoaktiftir; örnek ise radyoaktif değil.";;
+V171;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V171;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,3 ± 0,3 g/cm³ olarak ölçüldü.;;
+V171;K6;isim;Arşiv notu;Adı ya Latince 'mıknatıs' anlamına gelen 'magnes' kelimesinden ya da 'kara magnezya' denilen siyah bir mineralden gelir. 1774'te Johan Gottlieb Gahn tarafından elde edildi.;G2;https://periodic-table.rsc.org/element/25/manganese
+V172;K1;fiziksel;Ağır ve mıknatıslı;Taş aynı büyüklükteki sıradan taşlardan çok daha ağır ve mıknatısa güçlü biçimde çekiliyor.;;
+V172;K2;deney;Gizli desen;Taş kesilip asitle dağlanınca yüzeyinde çapraz çizgilerden oluşan bir desen ortaya çıktı. Bu desen ancak uzayda milyonlarca yılda çok yavaş soğuyan metal alaşımlarında oluşuyor.;;
+V172;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 8. grup) ve ilk 6 periyottan birinde yer alır.;;
+V172;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V172;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,9 ± 0,3 g/cm³ olarak ölçüldü.;;
+V172;K6;isim;Arşiv notu;"Demir eski bir Türkçe kelimedir; sembolü Fe ise Latince adı 'ferrum'dan gelir. Yaklaşık MÖ 3500'den beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/26/iron
+V173;K1;kimyasal;Katodun yapısı;Bataryanın katodu lityum ve bir geçiş metalinin oksidinden yapılmış. Şarjda lityum iyonları bu katmanlı yapıdan çıkıyor, kullanımda geri giriyor.;;
+V173;K2;tarih;Üretimin bedeli;"Bu metalin dünyadaki üretiminin büyük bölümü Demokratik Kongo Cumhuriyeti'nden geliyor; bazı madenlerde çocuk işçiliği ve güvenlik sorunları raporlanıyor.";;
+V173;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 9. grup) ve ilk 6 periyottan birinde yer alır.;;
+V173;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V173;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,9 ± 0,3 g/cm³ olarak ölçüldü.;;
+V173;K6;isim;Arşiv notu;"Adı Almanca 'cin, kötü ruh' anlamına gelen 'kobald' kelimesinden gelir; madenciler bu cevherin başlarına iş açtığını düşünürdü. 1739'da Georg Brandt tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/27/cobalt
+V174;K1;deney;Tekrar tekrar şarj;Pil yüzlerce kez şarj edilip boşaltıldığı hâlde hâlâ çalışıyor.;;
+V174;K2;kimyasal;Elektrottaki metal;Pilin elektrotlarından biri bu metalin hidroksitinden yapılmış. Metal mıknatısa çekiliyor ve paslanmaz çeliğin de bileşeni.;;
+V174;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 10. grup) ve ilk 6 periyottan birinde yer alır.;;
+V174;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V174;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,9 ± 0,3 g/cm³ olarak ölçüldü.;;
+V174;K6;isim;Arşiv notu;"Adı Almanca 'kupfernickel' (şeytanın bakırı) sözünün kısaltmasıdır; madenciler bakıra benzeyen ama bakır vermeyen bu cevheri böyle adlandırdı. 1751'de Axel Fredrik Cronstedt tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/28/nickel
+V175;K1;alasim;Kılıcın alaşımı;Kılıç, kızıl kahverengi bir metale yaklaşık %10 kalay katılarak yapılmış bir alaşımdan (tunç) oluşuyor.;;
+V175;K2;fiziksel;Saf metal ve alaşım;"Saf hâldeki kızıl metal yumuşak; kalay katılınca elde edilen alaşım çok daha sert ve daha düşük sıcaklıkta eriyor.";;
+V175;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1B grubunda (IUPAC'a göre 11. grup) ve ilk 6 periyottan birinde yer alır.;;
+V175;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V175;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 9,0 ± 0,3 g/cm³ olarak ölçüldü.;;
+V175;K6;isim;Arşiv notu;"Bakır eski bir Türkçe kelimedir. Sembolü Cu Latince 'cuprum'dan gelir; o da 'Kıbrıs metali' anlamına gelen 'Cyprium aes' sözünden türemiştir. Tarih öncesi çağlardan beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/29/copper
+V176;K1;fiziksel;İncelen kap;"Pilin dış kabı gri bir metalden; pil bittikten sonra kabın bazı yerleri incelmiş ve delinmiş.";;
+V176;K2;kimyasal;Kabın görevi;"Pil çalışırken kabın metali elektron vererek iyonlarına dönüşüyor; kap pilin eksi kutbu.";;
+V176;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2B grubunda (IUPAC'a göre 12. grup) ve ilk 6 periyottan birinde yer alır.;;
+V176;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V176;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,1 ± 0,3 g/cm³ olarak ölçüldü.;;
+V176;K6;isim;Arşiv notu;"Adı Almanca 'zink' kelimesinden gelir; bu kelime belki de Farsça 'taş' anlamına gelen 'sing'den türemiştir. 1746'da Andreas Marggraf tarafından element olarak tanındı; eski Yunanlar ve Romalılar da onu biliyordu.";G2;https://periodic-table.rsc.org/element/30/zinc
+V177;K1;fiziksel;Garip mercek;"Mercek gözle bakınca koyu gri ve opak görünüyor; ama vücut sıcaklığındaki cisimlerin yaydığı kızılötesi ışınları geçiriyor.";;
+V177;K2;iletkenlik;Mercek malzemesi;"Mercek malzemesi bir yarı iletken element; bu element bir zamanlar ilk transistörlerde kullanıldı.";;
+V177;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4A grubunda (IUPAC'a göre 14. grup) ve ilk 6 periyottan birinde yer alır.;;
+V177;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V177;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 5,3 ± 0,2 g/cm³ olarak ölçüldü.;;
+V177;K6;isim;Arşiv notu;"Adı Almanya'nın Latince adı 'Germania'dan gelir. 1886'da Clemens Winkler tarafından keşfedildi; Mendeleyev onu 'eka-silisyum' adıyla önceden tahmin etmişti.";G2;https://periodic-table.rsc.org/element/32/germanium
+V178;K1;deney;Marsh testi;"Örnek zehirli element içeriyorsa soğuk porselen tabakta parlak, siyah-gümüşi bir leke ('ayna') oluşuyor; içermiyorsa leke oluşmuyor.";;
+V178;K2;tarih;Zehirlerin kralı;Bu test, eskiden 'zehirlerin kralı' diye anılan bir elementin çok küçük miktarlarını bile ortaya çıkarabiliyordu.;;
+V178;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5A grubunda (IUPAC'a göre 15. grup) ve ilk 6 periyottan birinde yer alır.;;
+V178;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V178;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 5,8 ± 0,2 g/cm³ olarak ölçüldü.;;
+V178;K6;isim;Arşiv notu;Adı sarı bir boya olan orpiment mineralinin Yunanca adı 'arsenikon'dan gelir. Yaklaşık 1250'de Albertus Magnus tarafından elde edildiği düşünülür.;G2;https://periodic-table.rsc.org/element/33/arsenic
+V179;K1;fiziksel;Yarı saydam pil;"Pil yarı saydam ve kırmızımsı renkli; içindeki boya ışığın bir kısmını soğurup elektrik üretiyor.";;
+V179;K2;kimyasal;Boyanın metali;Boya molekülünün merkezinde bir geçiş metalinin atomu var. Bu metal platini ve paladyumu sertleştirmek için de kullanılıyor.;;
+V179;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 8. grup) ve ilk 6 periyottan birinde yer alır.;;
+V179;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V179;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 12,1 ± 0,5 g/cm³ olarak ölçüldü.;;
+V179;K6;isim;Arşiv notu;Adı Rusya'nın Latince adı 'Ruthenia'dan gelir. 1844'te Karl Karlovich Klaus tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/44/ruthenium
+V180;K1;deney;Hidrojen süngeri;Metal tel, kendi hacminin yüzlerce katı hidrojen gazını emdi.;;
+V180;K2;deney;Seçici zar;"Isıtılan bu metalden yapılmış bir zarın içinden yalnızca hidrojen geçebiliyor; diğer gazlar geçemiyor. Metal arabaların katalitik konvertörlerinde de kullanılıyor.";;
+V180;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 10. grup) ve ilk 6 periyottan birinde yer alır.;;
+V180;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V180;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 12,0 ± 0,5 g/cm³ olarak ölçüldü.;;
+V180;K6;isim;Arşiv notu;"Adı, keşfinden kısa süre önce bulunan Pallas asteroidinden gelir; asteroit de adını Yunan bilgelik tanrıçası Pallas'tan almıştı. 1803'te William Hyde Wollaston tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/46/palladium
+V181;K1;tarih;Hastalığın yeri;Hastalık en çok, maden atıklarının karıştığı nehrin suyuyla sulanan pirinç tarlalarının çevresinde görülüyordu.;;
+V181;K2;kimyasal;Atıktaki metal;Atıklarda, çinko cevheriyle birlikte bulunan zehirli bir metal vardı. Bu metal pirince geçiyor ve vücutta birikerek kemiklerden kalsiyum kaybına yol açıyordu.;;
+V181;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2B grubunda (IUPAC'a göre 12. grup) ve ilk 6 periyottan birinde yer alır.;;
+V181;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V181;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,7 ± 0,3 g/cm³ olarak ölçüldü.;;
+V181;K6;isim;Arşiv notu;"Adı, kalamin (bir çinko cevheri) mineralinin Latince adı 'cadmia'dan gelir; element bu cevherin içinde fark edildi. 1817'de Friedrich Stromeyer tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/48/cadmium
+V182;K1;deney;Değişen yapı;"Kayıt katmanı lazerle ısıtılınca düzenli kristal yapıdan düzensiz yapıya geçiyor; farklı bir ısıtmayla da geri dönüyor. İki yapı ışığı farklı yansıtıyor.";;
+V182;K2;kimyasal;Alaşımın üçüncü elementi;Alaşımın üçüncü elementi kükürtle aynı grupta bulunan bir yarı metal. Bu element bazı güneş panellerinde de kullanılıyor.;;
+V182;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 6A grubunda (IUPAC'a göre 16. grup) ve ilk 5 periyottan birinde yer alır.;;
+V182;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V182;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 6,2 ± 0,3 g/cm³ olarak ölçüldü.;;
+V182;K6;isim;Arşiv notu;Adı Latince 'Dünya, toprak' anlamına gelen 'tellus' kelimesinden gelir. 1783'te Franz-Joseph Müller von Reichenstein tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/52/tellurium
+V183;K1;deney;Mor duman;Deniz yosunu külüne sülfürik asit eklenince mor renkli dumanlar yükseldi.;;
+V183;K2;fiziksel;Doğrudan kristal;Mor dumanlar soğuk bir yüzeye değince sıvıya dönüşmeden doğrudan metal parlaklığında koyu kristallere dönüştü.;;
+V183;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 7A grubunda (IUPAC'a göre 17. grup) ve ilk 5 periyottan birinde yer alır.;;
+V183;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V183;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 4,9 ± 0,2 g/cm³ olarak ölçüldü.;;
+V183;K6;isim;Arşiv notu;"Adı Yunanca 'mor' anlamına gelen 'iodes' kelimesinden gelir; ısıtılınca mor bir buhar çıkarır. 1811'de Bernard Courtois tarafından deniz yosunu külünden elde edildi.";G2;https://periodic-table.rsc.org/element/53/iodine
+V184;K1;fiziksel;Mavimsi beyaz ışık;"Farın ışığı mavimsi beyaz ve çok parlak; ampulde filaman yok.";;
+V184;K2;kimyasal;Ampuldeki gaz;Ampulde elektrik verilince parlak bir ark oluşturan bir soy gaz var. Aynı gaz fotoğraf flaşlarında da kullanılıyor.;;
+V184;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8A grubunda (IUPAC'a göre 18. grup) ve ilk 5 periyottan birinde yer alır.;;
+V184;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V184;K5;erime_kaynama;Laboratuvar ölçümü: kaynama noktası;Sıvılaştırılan örnek −108 ± 5 °C sıcaklıkta kaynadı.;;
+V184;K6;isim;Arşiv notu;Adı Yunanca 'yabancı' anlamına gelen 'xenos' kelimesinden gelir. 1898'de William Ramsay ve Morris Travers tarafından sıvı havadan ayrıldı.;G2;https://periodic-table.rsc.org/element/54/xenon
+V185;K1;fiziksel;Kolay yayılan toz;Toz suda kolayca çözünen bir tuz. Ellere, giysilere ve eşyalara bulaşarak hızla yayıldı.;;
+V185;K2;kimyasal;Tozun elementi;Tozdaki radyoaktif izotopun yarılanma süresi yaklaşık 30 yıl. Element bir alkali metal.;;
+V185;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 1A grubunda (IUPAC'a göre 1. grup) ve ilk 6 periyottan birinde yer alır.;;
+V185;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V185;K5;erime_kaynama;Laboratuvar ölçümü: erime noktası;Örnek 28 ± 1 °C sıcaklıkta erimeye başladı.;;
+V185;K6;isim;Arşiv notu;"Adı Latince 'gök mavisi' anlamına gelen 'caesius' kelimesinden gelir; spektrumundaki mavi çizgiler nedeniyle. 1860'ta Robert Bunsen ve Gustav Kirchhoff tarafından maden suyunda spektroskopla keşfedildi.";G2;https://periodic-table.rsc.org/element/55/caesium
+V186;K1;fiziksel;Güçlü mıknatıs;"Motorun dönen parçasında çok güçlü kalıcı mıknatıslar var; motor küçük ve hafif olduğu hâlde çok güçlü.";;
+V186;K2;alasim;Mıknatısın bileşimi;Mıknatıs demir, bor ve bir lantanitin alaşımından yapılmış. Bu tür mıknatıslar 1983'te bulundu.;;
+V186;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 142; bu atomların çekirdeğinde 82 nötron var.";;
+V186;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V186;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 7,01 ± 0,05 g/cm³ olarak ölçüldü.;;
+V186;K6;isim;Arşiv notu;"Adı Yunanca 'yeni ikiz' anlamına gelen 'neos didymos' sözünden gelir; praseodimle birlikte tek bir madde sanılan bir karışımdan ayrıldı. 1885'te Carl Auer von Welsbach tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/60/neodymium
+V187;K1;iletkenlik;Küçük ama güçlü kapasitör;Kapasitörler çok küçük olduğu hâlde çok fazla elektrik yükü depoluyor. Metalin yüzeyinde oluşan çok ince bir oksit tabakası yalıtkan görevi görüyor.;;
+V187;K2;tarih;Cevherin bedeli;"Koltan cevherinin bir kısmı Orta Afrika'daki madenlerden geliyor; bu madenlerin bazıları silahlı çatışmaların finansmanıyla ilişkilendiriliyor.";;
+V187;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5B grubunda (IUPAC'a göre 5. grup) ve ilk 6 periyottan birinde yer alır.;;
+V187;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V187;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 16,4 ± 0,5 g/cm³ olarak ölçüldü.;;
+V187;K6;isim;Arşiv notu;Adı Yunan mitolojisindeki Kral Tantalos'tan gelir: Tantalos'un önündeki suyu içememesi gibi, bu metal de asit içine konulunca asidi 'içmez', yani asitten etkilenmez. 1802'de Anders Gustaf Ekeberg tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/73/tantalum
+V188;K1;tarih;Garip kil tabakası;Dinozorların yok olduğu döneme denk gelen ince kil tabakasında bu metal, üstündeki ve altındaki kayaçlara göre kat kat fazla.;;
+V188;K2;kimyasal;Uzaydan gelen metal;Bu metal yer kabuğunda çok az ama göktaşlarında çok daha bol bulunuyor. Bilinen en korozyona dayanıklı malzeme.;;
+V188;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 9. grup) ve ilk 6 periyottan birinde yer alır.;;
+V188;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V188;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 23 ± 1 g/cm³ olarak ölçüldü.;;
+V188;K6;isim;Arşiv notu;"Adı Yunan gökkuşağı tanrıçası İris'ten gelir; tuzları çok renklidir. 1803'te Smithson Tennant tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/77/iridium
+V189;K1;tarih;Tek bir silindir;"Kilogram 130 yıl boyunca tek bir metal silindirin kütlesiyle tanımlandı; silindir çok nadiren fanuslarından çıkarıldı.";;
+V189;K2;alasim;Silindirin alaşımı;Silindir %90 aranan metal ve %10 iridyumdan oluşan bir alaşım. Alaşım çok yoğun, çok sert ve neredeyse hiç tepkimeye girmiyor.;;
+V189;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 8B grubunda (IUPAC'a göre 10. grup) ve ilk 6 periyottan birinde yer alır.;;
+V189;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V189;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 22 ± 1 g/cm³ olarak ölçüldü.;;
+V189;K6;isim;Arşiv notu;"Adı İspanyolca 'küçük gümüş' anlamına gelen 'platina' kelimesinden gelir. Güney Amerika yerlileri onu Kolomb'dan önce biliyordu; Avrupa'ya 1750 dolaylarında getirildi.";G2;https://periodic-table.rsc.org/element/78/platinum
+V190;K1;tarih;Önce kediler;Hastalık önce balık yiyen kedilerde, sonra körfezin balıklarını yiyen insanlarda görüldü.;;
+V190;K2;kimyasal;Atıktaki metal;Fabrikanın atık suyunda oda sıcaklığında sıvı olan bir metalin bileşikleri vardı. Bu bileşikler balıkların vücudunda birikiyordu.;;
+V190;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 2B grubunda (IUPAC'a göre 12. grup) ve ilk 6 periyottan birinde yer alır.;;
+V190;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V190;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 13,5 ± 0,5 g/cm³ olarak ölçüldü.;;
+V190;K6;isim;Arşiv notu;"Uluslararası adı Merkür gezegeninden gelir; sembolü Hg ise Latince 'sıvı gümüş' anlamına gelen 'hydrargyrum'dan. Yaklaşık MÖ 1500'den beri bilinir.";G2;https://periodic-table.rsc.org/element/80/mercury
+V191;K1;tarih;Hemşirenin fark ettiği;Çocuktaki saç dökülmesi ve sinir hasarı, romandaki zehirlenme belirtileriyle birebir aynıydı.;;
+V191;K2;kimyasal;Sessiz zehir;Romandaki zehir, kokusuz ve tatsız olduğu için eskiden fare zehirlerinde kullanılan bir metalin tuzuydu. Bu kullanım bugün birçok ülkede yasak.;;
+V191;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 3A grubunda (IUPAC'a göre 13. grup) ve ilk 6 periyottan birinde yer alır.;;
+V191;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V191;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 11,8 ± 0,5 g/cm³ olarak ölçüldü.;;
+V191;K6;isim;Arşiv notu;"Adı Yunanca 'taze yeşil filiz' anlamına gelen 'thallos' kelimesinden gelir; spektrumunda parlak yeşil bir çizgi vardır. 1861'de William Crookes tarafından spektroskopla keşfedildi.";G2;https://periodic-table.rsc.org/element/81/thallium
+V192;K1;fiziksel;Ağır akü;"Akü boyutuna göre çok ağır; içinde sülfürik asit çözeltisine daldırılmış metal plakalar var.";;
+V192;K2;kimyasal;Plakaların metali;Plakalar yumuşak, gri, çok yoğun bir metalden ve onun oksidinden yapılmış. Eski aküler geri dönüşümle neredeyse tamamen yeniden kullanılıyor.;;
+V192;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 4A grubunda (IUPAC'a göre 14. grup) ve ilk 6 periyottan birinde yer alır.;;
+V192;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V192;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 11,3 ± 0,5 g/cm³ olarak ölçüldü.;;
+V192;K6;isim;Arşiv notu;"Kurşun eski bir Türkçe kelimedir; sembolü Pb ise Latince adı 'plumbum'dan gelir. İngilizcedeki 'plumber' (tesisatçı) kelimesi de buradan gelir, çünkü Romalılar su borularını kurşundan yapardı.";G2;https://periodic-table.rsc.org/element/82/lead
+V193;K1;kimyasal;Kanda ölçülen metal;"Benzine katılan bileşik egzozla havaya karışıyor; bu metal yoğun trafiğin olduğu şehirlerdeki çocukların kanında daha yüksek ölçülüyordu.";;
+V193;K2;tarih;Yasaktan sonra;Bu katkılı benzin yasaklandıktan sonra çocukların kanındaki metal miktarı belirgin biçimde azaldı. Dünyada bu benzinin satışı 2021'de tamamen sona erdi.;;
+V193;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 208; bu atomların çekirdeğinde 126 nötron var.";;
+V193;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V193;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 11,3 ± 0,2 g/cm³ olarak ölçüldü.;;
+V193;K6;isim;Arşiv notu;"Kurşun eski bir Türkçe kelimedir; sembolü Pb ise Latince adı 'plumbum'dan gelir. İngilizcedeki 'plumber' (tesisatçı) kelimesi de buradan gelir, çünkü Romalılar su borularını kurşundan yapardı.";G2;https://periodic-table.rsc.org/element/82/lead
+V194;K1;fiziksel;Katılaşırken genleşen metal;"Bu metal erimiş hâlden soğuyup katılaşırken genleşiyor; suyun donarken genleşmesi gibi.";;
+V194;K2;fiziksel;Renklerin kaynağı;"Kristalin renkleri boyadan değil, yüzeyindeki çok ince oksit tabakasından geliyor; tabakanın kalınlığı rengi belirliyor.";;
+V194;K3;konum;Periyodik tablo kaydı;Element periyodik tablonun 5A grubunda (IUPAC'a göre 15. grup) ve ilk 6 periyottan birinde yer alır.;;
+V194;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V194;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 9,8 ± 0,3 g/cm³ olarak ölçüldü.;;
+V194;K6;isim;Arşiv notu;Adı, Almanca 'beyaz kütle' anlamına gelen 'weisse Masse' sözünün bozulmasıyla oluşan 'bisemutum'dan gelir. 1500'ler dolaylarında biliniyordu.;G2;https://periodic-table.rsc.org/element/83/bismuth
+V195;K1;deney;Kararan plaka;Siyah kâğıda sarılı fotoğraf plakası, üzerindeki tuz güneş görmediği hâlde karardı.;;
+V195;K2;kimyasal;Işınımın kaynağı;Plakayı karartan ışınım, tuzun içindeki metalden geliyordu. Bu metal bugün nükleer santrallerde yakıt olarak kullanılıyor.;;
+V195;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların kütle numarası 238; her birinin çekirdeğinde 146 nötron var. Bu atomlar radyoaktif.";;
+V195;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V195;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 19,1 ± 0,2 g/cm³ olarak ölçüldü.;;
+V195;K6;isim;Arşiv notu;Adı, birkaç yıl önce keşfedilen Uranüs gezegeninden gelir. 1789'da Martin Heinrich Klaproth tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/92/uranium
+V196;K1;tarih;Uzun ömür;Bu kalp pillerinin bazıları değiştirilmeden 30 yıldan uzun süre çalıştı.;;
+V196;K2;fiziksel;Kapsüldeki izotop;Kapsüldeki izotopun yarılanma süresi yaklaşık 88 yıl. Yaydığı alfa parçacıkları kapsülün ince duvarından bile geçemiyor.;;
+V196;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların kütle numarası 238; her birinin çekirdeğinde 144 nötron var. Bu atomlar radyoaktif.";;
+V196;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V196;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 19,7 ± 0,2 g/cm³ olarak ölçüldü.;;
+V196;K6;isim;Arşiv notu;"Adı, o dönemde gezegen sayılan Plüton'dan gelir; uranyum ve neptünyumdan sonra gelen bir gök cismi olarak. 1940'ta Glenn Seaborg ve ekibi tarafından üretildi.";G2;https://periodic-table.rsc.org/element/94/plutonium
+V197;K1;fiziksel;Kararmayan uçlar;"Bağlantı uçları yıllarca kullanıldığı hâlde kararmamış; sarı ve parlak.";;
+V197;K2;iletkenlik;Kaplamanın özellikleri;Kaplama metali elektriği çok iyi iletiyor ve neredeyse hiçbir maddeyle tepkimeye girmiyor.;;
+V197;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 197; bu atomların çekirdeğinde 118 nötron var.";;
+V197;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V197;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 19,3 ± 0,5 g/cm³ olarak ölçüldü.;;
+V197;K6;isim;Arşiv notu;"Altın eski bir Türkçe kelimedir; sembolü Au ise Latince adı 'aurum'dan gelir. Yaklaşık MÖ 3000'den beri kullanılıyor.";G2;https://periodic-table.rsc.org/element/79/gold
+V198;K1;fiziksel;Işık dönüştüren toz;"Ampulün içindeki gaz morötesi ışık üretiyor; camın iç yüzeyindeki toz bu görünmez ışığı soğurup görünür ışık olarak yayıyor. Tozdaki bileşiklerden biri yeşil ışık veriyor.";;
+V198;K2;alasim;Lantanitin başka bir işi;Yeşil ışığı veren bileşikteki lantanit, demir ve disprosiyumla oluşturduğu bir alaşım sayesinde düz bir cam yüzeyi bile hoparlöre çevirebiliyor.;;
+V198;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 159; bu atomların çekirdeğinde 94 nötron var.";;
+V198;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V198;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 8,2 ± 0,1 g/cm³ olarak ölçüldü.;;
+V198;K6;isim;Arşiv notu;Adı İsveç'teki Ytterby köyünden gelir. 1843'te Carl Gustav Mosander tarafından keşfedildi.;G2;https://periodic-table.rsc.org/element/65/terbium
+V199;K1;deney;Havada asılı mıknatıs;Seramik sıvı azotla (−196 °C) soğutulunca elektriğe hiç direnç göstermiyor ve üzerindeki mıknatısı havada asılı tutuyor.;;
+V199;K2;kimyasal;Seramiğin bileşimi;Seramik baryum, bakır, oksijen ve bir geçiş metalinden oluşuyor. Bu metal lazer kristallerinde ve beyaz LED'lerde de kullanılıyor.;;
+V199;K3;atom_numarasi;Kütle analizi;"Örnekteki atomların çoğunun kütle numarası 89; bu atomların çekirdeğinde 50 nötron var.";;
+V199;K4;tablo;Aday elementlerin verileri;T1;;RSC Periyodik Tablo
+V199;K5;yogunluk;Laboratuvar ölçümü: yoğunluk;Örneğin yoğunluğu 4,5 ± 0,2 g/cm³ olarak ölçüldü.;;
+V199;K6;isim;Arşiv notu;"Adı İsveç'teki Ytterby köyünden gelir; bu köyün madeninden çıkan minerallerden dört element (itriyum, terbiyum, erbiyum, iterbiyum) adını aldı. 1794'te Johan Gadolin tarafından keşfedildi.";G2;https://periodic-table.rsc.org/element/39/yttrium
+V200;K1;fiziksel;Defter notu: görünüş;Parçalar bıçakla kolayca kesiliyor. Kesilen yüzey parlak gümüşi, ama birkaç saniye içinde matlaşıyor.;;
+V200;K2;deney;Defter notu: suyla deney;Öğretmen, koruyucu ekranın arkasında bezelye büyüklüğünde bir parçayı suya attı. Parça su üzerinde yüzerek hızla döndü, cızırdadı ve gaz çıkardı. Deneyden sonra suya fenolftalein damlatılınca su pembeleşti.;;
+V200;K3;deney;Defter notu: alev testi;Parçanın bileşikleri alevi parlak sarı-turuncu renge boyuyor.;;
+V200;K4;yogunluk;Defter notu: yoğunluk;0,97 ± 0,02 g/cm³;;
+V200;K5;tablo;1. grup (alkali) metalleri;T1;;"RSC Periyodik Tablo; standart alev testi renkleri"
+V200;K6;isim;Arşiv notu;"Bu elementin İngilizce adı 'soda' kelimesinden gelir; sembolü Na ise Latince 'natrium' adından gelir. Bu ad, eski Mısır'da Natron Vadisi'nden çıkarılan sodaya (natron) dayanır. Element 1807'de Humphry Davy tarafından, sodyum hidroksitten elektrik akımı geçirilerek elde edildi.";G2;https://periodic-table.rsc.org/element/11/sodium
+V200;K7;kullanim;RSC kaydı;Elementin kendisinden çok bileşikleri kullanılır: sodyum klorür (sofra tuzu) yemeklerde ve kışın yollardaki buzu çözmekte, sodyum karbonat (çamaşır sodası) su yumuşatıcı olarak kullanılır.;G2;https://periodic-table.rsc.org/element/11/sodium

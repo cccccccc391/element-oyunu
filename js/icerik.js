@@ -3,7 +3,7 @@
 // Hatalı bir görev atlanır, dosyanın geri kalanı oynanabilir kalır.
 
 import { csvYukle } from './csv.js';
-import { ASAMALAR, ARGUMAN_ASAMALARI, BECERILER, GOREV_TURLERI, HATA_TURLERI, KANIT_TURLERI, KATEGORILER } from './ayarlar.js';
+import { ASAMALAR, ARGUMAN_ASAMALARI, BECERILER, GOREV_TURLERI, HATA_TURLERI, KANIT_TURLERI, KATEGORILER, TEMALAR } from './ayarlar.js';
 import { elementBul, sadelestir, sembolle } from './periyodik.js';
 
 const TABLOLAR = ['dosyalar', 'kanitlar', 'tablolar', 'gorevler', 'secenekler'];
@@ -58,6 +58,7 @@ export function icerikKur(veri) {
       sira: Number(s.sira) || sira + 1,
       baslik: s.baslik ?? '',
       giris: s.giris ?? '',
+      tema: TEMALAR[kod(s.tema)] ? kod(s.tema) : '',
       cevap: null,
       final: evetMi(s.final),
       ornek: evetMi(s.ornek),
@@ -68,6 +69,7 @@ export function icerikKur(veri) {
     };
     dosyalar.push(dosya);
     if (![1, 2, 3, 4].includes(seviye)) uyar('dosyalar', s._satir, `${id}: seviye 1, 2, 3 ya da 4 olmalı`, id);
+    if (s.tema && !dosya.tema) uyar('dosyalar', s._satir, `${id}: bilinmeyen tema "${s.tema}" (geçerli temalar: ${Object.keys(TEMALAR).join(', ')})`, id);
     if (!dosya.baslik) return;   // henüz yazılmamış dosya
 
     dosya.cevap = sembolle(s.cevap) ?? elementBul(s.cevap);

@@ -3,7 +3,7 @@
 // Böylece içerik tabloları değişince oyun hep en güncel hâli gösterir, sınıfta bağlantı
 // kopsa bile bir kez açılmış oyun oynanmaya devam eder.
 
-const ONBELLEK = 'element-dosyalari-v2';
+const ONBELLEK = 'element-dosyalari-v3';
 
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', olay => olay.waitUntil((async () => {
